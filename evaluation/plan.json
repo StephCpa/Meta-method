@@ -1,0 +1,18 @@
+{
+  "version": "0.3.0",
+  "status": "proposed_not_run",
+  "arms": [
+    "generic_checklist",
+    "claim_profiles_without_codes",
+    "full_meta_method"
+  ],
+  "main_outcomes": [
+    "essential_evidence_omission",
+    "unnecessary_evidence_demands"
+  ],
+  "unit": "case_or_project_cluster",
+  "public_cases_role": "development",
+  "sample_size_status": "pilot_suggestion_not_powered",
+  "formal_preregistration": false,
+  "prospective_results_available": false
+}

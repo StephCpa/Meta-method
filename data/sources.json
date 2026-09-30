@@ -1,0 +1,51 @@
+{
+  "version": "0.3.0",
+  "release_date": "2026-09-30",
+  "sources": [
+    {
+      "id": "SRC-MAS",
+      "kind": "user_conversation",
+      "locator": "当前对话：10篇独立MAS分析及后续潜力评分",
+      "scope": "继承分析摘要与主观方向，不重新确认论文结果",
+      "verified_in_release": false
+    },
+    {
+      "id": "SRC-OPD",
+      "kind": "user_report",
+      "locator": "OPD_调研报告_24篇.md，A–F与附录01–24",
+      "scope": "保留候选、标题、分组和定位；强表述不是本版规则",
+      "verified_in_release": false
+    },
+    {
+      "id": "SRC-V02",
+      "kind": "inherited_artifact",
+      "locator": "archive/opd-v0.2.md",
+      "scope": "逐字归档的历史工作稿；旧核验与探针声明不升级",
+      "verified_in_release": false
+    },
+    {
+      "id": "SRC-CROSS",
+      "kind": "user_conversation",
+      "locator": "用户粘贴的另一GPT跨领域经验，14条候选表及分析",
+      "scope": "开发性描述；奖项与原文未在本版重核",
+      "verified_in_release": false
+    },
+    {
+      "id": "SRC-V03",
+      "kind": "new_framework_proposal",
+      "locator": "docs/framework.md与evaluation/",
+      "scope": "本次整合和构造案例；有效性未验证",
+      "verified_in_release": false
+    }
+  ],
+  "uninstantiated_background": [
+    {
+      "description": "早期32篇目的性样本",
+      "reason": "缺少完整清单；不生成案例条目"
+    },
+    {
+      "description": "另一对话先分析的10篇后训练论文",
+      "reason": "未提供完整清单；可能与OPD重叠，不增计"
+    }
+  ]
+}

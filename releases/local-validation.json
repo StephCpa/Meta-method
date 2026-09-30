@@ -1,0 +1,32 @@
+{
+  "version": "0.3.0",
+  "scope": "engineering_integrity_only",
+  "passed": true,
+  "case_counts": {
+    "MAS": 10,
+    "OPD": 24,
+    "cross_domain": 14
+  },
+  "example_cards": 6,
+  "development_fixtures": 12,
+  "rules": 12,
+  "errors": [],
+  "scientific_validity_tested": false,
+  "prospective_effectiveness_tested": false,
+  "release_date": "2026-09-30",
+  "python_version": "3.13.5",
+  "unit_tests": {
+    "run": 28,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "commands": [
+    "python3 tools/validate.py",
+    "python3 -m unittest discover -s tests -v"
+  ],
+  "external_sources_reverified": false,
+  "historical_probes_rerun": false,
+  "github_ci_status": "not_observed_at_local_test_time"
+}

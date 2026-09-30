@@ -1,0 +1,137 @@
+{
+  "version": "0.3.0",
+  "status": "inherited_attachments_not_rerun",
+  "archive_filename": "legacy_meta_materials_2026-09-30.zip",
+  "archive_sha256": "0e68f951fbf97a5c21ab427364cc0f9711fa88165716db9fa6896e8668df79b6",
+  "archive_location": "本次交付的独立历史快照包，不假定已在GitHub中存在",
+  "files": [
+    {
+      "original_relative_path": "OPD_调研报告_24篇.md",
+      "bytes": 52913,
+      "sha256": "c5a850e3ec74d04f5b8bc51477aed3d89071283dcba9de748c7cfd88cf9b3fa4",
+      "content_status": "original_bytes",
+      "repository_copy": null,
+      "rerun_in_v0_3": false
+    },
+    {
+      "original_relative_path": "ibal_audit/ibal_minimal_information_probes.py",
+      "bytes": 3979,
+      "sha256": "d63558f7875828e0fbc7d9c41adbab9ff13b8170885ef1d15e240e490a1d5e88",
+      "content_status": "original_bytes",
+      "repository_copy": null,
+      "rerun_in_v0_3": false
+    },
+    {
+      "original_relative_path": "ibal_audit/probe_results.json",
+      "bytes": 842,
+      "sha256": "7f77f88e5f8e45687f8f94c8b8e538c579f24684f22a9de391f49e52eeec5766",
+      "content_status": "original_bytes",
+      "repository_copy": null,
+      "rerun_in_v0_3": false
+    },
+    {
+      "original_relative_path": "emergent_risks_audit/minimal_mechanism_probes.py",
+      "bytes": 5330,
+      "sha256": "ae0444f912f3342d5b958618fc749c47df68524298b6df20ce22e62436a063f5",
+      "content_status": "original_bytes",
+      "repository_copy": null,
+      "rerun_in_v0_3": false
+    },
+    {
+      "original_relative_path": "emergent_risks_audit/probe_results.json",
+      "bytes": 1226,
+      "sha256": "32399dddf3b95345593fb2b6c0a06da8f267d0e852addbc55150bdb6519d707d",
+      "content_status": "original_bytes",
+      "repository_copy": null,
+      "rerun_in_v0_3": false
+    },
+    {
+      "original_relative_path": "collaborative_shadows_audit/minimal_evidence_probes.py",
+      "bytes": 6815,
+      "sha256": "33804fb1527ee459e166bf0d6cfb7c0036ec520f8ac4e68fd0a3bd8e6db93108",
+      "content_status": "original_bytes",
+      "repository_copy": null,
+      "rerun_in_v0_3": false
+    },
+    {
+      "original_relative_path": "collaborative_shadows_audit/probe_results.json",
+      "bytes": 3563,
+      "sha256": "0c47b7dfedbc147779ece23643ea8658ac4a33b6c00b4acaf236e5bc122425d1",
+      "content_status": "original_bytes",
+      "repository_copy": null,
+      "rerun_in_v0_3": false
+    },
+    {
+      "original_relative_path": "hierarchical_games_audit/minimal_institution_probes.py",
+      "bytes": 7329,
+      "sha256": "40a779cc6665e697a76c958b808d9ca5b1e9bf182c80e7a9064de5f35ab98bda",
+      "content_status": "original_bytes",
+      "repository_copy": null,
+      "rerun_in_v0_3": false
+    },
+    {
+      "original_relative_path": "hierarchical_games_audit/probe_results.json",
+      "bytes": 2552,
+      "sha256": "63a370c816974a88549d925a9f57e363e3cab389cb18bd9d49655d0864d30fb4",
+      "content_status": "original_bytes",
+      "repository_copy": null,
+      "rerun_in_v0_3": false
+    },
+    {
+      "original_relative_path": "embedding_defense_audit/minimal_signal_probes.py",
+      "bytes": 7586,
+      "sha256": "07e14f89b224e44ee8c1385da01e1c1035e69b70fd6d2954b42d4a9cf9b8f16e",
+      "content_status": "original_bytes",
+      "repository_copy": null,
+      "rerun_in_v0_3": false
+    },
+    {
+      "original_relative_path": "embedding_defense_audit/probe_results.json",
+      "bytes": 3048,
+      "sha256": "488745e010060ab33d4c7b158a085509002dec6502fad5495cdac4a0719e40d2",
+      "content_status": "original_bytes",
+      "repository_copy": null,
+      "rerun_in_v0_3": false
+    },
+    {
+      "original_relative_path": "bpd_audit/minimal_bpd_probes.py",
+      "bytes": 29042,
+      "sha256": "1f48e113d4f3c24142847f1980e6aa784cf81dc574b6c0a7d7201a3a6b2c29ef",
+      "content_status": "original_bytes",
+      "repository_copy": null,
+      "rerun_in_v0_3": false
+    },
+    {
+      "original_relative_path": "bpd_audit/probe_results.json",
+      "bytes": 5394,
+      "sha256": "1b67d8f703c40dc9849df92c35088c5770b978893477500b101b8bcefd3a33d8",
+      "content_status": "original_bytes",
+      "repository_copy": null,
+      "rerun_in_v0_3": false
+    },
+    {
+      "original_relative_path": "opd_meta_method/Meta_method_OPD_迁移规则_v0.2.md",
+      "bytes": 6675,
+      "sha256": "cecc4aa962d4902977c34e0c4f2cc97fd5564efbb29313933e3f9d04c7c57f9c",
+      "content_status": "original_bytes",
+      "repository_copy": "archive/opd-v0.2.md",
+      "rerun_in_v0_3": false
+    },
+    {
+      "original_relative_path": "opd_meta_method/minimal_transfer_probes.py",
+      "bytes": 8057,
+      "sha256": "241d97ef2ee79f0d588b2281e7e9c67e8fa11f3dfc6af3294ac5dc0751ea6890",
+      "content_status": "original_bytes",
+      "repository_copy": null,
+      "rerun_in_v0_3": false
+    },
+    {
+      "original_relative_path": "opd_meta_method/probe_results.json",
+      "bytes": 3187,
+      "sha256": "8997ed0cb9767b14cba5c9e12ae37062edca4dfb3f93713d80ac273e5e77204f",
+      "content_status": "original_bytes",
+      "repository_copy": null,
+      "rerun_in_v0_3": false
+    }
+  ]
+}

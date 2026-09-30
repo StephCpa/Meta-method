@@ -1,0 +1,151 @@
+{
+  "version": "0.3.0",
+  "status": "public_development_only",
+  "is_synthetic": true,
+  "cases": [
+    {
+      "id": "DEV01",
+      "profile": "theory",
+      "scenario": "已完整证明一个限定模型类上的表示界，没有声称提高训练效果。",
+      "expected_requirement": "检查模型类、量词、证明和相对已有界的增量。",
+      "unnecessary_or_invalid_requirement": "强制增加大模型训练才能接纳结果。",
+      "boundary": "若又声称真实部署加速，应新增系统证据。",
+      "dataset_role": "development",
+      "source_ids": [
+        "SRC-V03"
+      ]
+    },
+    {
+      "id": "DEV02",
+      "profile": "theory",
+      "scenario": "某结果对所有类给出下界，另构造一个达到相应上界的类。",
+      "expected_requirement": "区分全称与存在量词及阶数条件。",
+      "unnecessary_or_invalid_requirement": "把它改写为所有类具有同一紧界。",
+      "boundary": "要求归约或构造核验，不用经验曲线代替。",
+      "dataset_role": "development",
+      "source_ids": [
+        "SRC-V03"
+      ]
+    },
+    {
+      "id": "DEV03",
+      "profile": "explanation",
+      "scenario": "模型内部噪声是对人类有限记忆的解释假设。",
+      "expected_requirement": "对竞争认知解释给出可区分且独立的行为预测。",
+      "unnecessary_or_invalid_requirement": "以无噪声产品模型更强为由否定解释模型。",
+      "boundary": "若只有拟合相关，不能升级为唯一机制。",
+      "dataset_role": "development",
+      "source_ids": [
+        "SRC-V03"
+      ]
+    },
+    {
+      "id": "DEV04",
+      "profile": "explanation",
+      "scenario": "两个机制对已有输出拟合相同，但对新条件预测不同。",
+      "expected_requirement": "优先选择能区分预测的证据并记录无法判断。",
+      "unnecessary_or_invalid_requirement": "只增加同分布样本就宣称机制已识别。",
+      "boundary": "允许观察性边界，不能强迫不可行干预。",
+      "dataset_role": "development",
+      "source_ids": [
+        "SRC-V03"
+      ]
+    },
+    {
+      "id": "DEV05",
+      "profile": "algorithm",
+      "scenario": "一个有偏估计器在指定预算下更稳定，作者没有声称无偏。",
+      "expected_requirement": "分别检查偏差、方差和有限步结果。",
+      "unnecessary_or_invalid_requirement": "一发现偏差就判整项方法无价值。",
+      "boundary": "如果另声称同一期望梯度，必须证明。",
+      "dataset_role": "development",
+      "source_ids": [
+        "SRC-V03"
+      ]
+    },
+    {
+      "id": "DEV06",
+      "profile": "algorithm",
+      "scenario": "估计器无偏且理论操作数少，但作者还声称真实训练加速。",
+      "expected_requirement": "证明估计性质，同时测量实际硬件端到端时间。",
+      "unnecessary_or_invalid_requirement": "用无偏性证明自动覆盖训练速度。",
+      "boundary": "不要求每种硬件都更快，范围应明确。",
+      "dataset_role": "development",
+      "source_ids": [
+        "SRC-V03"
+      ]
+    },
+    {
+      "id": "DEV07",
+      "profile": "system",
+      "scenario": "采用既有索引构造新的大规模查询工具。",
+      "expected_requirement": "验证接口、精确性、工作负载、总成本和新增规模。",
+      "unnecessary_or_invalid_requirement": "仅因索引原理不新而否定所有贡献。",
+      "boundary": "最小原型不证明目标规模可靠。",
+      "dataset_role": "development",
+      "source_ids": [
+        "SRC-V03"
+      ]
+    },
+    {
+      "id": "DEV08",
+      "profile": "system",
+      "scenario": "记录图显示删边，实际接收者已在此前消费消息。",
+      "expected_requirement": "核对执行时点、状态与可信权限；区分记录和阻断。",
+      "unnecessary_or_invalid_requirement": "只看最终图就宣布隔离成功。",
+      "boundary": "可修复实现，但不能自动推翻未对齐版本的论文结果。",
+      "dataset_role": "development",
+      "source_ids": [
+        "SRC-V03"
+      ]
+    },
+    {
+      "id": "DEV09",
+      "profile": "data_evaluation",
+      "scenario": "同一内容在两个明确目标语境中有不同但合理评价。",
+      "expected_requirement": "区分事实、规范、偏好、语境并论证覆盖。",
+      "unnecessary_or_invalid_requirement": "把所有分歧归成标注错误并强迫统一。",
+      "boundary": "不等于任何评价都同样有效。",
+      "dataset_role": "development",
+      "source_ids": [
+        "SRC-V03"
+      ]
+    },
+    {
+      "id": "DEV10",
+      "profile": "data_evaluation",
+      "scenario": "模型辅助标注的数据又被用来评价同一模型的优势。",
+      "expected_requirement": "检查循环、独立评价及模型外覆盖。",
+      "unnecessary_or_invalid_requirement": "有更多数据就默认评价更可靠。",
+      "boundary": "不自动禁止模型辅助标注，要检查目标效度。",
+      "dataset_role": "development",
+      "source_ids": [
+        "SRC-V03"
+      ]
+    },
+    {
+      "id": "DEV11",
+      "profile": "decision",
+      "scenario": "每个实验弱，但目标是跨实验决策规则的平均收益。",
+      "expected_requirement": "检查总体识别、选择与评估分离及剩余偏差。",
+      "unnecessary_or_invalid_requirement": "要求所有局部实验先显著。",
+      "boundary": "不宣称任意局部不可识别可靠聚合解决。",
+      "dataset_role": "development",
+      "source_ids": [
+        "SRC-V03"
+      ]
+    },
+    {
+      "id": "DEV12",
+      "profile": "decision",
+      "scenario": "流程停止了十个项目，没有观察它们继续后的结果。",
+      "expected_requirement": "对可继续方向随机审计，明确有限预算下误停。",
+      "unnecessary_or_invalid_requirement": "将全部未运行项目计为成功节省。",
+      "boundary": "不要求证明项目终生是否有价值。",
+      "dataset_role": "development",
+      "source_ids": [
+        "SRC-V03"
+      ]
+    }
+  ]
+}

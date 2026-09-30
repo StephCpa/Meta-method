@@ -1,0 +1,43 @@
+{
+  "id": "EX01",
+  "title": "常数平移不改变有限动作集的最大化解",
+  "claim_text": "对任意有限非空动作集，u(a)+c与u(a)有相同的argmax。",
+  "contribution_types": [
+    "theory"
+  ],
+  "object_and_scope": "有限动作集、所有动作加同一常数，不声称随机优化轨迹相同。",
+  "reference_kind": "truth",
+  "success_criteria": [
+    "给出任意两动作的收益差不变证明。"
+  ],
+  "evidence_plan": [
+    {
+      "method": "证明结论；该例只是记录范例，不作为新数学贡献。",
+      "suffices_for": "next_decision",
+      "status": "planned"
+    }
+  ],
+  "inapplicable_requirements": [
+    {
+      "requirement": "需要大型模型训练验证",
+      "reason": "该主张是代数关系，没有训练收益主张。"
+    }
+  ],
+  "codings": [
+    {
+      "code": "M9",
+      "role": "proposal",
+      "anchor": "EX01 的下一项证据行动",
+      "rationale": "针对该构造主张选择操作，不当作作者论文操作"
+    }
+  ],
+  "source_ids": [
+    "SRC-V03"
+  ],
+  "dataset_role": "development",
+  "work_status": "planned",
+  "is_synthetic": true,
+  "revision_history": [
+    "0.3.0：首次公开构造，非独立确认案例"
+  ]
+}

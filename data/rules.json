@@ -1,0 +1,18 @@
+{
+  "version": "0.3.0",
+  "effectiveness_status": "unvalidated",
+  "rules": [
+    {"id":"R01","name":"明确主张契约","codes":["M14","M7","M9"],"applies_when":"所有重要主张","misuse":"真值／规范／偏好／代理指标混用","status":"proposed_operational","source_ids":["SRC-MAS","SRC-V02","SRC-CROSS","SRC-V03"]},
+    {"id":"R02","name":"允许诊断与构造入口","codes":["M2","M3","M6","M8","M12"],"applies_when":"机会或瓶颈研究","misuse":"强迫每项构造先证明旧方法失效","status":"proposed_operational","source_ids":["SRC-MAS","SRC-V02","SRC-CROSS","SRC-V03"]},
+    {"id":"R03","name":"先排除最简替代解释","codes":["M1","M4","M9"],"applies_when":"提出机制主张时","misuse":"将纯性能工作强制改为因果研究","status":"proposed_operational","source_ids":["SRC-MAS","SRC-V02","SRC-CROSS","SRC-V03"]},
+    {"id":"R04","name":"在实际目标层级过闸门","codes":["M14","M7"],"applies_when":"对象与信息条件不明确时","misuse":"局部弱证据被错当整体不可识别","status":"proposed_operational","source_ids":["SRC-MAS","SRC-V02","SRC-CROSS","SRC-V03"]},
+    {"id":"R05","name":"校准敏感性与不变性","codes":["M14","M7"],"applies_when":"测量或机制指标主张","misuse":"把合理人群分歧当作噪声","status":"proposed_operational","source_ids":["SRC-MAS","SRC-V02","SRC-CROSS","SRC-V03"]},
+    {"id":"R06","name":"证据绑定对象与分布","codes":["M12","M14","M9"],"applies_when":"内容或采样随过程变化时","misuse":"旧证据自动继承到新对象","status":"proposed_operational","source_ids":["SRC-MAS","SRC-V02","SRC-CROSS","SRC-V03"]},
+    {"id":"R07","name":"区分目标与实际更新","codes":["M9","M10"],"applies_when":"算法变换与稳健化主张","misuse":"无偏／稳定／任务收益混为一谈","status":"proposed_operational","source_ids":["SRC-MAS","SRC-V02","SRC-CROSS","SRC-V03"]},
+    {"id":"R08","name":"核实执行与权限","codes":["M9","M12","M10"],"applies_when":"提出系统干预时","misuse":"记录图被当成真实控制","status":"proposed_operational","source_ids":["SRC-MAS","SRC-V02","SRC-CROSS","SRC-V03"]},
+    {"id":"R09","name":"保持非循环确认","codes":["M5","M7","M10"],"applies_when":"验证或闭环学习","misuse":"要求所有研究都准备测试集","status":"proposed_operational","source_ids":["SRC-MAS","SRC-V02","SRC-CROSS","SRC-V03"]},
+    {"id":"R10","name":"主约束与全流程成本","codes":["M3","M8"],"applies_when":"效率、部署或资源决策","misuse":"强制所有资源相等或忽略建设成本","status":"proposed_operational","source_ids":["SRC-MAS","SRC-V02","SRC-CROSS","SRC-V03"]},
+    {"id":"R11","name":"按贡献终点完成","codes":["M7","M9","M12"],"applies_when":"所有贡献类型","misuse":"强迫所有论文补算法／训练","status":"proposed_operational","source_ids":["SRC-MAS","SRC-V02","SRC-CROSS","SRC-V03"]},
+    {"id":"R12","name":"下一步证据与版本管理","codes":["M1","M3","M10","M14"],"applies_when":"研究决策","misuse":"将最小探针当充分证明，或把暂停当永久否定","status":"proposed_operational","source_ids":["SRC-MAS","SRC-V02","SRC-CROSS","SRC-V03"]}
+  ]
+}
