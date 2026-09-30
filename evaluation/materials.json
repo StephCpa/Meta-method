@@ -1,0 +1,49 @@
+{
+  "version": "0.3.1",
+  "status": "proposed_not_run",
+  "common_files": [
+    "evaluation/inputs/common.md"
+  ],
+  "arms": {
+    "A": {
+      "files": [
+        "evaluation/inputs/common.md",
+        "evaluation/inputs/a-instructions.md"
+      ]
+    },
+    "B": {
+      "files": [
+        "evaluation/inputs/common.md",
+        "evaluation/inputs/framework-package.md",
+        "evaluation/inputs/bc-instructions.md",
+        "docs/evidence-profiles.md",
+        "docs/conditional-contracts.md"
+      ]
+    },
+    "C": {
+      "files": [
+        "evaluation/inputs/common.md",
+        "evaluation/inputs/framework-package.md",
+        "evaluation/inputs/bc-instructions.md",
+        "docs/evidence-profiles.md",
+        "docs/conditional-contracts.md",
+        "docs/codebook.md",
+        "evaluation/inputs/codebook-addon.md"
+      ]
+    }
+  },
+  "codebook_increment_files": [
+    "docs/codebook.md",
+    "evaluation/inputs/codebook-addon.md"
+  ],
+  "shared_contract_files": [
+    "docs/conditional-contracts.md"
+  ],
+  "interpretations": {
+    "B-A": "increment of the claim-level framework package including conditional contracts",
+    "C-B": "increment of codebook availability and explicit coding operations",
+    "C-A": "increment of the full package"
+  },
+  "participant_case_inputs": "Added equally to all arms in each run config; never include answer keys.",
+  "blinding": "Strip arm and M-code labels in a separate evaluation copy; do not alter substantive arguments."
+}

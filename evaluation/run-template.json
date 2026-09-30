@@ -1,0 +1,41 @@
+{
+  "version": "0.3.1",
+  "run_id": "TEMPLATE-NOT-EXECUTED",
+  "phase": "planning",
+  "material_manifest": "evaluation/materials.json",
+  "case_inputs": [],
+  "reference_inputs": [],
+  "dataset_identifiers": [],
+  "budget": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "tool_calls": null,
+    "time_limit_seconds": null
+  },
+  "implementation": {
+    "git_commit": null,
+    "model_id": null,
+    "model_parameters": {},
+    "executor_version": null
+  },
+  "randomization": {
+    "unit": "case_or_project_cluster",
+    "seed": null
+  },
+  "stopping_rule": null,
+  "evaluation_rule": "evaluation/rubric.md",
+  "acceptance": {
+    "status": "must_be_set_before_confirmation",
+    "minimum_meaningful_omission_improvement": null,
+    "maximum_tolerated_severe_overreach_increase": null,
+    "decisions": [
+      "supports_improvement",
+      "rules_out_acceptable_improvement",
+      "inconclusive"
+    ]
+  },
+  "source_cutoff": null,
+  "prospective_results_available": false,
+  "statistical_protocol": null,
+  "sample_plan": null
+}

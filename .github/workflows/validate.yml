@@ -16,6 +16,8 @@ jobs:
           git remote add origin "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}.git"
           git -c protocol.version=2 fetch --no-tags --depth=1 origin "$GITHUB_SHA"
           git checkout --detach FETCH_HEAD
+      - name: Install pinned schema validator
+        run: python3 -m pip install -r requirements.txt
       - name: Validate records and links
         run: python3 tools/validate.py
       - name: Run engineering tests only

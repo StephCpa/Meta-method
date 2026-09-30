@@ -50,7 +50,7 @@ class ContractTests(unittest.TestCase):
     def test_public_synthetic_cannot_be_holdout(self):
         c=self.claim(); c['dataset_role']='holdout'; self.assertTrue(validate_claim(c,self.sources))
     def test_selection_history_contaminates_holdout(self):
-        c=self.claim(); c['is_synthetic']=False; c['dataset_role']='holdout'; c['selection_history']=['used for rule revision']
+        c=self.claim(); c['is_synthetic']=False; c['provenance']['generation_method']='observed'; c['dataset_role']='holdout'; c['selection_history']=['used for rule revision']
         self.assertTrue(validate_claim(c,self.sources))
     def test_duplicate_ids_detected(self): self.assertEqual(duplicate_ids([{'id':'x'},{'id':'x'}]),['x'])
     def test_inapplicable_requirement_needs_reason(self):

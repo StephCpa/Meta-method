@@ -39,5 +39,23 @@
   "is_synthetic": true,
   "revision_history": [
     "0.3.0：首次公开构造，非独立确认案例"
-  ]
+  ],
+  "record_version": "0.3.1",
+  "claim_status": "draft",
+  "evidence_outcome": "not_evaluated",
+  "provenance": {
+    "generation_method": "synthetic",
+    "visibility": "public",
+    "development_use": "yes",
+    "development_history": [
+      "Published as a development example; used to revise the framework."
+    ],
+    "problem_family": "public-v03-development",
+    "family_overlap": "yes",
+    "analyst_exposure": "yes",
+    "independence_review": {
+      "status": "rejected",
+      "basis": "Already used in framework development."
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
   "status": "proposed_not_run",
   "arms": [
     "generic_checklist",
@@ -7,12 +7,35 @@
     "full_meta_method"
   ],
   "main_outcomes": [
-    "essential_evidence_omission",
-    "unnecessary_evidence_demands"
+    "macro_case_essential_evidence_omission_rate",
+    "case_level_severe_unnecessary_requirement_incidence"
   ],
   "unit": "case_or_project_cluster",
   "public_cases_role": "development",
   "sample_size_status": "pilot_suggestion_not_powered",
   "formal_preregistration": false,
-  "prospective_results_available": false
+  "prospective_results_available": false,
+  "arm_material_manifest": "evaluation/materials.json",
+  "secondary_outcomes": [
+    "deduplicated_unsupported_action_count_per_case",
+    "severity_distribution",
+    "contribution_misreading",
+    "action_discriminability",
+    "cost"
+  ],
+  "comparison_interpretations": {
+    "B-A": "increment of the claim-level framework package including conditional contracts",
+    "C-B": "increment of codebook availability and explicit coding operations",
+    "C-A": "increment of the full package"
+  },
+  "acceptance": {
+    "status": "must_be_set_before_confirmation",
+    "minimum_meaningful_omission_improvement": null,
+    "maximum_tolerated_severe_overreach_increase": null,
+    "decisions": [
+      "supports_improvement",
+      "rules_out_acceptable_improvement",
+      "inconclusive"
+    ]
+  }
 }

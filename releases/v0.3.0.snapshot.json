@@ -1,0 +1,188 @@
+{
+  "version": "0.3.0",
+  "commit": "efb4438a7d8b18262f167f5903a37842fc121777",
+  "tree_sha": "014281c2af72cfd497d333f9f845eae3a58ba10b",
+  "scope": "explicit_old_release_only",
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 680,
+      "sha256": "3402de87d149acaa1e9360d903db477ae038ecf7b5b7bdc148df13da2c745fc3"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 105,
+      "sha256": "6f89b0adf2f36e9266a788a73bfa213e8d7f872f0e234b8d6f80976d5ca69967"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1470,
+      "sha256": "750191e26ef28fe05abf1bb1a21c92a87dd7b6e7327c2592ec50cbe9fd98aa60"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 2109,
+      "sha256": "310c61a929ce1072170158f2be2defde0b250658c7abe1bdda037d099b560eea"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4250,
+      "sha256": "2b16a7c4441c31ac97d5eeca28d17bd0f370378cea023d0ebbd1595bffcfe1f7"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 798,
+      "sha256": "64d72a7c5211606aefd349b4b5271b41fb83d7d66be970d4426b38ef089556c8"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 6,
+      "sha256": "d915cc95d6ca8f47ae297713ed46d4e5c5d99ddd29fc3c61e263bdf305f2b5b0"
+    },
+    {
+      "path": "archive/README.md",
+      "bytes": 684,
+      "sha256": "86593eb6843f31be5ef77cfbbe444c10aea4c96030ba5bb12ed73510b59dd5a0"
+    },
+    {
+      "path": "archive/manifest.json",
+      "bytes": 5108,
+      "sha256": "1ef6f150f1f272e0923cb718ae2e81ff5d62cab00518f643a767bbb8c4490342"
+    },
+    {
+      "path": "archive/opd-v0.2.md",
+      "bytes": 6675,
+      "sha256": "cecc4aa962d4902977c34e0c4f2cc97fd5564efbb29313933e3f9d04c7c57f9c"
+    },
+    {
+      "path": "cases/README.md",
+      "bytes": 2221,
+      "sha256": "30f08598edf446bf66c327c367280ee89f19130645dbc2dd817f04821a42ecaa"
+    },
+    {
+      "path": "data/cases.json",
+      "bytes": 23419,
+      "sha256": "c93ef2e85c1664ca22536faa5d7e1d0e00c675f5b42c70b404d723e930318e37"
+    },
+    {
+      "path": "data/rules.json",
+      "bytes": 3229,
+      "sha256": "3839b09507c28dc444de755ba8e3351965a4d3bfaf23e4633b803c08a345e0b3"
+    },
+    {
+      "path": "data/sources.json",
+      "bytes": 1642,
+      "sha256": "998c7ab206496ad758a156e3433b703076bac30fc35afe1c892fdbaad341dbc9"
+    },
+    {
+      "path": "docs/codebook.md",
+      "bytes": 3917,
+      "sha256": "e1b745347c1d21ceecee5456dba96f2f6c53e2b220ceb1bbaacee9c23179e9f6"
+    },
+    {
+      "path": "docs/conditional-contracts.md",
+      "bytes": 3112,
+      "sha256": "cff50bc0c6374060d2aa3101906a82265babfb98b447f671ea3469cf434ecd67"
+    },
+    {
+      "path": "docs/evidence-profiles.md",
+      "bytes": 4289,
+      "sha256": "9e23f82cf2502f285f8a013949b37d0cb63925163954e4a1b8fbd5f4a607bcb8"
+    },
+    {
+      "path": "docs/framework.md",
+      "bytes": 6966,
+      "sha256": "2bc2da2e41e60f8b0a6c08d34d739c12cfcfc4fbaae9edc0e900874fee77d4bd"
+    },
+    {
+      "path": "docs/provenance.md",
+      "bytes": 2835,
+      "sha256": "fb2200a7ef74bfc37075f7529e0d99486d2a3fc0c4fd2c4cb0b8d35801789296"
+    },
+    {
+      "path": "docs/workflow.md",
+      "bytes": 2048,
+      "sha256": "12a06aec1b406aacbc18706fce46d6282079cd11db571eac07a2e7952b2397f5"
+    },
+    {
+      "path": "evaluation/development-cases.json",
+      "bytes": 6152,
+      "sha256": "30d5f7ff2f54da29e35d52d5e5ca408670c425a71b7d9abce2a8c065152773c6"
+    },
+    {
+      "path": "evaluation/pilot-protocol.md",
+      "bytes": 4097,
+      "sha256": "212959bdd8ec0ff76777fdbde2a4479d1d119cc1c6b3868f3eb58ae51f71b2c0"
+    },
+    {
+      "path": "evaluation/plan.json",
+      "bytes": 462,
+      "sha256": "2a82e09c8323097bb9841fc0f9f231f8b0d08b95c0662769d76a98ab7e28b739"
+    },
+    {
+      "path": "evaluation/rubric.md",
+      "bytes": 1625,
+      "sha256": "c35e01786faf7d941b3a52dc6a3b1a909dc157d9c5fff7d18e392d7b09731c73"
+    },
+    {
+      "path": "evaluation/workflow-prompts.md",
+      "bytes": 2124,
+      "sha256": "a822f09a8914c02467a4dcfd8f7667c3910fa878727bc3ce1387f690936d3ddc"
+    },
+    {
+      "path": "examples/claims.json",
+      "bytes": 8455,
+      "sha256": "030500ac390f893e43c4f69660a939bb65baa575281a798df8841025d8dd3111"
+    },
+    {
+      "path": "releases/local-validation.json",
+      "bytes": 735,
+      "sha256": "8952fe0ec3373a981cce49bf57fd6740f4fde7a0853080646927255e4c4bab79"
+    },
+    {
+      "path": "releases/v0.3.0.md",
+      "bytes": 1577,
+      "sha256": "aaee7c1c3705cdc5422c665baab3a62b3154c0f6998dc9ce7d0f90ee91b76670"
+    },
+    {
+      "path": "schemas/claim.schema.json",
+      "bytes": 4553,
+      "sha256": "10dbb82b164213db00d3b684ad8a5696364c7033b81cc4380c1aab43addbe01c"
+    },
+    {
+      "path": "templates/blind-spot-card.md",
+      "bytes": 537,
+      "sha256": "b78bab6e09b02e013f02f57031a1bc0f82b57ad5a9e125021f0dfa7d9c745968"
+    },
+    {
+      "path": "templates/claim.json",
+      "bytes": 1229,
+      "sha256": "92fdb7e4536f8e5995108fd35e1759b068781807c8ed5909b09b0cbd70757c24"
+    },
+    {
+      "path": "templates/contribution-evidence-card.md",
+      "bytes": 2173,
+      "sha256": "9f4e17f539ddd15373952c5f9c22feb7dcda96cf6c38e285a8db99e5ddd2080f"
+    },
+    {
+      "path": "templates/rule-change.md",
+      "bytes": 480,
+      "sha256": "1ba0fa68b717c682de8289dc84ed890f5dd5e1fa4bf6575d20525c0efe48786c"
+    },
+    {
+      "path": "tests/test_integrity.py",
+      "bytes": 5638,
+      "sha256": "ab7c7cfaeacc93ca7ad8cf1bf771c50f1206692b26a73dc7b6365d988299106e"
+    },
+    {
+      "path": "tools/freeze.py",
+      "bytes": 2528,
+      "sha256": "a163306ddd57fd2fad3f004c43a86f162242ceb2b126433a68055a1c1f7d81e5"
+    },
+    {
+      "path": "tools/validate.py",
+      "bytes": 9624,
+      "sha256": "0c8ba1097ff8b5efc31c2bd62ddbc41275149b18a4f91ab10ba815eccf23d408"
+    }
+  ]
+}

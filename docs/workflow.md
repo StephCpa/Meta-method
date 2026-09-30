@@ -10,9 +10,9 @@
 
 ## 主张与行动是两种状态
 
-主张状态可为 draft／under_review／supported／withdrawn。工作状态可为 exploring／planned／active／complete／paused／stopped／rewritten。
+主张状态可为 draft／under_review／supported／refuted／inconclusive／withdrawn。工作状态可为 exploring／planned／active／complete／paused／stopped／rewritten。
 
-- `complete`：当前贡献已在声明范围内成立，无义务补成新算法；记录完成依据和排除的更强主张。
+- `complete`：当前研究工作已在声明范围内完成，主张可能被支持，也可能被反驳或收窄；记录完成依据，不把完成自动等同于正面结果，无义务补成新算法。
 - `paused`：当前信息或资源不足，说明可解除条件。
 - `stopped`：在当前目标与预算下不再继续；不冒充终生不可能。
 - `rewritten`：目标或证据类型改变，保留旧卡与原因，不能保留旧强结论同时降低要求。
@@ -30,3 +30,9 @@
 3. 用新的任务家族拟定实际试运行，锁定材料、三臂提示、预算与评价程序；内容哈希不是正式预注册。
 4. 执行后盲评，分析描述误读、证据漏项、过度要求、行动可执行性。
 5. 对真实未完成研究做有限前瞻分配，并审计误停；这一步尚未执行。
+
+## v0.3.1：记录闭环
+
+结构化记录加入claim_status、evidence_refs/evidence_outcome、decision_branches、revision_effect与measurement_recheck。checked仅表示做了核验；即使refuted也可能完成研究；inconclusive+paused不是否定。新字段对草稿可选，结束状态需可追溯，工具不会判定证明真实。例见 [结束状态](../examples/end-states.md)。
+
+留出候选的生成方式与污染历史分开；先按provenance声明审查，未知返回needs_review，不默认通过或仅因合成而拒绝。默认工作验证可增长，旧发布完整性用独立快照检查。迁移说明在本次对话补充文档包中；未进入本仓库。

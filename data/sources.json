@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
   "release_date": "2026-09-30",
   "sources": [
     {
@@ -35,6 +35,13 @@
       "kind": "new_framework_proposal",
       "locator": "docs/framework.md与evaluation/",
       "scope": "本次整合和构造案例；有效性未验证",
+      "verified_in_release": false
+    },
+    {
+      "id": "SRC-V031",
+      "kind": "user_review_and_patch",
+      "locator": "User-provided v0.3 review text; supplementary review documents delivered separately, not committed.",
+      "scope": "Current engineering patch and synthetic worked examples; named review ZIP was not available; no paper claims reverified.",
       "verified_in_release": false
     }
   ],

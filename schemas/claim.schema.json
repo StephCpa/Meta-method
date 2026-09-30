@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Meta-method v0.3 claim record",
-  "description": "结构契约，不是科学正确性判定器。draft可先使用Markdown轻量卡。",
+  "title": "Meta-method v0.3.1 claim record",
+  "description": "Authoritative structural schema. Optional traceability fields stay optional for drafts; semantic review is separate.",
   "type": "object",
   "required": [
     "id",
@@ -21,15 +21,18 @@
   "properties": {
     "id": {
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "pattern": "\\S"
     },
     "title": {
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "pattern": "\\S"
     },
     "claim_text": {
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "pattern": "\\S"
     },
     "contribution_types": {
       "type": "array",
@@ -48,7 +51,8 @@
     },
     "object_and_scope": {
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "pattern": "\\S"
     },
     "reference_kind": {
       "enum": [
@@ -65,7 +69,8 @@
       "minItems": 1,
       "items": {
         "type": "string",
-        "minLength": 1
+        "minLength": 1,
+        "pattern": "\\S"
       }
     },
     "evidence_plan": {
@@ -81,7 +86,8 @@
         "properties": {
           "method": {
             "type": "string",
-            "minLength": 1
+            "minLength": 1,
+            "pattern": "\\S"
           },
           "suffices_for": {
             "enum": [
@@ -111,11 +117,13 @@
         "properties": {
           "requirement": {
             "type": "string",
-            "minLength": 1
+            "minLength": 1,
+            "pattern": "\\S"
           },
           "reason": {
             "type": "string",
-            "minLength": 1
+            "minLength": 1,
+            "pattern": "\\S"
           }
         }
       }
@@ -158,11 +166,13 @@
           },
           "anchor": {
             "type": "string",
-            "minLength": 1
+            "minLength": 1,
+            "pattern": "\\S"
           },
           "rationale": {
             "type": "string",
-            "minLength": 1
+            "minLength": 1,
+            "pattern": "\\S"
           }
         }
       }
@@ -173,12 +183,14 @@
       "uniqueItems": true,
       "items": {
         "type": "string",
-        "minLength": 1
+        "minLength": 1,
+        "pattern": "\\S"
       }
     },
     "dataset_role": {
       "enum": [
         "development",
+        "holdout_candidate",
         "holdout",
         "operational"
       ]
@@ -196,7 +208,8 @@
     },
     "completion_basis": {
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "pattern": "\\S"
     },
     "is_synthetic": {
       "type": "boolean"
@@ -212,6 +225,351 @@
       "items": {
         "type": "string"
       }
+    },
+    "record_version": {
+      "type": "string",
+      "enum": [
+        "0.3.0",
+        "0.3.1"
+      ]
+    },
+    "claim_status": {
+      "enum": [
+        "draft",
+        "under_review",
+        "supported",
+        "refuted",
+        "inconclusive",
+        "withdrawn"
+      ]
+    },
+    "evidence_outcome": {
+      "enum": [
+        "not_evaluated",
+        "supports",
+        "refutes",
+        "inconclusive",
+        "mixed"
+      ]
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "generation_method": {
+          "enum": [
+            "synthetic",
+            "observed",
+            "mixed",
+            "unknown"
+          ]
+        },
+        "visibility": {
+          "enum": [
+            "private",
+            "restricted",
+            "public",
+            "unknown"
+          ]
+        },
+        "development_use": {
+          "enum": [
+            "yes",
+            "no",
+            "unknown"
+          ]
+        },
+        "development_history": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "problem_family": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "family_overlap": {
+          "enum": [
+            "yes",
+            "no",
+            "unknown"
+          ]
+        },
+        "analyst_exposure": {
+          "enum": [
+            "yes",
+            "no",
+            "unknown"
+          ]
+        },
+        "independence_review": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "pending",
+                "approved",
+                "rejected"
+              ]
+            },
+            "reviewer": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "basis": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            }
+          },
+          "required": [
+            "status"
+          ]
+        }
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "claim_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "source_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "source_version": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "verification_action": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "status": {
+            "enum": [
+              "planned",
+              "available",
+              "checked",
+              "disputed"
+            ]
+          },
+          "evidence_outcome": {
+            "enum": [
+              "not_evaluated",
+              "supports",
+              "refutes",
+              "inconclusive",
+              "mixed"
+            ]
+          },
+          "suffices_for": {
+            "enum": [
+              "next_decision",
+              "final_claim"
+            ]
+          },
+          "limitation": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "required": [
+          "id",
+          "claim_id",
+          "source_id",
+          "source_version",
+          "locator",
+          "verification_action",
+          "status",
+          "evidence_outcome",
+          "suffices_for"
+        ]
+      }
+    },
+    "decision_branches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "evidence_outcome": {
+            "enum": [
+              "not_evaluated",
+              "supports",
+              "refutes",
+              "inconclusive",
+              "mixed"
+            ]
+          },
+          "allowed_claim": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "action": {
+            "enum": [
+              "continue",
+              "repair",
+              "rewrite",
+              "complete",
+              "pause",
+              "stop",
+              "review"
+            ]
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "result",
+          "evidence_outcome",
+          "allowed_claim",
+          "action",
+          "reason"
+        ]
+      }
+    },
+    "revision_effect": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "revision_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "prior_version": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "affected_evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "uniqueItems": true
+          },
+          "validity": {
+            "enum": [
+              "retained",
+              "recheck_required",
+              "superseded",
+              "unassessed"
+            ]
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "required": [
+          "revision_id",
+          "prior_version",
+          "affected_evidence_ids",
+          "validity",
+          "reason"
+        ]
+      }
+    },
+    "measurement_recheck": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "not_triggered",
+            "triggered_pending",
+            "revalidated",
+            "inconclusive"
+          ]
+        },
+        "trigger_uses": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "training_objective",
+              "sample_selection",
+              "routing",
+              "stopping"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "changes_to_distinguish": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "target_property",
+              "sample_distribution",
+              "representation_or_instrument",
+              "label_definition"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "status",
+        "trigger_uses",
+        "description"
+      ]
     }
   },
   "allOf": [

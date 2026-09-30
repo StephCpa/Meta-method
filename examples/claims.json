@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
   "status": "synthetic_development_only",
   "claims": [
     {
@@ -43,7 +43,25 @@
       "is_synthetic": true,
       "revision_history": [
         "0.3.0：首次公开构造，非独立确认案例"
-      ]
+      ],
+      "record_version": "0.3.1",
+      "claim_status": "draft",
+      "evidence_outcome": "not_evaluated",
+      "provenance": {
+        "generation_method": "synthetic",
+        "visibility": "public",
+        "development_use": "yes",
+        "development_history": [
+          "Published as a development example; used to revise the framework."
+        ],
+        "problem_family": "public-v03-development",
+        "family_overlap": "yes",
+        "analyst_exposure": "yes",
+        "independence_review": {
+          "status": "rejected",
+          "basis": "Already used in framework development."
+        }
+      }
     },
     {
       "id": "EX02",
@@ -86,7 +104,25 @@
       "is_synthetic": true,
       "revision_history": [
         "0.3.0：首次公开构造，非独立确认案例"
-      ]
+      ],
+      "record_version": "0.3.1",
+      "claim_status": "draft",
+      "evidence_outcome": "not_evaluated",
+      "provenance": {
+        "generation_method": "synthetic",
+        "visibility": "public",
+        "development_use": "yes",
+        "development_history": [
+          "Published as a development example; used to revise the framework."
+        ],
+        "problem_family": "public-v03-development",
+        "family_overlap": "yes",
+        "analyst_exposure": "yes",
+        "independence_review": {
+          "status": "rejected",
+          "basis": "Already used in framework development."
+        }
+      }
     },
     {
       "id": "EX03",
@@ -129,7 +165,25 @@
       "is_synthetic": true,
       "revision_history": [
         "0.3.0：首次公开构造，非独立确认案例"
-      ]
+      ],
+      "record_version": "0.3.1",
+      "claim_status": "draft",
+      "evidence_outcome": "not_evaluated",
+      "provenance": {
+        "generation_method": "synthetic",
+        "visibility": "public",
+        "development_use": "yes",
+        "development_history": [
+          "Published as a development example; used to revise the framework."
+        ],
+        "problem_family": "public-v03-development",
+        "family_overlap": "yes",
+        "analyst_exposure": "yes",
+        "independence_review": {
+          "status": "rejected",
+          "basis": "Already used in framework development."
+        }
+      }
     },
     {
       "id": "EX04",
@@ -172,7 +226,25 @@
       "is_synthetic": true,
       "revision_history": [
         "0.3.0：首次公开构造，非独立确认案例"
-      ]
+      ],
+      "record_version": "0.3.1",
+      "claim_status": "draft",
+      "evidence_outcome": "not_evaluated",
+      "provenance": {
+        "generation_method": "synthetic",
+        "visibility": "public",
+        "development_use": "yes",
+        "development_history": [
+          "Published as a development example; used to revise the framework."
+        ],
+        "problem_family": "public-v03-development",
+        "family_overlap": "yes",
+        "analyst_exposure": "yes",
+        "independence_review": {
+          "status": "rejected",
+          "basis": "Already used in framework development."
+        }
+      }
     },
     {
       "id": "EX05",
@@ -215,7 +287,25 @@
       "is_synthetic": true,
       "revision_history": [
         "0.3.0：首次公开构造，非独立确认案例"
-      ]
+      ],
+      "record_version": "0.3.1",
+      "claim_status": "draft",
+      "evidence_outcome": "not_evaluated",
+      "provenance": {
+        "generation_method": "synthetic",
+        "visibility": "public",
+        "development_use": "yes",
+        "development_history": [
+          "Published as a development example; used to revise the framework."
+        ],
+        "problem_family": "public-v03-development",
+        "family_overlap": "yes",
+        "analyst_exposure": "yes",
+        "independence_review": {
+          "status": "rejected",
+          "basis": "Already used in framework development."
+        }
+      }
     },
     {
       "id": "EX06",
@@ -258,6 +348,256 @@
       "is_synthetic": true,
       "revision_history": [
         "0.3.0：首次公开构造，非独立确认案例"
+      ],
+      "record_version": "0.3.1",
+      "claim_status": "draft",
+      "evidence_outcome": "not_evaluated",
+      "provenance": {
+        "generation_method": "synthetic",
+        "visibility": "public",
+        "development_use": "yes",
+        "development_history": [
+          "Published as a development example; used to revise the framework."
+        ],
+        "problem_family": "public-v03-development",
+        "family_overlap": "yes",
+        "analyst_exposure": "yes",
+        "independence_review": {
+          "status": "rejected",
+          "basis": "Already used in framework development."
+        }
+      }
+    },
+    {
+      "id": "EX07",
+      "title": "已完成的理论范围示例",
+      "claim_text": "同一常数平移不改变有限动作集的argmax。",
+      "contribution_types": [
+        "theory"
+      ],
+      "object_and_scope": "有限动作集、所有动作加同一常数，不声称随机优化轨迹相同。",
+      "reference_kind": "truth",
+      "success_criteria": [
+        "给出任意两动作的收益差不变证明。"
+      ],
+      "evidence_plan": [
+        {
+          "method": "逐对差值不变的代数证明已给出；不声称优化轨迹不变。",
+          "suffices_for": "final_claim",
+          "status": "checked"
+        }
+      ],
+      "inapplicable_requirements": [
+        {
+          "requirement": "需要大型模型训练验证",
+          "reason": "该主张是代数关系，没有训练收益主张。"
+        }
+      ],
+      "codings": [],
+      "source_ids": [
+        "SRC-V031"
+      ],
+      "dataset_role": "development",
+      "work_status": "complete",
+      "is_synthetic": true,
+      "revision_history": [
+        "0.3.1: newly constructed end-state example based on the earlier card format; no executed model trial."
+      ],
+      "record_version": "0.3.1",
+      "claim_status": "supported",
+      "evidence_outcome": "supports",
+      "provenance": {
+        "generation_method": "synthetic",
+        "visibility": "public",
+        "development_use": "yes",
+        "development_history": [
+          "Published as a development example; used to revise the framework."
+        ],
+        "problem_family": "public-v031-end-states",
+        "family_overlap": "yes",
+        "analyst_exposure": "yes",
+        "independence_review": {
+          "status": "rejected",
+          "basis": "Already used in framework development."
+        }
+      },
+      "evidence_refs": [
+        {
+          "id": "EX07-E1",
+          "claim_id": "EX07",
+          "source_id": "SRC-V031",
+          "source_version": "0.3.1",
+          "locator": "examples/end-states.md#ex07",
+          "verification_action": "Read the explicitly synthetic worked example; no real-world experiment is claimed.",
+          "status": "checked",
+          "evidence_outcome": "supports",
+          "suffices_for": "final_claim",
+          "limitation": "Synthetic documentation example, not independent empirical validation."
+        }
+      ],
+      "completion_basis": "逐对差值不变的代数证明已给出；不声称优化轨迹不变。",
+      "decision_branches": [
+        {
+          "result": "Current documented outcome",
+          "evidence_outcome": "supports",
+          "allowed_claim": "同一常数平移不改变有限动作集的argmax。",
+          "action": "complete",
+          "reason": "逐对差值不变的代数证明已给出；不声称优化轨迹不变。",
+          "evidence_ids": [
+            "EX07-E1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EX08",
+      "title": "完成检查并排除有意义效应的构造示例",
+      "claim_text": "真实增益至少为预设的0.05。",
+      "contribution_types": [
+        "decision"
+      ],
+      "object_and_scope": "Synthetic interval decision; interval validity is stipulated, not inferred.",
+      "reference_kind": "truth",
+      "success_criteria": [
+        "Compare a prespecified meaningful-effect threshold with a supplied valid interval."
+      ],
+      "evidence_plan": [
+        {
+          "method": "仅在假定给定区间有效的构造中，上界0.02低于阈值0.05；未声称真实实验产生此结果。",
+          "suffices_for": "final_claim",
+          "status": "checked"
+        }
+      ],
+      "inapplicable_requirements": [],
+      "codings": [],
+      "source_ids": [
+        "SRC-V031"
+      ],
+      "dataset_role": "development",
+      "work_status": "complete",
+      "is_synthetic": true,
+      "revision_history": [
+        "0.3.1: newly constructed end-state example based on the earlier card format; no executed model trial."
+      ],
+      "record_version": "0.3.1",
+      "claim_status": "refuted",
+      "evidence_outcome": "refutes",
+      "provenance": {
+        "generation_method": "synthetic",
+        "visibility": "public",
+        "development_use": "yes",
+        "development_history": [
+          "Published as a development example; used to revise the framework."
+        ],
+        "problem_family": "public-v031-end-states",
+        "family_overlap": "yes",
+        "analyst_exposure": "yes",
+        "independence_review": {
+          "status": "rejected",
+          "basis": "Already used in framework development."
+        }
+      },
+      "evidence_refs": [
+        {
+          "id": "EX08-E1",
+          "claim_id": "EX08",
+          "source_id": "SRC-V031",
+          "source_version": "0.3.1",
+          "locator": "examples/end-states.md#ex08",
+          "verification_action": "Read the explicitly synthetic worked example; no real-world experiment is claimed.",
+          "status": "checked",
+          "evidence_outcome": "refutes",
+          "suffices_for": "final_claim",
+          "limitation": "Synthetic documentation example, not independent empirical validation."
+        }
+      ],
+      "completion_basis": "仅在假定给定区间有效的构造中，上界0.02低于阈值0.05；未声称真实实验产生此结果。",
+      "decision_branches": [
+        {
+          "result": "Current documented outcome",
+          "evidence_outcome": "refutes",
+          "allowed_claim": "Only the stated evidence boundary is supported.",
+          "action": "complete",
+          "reason": "仅在假定给定区间有效的构造中，上界0.02低于阈值0.05；未声称真实实验产生此结果。",
+          "evidence_ids": [
+            "EX08-E1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EX09",
+      "title": "信息不足而暂停的构造示例",
+      "claim_text": "真实增益至少为预设的0.05。",
+      "contribution_types": [
+        "decision"
+      ],
+      "object_and_scope": "Synthetic inconclusive interval; no deployment or empirical result.",
+      "reference_kind": "truth",
+      "success_criteria": [
+        "Retain uncertainty instead of treating non-significance as no effect."
+      ],
+      "evidence_plan": [
+        {
+          "method": "给定区间[-0.04,0.12]跨越阈值；暂停是资源决定，不代表反驳。",
+          "suffices_for": "next_decision",
+          "status": "checked"
+        }
+      ],
+      "inapplicable_requirements": [],
+      "codings": [],
+      "source_ids": [
+        "SRC-V031"
+      ],
+      "dataset_role": "development",
+      "work_status": "paused",
+      "is_synthetic": true,
+      "revision_history": [
+        "0.3.1: newly constructed end-state example based on the earlier card format; no executed model trial."
+      ],
+      "record_version": "0.3.1",
+      "claim_status": "inconclusive",
+      "evidence_outcome": "inconclusive",
+      "provenance": {
+        "generation_method": "synthetic",
+        "visibility": "public",
+        "development_use": "yes",
+        "development_history": [
+          "Published as a development example; used to revise the framework."
+        ],
+        "problem_family": "public-v031-end-states",
+        "family_overlap": "yes",
+        "analyst_exposure": "yes",
+        "independence_review": {
+          "status": "rejected",
+          "basis": "Already used in framework development."
+        }
+      },
+      "evidence_refs": [
+        {
+          "id": "EX09-E1",
+          "claim_id": "EX09",
+          "source_id": "SRC-V031",
+          "source_version": "0.3.1",
+          "locator": "examples/end-states.md#ex09",
+          "verification_action": "Read the explicitly synthetic worked example; no real-world experiment is claimed.",
+          "status": "checked",
+          "evidence_outcome": "inconclusive",
+          "suffices_for": "next_decision",
+          "limitation": "Synthetic documentation example, not independent empirical validation."
+        }
+      ],
+      "decision_branches": [
+        {
+          "result": "Current documented outcome",
+          "evidence_outcome": "inconclusive",
+          "allowed_claim": "Only the stated evidence boundary is supported.",
+          "action": "pause",
+          "reason": "给定区间[-0.04,0.12]跨越阈值；暂停是资源决定，不代表反驳。",
+          "evidence_ids": [
+            "EX09-E1"
+          ]
+        }
       ]
     }
   ]

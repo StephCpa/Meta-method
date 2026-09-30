@@ -1,0 +1,45 @@
+{
+  "version": "0.3.1",
+  "scope": "engineering_integrity_only",
+  "base_commit": "efb4438a7d8b18262f167f5903a37842fc121777",
+  "base_tree": "014281c2af72cfd497d333f9f845eae3a58ba10b",
+  "baseline_original_tests": {
+    "run": 28,
+    "failures": 0,
+    "errors": 0
+  },
+  "baseline_review_boundaries_reproduced": {
+    "duplicate_source_ids_accepted": true,
+    "string_false_synthetic_accepted": true,
+    "integer_revision_history_accepted": true,
+    "private_unused_synthetic_rejected": true,
+    "nonobject_exception": "AttributeError",
+    "unfrozen_readme_overwritten_in_temporary_directory": true
+  },
+  "current_tests": {
+    "run": 118,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "old_release_snapshot_verification": "36 original files matched; explicit snapshot audit passed",
+  "python_version": "3.13.5",
+  "jsonschema_version": "4.26.0",
+  "dependency_change": "Schema is authoritative and read by jsonschema; freezing remains standard-library-only.",
+  "version_freeze_and_verify": "passed before final report generation; final delivered snapshot is separately hashed",
+  "incomplete_run_without_draft": "rejected; no output file created",
+  "run_draft_status": "explicit incomplete configuration; not an executed trial",
+  "scientific_validity_tested": false,
+  "prospective_effectiveness_tested": false,
+  "historical_papers_reverified": false,
+  "review_zip_available": false,
+  "github_ci_status": "not_yet_observed_for_new_commit",
+  "publication_limit": {
+    "blocked_document_batch": [
+      "docs/framework.md (patch only; original retained)",
+      "docs/v0.3.1-migration.md",
+      "docs/v0.3.1-review-resolution.md"
+    ],
+    "handling": "No attempt to bypass tool block. Supplemental documents delivered separately; repository links corrected."
+  }
+}
