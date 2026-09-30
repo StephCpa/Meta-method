@@ -138,12 +138,16 @@ def validate_repo(root: Path = ROOT) -> dict:
         name = item.get('repository_copy')
         if name and hashlib.sha256(relative_file(root, name).read_bytes()).hexdigest() != item['sha256']:
             errors.append(f'{name}: archived bytes changed')
+    from generation import check_records
+    generation_report = check_records(root)
+    errors.extend(generation_report['errors'])
     errors.extend(check_links(root))
     return {'version': version, 'scope': 'engineering_integrity_only', 'passed': not errors,
             'status': 'invalid' if errors else 'needs_review' if reviews else 'valid',
             'case_counts': dict(Counter(c.get('cohort', 'unspecified') for c in cases)),
             'example_cards': len(examples), 'development_fixtures': len(fixtures), 'rules': len(rules),
             'errors': errors, 'review_required': reviews,
+            'author_move_records': generation_report['author_records'], 'generative_cards': generation_report['move_cards'],
             'scientific_validity_tested': False, 'prospective_effectiveness_tested': False}
 
 

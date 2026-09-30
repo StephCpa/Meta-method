@@ -21,7 +21,7 @@ from evaluate import summarize_case, aggregate_cases, interpret_comparison
 
 def clone_repo(root):
     shutil.copytree(ROOT, root, dirs_exist_ok=True,
-                    ignore=shutil.ignore_patterns('.git', 'outputs', '__pycache__', '.venv'))
+                    ignore=shutil.ignore_patterns('.git', 'outputs', 'private', '__pycache__', '.venv'))
 
 class RecordsTests(unittest.TestCase):
     def setUp(self):
@@ -229,7 +229,7 @@ class ProtocolTests(unittest.TestCase):
     def test_extra_c_material_rejected(self):
         self.m['arms']['C']['files'].append('docs/workflow.md');self.assertTrue(validate_materials(self.m,ROOT))
     def test_codebook_leak_to_b_rejected(self):
-        self.m['arms']['B']['files'].append('docs/codebook.md');self.assertTrue(validate_materials(self.m,ROOT))
+        self.m['arms']['B']['files'].append(self.m['codebook_increment_files'][0]);self.assertTrue(validate_materials(self.m,ROOT))
     def test_prospective_template_not_ready(self):self.assertTrue(run_readiness(load_json(ROOT/'evaluation/run-template.json')))
     def test_metrics_semantic_dedup_ids(self):
         r=summarize_case([{'id':'e1','assessment':'missed'},{'id':'e2','assessment':'met'}],

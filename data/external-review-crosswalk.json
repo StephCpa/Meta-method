@@ -1,0 +1,35 @@
+{
+  "source_file": "archive/review-v0.3.1.md",
+  "source_sha256": "12b98a321fd730e7fe387ccab701ea50108d1c1e14617437c5e1dd7fed9ca8a9",
+  "source_locators": {"overlap":"L59-L68","crosswalk":"L74-L91","missing_moves":"L93-L102","lifts":"L104-L123"},
+  "full_catalog_received": false,
+  "catalog_size_as_reported": 382,
+  "covered_as_reported": 187,
+  "coverage_recomputed": false,
+  "mapping_status": "external_judgment_not_authoritative_translation",
+  "crosswalk": [
+    {"legacy_code":"M1","external_codes_as_reported":["C4b"],"reviewer_fit":"good","independent_fit_review":"pending_full_definitions","unknown_code_definitions_filled":false},
+    {"legacy_code":"M2","external_codes_as_reported":["C10a"],"reviewer_fit":"good","independent_fit_review":"pending_full_definitions","unknown_code_definitions_filled":false},
+    {"legacy_code":"M3","external_codes_as_reported":["C14","C20"],"reviewer_fit":"good","independent_fit_review":"pending_full_definitions","unknown_code_definitions_filled":false},
+    {"legacy_code":"M4","external_codes_as_reported":["C16"],"reviewer_fit":"split it; near C16 for the control role","independent_fit_review":"pending_full_definitions","unknown_code_definitions_filled":false},
+    {"legacy_code":"M5","external_codes_as_reported":[],"reviewer_fit":"reviewer calls it a technique family","independent_fit_review":"pending_full_definitions","unknown_code_definitions_filled":false},
+    {"legacy_code":"M6","external_codes_as_reported":["C11","C9b"],"reviewer_fit":"partial","independent_fit_review":"pending_full_definitions","unknown_code_definitions_filled":false},
+    {"legacy_code":"M7","external_codes_as_reported":["C2","C1b"],"reviewer_fit":"good","independent_fit_review":"pending_full_definitions","unknown_code_definitions_filled":false},
+    {"legacy_code":"M8","external_codes_as_reported":["C28","C14"],"reviewer_fit":"good","independent_fit_review":"pending_full_definitions","unknown_code_definitions_filled":false},
+    {"legacy_code":"M9","external_codes_as_reported":["C22","C12","C32"],"reviewer_fit":"partial","independent_fit_review":"pending_full_definitions","unknown_code_definitions_filled":false},
+    {"legacy_code":"M10","external_codes_as_reported":["C4a","C6"],"reviewer_fit":"split move and check roles","independent_fit_review":"pending_full_definitions","unknown_code_definitions_filled":false},
+    {"legacy_code":"M11","external_codes_as_reported":["C8","C8c"],"reviewer_fit":"good","independent_fit_review":"pending_full_definitions","unknown_code_definitions_filled":false},
+    {"legacy_code":"M12","external_codes_as_reported":["C10b","C3"],"reviewer_fit":"good","independent_fit_review":"pending_full_definitions","unknown_code_definitions_filled":false},
+    {"legacy_code":"M13","external_codes_as_reported":[],"reviewer_fit":"overlay plus lift L1–L7","independent_fit_review":"pending_full_definitions","unknown_code_definitions_filled":false},
+    {"legacy_code":"M14","external_codes_as_reported":["C2"],"reviewer_fit":"audit action","independent_fit_review":"pending_full_definitions","unknown_code_definitions_filled":false}
+  ],
+  "lifts_as_reported": [
+    {"code":"L1","meaning":"exact correspondence or derivation"},
+    {"code":"L2","meaning":"surprising result"},
+    {"code":"L3","meaning":"new capability"},
+    {"code":"L4","meaning":"distance plus a named barrier"},
+    {"code":"L5","meaning":"mechanism diagnosis"},
+    {"code":"L6","meaning":"real-world or production validation"},
+    {"code":"L7","meaning":"realistic threat model"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": "0.4.0",
+  "not_new_M_codes": true,
+  "cards": [
+    {"id":"change-comparison","title":"改变比较维度","trigger":"现有“是否能做”的比较无法揭示明显差异。","transformation":"改比较描述规模、可验证性、访问条件或资源，而不是直接换任务。","expected_product":"新的比较对象、分离构造或可测关系。","first_step":"用一个严格定义的对象检查新维度是否区别于旧维度。","do_not_apply":"仅添加一个与已有指标等价的数值。","source_author_move_ids":["AM-XD04"],"transfer_status":"hypothesis_not_validated","dataset_role":"development"},
+    {"id":"observable-target","title":"直接处理可观测量","trigger":"目标需要不可获得变量，但观测到的边缘量可能仍含足够约束。","transformation":"先在可观测对象上定义目标，再研究与原目标的关系，不先随意补全未知。","expected_product":"条件化可识别目标及其计算路径。","first_step":"写明在哪些模型／缺失条件下足够，不把支持不足硬解释成普遍不可能。","do_not_apply":"未知变量完全不可识别，却声称无条件恢复它。","source_author_move_ids":["AM-XD01"],"transfer_status":"hypothesis_not_validated","dataset_role":"development"},
+    {"id":"bypass-intermediate","title":"绕开不必要的完整中间对象","trigger":"昂贵对象的下游只使用某个收缩、积、判别或函数量。","transformation":"直接计算、估计或构造这个作用结果。","expected_product":"新的原语、误差界或成本边界。","first_step":"证明被省略部分确实不是目标所必需，再测端到端代价。","do_not_apply":"仅缩短代码或隐藏到别处计算。","source_author_move_ids":["AM-XD05"],"transfer_status":"hypothesis_not_validated","dataset_role":"development"},
+    {"id":"construct-limit","title":"把技术界限变成贡献终点","trigger":"既有优化方向不断碰到同一个障碍。","transformation":"构造最坏情形或反例，再寻找匹配上界／可达类。","expected_product":"明确条件和量词的界限，或揭示必须改变的假设。","first_step":"一个正确的局部构造可以指导研究，但完整新界仍要证明。","do_not_apply":"以个人没跑通为不可能性证明。","source_author_move_ids":["AM-XD06","AM-XD04"],"transfer_status":"hypothesis_not_validated","dataset_role":"development"},
+    {"id":"enabling-artifact","title":"先创造使研究可开展的工具","trigger":"数据、交互、观察能力或可执行规模阻碍整个研究问题。","transformation":"建设新接口、数据生产闭环或可靠工具，让后续问题可被处理。","expected_product":"新增任务能力、覆盖范围或可重复研究基础。","first_step":"确认使用场景、不可拆建设成本与评价循环风险。","do_not_apply":"把相同资源重新命名为基础设施；只统计下载量当效用。","source_author_move_ids":["AM-XD03","AM-XD12"],"transfer_status":"hypothesis_not_validated","dataset_role":"development"},
+    {"id":"execution-first","title":"从执行约束反推算法结构，或让旧原语重新可用","trigger":"理论优势未兑现，或成熟原语被旧实现困在小规模。","transformation":"围绕访存、并行、构建／查询和训练兼容性重新组织操作。","expected_product":"可测的新规模、可靠性或总体成本边界。","first_step":"固定目标工作负载，区分算法性质、实现贡献和额外资源。","do_not_apply":"偷偷增加资源却归因于某个新模块；也不能反过来否定有价值的规模化建设。","source_author_move_ids":["AM-XD09","AM-XD12"],"transfer_status":"hypothesis_not_validated","dataset_role":"development"}
+  ]
+}

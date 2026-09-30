@@ -1,0 +1,20 @@
+{
+  "status": "illustrated_development_links_not_effectiveness_evidence",
+  "links": [
+    {"rule":"R02","case_ids":["XD03","XD05","XD12"],"relation":"illustrated_by_inherited_first_pass_reading","lesson":"构造工具与计算原语可以先于诊断；不强迫所有工作从失败开始。","effectiveness_tested":false,"source_id":"SRC-V04-WORKBENCH","id":"RL01"},
+    {"rule":"R04","case_ids":["XD01"],"relation":"boundary_illustrated","lesson":"目标与可识别性须写在具体观测层级；改写边缘目标不消除所有假设。","effectiveness_tested":false,"source_id":"SRC-V04-WORKBENCH","id":"RL02"},
+    {"rule":"R10","case_ids":["XD09","XD12"],"relation":"illustrated_by_inherited_first_pass_reading","lesson":"算法、内存、构建与运行共同决定真实成本。","effectiveness_tested":false,"source_id":"SRC-V04-WORKBENCH","id":"RL03"},
+    {"rule":"R11","case_ids":["XD04","XD06"],"relation":"illustrated_by_inherited_first_pass_reading","lesson":"新比较维度和界限可以是完整贡献，勿强求训练。","effectiveness_tested":false,"source_id":"SRC-V04-WORKBENCH","id":"RL04"},
+    {"rule":"R01","case_ids":["MAS05","MAS08"],"relation":"retrospective_illustration_from_supplied_discussion","lesson":"真值、授权规范与参与指标需要区分。","effectiveness_tested":false,"source_id":"SRC-MAS","id":"RL05"},
+    {"rule":"R03","case_ids":["MAS06","MAS08"],"relation":"retrospective_illustration_from_supplied_discussion","lesson":"简单规则也可能产生集体失败，机制名称不能替代判别。","effectiveness_tested":false,"source_id":"SRC-MAS","id":"RL06"},
+    {"rule":"R05","case_ids":["MAS04","MAS09"],"relation":"retrospective_illustration_from_supplied_discussion","lesson":"零目标与联合信息构造检验指标的效度边界。","effectiveness_tested":false,"source_id":"SRC-MAS","id":"RL07"},
+    {"rule":"R06","case_ids":["MAS09","OPD18"],"relation":"retrospective_illustration_from_supplied_discussion","lesson":"内容证据绑定与动态分布代表性不同。","effectiveness_tested":false,"source_id":"SRC-V04-INTEGRATION","id":"RL08"},
+    {"rule":"R07","case_ids":["MAS02","OPD15","OPD17"],"relation":"retrospective_illustration_from_supplied_discussion","lesson":"目标、均值梯度、方差与实际收益分别说明。","effectiveness_tested":false,"source_id":"SRC-V04-INTEGRATION","id":"RL09"},
+    {"rule":"R08","case_ids":["MAS07","MAS10"],"relation":"retrospective_illustration_from_supplied_discussion","lesson":"权限、真实执行与图记录并非同一事件。","effectiveness_tested":false,"source_id":"SRC-MAS","id":"RL10"},
+    {"rule":"R09","case_ids":["MAS02","MAS09"],"relation":"retrospective_illustration_from_supplied_discussion","lesson":"变化的对手和标签需要相应固定参照。","effectiveness_tested":false,"source_id":"SRC-MAS","id":"RL11"},
+    {"rule":"R12","case_ids":["MAS09","MAS10"],"relation":"retrospective_illustration_from_supplied_discussion","lesson":"识别标签须转化为有益的行动选择。","effectiveness_tested":false,"source_id":"SRC-MAS","id":"RL12"}
+  ],
+  "not_claimed": "These links do not reconstruct the original historical derivation of the rules.",
+  "version": "0.4.0",
+  "original_derivation_history": "not_reconstructed"
+}

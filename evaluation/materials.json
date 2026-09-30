@@ -1,5 +1,5 @@
 {
-  "version": "0.3.1",
+  "version": "0.4.0",
   "status": "proposed_not_run",
   "common_files": [
     "evaluation/inputs/common.md"
@@ -27,13 +27,13 @@
         "evaluation/inputs/bc-instructions.md",
         "docs/evidence-profiles.md",
         "docs/conditional-contracts.md",
-        "docs/codebook.md",
+        "evaluation/inputs/codebook.md",
         "evaluation/inputs/codebook-addon.md"
       ]
     }
   },
   "codebook_increment_files": [
-    "docs/codebook.md",
+    "evaluation/inputs/codebook.md",
     "evaluation/inputs/codebook-addon.md"
   ],
   "shared_contract_files": [
@@ -45,5 +45,6 @@
     "C-A": "increment of the full package"
   },
   "participant_case_inputs": "Added equally to all arms in each run config; never include answer keys.",
-  "blinding": "Strip arm and M-code labels in a separate evaluation copy; do not alter substantive arguments."
+  "blinding": "Strip arm and M-code labels in a separate evaluation copy; do not alter substantive arguments.",
+  "participant_rendering": "Use neutral section headings, not repository paths or treatment labels; per call include one actual case only."
 }

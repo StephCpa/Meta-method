@@ -1,0 +1,20 @@
+{
+  "version": "0.4.0",
+  "meaning": "per-use roles; historical identifiers retained; not a scientific-value ranking",
+  "operations": [
+    {"code":"M1","permitted_roles":["generative_move","evidence_check"]},
+    {"code":"M2","permitted_roles":["generative_move"]},
+    {"code":"M3","permitted_roles":["generative_move","implementation_technique"]},
+    {"code":"M4","permitted_roles":["generative_move","evidence_check","implementation_technique"]},
+    {"code":"M5","permitted_roles":["generative_move","implementation_technique"]},
+    {"code":"M6","permitted_roles":["generative_move","implementation_technique"]},
+    {"code":"M7","permitted_roles":["generative_move","evidence_check"]},
+    {"code":"M8","permitted_roles":["generative_move","implementation_technique"]},
+    {"code":"M9","permitted_roles":["generative_move","evidence_check"]},
+    {"code":"M10","permitted_roles":["generative_move","evidence_check"]},
+    {"code":"M11","permitted_roles":["generative_move"]},
+    {"code":"M12","permitted_roles":["generative_move","implementation_technique"]},
+    {"code":"M13","permitted_roles":["combination_overlay"]},
+    {"code":"M14","permitted_roles":["evidence_check"]}
+  ]
+}

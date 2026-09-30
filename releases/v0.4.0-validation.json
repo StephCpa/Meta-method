@@ -1,0 +1,39 @@
+{
+  "version": "0.4.0",
+  "scope": "engineering_integrity_only",
+  "passed": true,
+  "status": "valid",
+  "case_counts": {
+    "MAS": 10,
+    "OPD": 24,
+    "cross_domain": 14
+  },
+  "example_cards": 9,
+  "development_fixtures": 12,
+  "rules": 12,
+  "errors": [],
+  "review_required": [],
+  "author_move_records": 8,
+  "generative_cards": 6,
+  "scientific_validity_tested": false,
+  "prospective_effectiveness_tested": false,
+  "release_date": "2026-09-30",
+  "python_version": "3.13.5",
+  "baseline_tests": 118,
+  "tests": {
+    "run": 153,
+    "failures": 0,
+    "errors": 0,
+    "scope": "engineering_regression_only"
+  },
+  "source": {
+    "base_commit": "5c0dcd4035fc6b75517d97ef63ba875a4b8d839d",
+    "base_tree": "e1a25f93f01cbec151888a203933659104c7b440",
+    "base_reconstructed_from_uploaded_zip": true,
+    "base_tree_matches_remote": true
+  },
+  "primary_sources_rechecked": false,
+  "independent_author_recoding": false,
+  "model_calls": 0,
+  "ci_status_at_local_validation": "not_yet_run"
+}

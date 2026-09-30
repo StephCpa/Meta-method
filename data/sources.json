@@ -1,58 +1,19 @@
 {
-  "version": "0.3.1",
+  "version": "0.4.0",
   "release_date": "2026-09-30",
   "sources": [
-    {
-      "id": "SRC-MAS",
-      "kind": "user_conversation",
-      "locator": "当前对话：10篇独立MAS分析及后续潜力评分",
-      "scope": "继承分析摘要与主观方向，不重新确认论文结果",
-      "verified_in_release": false
-    },
-    {
-      "id": "SRC-OPD",
-      "kind": "user_report",
-      "locator": "OPD_调研报告_24篇.md，A–F与附录01–24",
-      "scope": "保留候选、标题、分组和定位；强表述不是本版规则",
-      "verified_in_release": false
-    },
-    {
-      "id": "SRC-V02",
-      "kind": "inherited_artifact",
-      "locator": "archive/opd-v0.2.md",
-      "scope": "逐字归档的历史工作稿；旧核验与探针声明不升级",
-      "verified_in_release": false
-    },
-    {
-      "id": "SRC-CROSS",
-      "kind": "user_conversation",
-      "locator": "用户粘贴的另一GPT跨领域经验，14条候选表及分析",
-      "scope": "开发性描述；奖项与原文未在本版重核",
-      "verified_in_release": false
-    },
-    {
-      "id": "SRC-V03",
-      "kind": "new_framework_proposal",
-      "locator": "docs/framework.md与evaluation/",
-      "scope": "本次整合和构造案例；有效性未验证",
-      "verified_in_release": false
-    },
-    {
-      "id": "SRC-V031",
-      "kind": "user_review_and_patch",
-      "locator": "User-provided v0.3 review text; supplementary review documents delivered separately, not committed.",
-      "scope": "Current engineering patch and synthetic worked examples; named review ZIP was not available; no paper claims reverified.",
-      "verified_in_release": false
-    }
+    {"id":"SRC-MAS","kind":"user_conversation","locator":"当前对话：10篇独立MAS分析及后续潜力评分","scope":"继承分析摘要与主观方向，不重新确认论文结果","verified_in_release":false},
+    {"id":"SRC-OPD","kind":"user_report","locator":"OPD_调研报告_24篇.md，A–F与附录01–24","scope":"保留候选、标题、分组和定位；强表述不是本版规则","verified_in_release":false},
+    {"id":"SRC-V02","kind":"inherited_artifact","locator":"archive/opd-v0.2.md","scope":"逐字归档的历史工作稿；旧核验与探针声明不升级","verified_in_release":false},
+    {"id":"SRC-CROSS","kind":"user_conversation","locator":"用户粘贴的另一GPT跨领域经验，14条候选表及分析","scope":"开发性描述；奖项与原文未在本版重核","verified_in_release":false},
+    {"id":"SRC-V03","kind":"new_framework_proposal","locator":"docs/framework.md与evaluation/","scope":"本次整合和构造案例；有效性未验证","verified_in_release":false},
+    {"id":"SRC-V031","kind":"user_review_and_patch","locator":"User-provided v0.3 review text; supplementary review documents delivered separately, not committed.","scope":"Current engineering patch and synthetic worked examples; named review ZIP was not available; no paper claims reverified.","verified_in_release":false},
+    {"id":"SRC-REVIEW-031","kind":"user_review","locator":"archive/review-v0.3.1.md","scope":"外部审查全文；C映射和统计保持来源身份，底层382篇未取得","verified_in_release":false},
+    {"id":"SRC-V04-WORKBENCH","kind":"inherited_artifact","locator":"data/author-moves.json; cases/author-moves-eight.md; generation/move-cards.md","scope":"所提供v0.4工作包，首轮来源锚定；本版导入而非重新阅读全文","verified_in_release":false},
+    {"id":"SRC-V04-INTEGRATION","kind":"new_framework_proposal","locator":"docs/framework.md; evaluation/generation/","scope":"当前结构整合和回溯联系；非工作流有效性证据","verified_in_release":false}
   ],
   "uninstantiated_background": [
-    {
-      "description": "早期32篇目的性样本",
-      "reason": "缺少完整清单；不生成案例条目"
-    },
-    {
-      "description": "另一对话先分析的10篇后训练论文",
-      "reason": "未提供完整清单；可能与OPD重叠，不增计"
-    }
+    {"description":"早期32篇目的性样本","reason":"缺少完整清单；不生成案例条目"},
+    {"description":"另一对话先分析的10篇后训练论文","reason":"未提供完整清单；可能与OPD重叠，不增计"}
   ]
 }

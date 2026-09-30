@@ -1,0 +1,33 @@
+{
+  "version": "0.4.0",
+  "status": "synthetic_development_only",
+  "records": [
+    {
+      "id": "OPP-EX01",
+      "stage": "exploring",
+      "problem_situation": "某种完整中间表示构造昂贵，但下游似乎只使用一个函数量；是否能省略尚未确定。",
+      "source_ids": [
+        "SRC-V04-INTEGRATION"
+      ],
+      "move_cards": [
+        "bypass-intermediate"
+      ]
+    },
+    {
+      "id": "OPP-EX02",
+      "stage": "specified",
+      "problem_situation": "需要更低成本地检查有限测试图的可达关系。",
+      "prior_limit": "构造全源路径对象可能超出当前用途，实际是否必要待核查。",
+      "concrete_transformation": "明确所需的有限查询集合，研究按查询生成证据而不是保留全部中间结果。",
+      "expected_added_result": "一个限定查询范围内的正确性与成本关系；不声称已完成查新。",
+      "first_artifact": "固定小图比较完整与查询条件化的结果，分别记录构建和查询成本。",
+      "source_ids": [
+        "SRC-V04-INTEGRATION"
+      ],
+      "move_cards": [
+        "bypass-intermediate"
+      ],
+      "is_combination": false
+    }
+  ]
+}

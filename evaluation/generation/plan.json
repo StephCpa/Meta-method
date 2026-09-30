@@ -1,0 +1,27 @@
+{
+  "version": "0.4.0",
+  "study_id": "MM-G01",
+  "status": "design_draft_not_executed",
+  "main_outcome": "at_least_one_qualified_candidate_at_fixed_k_per_opportunity",
+  "secondary_outcomes": [
+    "unique_qualified_count",
+    "known_contribution_recovery",
+    "fixed_pool_retention",
+    "ineligible_selected",
+    "actual_research_gain"
+  ],
+  "planned_max_candidates": 3,
+  "max_candidates_status": "planning_value",
+  "primary_unit": "opportunity_or_problem_family",
+  "material_manifest": "evaluation/generation/materials.json",
+  "model_id": null,
+  "actual_cases": [],
+  "raters": [],
+  "source_cutoff": null,
+  "budget": null,
+  "sample_size_justification": null,
+  "qualification_rule_status": "must_be_frozen_before_outputs",
+  "prospective_results_available": false,
+  "formal_preregistration": false,
+  "results_record": null
+}
