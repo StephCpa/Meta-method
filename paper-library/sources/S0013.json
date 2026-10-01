@@ -1,0 +1,98 @@
+{
+  "title": "Unlocking the Unsolvable: Teacher-Guided Curriculum for Data-Efficient RLVR",
+  "short_name": "MFC / Unlocking the Unsolvable",
+  "paper_url": "https://arxiv.org/abs/2609.13997",
+  "arxiv": "2609.13997",
+  "aliases": [
+    "RLVR013",
+    "RLVR/Case013"
+  ],
+  "topics": [
+    "RLVR／后训练"
+  ],
+  "tags": [
+    "development",
+    "rlvr-dialogue-import"
+  ],
+  "analyzed_at": "2026-10-01",
+  "framework_version": "0.4.0",
+  "paper_version": "v1",
+  "source_description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。原始贡献卡/校准包可获得；历史核方法/表2–3/附录及数据卡；未逐条数据、作者训练或真实提示迁移。",
+  "summary": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。",
+  "sections": {
+    "原有局限": "原始难题在固定接口全失败，可改造辅助条件而非只换题或重试。",
+    "作者改变了什么": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。",
+    "新增结果/组合增量": "辅助成为控制变量与学习路径；不是首次部分提示或逆向课程。",
+    "证据与边界": "原始贡献卡/校准包可获得；历史核方法/表2–3/附录及数据卡；未逐条数据、作者训练或真实提示迁移。"
+  },
+  "codings": [
+    {
+      "code": "M2",
+      "role": "author",
+      "anchor": "§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡",
+      "rationale": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M6",
+      "role": "author",
+      "anchor": "§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡",
+      "rationale": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M5",
+      "role": "author",
+      "anchor": "§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡",
+      "rationale": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡",
+      "rationale": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR013既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR013既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR013既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "analysis_markdown": "# RLVR013｜Unlocking the Unsolvable: Teacher-Guided Curriculum for Data-Efficient RLVR\n\n原编号：Case013；命名空间：本对话 RLVR／后训练（不与 MAS 同号记录混用）。\n\n论文：https://arxiv.org/abs/2609.13997\n\n历史阅读版本：v1。整理日期：2026-10-01。\n\n> 本文是既有对话的收敛整理，不是新一轮论文全文核验，也不是逐字原始对话。所有候选均属 development；不可用于宣称未见领域有效性。\n\n## 1. 作者贡献形成（分析者赋码，author 角色）\n\n**机会／限制：**原始难题在固定接口全失败，可改造辅助条件而非只换题或重试。\n\n**作者改变：**教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。\n\n**新增结果的解释：**辅助成为控制变量与学习路径；不是首次部分提示或逆向课程。\n\n**候选作者码：**M2, M6, M5, M3。**审查码：**M14, M9, M10。不得混计。\n\n**原文定位状态：**§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡\n\n## 2. 当前证据与工作状态\n\n原始贡献卡/校准包可获得；历史核方法/表2–3/附录及数据卡；未逐条数据、作者训练或真实提示迁移。\n\n## 3. 已讨论的关键结果（按原证据层级保留）\n\n- Uns-128由2k筛到147零成功、136教师正确再取最短128；16×是源题数，不是总算力。\n\n- 冻策略G1→G0控制：p=.2、100访问撤除概率.9424116，无提示质量.9712058但能力不变；非撤除有害证明。\n\n- 带提示成功、混合组、无提示访问与独立迁移分开；长度惩罚和KL使全错不等于总梯度0。\n\n- 附录已承认提示梯度不保证迁移与无提示分布重加权；AdaBack已有p_zero=.1。\n\n## 4. 最新修订与禁止升级的表述\n\n- 不可解仅为指定采样未检出，不是绝对支持0。\n\n- 0.6B总体弱不保证逐题更难。\n\n- 原文SFT/AdaBack/Mixture对照存在。\n\n## 5. 研究方向池\n\n### RLVR013-A｜可撤除指导的构造与选择\n\n类型：`research_direction`；优先级：`primary`；状态：`awaiting_data`。\n\n**问题：**哪种帮助不仅立即答对，还能在撤除后学会？\n\n**具体变换：**比较中间结果前缀与操作提示的独立迁移效用。\n\n**首个产物：**提示类型×辅助量×训练时距迁移矩阵。\n\n**强对照：**相同起点/预算；无提示新题；简单带提示成功率；两个训练时距。\n\n**停止／改写：**只训练题有效、简单成功率足够或诊断太贵则停。\n\n**新颖性边界：**LPPO/SEELE/GradAlign等已有，非通用validation加权。\n\n### RLVR013-B｜历史最好记录与当前辅助需求分离\n\n类型：`conditional_extension`；优先级：`conditional`；状态：`calibrated_model_based`。\n\n**问题：**历史撤除记录何时不再表示当前可用性？\n\n**具体变换：**先保留历史，再独立审计当前状态，必要时恢复访问。\n\n**首个产物：**撤除后独立回落日志，不先造控制器。\n\n**强对照：**冻结策略null；原MFC；预算匹配复习；AdaBack。\n\n**停止／改写：**无持续回落或简单复习足够则停。\n\n**新颖性边界：**不因单次失败恢复，也不默认更严阈值更好。\n\n## 6. 来源与复用\n\n本条来源标识：`ARCHIVE-RLVR013`。原论文链接是查核入口，不表示本次新增核验。\n\n本包 `archive/` 保留对应原始分析卡与校准 ZIP 的逐字副本；旧日期、旧“本轮运行”表述均属于历史记录。本次没有将历史脚本运行声明改称本次新实验。\n\n同一论文可有多个分析版本，但按 canonical key 只算一个论文实体。不得用本次导入增加独立验证样本计数。\n",
+  "ideas": [
+    {
+      "title": "可撤除指导的构造与选择",
+      "question": "哪种帮助不仅立即答对，还能在撤除后学会？",
+      "first_evidence": "提示类型×辅助量×训练时距迁移矩阵。",
+      "decision_branches": [
+        "只训练题有效、简单成功率足够或诊断太贵则停。"
+      ]
+    },
+    {
+      "title": "历史最好记录与当前辅助需求分离",
+      "question": "历史撤除记录何时不再表示当前可用性？",
+      "first_evidence": "撤除后独立回落日志，不先造控制器。",
+      "decision_branches": [
+        "无持续回落或简单复习足够则停。"
+      ]
+    }
+  ]
+}

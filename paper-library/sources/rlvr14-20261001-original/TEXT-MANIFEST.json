@@ -1,0 +1,224 @@
+{
+  "source": "Meta_method_RLVR14_library_import_20261001.zip",
+  "original_bundle_sha256": "36f8f1007b8444a5e0d6f44728106af2f09bace3d25b5a5a5dbc5c772223f4cd",
+  "transport_raw_sha256": "d5cd941c8e7ac93d42403e262870e86ac84ad5cf4d0cd54a19b0741ce49d1f3f",
+  "files": [
+    {
+      "path": "analyses/cross_domain/XD01_RLVR_dialogue_supplement.md",
+      "sha256": "91b177791a3aa181651b4a2df7ef3fa6e2479ede942decad65ea61e340d21178",
+      "bytes": 1226
+    },
+    {
+      "path": "analyses/cross_domain/XD02_RLVR_dialogue_supplement.md",
+      "sha256": "61c8db00f16f4b36639677906bc55e47b1bfe93d3cf96a87e001fbc244a4955d",
+      "bytes": 1223
+    },
+    {
+      "path": "analyses/cross_domain/XD03_RLVR_dialogue_supplement.md",
+      "sha256": "7dd9aefc0bfb14c10cc4a150ba9a7f1be1a375f14a1f088779ba81472837fcce",
+      "bytes": 1284
+    },
+    {
+      "path": "analyses/cross_domain/XD04_RLVR_dialogue_supplement.md",
+      "sha256": "f25551fedd852bdeee77ae9f783a99943d98ded16374f37ddda14d636a432ce7",
+      "bytes": 1266
+    },
+    {
+      "path": "analyses/cross_domain/XD05_RLVR_dialogue_supplement.md",
+      "sha256": "71c64eec15947670be3998d8a1c9eb040900e544c0d2448ad281f7ce1d8e6b1f",
+      "bytes": 1307
+    },
+    {
+      "path": "analyses/cross_domain/XD06_RLVR_dialogue_supplement.md",
+      "sha256": "2eba15cbee55c98e5bd334a576b4b7cd66474f15d11f431af6a06751afd69488",
+      "bytes": 1275
+    },
+    {
+      "path": "analyses/cross_domain/XD07_RLVR_dialogue_supplement.md",
+      "sha256": "a16d11935970bc94713e14b99320f1dd4a06e37b3e6f6ccf2533b03fe46e00d5",
+      "bytes": 1226
+    },
+    {
+      "path": "analyses/cross_domain/XD08_RLVR_dialogue_supplement.md",
+      "sha256": "f41129cbaac4c96147b31d890a3e434ba5d167b2aac2156fa7224835f90020a6",
+      "bytes": 1249
+    },
+    {
+      "path": "analyses/cross_domain/XD09_RLVR_dialogue_supplement.md",
+      "sha256": "4ae6f3104cf3bfe4aeb6882f26e458192e75ef1363437de61ba7a9225b245d19",
+      "bytes": 1179
+    },
+    {
+      "path": "analyses/cross_domain/XD10_RLVR_dialogue_supplement.md",
+      "sha256": "fb2e87a3f6ca032142b2fd472279fc4056923d571782926f5a97202d801446f4",
+      "bytes": 1244
+    },
+    {
+      "path": "analyses/cross_domain/XD11_RLVR_dialogue_supplement.md",
+      "sha256": "06ab9c02f3aaa71a7cb1c7bf731c76aea97ee7a9e7587c948c2137fe0f312c3a",
+      "bytes": 1255
+    },
+    {
+      "path": "analyses/cross_domain/XD12_RLVR_dialogue_supplement.md",
+      "sha256": "2ebe9a4499e5576d525383ae96559f85336a711143a49002173c97d65a94c0c8",
+      "bytes": 1253
+    },
+    {
+      "path": "analyses/cross_domain/XD13_RLVR_dialogue_supplement.md",
+      "sha256": "a2c5bee2eb07751b4d55f4d50ddcfec4875703a7f5ae1453be181e9632c0b024",
+      "bytes": 1246
+    },
+    {
+      "path": "analyses/cross_domain/XD14_RLVR_dialogue_supplement.md",
+      "sha256": "02f9a612f08cb8fdc27b05ff668d57a643679e913d4f0534939e467e73f5e0ab",
+      "bytes": 1346
+    },
+    {
+      "path": "analyses/rlvr/RLVR001.md",
+      "sha256": "0b480dd3eab6f0e852b1aa52821348441fd17f41b8560f940be89a3e898ebdca",
+      "bytes": 5035
+    },
+    {
+      "path": "analyses/rlvr/RLVR002.md",
+      "sha256": "d789daaea62144d42b44097b1aed035d2d66222ed796e7bb0db44adf939ea860",
+      "bytes": 6022
+    },
+    {
+      "path": "analyses/rlvr/RLVR003.md",
+      "sha256": "c8c6fad6f14e3bb24508fbb96dda3f208baf950414928cb13a537036661debc3",
+      "bytes": 4868
+    },
+    {
+      "path": "analyses/rlvr/RLVR004.md",
+      "sha256": "38ab80ac61cd1f0b505bada5fd7043313f445448c9c359e13f5839b39849afae",
+      "bytes": 5953
+    },
+    {
+      "path": "analyses/rlvr/RLVR005.md",
+      "sha256": "709dd5caef0da10e46b9d14baa7991c43e2d048e53bbcc16a7ee64541714ed84",
+      "bytes": 4407
+    },
+    {
+      "path": "analyses/rlvr/RLVR006.md",
+      "sha256": "a4614d274ad5ae5fe663049824a641c1c5aa752b2066cdb56e59179de0076f09",
+      "bytes": 4346
+    },
+    {
+      "path": "analyses/rlvr/RLVR007.md",
+      "sha256": "7869425c5ce5716c975f10b41fe4051094db982693faace2f97fcfa5ab782cb8",
+      "bytes": 4089
+    },
+    {
+      "path": "analyses/rlvr/RLVR008.md",
+      "sha256": "e5259213134a1fd0bfea80ab7c4f9c8fabaa32ca1985160413b279794c65e270",
+      "bytes": 4957
+    },
+    {
+      "path": "analyses/rlvr/RLVR009.md",
+      "sha256": "15ea5e197be7814de115aa4ec640f2554b4937f32830c8f93a2693a66f80678b",
+      "bytes": 4135
+    },
+    {
+      "path": "analyses/rlvr/RLVR010.md",
+      "sha256": "b30b075e2f8947784ee4cb88938c2d15bf23418b72a3d4851ba138c1bdf300f6",
+      "bytes": 4289
+    },
+    {
+      "path": "analyses/rlvr/RLVR011.md",
+      "sha256": "455732eae6a2fb6290964aa176c4f44e1ee09c295d1d6bcf1614aa58924443d7",
+      "bytes": 3186
+    },
+    {
+      "path": "analyses/rlvr/RLVR012.md",
+      "sha256": "e88ed8deb7b1ff8bc610e00929160d9b3646165fa4c4c5a1b214ac9fbdfb2236",
+      "bytes": 3700
+    },
+    {
+      "path": "analyses/rlvr/RLVR013.md",
+      "sha256": "3af13660980ad9d93d209eb175620704727084f31f5d786255373812e661d1ab",
+      "bytes": 3761
+    },
+    {
+      "path": "analyses/rlvr/RLVR014.md",
+      "sha256": "29fec6c203cfb7f42d5a252953f5513bffe8ed1bfe41f7d4717d70dd0a5cc89d",
+      "bytes": 3842
+    },
+    {
+      "path": "archive/Meta_method_Round2_award_papers_v0.1.md",
+      "sha256": "0b7252f6ebe65f8a7d1c6612ae1d683b2a143a279c999a21f62866d202ee926f",
+      "bytes": 13858
+    },
+    {
+      "path": "archive/RLVR011_original_card.md",
+      "sha256": "574a759f10c6b89cd15117c289994bb3306878e4567a19773a8b42d6cd9f630e",
+      "bytes": 7528
+    },
+    {
+      "path": "archive/RLVR012_original_card.md",
+      "sha256": "4d55499ca4c8cd01916cf034dfeeaf8141596f3c7772101b1346054a5b7aca74",
+      "bytes": 7376
+    },
+    {
+      "path": "archive/RLVR013_original_card.md",
+      "sha256": "330b6248e349f6b01a1202933e8f97d23da062a80be9c82494e676431964fdd2",
+      "bytes": 8797
+    },
+    {
+      "path": "archive/RLVR014_original_card.md",
+      "sha256": "4d46f3c58d2062d76effdf6638e1fa15d74cf241c8f1419e3ba0fb47a255738a",
+      "bytes": 11422
+    },
+    {
+      "path": "data/analysis_records.json",
+      "sha256": "d9953ac7059a653a1fb359e7a638ae8a2fb14b1d03660c13642912f48e885d62",
+      "bytes": 8501
+    },
+    {
+      "path": "data/author_moves.json",
+      "sha256": "dc2ff1474f4a4b50ced0cf5d67a9357cb5aba2f33975b450dffd265606b5bbb2",
+      "bytes": 36804
+    },
+    {
+      "path": "data/directions.json",
+      "sha256": "f8db5d10f0bc17574ca4cab50293765236f2a9a3fb6a6819e4032db6c71ec79d",
+      "bytes": 48591
+    },
+    {
+      "path": "data/papers.json",
+      "sha256": "59d225bec99aebb425ff720755f4ec4d75b73cd0ca78687fa5e9d69a4967fdfe",
+      "bytes": 60807
+    },
+    {
+      "path": "data/sources.json",
+      "sha256": "87b9888812082e78b571c581ddf42414248d8431179c3d49a4814ef19a9a8a3a",
+      "bytes": 4480
+    },
+    {
+      "path": "data/xd_merge_candidates.json",
+      "sha256": "c818b26b9f53ec9a412ce2973df9a28b8440a98429c8a7e4bb19f4e55c58bedc",
+      "bytes": 10485
+    },
+    {
+      "path": "progress/RLVR001_latest.md",
+      "sha256": "5ba6e6c00229bc9f684944676848ccf7ee5208c6a7b5ebcb34662443546ff053",
+      "bytes": 817
+    },
+    {
+      "path": "progress/RLVR002_latest.md",
+      "sha256": "786dbd128d21dc5656ff95b86900393079d1478f6d02da14563e538a046befa5",
+      "bytes": 1440
+    },
+    {
+      "path": "progress/RLVR003_latest.md",
+      "sha256": "fbee8d74f204668750f6542107e00902c6d5784f12d93f4dd6355fe5570d49a7",
+      "bytes": 999
+    },
+    {
+      "path": "progress/RLVR004_latest.md",
+      "sha256": "95217f807945425962f3d9517780e45e4cce86a92d1992ec2f8a22dcf16936cc",
+      "bytes": 2027
+    }
+  ],
+  "scientific_reverification_performed": false,
+  "scope": "All prepared paper/idea/author metadata, 28 consolidated notes, four progress notes and five original text cards. Binary calibration ZIPs remain in the original conversation handoff; not executed or mirrored by this analysis-text import. Historical archive statements refer to that handoff, not to this repository directory."
+}

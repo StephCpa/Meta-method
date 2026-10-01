@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0059",
+  "title": "谱坐标合并的稳定性",
+  "paper_ids": [
+    "P0062"
+  ],
+  "analysis_ids": [
+    "A0076"
+  ],
+  "kind": "research_direction",
+  "question": "微小真实权重扰动是否经谱表示放大并影响合并功能？",
+  "first_evidence": "真实checkpoint层级谱间隙与扰动—输出审计。",
+  "decision_branches": [
+    "真实无功能影响或现有简单合并已足够时停。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。真实无功能影响或现有简单合并已足够时停。"
+    }
+  ],
+  "original_direction_id": "RLVR005-A",
+  "source_work_status": "calibrated_model_based",
+  "priority": "primary",
+  "proposed_change": "保留共享谱块关系，先审计敏感性再设计稳定坐标。",
+  "strong_controls": [
+    "严格等价变换",
+    "简单近重谱扰动",
+    "逐阶段系数/回缩定位"
+  ],
+  "novelty_boundary": "OrthoMerge/CORAM等已有几何合并；不以一行SVD敏感性作新贡献。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

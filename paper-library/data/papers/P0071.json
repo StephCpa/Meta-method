@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "P0071",
+  "title": "The Misery of Mechanistic Interpretability: A Formal Perspective",
+  "short_name": "IRN Formal Perspective",
+  "aliases": [
+    "RLVR014",
+    "RLVR/Case014"
+  ],
+  "identifiers": {
+    "arxiv": "2609.15533",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2609.15533"
+  ],
+  "topics": [
+    "RLVR／后训练"
+  ],
+  "tags": [
+    "development",
+    "rlvr-dialogue-import"
+  ],
+  "reading_status": "inherited_conversation_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S0014",
+      "as_of": "2026-10-01",
+      "title": "The Misery of Mechanistic Interpretability: A Formal Perspective",
+      "venue": null,
+      "paper_version": "v1",
+      "verification": "as_supplied_not_automatically_verified"
+    }
+  ],
+  "analysis_ids": [
+    "A0085"
+  ],
+  "idea_ids": [
+    "I0083",
+    "I0084"
+  ],
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "dataset_role": "development",
+  "legacy_case_namespace": "rlvr_post_training_dialogue",
+  "legacy_case_id": "Case014",
+  "source_current_state": "原始贡献卡/三类标准库校准与manifest可获得；历史读主文/附录关键PDF，未作者实验、Lean机验或真实LLM。",
+  "used_for_framework_development": true
+}

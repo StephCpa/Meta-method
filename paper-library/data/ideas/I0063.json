@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "id": "I0063",
+  "title": "新颖性进入动作信用的路径",
+  "paper_ids": [
+    "P0063"
+  ],
+  "analysis_ids": [
+    "A0077"
+  ],
+  "kind": "measurement_axis",
+  "question": "塑形是未来状态探索信用还是有限batch更新调节？",
+  "first_evidence": "当前状态零/到达状态非零控制映射真实公式。",
+  "decision_branches": [
+    "原接口与行为已一致则停止。"
+  ],
+  "status": "paused",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "paused",
+      "previous": "candidate",
+      "source_status": "blocked_fulltext",
+      "reason": "按原记录映射工作状态，不认证科学有效性。原接口与行为已一致则停止。"
+    }
+  ],
+  "original_direction_id": "RLVR006-B",
+  "source_work_status": "blocked_fulltext",
+  "priority": "supporting",
+  "proposed_change": "逐项定位时间索引、return/GAE与stop-gradient。",
+  "strong_controls": [
+    "不改变奖励对应的同分布信号",
+    "clip逐项加入"
+  ],
+  "novelty_boundary": "RND/count-based等已有，不能重提低密度探索。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

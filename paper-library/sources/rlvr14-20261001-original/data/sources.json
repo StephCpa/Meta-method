@@ -1,0 +1,142 @@
+{
+  "sources": [
+    {
+      "id": "CONV-RLVR001",
+      "kind": "provided_conversation",
+      "locator": "本对话第1篇首轮分析及后续更新",
+      "full_transcript_in_bundle": false,
+      "reverified_original_paper_in_import": false
+    },
+    {
+      "id": "CONV-RLVR002",
+      "kind": "provided_conversation",
+      "locator": "本对话第2篇首轮分析及后续更新",
+      "full_transcript_in_bundle": false,
+      "reverified_original_paper_in_import": false
+    },
+    {
+      "id": "CONV-RLVR003",
+      "kind": "provided_conversation",
+      "locator": "本对话第3篇首轮分析及后续更新",
+      "full_transcript_in_bundle": false,
+      "reverified_original_paper_in_import": false
+    },
+    {
+      "id": "CONV-RLVR004",
+      "kind": "provided_conversation",
+      "locator": "本对话第4篇首轮分析及后续更新",
+      "full_transcript_in_bundle": false,
+      "reverified_original_paper_in_import": false
+    },
+    {
+      "id": "CONV-RLVR005",
+      "kind": "provided_conversation",
+      "locator": "本对话第5篇首轮分析及后续更新",
+      "full_transcript_in_bundle": false,
+      "reverified_original_paper_in_import": false
+    },
+    {
+      "id": "CONV-RLVR006",
+      "kind": "provided_conversation",
+      "locator": "本对话第6篇首轮分析及后续更新",
+      "full_transcript_in_bundle": false,
+      "reverified_original_paper_in_import": false
+    },
+    {
+      "id": "CONV-RLVR007",
+      "kind": "provided_conversation",
+      "locator": "本对话第7篇首轮分析及后续更新",
+      "full_transcript_in_bundle": false,
+      "reverified_original_paper_in_import": false
+    },
+    {
+      "id": "CONV-RLVR008",
+      "kind": "provided_conversation",
+      "locator": "本对话第8篇首轮分析及后续更新",
+      "full_transcript_in_bundle": false,
+      "reverified_original_paper_in_import": false
+    },
+    {
+      "id": "CONV-RLVR009",
+      "kind": "provided_conversation",
+      "locator": "本对话第9篇首轮分析及后续更新",
+      "full_transcript_in_bundle": false,
+      "reverified_original_paper_in_import": false
+    },
+    {
+      "id": "CONV-RLVR010",
+      "kind": "provided_conversation",
+      "locator": "本对话第10篇首轮分析及后续更新",
+      "full_transcript_in_bundle": false,
+      "reverified_original_paper_in_import": false
+    },
+    {
+      "id": "ARCHIVE-RLVR011",
+      "files": [
+        "archive/Case011_NGU_review_bundle.zip",
+        "archive/RLVR011_original_card.md"
+      ],
+      "source_kind": "mounted_prior_conversation_artifact",
+      "read_in_import": true,
+      "executed_in_import": false
+    },
+    {
+      "id": "ARCHIVE-RLVR012",
+      "files": [
+        "archive/Case012_RISE_review_bundle.zip",
+        "archive/RLVR012_original_card.md"
+      ],
+      "source_kind": "mounted_prior_conversation_artifact",
+      "read_in_import": true,
+      "executed_in_import": false
+    },
+    {
+      "id": "ARCHIVE-RLVR013",
+      "files": [
+        "archive/Case013_MFC_review_bundle.zip",
+        "archive/RLVR013_original_card.md"
+      ],
+      "source_kind": "mounted_prior_conversation_artifact",
+      "read_in_import": true,
+      "executed_in_import": false
+    },
+    {
+      "id": "ARCHIVE-RLVR014",
+      "files": [
+        "archive/Case014_IRN_review_bundle.zip",
+        "archive/RLVR014_original_card.md"
+      ],
+      "source_kind": "mounted_prior_conversation_artifact",
+      "read_in_import": true,
+      "executed_in_import": false
+    },
+    {
+      "id": "ARCHIVE-XD14",
+      "kind": "mounted_prior_conversation_artifact",
+      "files": [
+        "archive/Meta_method_Round2_award_papers_v0.1.md"
+      ],
+      "read_in_import": true,
+      "reverified_original_papers_in_import": false
+    }
+  ],
+  "excluded": [
+    "未上传整段私有对话",
+    "未上传MEMORY.md",
+    "未上传其他项目资料",
+    "未上传论文全文/模型权重",
+    "未伪造Case001–010缺失脚本"
+  ],
+  "repository_observations": [
+    {
+      "url": "https://raw.githubusercontent.com/StephCpa/Meta-method/main/data/cases.json",
+      "scope": "legacy 48-case register visible; version field0.3.0; not latest library schema",
+      "used_for": "cross-domain ID hints only"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/StephCpa/Meta-method/main/docs/codebook.md",
+      "scope": "v0.4 roles visible",
+      "used_for": "author/review/proposal distinction"
+    }
+  ]
+}

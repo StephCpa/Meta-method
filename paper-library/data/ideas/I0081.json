@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "id": "I0081",
+  "title": "可撤除指导的构造与选择",
+  "paper_ids": [
+    "P0070"
+  ],
+  "analysis_ids": [
+    "A0084"
+  ],
+  "kind": "research_direction",
+  "question": "哪种帮助不仅立即答对，还能在撤除后学会？",
+  "first_evidence": "提示类型×辅助量×训练时距迁移矩阵。",
+  "decision_branches": [
+    "只训练题有效、简单成功率足够或诊断太贵则停。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "awaiting_data",
+      "reason": "按原记录映射工作状态，不认证科学有效性。只训练题有效、简单成功率足够或诊断太贵则停。"
+    }
+  ],
+  "original_direction_id": "RLVR013-A",
+  "source_work_status": "awaiting_data",
+  "priority": "primary",
+  "proposed_change": "比较中间结果前缀与操作提示的独立迁移效用。",
+  "strong_controls": [
+    "相同起点/预算",
+    "无提示新题",
+    "简单带提示成功率",
+    "两个训练时距"
+  ],
+  "novelty_boundary": "LPPO/SEELE/GradAlign等已有，非通用validation加权。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "id": "A0081",
+  "paper_id": "P0067",
+  "kind": "added_analysis",
+  "analyzed_at": "2026-10-01",
+  "imported_at": "2026-10-01T07:52:51.353185+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": "v1",
+  "summary": "用合成对照激活均值差提供廉价筛查，连接异常发现、复核和新类别验证。",
+  "sections": {
+    "原有局限": "内部可疑概念信号不等于违规、提前预警或净干预收益。",
+    "作者改变了什么": "用合成对照激活均值差提供廉价筛查，连接异常发现、复核和新类别验证。",
+    "新增结果/组合增量": "增加可用发现信号而非找到唯一作弊神经元；发现闭环不是训练安全闭环。",
+    "证据与边界": "历史核对主文、标签/合成数据附录、图8–10与作者说明；无完整复现包、真实轨迹和探针权重。独立控制已做。"
+  },
+  "codings": [
+    {
+      "code": "M7",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "用合成对照激活均值差提供廉价筛查，连接异常发现、复核和新类别验证。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "用合成对照激活均值差提供廉价筛查，连接异常发现、复核和新类别验证。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "用合成对照激活均值差提供廉价筛查，连接异常发现、复核和新类别验证。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M5",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "用合成对照激活均值差提供廉价筛查，连接异常发现、复核和新类别验证。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR010既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR010既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR010既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "note_path": "notes/A0081.md",
+  "note_sha256": "b30b075e2f8947784ee4cb88938c2d15bf23418b72a3d4851ba138c1bdf300f6",
+  "source_refs": [
+    {
+      "source_id": "S0010",
+      "locator": "analysis_markdown"
+    },
+    {
+      "source_id": "SRC-RLVR14-20261001",
+      "locator": "analyses/rlvr/RLVR010.md"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest",
+  "dataset_role": "development",
+  "used_for_framework_development": true,
+  "original_analysis_id": "AN-RLVR010-20261001",
+  "organizing_framework_version": "0.4.0"
+}

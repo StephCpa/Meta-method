@@ -1,0 +1,53 @@
+{
+  "time": "2026-10-01T07:52:51.411895+00:00",
+  "operation": "ingest",
+  "paper_id": "P0070",
+  "analysis_id": "A0084",
+  "before": null,
+  "after": {
+    "schema_version": "1.0",
+    "id": "P0070",
+    "title": "Unlocking the Unsolvable: Teacher-Guided Curriculum for Data-Efficient RLVR",
+    "short_name": "MFC / Unlocking the Unsolvable",
+    "aliases": [
+      "RLVR013",
+      "RLVR/Case013"
+    ],
+    "identifiers": {
+      "arxiv": "2609.13997",
+      "doi": null
+    },
+    "links": [
+      "https://arxiv.org/abs/2609.13997"
+    ],
+    "topics": [
+      "RLVR／后训练"
+    ],
+    "tags": [
+      "development",
+      "rlvr-dialogue-import"
+    ],
+    "reading_status": "v04_detailed_analysis",
+    "metadata_observations": [
+      {
+        "source_id": "S0013",
+        "as_of": "2026-10-01",
+        "title": "Unlocking the Unsolvable: Teacher-Guided Curriculum for Data-Efficient RLVR",
+        "venue": null,
+        "paper_version": "v1",
+        "verification": "as_supplied_not_automatically_verified"
+      }
+    ],
+    "analysis_ids": [
+      "A0084"
+    ],
+    "idea_ids": [
+      "I0081",
+      "I0082"
+    ],
+    "ratings": [],
+    "created_at": "2026-10-01",
+    "updated_at": "2026-10-01",
+    "dataset_role": "development"
+  }
+}

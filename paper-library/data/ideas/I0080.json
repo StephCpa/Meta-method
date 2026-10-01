@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0080",
+  "title": "面向外推作用的压缩",
+  "paper_ids": [
+    "P0069"
+  ],
+  "analysis_ids": [
+    "A0083"
+  ],
+  "kind": "conditional_extension",
+  "question": "高当前概率覆盖是否保留外推会放大的信息？",
+  "first_evidence": "固定真实前缀的完整/折叠教师及更新差异。",
+  "decision_branches": [
+    "实际偏差小、完整teacher更差或新缓存更贵则停。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。实际偏差小、完整teacher更差或新缓存更贵则停。"
+    }
+  ],
+  "original_direction_id": "RLVR012-B",
+  "source_work_status": "calibrated_model_based",
+  "priority": "conditional",
+  "proposed_change": "为非线性外推保存关键分量与可控尾信息。",
+  "strong_controls": [
+    "tail条件分布相同",
+    "流式全词表",
+    "简单增K"
+  ],
+  "novelty_boundary": "原文已承认尾提升，新增须误差控制与系统实现。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

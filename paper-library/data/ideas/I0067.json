@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0067",
+  "title": "停滞诊断与步长决策",
+  "paper_ids": [
+    "P0064"
+  ],
+  "analysis_ids": [
+    "A0078"
+  ],
+  "kind": "conditional_extension",
+  "question": "缺有效组、方向错误与过冲需要哪种行动？",
+  "first_evidence": "有限组/曲率控制及真实决策报告。",
+  "decision_branches": [
+    "不能超越简单控制则不造调度器。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "previous": "candidate",
+      "source_status": "planned",
+      "reason": "按原记录映射工作状态，不认证科学有效性。不能超越简单控制则不造调度器。"
+    }
+  ],
+  "original_direction_id": "RLVR007-C",
+  "source_work_status": "planned",
+  "priority": "conditional",
+  "proposed_change": "对少量预注册步长进行独立分支比较。",
+  "strong_controls": [
+    "简单KL",
+    "验证线搜索",
+    "累计曲线与逐步预测分离"
+  ],
+  "novelty_boundary": "TRPO与概率线搜索已有；保护自适应选择后的确认。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

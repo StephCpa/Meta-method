@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0069",
+  "title": "混源奖励对比与更新",
+  "paper_ids": [
+    "P0065"
+  ],
+  "analysis_ids": [
+    "A0079"
+  ],
+  "kind": "measurement_axis",
+  "question": "小模型带来的是策略还是负例与来源间均值差异？",
+  "first_evidence": "同池来源/策略/组身份/实际更新报告。",
+  "decision_branches": [
+    "简单对比样本足够或仅offpolicy接口错时停止复杂方法。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。简单对比样本足够或仅offpolicy接口错时停止复杂方法。"
+    }
+  ],
+  "original_direction_id": "RLVR008-B",
+  "source_work_status": "calibrated_model_based",
+  "priority": "supporting",
+  "proposed_change": "固定回答池改变分组，分离方差来源。",
+  "strong_controls": [
+    "历史大模型负例",
+    "正确率/长度匹配",
+    "实际behavior概率"
+  ],
+  "novelty_boundary": "单条IS正确不自动使混合组统计on-policy。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

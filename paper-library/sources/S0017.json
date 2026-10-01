@@ -1,0 +1,23 @@
+{
+  "paper_id": "P0035",
+  "title": "Score Matching with Missing Data",
+  "paper_url": "https://arxiv.org/html/2506.00557v1",
+  "arxiv": "2506.00557",
+  "aliases": [
+    "RLVR-XD/A03"
+  ],
+  "topics": [
+    "跨领域"
+  ],
+  "tags": [
+    "rlvr-dialogue-supplement",
+    "development"
+  ],
+  "analyzed_at": "2026-10-01",
+  "framework_version": null,
+  "source_description": "本对话跨领域历史补充；复用已有论文实体，原分析和编码不覆盖，本次未重核奖项/原文。",
+  "summary": "本对话对研究对象、证据终点和Meta-method适用条件的补充记录。",
+  "codings": [],
+  "analysis_markdown": "# XD01｜本对话跨领域补充分析\n\n论文：Score Matching with Missing Data\n\n本对话原编号A03；已有仓库ID提示XD01（按标题/原文链接匹配，不按序号）。\n\n> 本条为合并候选，不新增重复论文实体；已参与框架开发。本次未重核奖项和原文，不覆盖其他分析者编码。\n\n- 会议与奖项：ICML 2025 — Outstanding Paper\n- 问题领域：缺失数据统计推断\n- 候选编码：M2 主；M9/M14 辅\n- 关键研究动作：把缺失机制和边际 score 写入目标，而非只对完整数据方法补丁式插值。主要分析 MCAR；MNAR 扩展有已知缺失机制条件。\n- 对框架的压力测试：不能将作者已声明的扩展当遗漏；观测机制与估计对象必须联动。\n- 阅读/核验深度：摘要、缺失设定、边际目标、MNAR 附录条件\n- 原论文来源：https://arxiv.org/html/2506.00557v1\n- 奖项来源：https://icml.cc/virtual/2025/awards_detail\n\n## 来源与合并规则\n\n逐字字段来自 `archive/Meta_method_Round2_award_papers_v0.1.md` 对应A03节。候选码为历史分析，不是本次独立作者编码。原始框架压力测试作为复核记录保存；未在本轮凭空扩写新的后续项目。\n",
+  "ideas": []
+}

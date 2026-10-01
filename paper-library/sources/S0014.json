@@ -1,0 +1,98 @@
+{
+  "title": "The Misery of Mechanistic Interpretability: A Formal Perspective",
+  "short_name": "IRN Formal Perspective",
+  "paper_url": "https://arxiv.org/abs/2609.15533",
+  "arxiv": "2609.15533",
+  "aliases": [
+    "RLVR014",
+    "RLVR/Case014"
+  ],
+  "topics": [
+    "RLVR／后训练"
+  ],
+  "tags": [
+    "development",
+    "rlvr-dialogue-import"
+  ],
+  "analyzed_at": "2026-10-01",
+  "framework_version": "0.4.0",
+  "paper_version": "v1",
+  "source_description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。原始贡献卡/三类标准库校准与manifest可获得；历史读主文/附录关键PDF，未作者实验、Lean机验或真实LLM。",
+  "summary": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。",
+  "sections": {
+    "原有局限": "平均替代重构不足以支持明确输入域的忠实性保证，宽字典验证代价高。",
+    "作者改变了什么": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。",
+    "新增结果/组合增量": "形式契约与可执行验证工具是合法贡献，不必先证明提高RLVR成绩。",
+    "证据与边界": "原始贡献卡/三类标准库校准与manifest可获得；历史读主文/附录关键PDF，未作者实验、Lean机验或真实LLM。"
+  },
+  "codings": [
+    {
+      "code": "M11",
+      "role": "author",
+      "anchor": "Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9",
+      "rationale": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "author",
+      "anchor": "Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9",
+      "rationale": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9",
+      "rationale": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9",
+      "rationale": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR014既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR014既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR014既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "analysis_markdown": "# RLVR014｜The Misery of Mechanistic Interpretability: A Formal Perspective\n\n原编号：Case014；命名空间：本对话 RLVR／后训练（不与 MAS 同号记录混用）。\n\n论文：https://arxiv.org/abs/2609.15533\n\n历史阅读版本：v1。整理日期：2026-10-01。\n\n> 本文是既有对话的收敛整理，不是新一轮论文全文核验，也不是逐字原始对话。所有候选均属 development；不可用于宣称未见领域有效性。\n\n## 1. 作者贡献形成（分析者赋码，author 角色）\n\n**机会／限制：**平均替代重构不足以支持明确输入域的忠实性保证，宽字典验证代价高。\n\n**作者改变：**以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。\n\n**新增结果的解释：**形式契约与可执行验证工具是合法贡献，不必先证明提高RLVR成绩。\n\n**候选作者码：**M11, M9, M3, M1。**审查码：**M14, M9, M10。不得混计。\n\n**原文定位状态：**Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9\n\n## 2. 当前证据与工作状态\n\n原始贡献卡/三类标准库校准与manifest可获得；历史读主文/附录关键PDF，未作者实验、Lean机验或真实LLM。\n\n## 3. 已讨论的关键结果（按原证据层级保留）\n\n- 同l∞残差.02可对查询产生2或0误差，支持按预声明查询直接认证的候选。\n\n- B3边际topK条件在共享域是充分非必要；z1=h+2,z2=h+1排名恒定但边际区间不认证，不否定sound正证书。\n\n- (0,0),(1,1)凸线段上ReLU(h1−h2)=0，盒[0,1]²最大1，为域扩大非solver误差或真实文本攻击。\n\n- 表6小/大半径收益并不相同，不泛化单个改善；原文已承认组合验证未实现与faithful≠complete。\n\n## 4. 最新修订与禁止升级的表述\n\n- 局部计算证书不自动证明语义标签/因果解释/系统安全。\n\n- 未知、找到反例与证明成立分开；明确反例的域与可达性。\n\n- 作者称有Lean/代码不等于本会话已机验。\n\n## 5. 研究方向池\n\n### RLVR014-A｜面向查询与计算干预的局部证书\n\n类型：`research_direction`；优先级：`primary`；状态：`calibrated_model_based`。\n\n**问题：**替代关系能为哪个预先定义的判断提供可计算保证？\n\n**具体变换：**直接认证Q(T)−Q(R)，覆盖对齐干预后的域。\n\n**首个产物：**单层IRN、固定查询的VERIFIED/VIOLATED/UNKNOWN工具。\n\n**强对照：**统一误差×敏感度；直接差分；同域同预算。\n\n**停止／改写：**粗界足够、新工具更贵或只缩域获益时收窄。\n\n**新颖性边界：**ReluDiff/end-to-end SAE/causal abstraction/抽象细化已有。\n\n### RLVR014-B｜共享关系保留的证书细化\n\n类型：`conditional_extension`；优先级：`conditional`；状态：`calibrated_model_based`。\n\n**问题：**验证失败是对象错误还是丢掉共同变量关系？\n\n**具体变换：**先做差保留抵消，仅细化未决topK竞争关系。\n\n**首个产物：**不重训的关系证书增强器。\n\n**强对照：**恒定排名/真翻转；平局与门控规则；通用verifier。\n\n**停止／改写：**仅改iff→if或通用工具已足够则审计结束。\n\n**新颖性边界：**pairwise与仿射差分不是新定理，新增需宽字典规模与实际可证性。\n\n## 6. 来源与复用\n\n本条来源标识：`ARCHIVE-RLVR014`。原论文链接是查核入口，不表示本次新增核验。\n\n本包 `archive/` 保留对应原始分析卡与校准 ZIP 的逐字副本；旧日期、旧“本轮运行”表述均属于历史记录。本次没有将历史脚本运行声明改称本次新实验。\n\n同一论文可有多个分析版本，但按 canonical key 只算一个论文实体。不得用本次导入增加独立验证样本计数。\n",
+  "ideas": [
+    {
+      "title": "面向查询与计算干预的局部证书",
+      "question": "替代关系能为哪个预先定义的判断提供可计算保证？",
+      "first_evidence": "单层IRN、固定查询的VERIFIED/VIOLATED/UNKNOWN工具。",
+      "decision_branches": [
+        "粗界足够、新工具更贵或只缩域获益时收窄。"
+      ]
+    },
+    {
+      "title": "共享关系保留的证书细化",
+      "question": "验证失败是对象错误还是丢掉共同变量关系？",
+      "first_evidence": "不重训的关系证书增强器。",
+      "decision_branches": [
+        "仅改iff→if或通用工具已足够则审计结束。"
+      ]
+    }
+  ]
+}

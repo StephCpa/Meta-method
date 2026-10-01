@@ -1,0 +1,55 @@
+{
+  "time": "2026-10-01T07:52:51.185464+00:00",
+  "operation": "ingest",
+  "paper_id": "P0059",
+  "analysis_id": "A0073",
+  "before": null,
+  "after": {
+    "schema_version": "1.0",
+    "id": "P0059",
+    "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+    "short_name": "Rufus-Air",
+    "aliases": [
+      "RLVR002",
+      "RLVR/Case002"
+    ],
+    "identifiers": {
+      "arxiv": "2609.29421",
+      "doi": null
+    },
+    "links": [
+      "https://arxiv.org/abs/2609.29421"
+    ],
+    "topics": [
+      "RLVR／后训练"
+    ],
+    "tags": [
+      "development",
+      "rlvr-dialogue-import"
+    ],
+    "reading_status": "brief_analysis",
+    "metadata_observations": [
+      {
+        "source_id": "S0002",
+        "as_of": "2026-10-01",
+        "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+        "venue": null,
+        "paper_version": "v2",
+        "verification": "as_supplied_not_automatically_verified"
+      }
+    ],
+    "analysis_ids": [
+      "A0073"
+    ],
+    "idea_ids": [
+      "I0048",
+      "I0049",
+      "I0050",
+      "I0051"
+    ],
+    "ratings": [],
+    "created_at": "2026-10-01",
+    "updated_at": "2026-10-01",
+    "dataset_role": "development"
+  }
+}

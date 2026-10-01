@@ -4,21 +4,25 @@
   "title": "Conformal Prediction as Bayesian Quadrature",
   "short_name": "Conformal Prediction as Bayesian Quadrature",
   "aliases": [
-    "XD02"
+    "XD02",
+    "RLVR-XD/A04"
   ],
   "identifiers": {
     "arxiv": "2502.13228",
     "doi": null
   },
   "links": [
-    "https://arxiv.org/abs/2502.13228"
+    "https://arxiv.org/abs/2502.13228",
+    "https://arxiv.org/html/2502.13228v2"
   ],
   "topics": [
     "跨领域"
   ],
   "tags": [
     "跨领域",
-    "theory"
+    "theory",
+    "rlvr-dialogue-supplement",
+    "development"
   ],
   "reading_status": "author_move_analysis",
   "metadata_observations": [
@@ -28,16 +32,25 @@
       "title": "Conformal Prediction as Bayesian Quadrature",
       "venue": "ICML 2025 Outstanding",
       "verification": "inherited_not_reverified"
+    },
+    {
+      "source_id": "S0018",
+      "as_of": "2026-10-01",
+      "title": "Conformal Prediction as Bayesian Quadrature",
+      "venue": null,
+      "paper_version": null,
+      "verification": "as_supplied_not_automatically_verified"
     }
   ],
   "analysis_ids": [
-    "A0049"
+    "A0049",
+    "A0089"
   ],
   "idea_ids": [
     "I0028"
   ],
   "ratings": [],
   "created_at": "2026-09-30",
-  "updated_at": "2026-09-30",
+  "updated_at": "2026-10-01",
   "dataset_role": "development"
 }

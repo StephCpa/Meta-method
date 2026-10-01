@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0083",
+  "title": "面向查询与计算干预的局部证书",
+  "paper_ids": [
+    "P0071"
+  ],
+  "analysis_ids": [
+    "A0085"
+  ],
+  "kind": "research_direction",
+  "question": "替代关系能为哪个预先定义的判断提供可计算保证？",
+  "first_evidence": "单层IRN、固定查询的VERIFIED/VIOLATED/UNKNOWN工具。",
+  "decision_branches": [
+    "粗界足够、新工具更贵或只缩域获益时收窄。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。粗界足够、新工具更贵或只缩域获益时收窄。"
+    }
+  ],
+  "original_direction_id": "RLVR014-A",
+  "source_work_status": "calibrated_model_based",
+  "priority": "primary",
+  "proposed_change": "直接认证Q(T)−Q(R)，覆盖对齐干预后的域。",
+  "strong_controls": [
+    "统一误差×敏感度",
+    "直接差分",
+    "同域同预算"
+  ],
+  "novelty_boundary": "ReluDiff/end-to-end SAE/causal abstraction/抽象细化已有。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

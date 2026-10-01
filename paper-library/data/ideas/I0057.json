@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0057",
+  "title": "动作与环境信息信用",
+  "paper_ids": [
+    "P0061"
+  ],
+  "analysis_ids": [
+    "A0075"
+  ],
+  "kind": "conditional_extension",
+  "question": "信用能量中有多少对应可优化动作差异，有多少只是观察揭示？",
+  "first_evidence": "随机环境的分量方差和更新方差报告。",
+  "decision_branches": [
+    "环境项小或采样成本过高时停。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。环境项小或采样成本过高时停。"
+    }
+  ],
+  "original_direction_id": "RLVR004-C",
+  "source_work_status": "calibrated_model_based",
+  "priority": "conditional",
+  "proposed_change": "固定动作重复环境与改变动作分开。",
+  "strong_controls": [
+    "动作无关硬币",
+    "环境状态一致",
+    "确定性环境对照"
+  ],
+  "novelty_boundary": "分解为标准条件期望关系，不当新定理或因果token计数。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

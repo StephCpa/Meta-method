@@ -1,0 +1,9 @@
+{
+  "id": "SRC-RLVR14-20261001",
+  "kind": "conversation_import_manifest",
+  "path": "sources/rlvr14-20261001-original/TEXT-MANIFEST.json",
+  "sha256": "2cff3922f8c7ee6d3350bec3cdbc8ede54861a01950fef295b47956af28923d7",
+  "description": "本对话RLVR001–014及XD补充的原始文本快照；历史报告不等于本次新核验。",
+  "imported_at": "2026-10-01T07:52:51.156999+00:00",
+  "reverified_in_library_build": false
+}

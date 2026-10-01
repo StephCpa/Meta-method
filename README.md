@@ -23,7 +23,7 @@ v0.4.0 保留 v0.3.1 的五层结构、M1–M14 和审计工具，但不再让�
 
 [**浏览论文库**](paper-library/README.md) · [论文索引](paper-library/INDEX.md) · [研究方向池](paper-library/IDEAS.md) · [新增与复读](paper-library/ADDING.md)
 
-独立内容库保存论文分析、后续方向和潜力历史，不收录原论文。当前为57篇去重论文、71份分析／补充记录、44条方向或迁移提问；阅读深度与来源边界分别保留。与框架版本独立维护，使用后按 `paper-library/ADDING.md` 追加记录。交互页面需下载后打开 `paper-library/index.html`，GitHub源码页不会直接运行HTML。
+独立内容库保存论文分析、后续方向和潜力历史，不收录原论文。当前为71篇去重论文、99份分析／补充记录、84条方向、观察轴或迁移提问；阅读深度与来源边界分别保留。与框架版本独立维护，使用后按 `paper-library/ADDING.md` 追加记录。交互页面需下载后打开 `paper-library/index.html`，GitHub源码页不会直接运行HTML。
 
 ## 已入库的具体增量
 

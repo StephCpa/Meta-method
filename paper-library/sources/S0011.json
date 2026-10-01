@@ -1,0 +1,90 @@
+{
+  "title": "Learning to Solve Hard Problems in RL for LLMs by Never Giving Up",
+  "short_name": "NGU",
+  "paper_url": "https://arxiv.org/abs/2609.13443",
+  "arxiv": "2609.13443",
+  "aliases": [
+    "RLVR011",
+    "RLVR/Case011"
+  ],
+  "topics": [
+    "RLVR／后训练"
+  ],
+  "tags": [
+    "development",
+    "rlvr-dialogue-import"
+  ],
+  "analyzed_at": "2026-10-01",
+  "framework_version": null,
+  "paper_version": "v1",
+  "source_description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。原始贡献卡和3文件校准包本次可获得并归档，历史已核论文/附录/部分代码；未运行作者训练，无真实模型结果。",
+  "summary": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。",
+  "sections": {
+    "原有局限": "固定组采样未按题目与时间分配学习机会，异步重试又引入历史与陈旧性。",
+    "作者改变了什么": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。",
+    "新增结果/组合增量": "结果依赖采样成为算法的一部分；不是无限坚持，也不只增加K。",
+    "证据与边界": "原始贡献卡和3文件校准包本次可获得并归档，历史已核论文/附录/部分代码；未运行作者训练，无真实模型结果。"
+  },
+  "codings": [
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本",
+      "rationale": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本",
+      "rationale": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M5",
+      "role": "author",
+      "anchor": "§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本",
+      "rationale": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M8",
+      "role": "author",
+      "anchor": "§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本",
+      "rationale": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR011既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR011既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR011既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "analysis_markdown": "# RLVR011｜Learning to Solve Hard Problems in RL for LLMs by Never Giving Up\n\n原编号：Case011；命名空间：本对话 RLVR／后训练（不与 MAS 同号记录混用）。\n\n论文：https://arxiv.org/abs/2609.13443\n\n历史阅读版本：v1。整理日期：2026-10-01。\n\n> 本文是既有对话的收敛整理，不是新一轮论文全文核验，也不是逐字原始对话。所有候选均属 development；不可用于宣称未见领域有效性。\n\n## 1. 作者贡献形成（分析者赋码，author 角色）\n\n**机会／限制：**固定组采样未按题目与时间分配学习机会，异步重试又引入历史与陈旧性。\n\n**作者改变：**全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。\n\n**新增结果的解释：**结果依赖采样成为算法的一部分；不是无限坚持，也不只增加K。\n\n**候选作者码：**M3, M1, M5, M8。**审查码：**M14, M9, M10。不得混计。\n\n**原文定位状态：**§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本\n\n## 2. 当前证据与工作状态\n\n原始贡献卡和3文件校准包本次可获得并归档，历史已核论文/附录/部分代码；未运行作者训练，无真实模型结果。\n\n## 3. 已讨论的关键结果（按原证据层级保留）\n\n- 冻结iid单题E C=K/(1−alpha f)、命中S=(1−f)/(1−alpha f)，比值与alpha无关；不否定跨题异步学习。\n\n- 二值/旧丢弃全0等条件下anchor=gamma×freshCentered，84组精确检验；不是独立算法对照。\n\n- 多级构造保留[1,.75,.5,0]加历史96零，可使最低奖励优势变正，需核真实flags/频率。\n\n- 中心化非标准差GRPO；论文与公开启动参数差异需实际manifest，不直接指控结果。\n\n## 4. 最新修订与禁止升级的表述\n\n- 原文已有K、异步、历史年龄、基线及课程对照。\n\n- Reinforce-Ada最新版本/MaxRL/GRESO覆盖近邻；不以采样改变目标作首创新意。\n\n## 5. 研究方向池\n\n### RLVR011-A｜结果依赖采样与历史权重作用分离\n\n类型：`research_direction`；优先级：`primary`；状态：`calibrated_model_based`。\n\n**问题：**继续尝试是得到新有用信号，还是重加权题目？\n\n**具体变换：**固定流与保留组拆分采样选择、历史缩放和策略年龄。\n\n**首个产物：**真实完整重试流与优势/成本记录。\n\n**强对照：**fixedK；fresh-centered；二值gamma等价控制；简单优先采样。\n\n**停止／改写：**简单权重解释则收敛；接口bug先修；信息不足不宣布无效。\n\n**新颖性边界：**需要异步停止、历史统计与实际更新交互，非通用多采难题。\n\n## 6. 来源与复用\n\n本条来源标识：`ARCHIVE-RLVR011`。原论文链接是查核入口，不表示本次新增核验。\n\n本包 `archive/` 保留对应原始分析卡与校准 ZIP 的逐字副本；旧日期、旧“本轮运行”表述均属于历史记录。本次没有将历史脚本运行声明改称本次新实验。\n\n同一论文可有多个分析版本，但按 canonical key 只算一个论文实体。不得用本次导入增加独立验证样本计数。\n",
+  "ideas": [
+    {
+      "title": "结果依赖采样与历史权重作用分离",
+      "question": "继续尝试是得到新有用信号，还是重加权题目？",
+      "first_evidence": "真实完整重试流与优势/成本记录。",
+      "decision_branches": [
+        "简单权重解释则收敛；接口bug先修；信息不足不宣布无效。"
+      ]
+    }
+  ]
+}

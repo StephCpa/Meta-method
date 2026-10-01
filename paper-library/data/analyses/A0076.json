@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "id": "A0076",
+  "paper_id": "P0062",
+  "kind": "added_analysis",
+  "analyzed_at": "2026-10-01",
+  "imported_at": "2026-10-01T07:52:51.251332+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+  "sections": {
+    "原有局限": "权重谱变化的观察需要连接功能约束与实际资源；合并坐标可能敏感。",
+    "作者改变了什么": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+    "新增结果/组合增量": "从描述谱变化到干预与执行能力；不能将谱变动小直接解释为无功能作用。",
+    "证据与边界": "历史分析核对原文与Merger代码并报告两项小矩阵校准；未真实权重审计或训练。Optimizer曾因实现问题重跑，当前材料状态未重新核验。"
+  },
+  "codings": [
+    {
+      "code": "M2",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M12",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR005既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR005既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR005既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "note_path": "notes/A0076.md",
+  "note_sha256": "709dd5caef0da10e46b9d14baa7991c43e2d048e53bbcc16a7ee64541714ed84",
+  "source_refs": [
+    {
+      "source_id": "S0005",
+      "locator": "analysis_markdown"
+    },
+    {
+      "source_id": "SRC-RLVR14-20261001",
+      "locator": "analyses/rlvr/RLVR005.md"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest",
+  "dataset_role": "development",
+  "used_for_framework_development": true,
+  "original_analysis_id": "AN-RLVR005-20261001",
+  "organizing_framework_version": "0.4.0"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "id": "A0082",
+  "paper_id": "P0068",
+  "kind": "added_analysis",
+  "analyzed_at": "2026-10-01",
+  "imported_at": "2026-10-01T07:52:51.374074+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": "v1",
+  "summary": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。",
+  "sections": {
+    "原有局限": "固定组采样未按题目与时间分配学习机会，异步重试又引入历史与陈旧性。",
+    "作者改变了什么": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。",
+    "新增结果/组合增量": "结果依赖采样成为算法的一部分；不是无限坚持，也不只增加K。",
+    "证据与边界": "原始贡献卡和3文件校准包本次可获得并归档，历史已核论文/附录/部分代码；未运行作者训练，无真实模型结果。"
+  },
+  "codings": [
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本",
+      "rationale": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本",
+      "rationale": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M5",
+      "role": "author",
+      "anchor": "§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本",
+      "rationale": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M8",
+      "role": "author",
+      "anchor": "§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本",
+      "rationale": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR011既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR011既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR011既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "note_path": "notes/A0082.md",
+  "note_sha256": "455732eae6a2fb6290964aa176c4f44e1ee09c295d1d6bcf1614aa58924443d7",
+  "source_refs": [
+    {
+      "source_id": "S0011",
+      "locator": "analysis_markdown"
+    },
+    {
+      "source_id": "SRC-RLVR14-20261001",
+      "locator": "analyses/rlvr/RLVR011.md"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest",
+  "dataset_role": "development",
+  "used_for_framework_development": true,
+  "original_analysis_id": "AN-RLVR011-20261001",
+  "organizing_framework_version": "0.4.0"
+}

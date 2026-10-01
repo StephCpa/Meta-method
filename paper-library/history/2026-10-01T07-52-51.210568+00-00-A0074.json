@@ -1,0 +1,54 @@
+{
+  "time": "2026-10-01T07:52:51.210568+00:00",
+  "operation": "ingest",
+  "paper_id": "P0060",
+  "analysis_id": "A0074",
+  "before": null,
+  "after": {
+    "schema_version": "1.0",
+    "id": "P0060",
+    "title": "TAME: Targeted Anti-obfuscation with Mechanistic Enforcement",
+    "short_name": "TAME",
+    "aliases": [
+      "RLVR003",
+      "RLVR/Case003"
+    ],
+    "identifiers": {
+      "arxiv": "2609.24243",
+      "doi": null
+    },
+    "links": [
+      "https://arxiv.org/abs/2609.24243"
+    ],
+    "topics": [
+      "RLVR／后训练"
+    ],
+    "tags": [
+      "development",
+      "rlvr-dialogue-import"
+    ],
+    "reading_status": "brief_analysis",
+    "metadata_observations": [
+      {
+        "source_id": "S0003",
+        "as_of": "2026-10-01",
+        "title": "TAME: Targeted Anti-obfuscation with Mechanistic Enforcement",
+        "venue": null,
+        "paper_version": "v1",
+        "verification": "as_supplied_not_automatically_verified"
+      }
+    ],
+    "analysis_ids": [
+      "A0074"
+    ],
+    "idea_ids": [
+      "I0052",
+      "I0053",
+      "I0054"
+    ],
+    "ratings": [],
+    "created_at": "2026-10-01",
+    "updated_at": "2026-10-01",
+    "dataset_role": "development"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0054",
+  "title": "监控信息边界与监督效用",
+  "paper_ids": [
+    "P0060"
+  ],
+  "analysis_ids": [
+    "A0074"
+  ],
+  "kind": "measurement_axis",
+  "question": "CoT带来多少额外判别信息，哪些失败来自缺失视觉输入？",
+  "first_evidence": "无CoT/有CoT/必要视觉信息的固定轨迹交叉表。",
+  "decision_branches": [
+    "各指标无实质分离时不另造指标。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。各指标无实质分离时不另造指标。"
+    }
+  ],
+  "original_direction_id": "RLVR003-C",
+  "source_work_status": "calibrated_model_based",
+  "priority": "supporting",
+  "proposed_change": "分开证据质量、可判别性与增加CoT的边际监督价值。",
+  "strong_controls": [
+    "已知不可辨1/4控制",
+    "独立事实核验",
+    "共同盲区抽查"
+  ],
+  "novelty_boundary": "轮换监控器不补足根本不存在的输入信息。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

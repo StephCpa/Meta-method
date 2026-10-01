@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "id": "I0058",
+  "title": "奖励幅度语义与组大小的目标对齐",
+  "paper_ids": [
+    "P0061"
+  ],
+  "analysis_ids": [
+    "A0075"
+  ],
+  "kind": "measurement_axis",
+  "question": "标准化保留排序还是效用间距，这与目标任务一致吗？",
+  "first_evidence": "真实多级可验证奖励的同池分组、独立方向和短程效用报告。",
+  "decision_branches": [
+    "若实际m下差异消失或简单基线足够则结束。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。若实际m下差异消失或简单基线足够则结束。"
+    }
+  ],
+  "original_direction_id": "RLVR004-D",
+  "source_work_status": "calibrated_model_based",
+  "priority": "supporting",
+  "proposed_change": "区分原均值奖励与冻结参照净胜率，不预设排序化有害。",
+  "strong_controls": [
+    "RLOO/修正centered",
+    "no-std",
+    "冻结公共正尺度",
+    "不同m和epsilon"
+  ],
+  "novelty_boundary": "GDPO/Dr.GRPO及rank-based优化已覆盖基础现象；m2排序解释不普遍推广至任意m。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

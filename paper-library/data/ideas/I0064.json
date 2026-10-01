@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "id": "I0064",
+  "title": "有害抖动与必要纠错",
+  "paper_ids": [
+    "P0063"
+  ],
+  "analysis_ids": [
+    "A0077"
+  ],
+  "kind": "conditional_extension",
+  "question": "No-Flip怎样区分噪声和正确回头？",
+  "first_evidence": "已知环境三类反转与独立收益。",
+  "decision_branches": [
+    "复杂门控无额外收益则保留简单约束。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "previous": "candidate",
+      "source_status": "planned",
+      "reason": "按原记录映射工作状态，不认证科学有效性。复杂门控无额外收益则保留简单约束。"
+    }
+  ],
+  "original_direction_id": "RLVR006-C",
+  "source_work_status": "planned",
+  "priority": "conditional",
+  "proposed_change": "固定目标/过冲/目标变化分开，检验稳定约束与探索补偿。",
+  "strong_controls": [
+    "实际KL匹配",
+    "无/有稳定×无/有新颖性"
+  ],
+  "novelty_boundary": "policy churn及共享目标干扰已有研究。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

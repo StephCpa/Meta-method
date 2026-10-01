@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "id": "A0080",
+  "paper_id": "P0066",
+  "kind": "added_analysis",
+  "analyzed_at": "2026-10-01",
+  "imported_at": "2026-10-01T07:52:51.332732+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": "v2",
+  "summary": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。",
+  "sections": {
+    "原有局限": "平均曲线与确定映射不足以描述跨prompt训练异质性及可识别范围。",
+    "作者改变了什么": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。",
+    "新增结果/组合增量": "从视觉交叉改为可统计支持的预算区间；条件核不是NTK、训练seed分布或自动Markov状态。",
+    "证据与边界": "历史核对v2核心推断与附录，四个精确构造；未取得作者完整补充包或真实计数分析。"
+  },
+  "codings": [
+    {
+      "code": "M7",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR009既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR009既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR009既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "note_path": "notes/A0080.md",
+  "note_sha256": "15ea5e197be7814de115aa4ec640f2554b4937f32830c8f93a2693a66f80678b",
+  "source_refs": [
+    {
+      "source_id": "S0009",
+      "locator": "analysis_markdown"
+    },
+    {
+      "source_id": "SRC-RLVR14-20261001",
+      "locator": "analyses/rlvr/RLVR009.md"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest",
+  "dataset_role": "development",
+  "used_for_framework_development": true,
+  "original_analysis_id": "AN-RLVR009-20261001",
+  "organizing_framework_version": "0.4.0"
+}

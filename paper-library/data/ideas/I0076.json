@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "id": "I0076",
+  "title": "规则相对的违规与话题信号",
+  "paper_ids": [
+    "P0067"
+  ],
+  "analysis_ids": [
+    "A0081"
+  ],
+  "kind": "measurement_axis",
+  "question": "probe识别话题、违约关系还是未来行动？",
+  "first_evidence": "规则×动作×阶段构造与独立行为核验。",
+  "decision_branches": [
+    "若已通过或仅模板错误则结束。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。若已通过或仅模板错误则结束。"
+    }
+  ],
+  "original_direction_id": "RLVR010-B",
+  "source_work_status": "calibrated_model_based",
+  "priority": "supporting",
+  "proposed_change": "相同动作改变合法授权，分开讨论/拒绝/尝试/实施。",
+  "strong_controls": [
+    "XOR零/交互非零",
+    "语义内容匹配"
+  ],
+  "novelty_boundary": "context-calibrated risk已有，非简单加上下文。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

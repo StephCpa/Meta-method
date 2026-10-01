@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "id": "I0075",
+  "title": "从内部检测到可行动预警",
+  "paper_ids": [
+    "P0067"
+  ],
+  "analysis_ids": [
+    "A0081"
+  ],
+  "kind": "research_direction",
+  "question": "报警能否在动作前、以可承受误停代价改善正确安全完成？",
+  "first_evidence": "单模型确定规则环境的影子监控与事件时间账本。",
+  "decision_branches": [
+    "无足够提前量或净收益不优于简单监控则停。"
+  ],
+  "status": "paused",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "paused",
+      "previous": "candidate",
+      "source_status": "awaiting_materials",
+      "reason": "按原记录映射工作状态，不认证科学有效性。无足够提前量或净收益不优于简单监控则停。"
+    }
+  ],
+  "original_direction_id": "RLVR010-A",
+  "source_work_status": "awaiting_materials",
+  "priority": "primary",
+  "proposed_change": "定义无前视首次报警、延迟与净效用。",
+  "strong_controls": [
+    "文本监控",
+    "同AUC异时间",
+    "误停与任务成功",
+    "沙盒分支"
+  ],
+  "novelty_boundary": "未来行为预测已有近邻，需在线约束与净收益。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

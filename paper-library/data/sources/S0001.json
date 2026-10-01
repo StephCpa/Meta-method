@@ -1,0 +1,9 @@
+{
+  "id": "S0001",
+  "kind": "user_supplied_analysis",
+  "path": "sources/S0001.json",
+  "sha256": "d0869dbfb11e601675dedfec68ea4f6e674a4af78c6d3ef714cbfe662d3a0a77",
+  "description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。用户报告校准harness、L1/L2/L3、ICC与(D_A,coverage)管线已完成，并做HealthBench公开数据彩排；同一冻结policy的自采样条目级交叉判定尚缺。未见本地原脚本和原始日志。",
+  "imported_at": "2026-10-01T07:52:51.166853+00:00",
+  "reverified_in_library_build": false
+}

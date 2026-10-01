@@ -1,0 +1,9 @@
+{
+  "id": "S0002",
+  "kind": "user_supplied_analysis",
+  "path": "sources/S0002.json",
+  "sha256": "cacfaba92c80d1fdd8b47df516077aae7c4af9d9de32d30892cd2297689fc352",
+  "description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。用户报告Protocol A/B的model-based校准已可复现；Protocol B新增本地1.5B直接上下文真实生成576条。原始轨迹/提示/脚本未提供，本次只能归档报告与后续口径修正。直接上下文的新增训练干预线停止；单次主动取证迁移检查仅为建议、未执行。",
+  "imported_at": "2026-10-01T07:52:51.185464+00:00",
+  "reverified_in_library_build": false
+}

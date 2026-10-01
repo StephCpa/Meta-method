@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "id": "A0072",
+  "paper_id": "P0058",
+  "kind": "added_analysis",
+  "analyzed_at": "2026-10-01",
+  "imported_at": "2026-10-01T07:52:51.166853+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。",
+  "sections": {
+    "原有局限": "静态标签一致性与训练后策略收益不完全对应，需确定哪些验证错误改变学习信号。",
+    "作者改变了什么": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。",
+    "新增结果/组合增量": "把判得对与教得好分开；仅凭静态准确率不足以立论，需落实到带权rubric与组内接口。",
+    "证据与边界": "用户报告校准harness、L1/L2/L3、ICC与(D_A,coverage)管线已完成，并做HealthBench公开数据彩排；同一冻结policy的自采样条目级交叉判定尚缺。未见本地原脚本和原始日志。"
+  },
+  "codings": [
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M7",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR001既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR001既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR001既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "note_path": "notes/A0072.md",
+  "note_sha256": "0b480dd3eab6f0e852b1aa52821348441fd17f41b8560f940be89a3e898ebdca",
+  "source_refs": [
+    {
+      "source_id": "S0001",
+      "locator": "analysis_markdown"
+    },
+    {
+      "source_id": "SRC-RLVR14-20261001",
+      "locator": "analyses/rlvr/RLVR001.md"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest",
+  "dataset_role": "development",
+  "used_for_framework_development": true,
+  "original_analysis_id": "AN-RLVR001-20261001",
+  "organizing_framework_version": "0.4.0"
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "id": "A0078",
+  "paper_id": "P0064",
+  "kind": "added_analysis",
+  "analyzed_at": "2026-10-01",
+  "imported_at": "2026-10-01T07:52:51.290762+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": "v4",
+  "summary": "用成功/失败条件score之差刻画方向，并在条件下联系步长与成功概率改善。",
+  "sections": {
+    "原有局限": "梯度小、训练停滞可能来自稀有成功、错误方向或有限步过冲。",
+    "作者改变了什么": "用成功/失败条件score之差刻画方向，并在条件下联系步长与成功概率改善。",
+    "新增结果/组合增量": "新理论参照允许区分方向与步长；不等于每模型具有已知精确阈值。",
+    "证据与边界": "历史已核v4定理与附录，并做低维精确构造；未完整协议或真实LLM更新测量。"
+  },
+  "codings": [
+    {
+      "code": "M9",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "用成功/失败条件score之差刻画方向，并在条件下联系步长与成功概率改善。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M7",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "用成功/失败条件score之差刻画方向，并在条件下联系步长与成功概率改善。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M11",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "用成功/失败条件score之差刻画方向，并在条件下联系步长与成功概率改善。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR007既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR007既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR007既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "note_path": "notes/A0078.md",
+  "note_sha256": "7869425c5ce5716c975f10b41fe4051094db982693faace2f97fcfa5ab782cb8",
+  "source_refs": [
+    {
+      "source_id": "S0007",
+      "locator": "analysis_markdown"
+    },
+    {
+      "source_id": "SRC-RLVR14-20261001",
+      "locator": "analyses/rlvr/RLVR007.md"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest",
+  "dataset_role": "development",
+  "used_for_framework_development": true,
+  "original_analysis_id": "AN-RLVR007-20261001",
+  "organizing_framework_version": "0.4.0"
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "P0065",
+  "title": "Smaller Models are Natural Explorers for Policy-Level Diversity in GRPO",
+  "short_name": "S2L-PO",
+  "aliases": [
+    "RLVR008",
+    "RLVR/Case008"
+  ],
+  "identifiers": {
+    "arxiv": "2605.30789",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2605.30789"
+  ],
+  "topics": [
+    "RLVR／后训练"
+  ],
+  "tags": [
+    "development",
+    "rlvr-dialogue-import"
+  ],
+  "reading_status": "inherited_conversation_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S0008",
+      "as_of": "2026-10-01",
+      "title": "Smaller Models are Natural Explorers for Policy-Level Diversity in GRPO",
+      "venue": null,
+      "paper_version": "v3",
+      "verification": "as_supplied_not_automatically_verified"
+    }
+  ],
+  "analysis_ids": [
+    "A0079"
+  ],
+  "idea_ids": [
+    "I0068",
+    "I0069",
+    "I0070",
+    "I0071"
+  ],
+  "ratings": [
+    {
+      "date": "2026-10-01",
+      "recorded_at": "2026-10-01T07:52:51.319593+00:00",
+      "score": 8.0,
+      "scale": 10,
+      "scope": "paper_main_followup",
+      "reason": "历史主观后续潜力档位，非论文质量/接收概率；不是最新实验后的再评分；来源：本对话十篇汇总评分",
+      "assessor": "ChatGPT，本对话历史主线评价；导入未重评",
+      "not_paper_quality": true,
+      "historical_import": true,
+      "original_assessment_date": null,
+      "date_semantics": "import_date_not_new_assessment",
+      "source_id": "SRC-RLVR14-20261001"
+    }
+  ],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "dataset_role": "development",
+  "legacy_case_namespace": "rlvr_post_training_dialogue",
+  "legacy_case_id": "Case008",
+  "source_current_state": "历史核对v3、关键表/附录、公开eval与最终权重入口；未取得完整训练器或真实策略标签。已有四类数学控制。",
+  "used_for_framework_development": true
+}

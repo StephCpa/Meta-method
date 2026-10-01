@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "id": "A0077",
+  "paper_id": "P0063",
+  "kind": "added_analysis",
+  "analyzed_at": "2026-10-01",
+  "imported_at": "2026-10-01T07:52:51.270839+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "公开概述为CKA critic约束、No-Flip actor约束与KDE advantage shaping；全文公式未完整取得。",
+  "sections": {
+    "原有局限": "critic表示同时承担估值、稳定参照与探索密度空间，可能具有不同有效性条件。",
+    "作者改变了什么": "公开概述为CKA critic约束、No-Flip actor约束与KDE advantage shaping；全文公式未完整取得。",
+    "新增结果/组合增量": "诊断—约束—探索的组合是否有共享机制，仍需原文核查，不能依摘要宣布漏洞。",
+    "证据与边界": "仅核对官方摘要、作者单位方法说明及代码入口；原PDF访问受阻。三个一般接口toy已在历史分析执行，但不是SPPO实现审计。"
+  },
+  "codings": [
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "公开概述为CKA critic约束、No-Flip actor约束与KDE advantage shaping；全文公式未完整取得。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M6",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "公开概述为CKA critic约束、No-Flip actor约束与KDE advantage shaping；全文公式未完整取得。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR006既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR006既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR006既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "note_path": "notes/A0077.md",
+  "note_sha256": "a4614d274ad5ae5fe663049824a641c1c5aa752b2066cdb56e59179de0076f09",
+  "source_refs": [
+    {
+      "source_id": "S0006",
+      "locator": "analysis_markdown"
+    },
+    {
+      "source_id": "SRC-RLVR14-20261001",
+      "locator": "analyses/rlvr/RLVR006.md"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest",
+  "dataset_role": "development",
+  "used_for_framework_development": true,
+  "original_analysis_id": "AN-RLVR006-20261001",
+  "organizing_framework_version": "0.4.0"
+}

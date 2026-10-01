@@ -1,0 +1,23 @@
+{
+  "paper_id": "P0040",
+  "title": "Optimal Mistake Bounds for Transductive Online Learning",
+  "paper_url": "https://arxiv.org/html/2512.12567v1",
+  "arxiv": "2512.12567",
+  "aliases": [
+    "RLVR-XD/A06"
+  ],
+  "topics": [
+    "跨领域"
+  ],
+  "tags": [
+    "rlvr-dialogue-supplement",
+    "development"
+  ],
+  "analyzed_at": "2026-10-01",
+  "framework_version": null,
+  "source_description": "本对话跨领域历史补充；复用已有论文实体，原分析和编码不覆盖，本次未重核奖项/原文。",
+  "summary": "本对话对研究对象、证据终点和Meta-method适用条件的补充记录。",
+  "codings": [],
+  "analysis_markdown": "# XD06｜本对话跨领域补充分析\n\n论文：Optimal Mistake Bounds for Transductive Online Learning\n\n本对话原编号A06；已有仓库ID提示XD06（按标题/原文链接匹配，不按序号）。\n\n> 本条为合并候选，不新增重复论文实体；已参与框架开发。本次未重核奖项和原文，不覆盖其他分析者编码。\n\n- 会议与奖项：NeurIPS 2025 — Best Paper Runner-Up\n- 问题领域：在线学习理论\n- 候选编码：M9 主；M11 辅\n- 关键研究动作：用理论界刻画预先获取无标签实例序列的价值。普遍下界与存在达到界的类，量词不同。\n- 对框架的压力测试：最坏情形证明不因没有真实模型实验而不完整；不可将存在性上界写成对所有类的上界。\n- 阅读/核验深度：摘要和主要结论；未完成完整证明链复核\n- 原论文来源：https://arxiv.org/html/2512.12567v1\n- 奖项来源：https://blog.neurips.cc/2025/11/26/announcing-the-neurips-2025-best-paper-awards/\n\n## 来源与合并规则\n\n逐字字段来自 `archive/Meta_method_Round2_award_papers_v0.1.md` 对应A06节。候选码为历史分析，不是本次独立作者编码。原始框架压力测试作为复核记录保存；未在本轮凭空扩写新的后续项目。\n",
+  "ideas": []
+}

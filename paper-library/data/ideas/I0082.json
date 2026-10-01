@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "id": "I0082",
+  "title": "历史最好记录与当前辅助需求分离",
+  "paper_ids": [
+    "P0070"
+  ],
+  "analysis_ids": [
+    "A0084"
+  ],
+  "kind": "conditional_extension",
+  "question": "历史撤除记录何时不再表示当前可用性？",
+  "first_evidence": "撤除后独立回落日志，不先造控制器。",
+  "decision_branches": [
+    "无持续回落或简单复习足够则停。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。无持续回落或简单复习足够则停。"
+    }
+  ],
+  "original_direction_id": "RLVR013-B",
+  "source_work_status": "calibrated_model_based",
+  "priority": "conditional",
+  "proposed_change": "先保留历史，再独立审计当前状态，必要时恢复访问。",
+  "strong_controls": [
+    "冻结策略null",
+    "原MFC",
+    "预算匹配复习",
+    "AdaBack"
+  ],
+  "novelty_boundary": "不因单次失败恢复，也不默认更严阈值更好。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

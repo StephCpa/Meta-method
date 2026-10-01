@@ -1,0 +1,52 @@
+{
+  "time": "2026-10-01T07:52:51.374074+00:00",
+  "operation": "ingest",
+  "paper_id": "P0068",
+  "analysis_id": "A0082",
+  "before": null,
+  "after": {
+    "schema_version": "1.0",
+    "id": "P0068",
+    "title": "Learning to Solve Hard Problems in RL for LLMs by Never Giving Up",
+    "short_name": "NGU",
+    "aliases": [
+      "RLVR011",
+      "RLVR/Case011"
+    ],
+    "identifiers": {
+      "arxiv": "2609.13443",
+      "doi": null
+    },
+    "links": [
+      "https://arxiv.org/abs/2609.13443"
+    ],
+    "topics": [
+      "RLVR／后训练"
+    ],
+    "tags": [
+      "development",
+      "rlvr-dialogue-import"
+    ],
+    "reading_status": "brief_analysis",
+    "metadata_observations": [
+      {
+        "source_id": "S0011",
+        "as_of": "2026-10-01",
+        "title": "Learning to Solve Hard Problems in RL for LLMs by Never Giving Up",
+        "venue": null,
+        "paper_version": "v1",
+        "verification": "as_supplied_not_automatically_verified"
+      }
+    ],
+    "analysis_ids": [
+      "A0082"
+    ],
+    "idea_ids": [
+      "I0078"
+    ],
+    "ratings": [],
+    "created_at": "2026-10-01",
+    "updated_at": "2026-10-01",
+    "dataset_role": "development"
+  }
+}

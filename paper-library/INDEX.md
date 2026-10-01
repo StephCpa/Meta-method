@@ -1,6 +1,6 @@
 # 论文分析库索引
 
-57篇去重论文；71份分析记录；44条方向/迁移提问。
+71篇去重论文；99份分析记录；84条方向/迁移提问。
 
 数值为有来源的后续研究潜力历史分；未评分不等于0分。详细浏览请打开根目录index.html。
 
@@ -40,20 +40,20 @@
 | P0032 | [OVD: On-policy Verbal Distillation](views/P0032.md) | OPD | 1 | 0 | 未评分 |
 | P0033 | [VOLD: Reasoning Transfer from LLMs to Vision-Language Models via On-Policy Distillation](views/P0033.md) | OPD | 2 | 0 | 未评分 |
 | P0034 | [MiMo-V2-Flash Technical Report](views/P0034.md) | OPD | 1 | 0 | 未评分 |
-| P0035 | [Score Matching with Missing Data](views/P0035.md) | 跨领域 | 1 | 1 | 未评分 |
-| P0036 | [Conformal Prediction as Bayesian Quadrature](views/P0036.md) | 跨领域 | 1 | 1 | 未评分 |
-| P0037 | [SAM 2](views/P0037.md) | 跨领域 | 1 | 1 | 未评分 |
-| P0038 | [Transformers are Inherently Succinct](views/P0038.md) | 跨领域 | 1 | 1 | 未评分 |
-| P0039 | [Stochastic Taylor Derivative Estimator](views/P0039.md) | 跨领域 | 1 | 1 | 未评分 |
-| P0040 | [Optimal Mistake Bounds for Transductive Online Learning](views/P0040.md) | 跨领域 | 1 | 1 | 未评分 |
-| P0041 | [Weak Experiments](views/P0041.md) | 跨领域 | 1 | 0 | 未评分 |
-| P0042 | [H2GB](views/P0042.md) | 跨领域 | 1 | 0 | 未评分 |
-| P0043 | [Native Sparse Attention](views/P0043.md) | 跨领域 | 1 | 1 | 未评分 |
-| P0044 | [Memory Efficiency](views/P0044.md) | 跨领域 | 1 | 0 | 未评分 |
-| P0045 | [Image Transcreation](views/P0045.md) | 跨领域 | 1 | 0 | 未评分 |
-| P0046 | [Infini-gram Mini](views/P0046.md) | 跨领域 | 1 | 1 | 未评分 |
-| P0047 | [Description Logic Model Change](views/P0047.md) | 跨领域 | 1 | 0 | 未评分 |
-| P0048 | [CaDyT](views/P0048.md) | 跨领域 | 1 | 0 | 未评分 |
+| P0035 | [Score Matching with Missing Data](views/P0035.md) | 跨领域 | 2 | 1 | 未评分 |
+| P0036 | [Conformal Prediction as Bayesian Quadrature](views/P0036.md) | 跨领域 | 2 | 1 | 未评分 |
+| P0037 | [SAM 2](views/P0037.md) | 跨领域 | 2 | 1 | 未评分 |
+| P0038 | [Transformers are Inherently Succinct](views/P0038.md) | 跨领域 | 2 | 1 | 未评分 |
+| P0039 | [Stochastic Taylor Derivative Estimator](views/P0039.md) | 跨领域 | 2 | 1 | 未评分 |
+| P0040 | [Optimal Mistake Bounds for Transductive Online Learning](views/P0040.md) | 跨领域 | 2 | 1 | 未评分 |
+| P0041 | [Weak Experiments](views/P0041.md) | 跨领域 | 2 | 0 | 未评分 |
+| P0042 | [H2GB](views/P0042.md) | 跨领域 | 2 | 0 | 未评分 |
+| P0043 | [Native Sparse Attention](views/P0043.md) | 跨领域 | 2 | 1 | 未评分 |
+| P0044 | [Memory Efficiency](views/P0044.md) | 跨领域 | 2 | 0 | 未评分 |
+| P0045 | [Image Transcreation](views/P0045.md) | 跨领域 | 2 | 0 | 未评分 |
+| P0046 | [Infini-gram Mini](views/P0046.md) | 跨领域 | 2 | 1 | 未评分 |
+| P0047 | [Description Logic Model Change](views/P0047.md) | 跨领域 | 2 | 0 | 未评分 |
+| P0048 | [CaDyT](views/P0048.md) | 跨领域 | 2 | 0 | 未评分 |
 | P0049 | [SecOPD](views/P0049.md) | OPD | 1 | 1 | 未评分 |
 | P0050 | [ViCuR](views/P0050.md) | OPD | 1 | 1 | 未评分 |
 | P0051 | [SafeSteer](views/P0051.md) | OPD | 1 | 1 | 未评分 |
@@ -63,3 +63,17 @@
 | P0055 | [HPD](views/P0055.md) | OPD | 1 | 1 | 未评分 |
 | P0056 | [REOPOLD](views/P0056.md) | OPD | 1 | 1 | 未评分 |
 | P0057 | [Video-OPD](views/P0057.md) | OPD | 1 | 1 | 未评分 |
+| P0058 | [Cheap Verifier](views/P0058.md) | RLVR／后训练 | 1 | 3 | 9.0 |
+| P0059 | [Rufus-Air](views/P0059.md) | RLVR／后训练 | 1 | 4 | 8.0 |
+| P0060 | [TAME](views/P0060.md) | RLVR／后训练 | 1 | 3 | 9.0 |
+| P0061 | [PACT](views/P0061.md) | RLVR／后训练 | 1 | 4 | 8.5 |
+| P0062 | [ISO](views/P0062.md) | RLVR／后训练 | 1 | 3 | 7.5 |
+| P0063 | [SPPO](views/P0063.md) | RLVR／后训练 | 1 | 3 | 6.5 |
+| P0064 | [Gradient Gap](views/P0064.md) | RLVR／后训练 | 1 | 3 | 8.0 |
+| P0065 | [S2L-PO](views/P0065.md) | RLVR／后训练 | 1 | 4 | 8.0 |
+| P0066 | [RLVR Kernel](views/P0066.md) | RLVR／后训练 | 1 | 3 | 8.5 |
+| P0067 | [Internal Reward-Hacking Monitor](views/P0067.md) | RLVR／后训练 | 1 | 3 | 8.5 |
+| P0068 | [NGU](views/P0068.md) | RLVR／后训练 | 1 | 1 | 未评分 |
+| P0069 | [RISE](views/P0069.md) | RLVR／后训练 | 1 | 2 | 未评分 |
+| P0070 | [MFC / Unlocking the Unsolvable](views/P0070.md) | RLVR／后训练 | 1 | 2 | 未评分 |
+| P0071 | [IRN Formal Perspective](views/P0071.md) | RLVR／后训练 | 1 | 2 | 未评分 |

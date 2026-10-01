@@ -4,9 +4,11 @@
   "framework_version": "0.4.0",
   "framework_commit": "0631fa06e01fa345fb90b57727342d2f82279c0c",
   "name": "Meta-method 论文分析库",
-  "source_cutoff": "2026-09-30",
+  "source_cutoff": "2026-10-01",
   "imported_at": "2026-10-01T03:34:26.056279+00:00",
   "storage_policy": "analysis_only_no_original_papers",
   "publication_policy": "local_private_by_default",
-  "scientific_reverification_performed": false
+  "scientific_reverification_performed": false,
+  "last_imported_at": "2026-10-01T07:52:51.869068+00:00",
+  "last_import_report": "IMPORT-RLVR14-20261001.json"
 }

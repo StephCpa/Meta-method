@@ -1,0 +1,9 @@
+{
+  "id": "S0012",
+  "kind": "user_supplied_analysis",
+  "path": "sources/S0012.json",
+  "sha256": "3591005c41042f77fc5b595ac20ff24dfc73d92b4d6d797d247ee1a9471ad57d",
+  "description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。原始贡献卡/校准脚本/结果本次可获得；历史已核主方法/附录与两类数学控制；未真实训练，作者实现未取得。",
+  "imported_at": "2026-10-01T07:52:51.392092+00:00",
+  "reverified_in_library_build": false
+}

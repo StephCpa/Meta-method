@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "id": "A0079",
+  "paper_id": "P0065",
+  "kind": "added_analysis",
+  "analyzed_at": "2026-10-01",
+  "imported_at": "2026-10-01T07:52:51.311085+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": "v3",
+  "summary": "冻结同族小模型与大模型共同rollout，在混合组训练并逐渐退出小模型。",
+  "sections": {
+    "原有局限": "弱采样器可能便宜且互补，但文本差异、可解题覆盖、有效策略与更新效用不能互替。",
+    "作者改变了什么": "冻结同族小模型与大模型共同rollout，在混合组训练并逐渐退出小模型。",
+    "新增结果/组合增量": "小模型不是必须更准的老师，而是另一个采样来源；线性退火不是反馈闭环。",
+    "证据与边界": "历史核对v3、关键表/附录、公开eval与最终权重入口；未取得完整训练器或真实策略标签。已有四类数学控制。"
+  },
+  "codings": [
+    {
+      "code": "M4",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "冻结同族小模型与大模型共同rollout，在混合组训练并逐渐退出小模型。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "冻结同族小模型与大模型共同rollout，在混合组训练并逐渐退出小模型。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "冻结同族小模型与大模型共同rollout，在混合组训练并逐渐退出小模型。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR008既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR008既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR008既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "note_path": "notes/A0079.md",
+  "note_sha256": "e5259213134a1fd0bfea80ab7c4f9c8fabaa32ca1985160413b279794c65e270",
+  "source_refs": [
+    {
+      "source_id": "S0008",
+      "locator": "analysis_markdown"
+    },
+    {
+      "source_id": "SRC-RLVR14-20261001",
+      "locator": "analyses/rlvr/RLVR008.md"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest",
+  "dataset_role": "development",
+  "used_for_framework_development": true,
+  "original_analysis_id": "AN-RLVR008-20261001",
+  "organizing_framework_version": "0.4.0"
+}

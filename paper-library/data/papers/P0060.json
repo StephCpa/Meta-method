@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "id": "P0060",
+  "title": "TAME: Targeted Anti-obfuscation with Mechanistic Enforcement",
+  "short_name": "TAME",
+  "aliases": [
+    "RLVR003",
+    "RLVR/Case003"
+  ],
+  "identifiers": {
+    "arxiv": "2609.24243",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2609.24243"
+  ],
+  "topics": [
+    "RLVR／后训练"
+  ],
+  "tags": [
+    "development",
+    "rlvr-dialogue-import"
+  ],
+  "reading_status": "inherited_conversation_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S0003",
+      "as_of": "2026-10-01",
+      "title": "TAME: Targeted Anti-obfuscation with Mechanistic Enforcement",
+      "venue": null,
+      "paper_version": "v1",
+      "verification": "as_supplied_not_automatically_verified"
+    }
+  ],
+  "analysis_ids": [
+    "A0074"
+  ],
+  "idea_ids": [
+    "I0052",
+    "I0053",
+    "I0054"
+  ],
+  "ratings": [
+    {
+      "date": "2026-10-01",
+      "recorded_at": "2026-10-01T07:52:51.219891+00:00",
+      "score": 9.0,
+      "scale": 10,
+      "scope": "paper_main_followup",
+      "reason": "历史主观后续潜力档位，非论文质量/接收概率；不是最新实验后的再评分；来源：本对话十篇汇总评分",
+      "assessor": "ChatGPT，本对话历史主线评价；导入未重评",
+      "not_paper_quality": true,
+      "historical_import": true,
+      "original_assessment_date": null,
+      "date_semantics": "import_date_not_new_assessment",
+      "source_id": "SRC-RLVR14-20261001"
+    }
+  ],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "dataset_role": "development",
+  "legacy_case_namespace": "rlvr_post_training_dialogue",
+  "legacy_case_id": "Case003",
+  "source_current_state": "用户报告两个零GPU/model-based协议已经落地；另有公开表格复核。尚无本项目TAME真实训练、端点激活复验或多监控器轨迹。",
+  "used_for_framework_development": true
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0060",
+  "title": "保谱约束与更新几何分离",
+  "paper_ids": [
+    "P0062"
+  ],
+  "analysis_ids": [
+    "A0076"
+  ],
+  "kind": "research_direction",
+  "question": "收益来自可行集合还是因子参数化对方向的重新加权？",
+  "first_evidence": "冻结数据的一步权重/策略KL/独立收益。",
+  "decision_branches": [
+    "简单步长可解释时不开发几何优化器。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。简单步长可解释时不开发几何优化器。"
+    }
+  ],
+  "original_direction_id": "RLVR005-B",
+  "source_work_status": "calibrated_model_based",
+  "priority": "conditional",
+  "proposed_change": "同约束比较W投影与因子更新。",
+  "strong_controls": [
+    "实际位移或KL匹配",
+    "SGD到Adam分层",
+    "动量与裁剪拆分"
+  ],
+  "novelty_boundary": "Riemannian preconditioning已有；新意需谱与RLVR噪声实际交互。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

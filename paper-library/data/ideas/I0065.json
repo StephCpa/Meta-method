@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0065",
+  "title": "有限预算的独立方向审计",
+  "paper_ids": [
+    "P0064"
+  ],
+  "analysis_ids": [
+    "A0078"
+  ],
+  "kind": "research_direction",
+  "question": "何时能区分方向可靠与采样噪声自对齐？",
+  "first_evidence": "固定更新方向的独立正负score投影与coverage。",
+  "decision_branches": [
+    "诊断不优于简单信噪比或成本过高时停。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。诊断不优于简单信噪比或成本过高时停。"
+    }
+  ],
+  "original_direction_id": "RLVR007-A",
+  "source_work_status": "calibrated_model_based",
+  "priority": "primary",
+  "proposed_change": "产生方向与确认方向分样本，优先标量方向投影。",
+  "strong_controls": [
+    "true gap0",
+    "稀有类别覆盖",
+    "同批/独立审计"
+  ],
+  "novelty_boundary": "安全策略梯度/样本量选择已有。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

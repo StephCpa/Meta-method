@@ -4,7 +4,8 @@
   "title": "An Image Speaks a Thousand Words, but Can Everyone Listen?",
   "short_name": "Image Transcreation",
   "aliases": [
-    "XD11"
+    "XD11",
+    "RLVR-XD/A11"
   ],
   "identifiers": {
     "arxiv": null,
@@ -18,7 +19,9 @@
   ],
   "tags": [
     "跨领域",
-    "data_evaluation"
+    "data_evaluation",
+    "rlvr-dialogue-supplement",
+    "development"
   ],
   "reading_status": "brief_analysis",
   "metadata_observations": [
@@ -28,14 +31,23 @@
       "title": "An Image Speaks a Thousand Words, but Can Everyone Listen?",
       "venue": "EMNLP 2024 Best Paper",
       "verification": "inherited_not_reverified"
+    },
+    {
+      "source_id": "S0025",
+      "as_of": "2026-10-01",
+      "title": "An image speaks a thousand words, but can everyone listen? On image transcreation for cultural relevance",
+      "venue": null,
+      "paper_version": null,
+      "verification": "as_supplied_not_automatically_verified"
     }
   ],
   "analysis_ids": [
-    "A0058"
+    "A0058",
+    "A0096"
   ],
   "idea_ids": [],
   "ratings": [],
   "created_at": "2026-09-30",
-  "updated_at": "2026-09-30",
+  "updated_at": "2026-10-01",
   "dataset_role": "development"
 }

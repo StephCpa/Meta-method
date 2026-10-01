@@ -1,0 +1,92 @@
+{
+  "title": "Stabilizing PPO via Latent-Space Regularization and KDE-Driven Exploration",
+  "short_name": "SPPO",
+  "paper_url": "https://openreview.net/forum?id=jojs3GoyHq",
+  "arxiv": null,
+  "aliases": [
+    "RLVR006",
+    "RLVR/Case006"
+  ],
+  "topics": [
+    "RLVR／后训练"
+  ],
+  "tags": [
+    "development",
+    "rlvr-dialogue-import"
+  ],
+  "analyzed_at": "2026-10-01",
+  "framework_version": null,
+  "paper_version": null,
+  "source_description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。仅核对官方摘要、作者单位方法说明及代码入口；原PDF访问受阻。三个一般接口toy已在历史分析执行，但不是SPPO实现审计。",
+  "summary": "公开概述为CKA critic约束、No-Flip actor约束与KDE advantage shaping；全文公式未完整取得。",
+  "sections": {
+    "原有局限": "critic表示同时承担估值、稳定参照与探索密度空间，可能具有不同有效性条件。",
+    "作者改变了什么": "公开概述为CKA critic约束、No-Flip actor约束与KDE advantage shaping；全文公式未完整取得。",
+    "新增结果/组合增量": "诊断—约束—探索的组合是否有共享机制，仍需原文核查，不能依摘要宣布漏洞。",
+    "证据与边界": "仅核对官方摘要、作者单位方法说明及代码入口；原PDF访问受阻。三个一般接口toy已在历史分析执行，但不是SPPO实现审计。"
+  },
+  "codings": [
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "公开概述为CKA critic约束、No-Flip actor约束与KDE advantage shaping；全文公式未完整取得。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M6",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "公开概述为CKA critic约束、No-Flip actor约束与KDE advantage shaping；全文公式未完整取得。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR006既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR006既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR006既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "analysis_markdown": "# RLVR006｜Stabilizing PPO via Latent-Space Regularization and KDE-Driven Exploration\n\n原编号：Case006；命名空间：本对话 RLVR／后训练（不与 MAS 同号记录混用）。\n\n论文：https://openreview.net/forum?id=jojs3GoyHq\n\n历史阅读版本：未在可用记录中固定；入库不猜填。整理日期：2026-10-01。\n\n> 本文是既有对话的收敛整理，不是新一轮论文全文核验，也不是逐字原始对话。所有候选均属 development；不可用于宣称未见领域有效性。\n\n## 1. 作者贡献形成（分析者赋码，author 角色）\n\n**机会／限制：**critic表示同时承担估值、稳定参照与探索密度空间，可能具有不同有效性条件。\n\n**作者改变：**公开概述为CKA critic约束、No-Flip actor约束与KDE advantage shaping；全文公式未完整取得。\n\n**新增结果的解释：**诊断—约束—探索的组合是否有共享机制，仍需原文核查，不能依摘要宣布漏洞。\n\n**候选作者码：**M1, M6。**审查码：**M14, M9, M10。不得混计。\n\n**原文定位状态：**沿用本对话作者贡献分析；本次未补做逐条原文锚点核验，不能升级为独立确认。\n\n## 2. 当前证据与工作状态\n\n仅核对官方摘要、作者单位方法说明及代码入口；原PDF访问受阻。三个一般接口toy已在历史分析执行，但不是SPPO实现审计。\n\n## 3. 已讨论的关键结果（按原证据层级保留）\n\n- 线性CKA(X,−X)=1而固定head可反转价值；正交变换连同head补偿可保持价值。\n\n- 查询和KDE缓存混用不同坐标时，h=.25例密度比exp(−16)；若原方法同步重编码则该问题被排除。\n\n- 当前状态stop-gradient bonus理想on-policy期望梯度0；到达状态bonus例梯度.25；实际shaping位置未知。\n\n- 二次目标2→−1→.5方向翻转且损失持续下降，不能据反转本身判更新有害。\n\n## 4. 最新修订与禁止升级的表述\n\n- 全文定理条件、No-Flip精确定义、KDE时间索引/参考更新未核，M8/M9作者码不先确认。\n\n- 不把控制任务结论自动迁移到LLM后训练。\n\n## 5. 研究方向池\n\n### RLVR006-A｜共享表示下的稳定性—探索契约\n\n类型：`research_direction`；优先级：`primary`；状态：`blocked_fulltext`。\n\n**问题：**表征稳定是否同时保证价值与新颖性空间的可用性？\n\n**具体变换：**分开坐标变化、函数变化和参考分布变化。\n\n**首个产物：**全文公式核查后做固定状态×encoder×KDE参考矩阵。\n\n**强对照：**head补偿；同步/不同步编码；真实状态覆盖。\n\n**停止／改写：**原接口已消除或仅缓存bug时修复结束。\n\n**新颖性边界：**表示与密度独立研究很多，需明确共享角色的新交互。\n\n### RLVR006-B｜新颖性进入动作信用的路径\n\n类型：`measurement_axis`；优先级：`supporting`；状态：`blocked_fulltext`。\n\n**问题：**塑形是未来状态探索信用还是有限batch更新调节？\n\n**具体变换：**逐项定位时间索引、return/GAE与stop-gradient。\n\n**首个产物：**当前状态零/到达状态非零控制映射真实公式。\n\n**强对照：**不改变奖励对应的同分布信号；clip逐项加入。\n\n**停止／改写：**原接口与行为已一致则停止。\n\n**新颖性边界：**RND/count-based等已有，不能重提低密度探索。\n\n### RLVR006-C｜有害抖动与必要纠错\n\n类型：`conditional_extension`；优先级：`conditional`；状态：`planned`。\n\n**问题：**No-Flip怎样区分噪声和正确回头？\n\n**具体变换：**固定目标/过冲/目标变化分开，检验稳定约束与探索补偿。\n\n**首个产物：**已知环境三类反转与独立收益。\n\n**强对照：**实际KL匹配；无/有稳定×无/有新颖性。\n\n**停止／改写：**复杂门控无额外收益则保留简单约束。\n\n**新颖性边界：**policy churn及共享目标干扰已有研究。\n\n## 6. 来源与复用\n\n本条来源标识：`CONV-RLVR006`。原论文链接是查核入口，不表示本次新增核验。\n\n历史潜力分：6.5/10（当时主观选题判断，非论文质量或最新实证后重评分）。\n\n同一论文可有多个分析版本，但按 canonical key 只算一个论文实体。不得用本次导入增加独立验证样本计数。\n",
+  "ideas": [
+    {
+      "title": "共享表示下的稳定性—探索契约",
+      "question": "表征稳定是否同时保证价值与新颖性空间的可用性？",
+      "first_evidence": "全文公式核查后做固定状态×encoder×KDE参考矩阵。",
+      "decision_branches": [
+        "原接口已消除或仅缓存bug时修复结束。"
+      ]
+    },
+    {
+      "title": "新颖性进入动作信用的路径",
+      "question": "塑形是未来状态探索信用还是有限batch更新调节？",
+      "first_evidence": "当前状态零/到达状态非零控制映射真实公式。",
+      "decision_branches": [
+        "原接口与行为已一致则停止。"
+      ]
+    },
+    {
+      "title": "有害抖动与必要纠错",
+      "question": "No-Flip怎样区分噪声和正确回头？",
+      "first_evidence": "已知环境三类反转与独立收益。",
+      "decision_branches": [
+        "复杂门控无额外收益则保留简单约束。"
+      ]
+    }
+  ]
+}

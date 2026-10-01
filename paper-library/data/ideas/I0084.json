@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0084",
+  "title": "共享关系保留的证书细化",
+  "paper_ids": [
+    "P0071"
+  ],
+  "analysis_ids": [
+    "A0085"
+  ],
+  "kind": "conditional_extension",
+  "question": "验证失败是对象错误还是丢掉共同变量关系？",
+  "first_evidence": "不重训的关系证书增强器。",
+  "decision_branches": [
+    "仅改iff→if或通用工具已足够则审计结束。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。仅改iff→if或通用工具已足够则审计结束。"
+    }
+  ],
+  "original_direction_id": "RLVR014-B",
+  "source_work_status": "calibrated_model_based",
+  "priority": "conditional",
+  "proposed_change": "先做差保留抵消，仅细化未决topK竞争关系。",
+  "strong_controls": [
+    "恒定排名/真翻转",
+    "平局与门控规则",
+    "通用verifier"
+  ],
+  "novelty_boundary": "pairwise与仿射差分不是新定理，新增需宽字典规模与实际可证性。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

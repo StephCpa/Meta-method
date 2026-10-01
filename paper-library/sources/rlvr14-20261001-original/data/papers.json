@@ -1,0 +1,1309 @@
+{
+  "metadata": {
+    "format": "meta-method-portable-import/1.0",
+    "created_at": "2026-10-01",
+    "target_repository": "StephCpa/Meta-method",
+    "target_branch": "main",
+    "remote_write_completed": false,
+    "latest_library_schema_verified": false,
+    "repository_commit_verified": null,
+    "status": "prepared_for_schema_mapping_not_merged",
+    "scope": "14 numbered RLVR/post-training papers + 14 cross-domain supplemental analyses; preserve other dialogue MAS/OPD data",
+    "basis": "provided conversation and mounted research cards; historical findings not reverified by this import",
+    "remote_access_note": "GitHub connector not installed; suggestion displayed. git ls-remote failed DNS. Web endpoints exposed inconsistent/older v0.3/v0.4 snapshots; latest library directory/schema not obtained.",
+    "counts": {
+      "primary_papers": 14,
+      "research_pool_records": 40,
+      "cross_domain_supplements": 14,
+      "analyses": 28,
+      "archived_case_bundles": 4
+    },
+    "not_a_repository_schema": true
+  },
+  "papers": [
+    {
+      "id": "RLVR001",
+      "legacy_case_id": "Case001",
+      "cohort": "rlvr_post_training_dialogue",
+      "canonical_key": "arxiv:2609.33467",
+      "title": "A Cheap Verifier is Good Enough",
+      "short_name": "Cheap Verifier",
+      "primary_url": "https://arxiv.org/abs/2609.33467",
+      "reviewed_version": null,
+      "dataset_role": "development",
+      "used_for_framework_development": true,
+      "holdout_eligible": false,
+      "import_status": "prepared_not_merged",
+      "analysis_ids": [
+        "AN-RLVR001-20261001"
+      ],
+      "direction_ids": [
+        "RLVR001-A",
+        "RLVR001-B",
+        "RLVR001-C"
+      ],
+      "author_codes": [
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR001",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。"
+        },
+        {
+          "code": "M7",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR001",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR001",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。"
+        }
+      ],
+      "review_codes": [
+        {
+          "code": "M14",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR001",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M9",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR001",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M10",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR001",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        }
+      ],
+      "source_refs": [
+        "CONV-RLVR001"
+      ],
+      "current_state": "用户报告校准harness、L1/L2/L3、ICC与(D_A,coverage)管线已完成，并做HealthBench公开数据彩排；同一冻结policy的自采样条目级交叉判定尚缺。未见本地原脚本和原始日志。",
+      "metadata_status": "inherited_from_conversation_not_reverified_now",
+      "historical_potential_score": {
+        "value": 9.0,
+        "scale": 10,
+        "meaning": "历史主观后续潜力档位，非论文质量/接收概率；不是最新实验后的再评分",
+        "provenance": "本对话十篇汇总评分",
+        "recomputed_in_import": false
+      },
+      "title_as_discussed": "A Cheap Verifier is Good Enough",
+      "bibliography_note": "题名/简称与版本按本对话已有材料；本次未重新访问14篇论文逐条确认元数据。合入时优先canonical key，不按简称去重。"
+    },
+    {
+      "id": "RLVR002",
+      "legacy_case_id": "Case002",
+      "cohort": "rlvr_post_training_dialogue",
+      "canonical_key": "arxiv:2609.29421",
+      "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+      "short_name": "Rufus-Air",
+      "primary_url": "https://arxiv.org/abs/2609.29421",
+      "reviewed_version": "v2",
+      "dataset_role": "development",
+      "used_for_framework_development": true,
+      "holdout_eligible": false,
+      "import_status": "prepared_not_merged",
+      "analysis_ids": [
+        "AN-RLVR002-20261001"
+      ],
+      "direction_ids": [
+        "RLVR002-A",
+        "RLVR002-B",
+        "RLVR002-C",
+        "RLVR002-D"
+      ],
+      "author_codes": [
+        {
+          "code": "M8",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR002",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "跨层组织训练、环境、轨迹和资源；统一接口使多类后训练能落成可运行流程。"
+        },
+        {
+          "code": "M12",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR002",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "跨层组织训练、环境、轨迹和资源；统一接口使多类后训练能落成可运行流程。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR002",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "跨层组织训练、环境、轨迹和资源；统一接口使多类后训练能落成可运行流程。"
+        },
+        {
+          "code": "M5",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR002",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "跨层组织训练、环境、轨迹和资源；统一接口使多类后训练能落成可运行流程。"
+        }
+      ],
+      "review_codes": [
+        {
+          "code": "M14",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR002",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M7",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR002",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M1",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR002",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        }
+      ],
+      "source_refs": [
+        "CONV-RLVR002"
+      ],
+      "current_state": "用户报告Protocol A/B的model-based校准已可复现；Protocol B新增本地1.5B直接上下文真实生成576条。原始轨迹/提示/脚本未提供，本次只能归档报告与后续口径修正。直接上下文的新增训练干预线停止；单次主动取证迁移检查仅为建议、未执行。",
+      "metadata_status": "inherited_from_conversation_not_reverified_now",
+      "historical_potential_score": {
+        "value": 8.0,
+        "scale": 10,
+        "meaning": "历史主观后续潜力档位，非论文质量/接收概率；不是最新实验后的再评分",
+        "provenance": "本对话十篇汇总评分",
+        "recomputed_in_import": false
+      },
+      "title_as_discussed": "Rufus-Air: An Open LLM Post-Training Recipe",
+      "bibliography_note": "题名/简称与版本按本对话已有材料；本次未重新访问14篇论文逐条确认元数据。合入时优先canonical key，不按简称去重。"
+    },
+    {
+      "id": "RLVR003",
+      "legacy_case_id": "Case003",
+      "cohort": "rlvr_post_training_dialogue",
+      "canonical_key": "arxiv:2609.24243",
+      "title": "TAME: Targeted Anti-obfuscation with Mechanistic Enforcement",
+      "short_name": "TAME",
+      "primary_url": "https://arxiv.org/abs/2609.24243",
+      "reviewed_version": "v1",
+      "dataset_role": "development",
+      "used_for_framework_development": true,
+      "holdout_eligible": false,
+      "import_status": "prepared_not_merged",
+      "analysis_ids": [
+        "AN-RLVR003-20261001"
+      ],
+      "direction_ids": [
+        "RLVR003-A",
+        "RLVR003-B",
+        "RLVR003-C"
+      ],
+      "author_codes": [
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR003",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。"
+        },
+        {
+          "code": "M7",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR003",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。"
+        },
+        {
+          "code": "M10",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR003",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。"
+        },
+        {
+          "code": "M5",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR003",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。"
+        },
+        {
+          "code": "M6",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR003",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。"
+        }
+      ],
+      "review_codes": [
+        {
+          "code": "M14",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR003",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M9",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR003",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M10",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR003",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        }
+      ],
+      "source_refs": [
+        "CONV-RLVR003"
+      ],
+      "current_state": "用户报告两个零GPU/model-based协议已经落地；另有公开表格复核。尚无本项目TAME真实训练、端点激活复验或多监控器轨迹。",
+      "metadata_status": "inherited_from_conversation_not_reverified_now",
+      "historical_potential_score": {
+        "value": 9.0,
+        "scale": 10,
+        "meaning": "历史主观后续潜力档位，非论文质量/接收概率；不是最新实验后的再评分",
+        "provenance": "本对话十篇汇总评分",
+        "recomputed_in_import": false
+      },
+      "title_as_discussed": "TAME: Targeted Anti-obfuscation with Mechanistic Enforcement",
+      "bibliography_note": "题名/简称与版本按本对话已有材料；本次未重新访问14篇论文逐条确认元数据。合入时优先canonical key，不按简称去重。 TAME字段使用方法名称展开，正式论文题名需从arXiv元数据补核，不应当作已确认正式标题。"
+    },
+    {
+      "id": "RLVR004",
+      "legacy_case_id": "Case004",
+      "cohort": "rlvr_post_training_dialogue",
+      "canonical_key": "arxiv:2609.26355",
+      "title": "PACT: From Credit Assignment to Critic Alignment",
+      "short_name": "PACT",
+      "primary_url": "https://arxiv.org/abs/2609.26355",
+      "reviewed_version": "v1",
+      "dataset_role": "development",
+      "used_for_framework_development": true,
+      "holdout_eligible": false,
+      "import_status": "prepared_not_merged",
+      "analysis_ids": [
+        "AN-RLVR004-20261001"
+      ],
+      "direction_ids": [
+        "RLVR004-A",
+        "RLVR004-B",
+        "RLVR004-C",
+        "RLVR004-D"
+      ],
+      "author_codes": [
+        {
+          "code": "M9",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR004",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。"
+        },
+        {
+          "code": "M11",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR004",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。"
+        },
+        {
+          "code": "M8",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR004",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR004",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。"
+        }
+      ],
+      "review_codes": [
+        {
+          "code": "M14",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR004",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M9",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR004",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M10",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR004",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        }
+      ],
+      "source_refs": [
+        "CONV-RLVR004"
+      ],
+      "current_state": "用户报告Case004 v0.2、P1–P6精确枚举、9面板与JSON已更新。本次无这些本地源文件，记录为用户报告；无真实LLM训练。P6获准作为观察轴，不另开统一理论工程。",
+      "metadata_status": "inherited_from_conversation_not_reverified_now",
+      "historical_potential_score": {
+        "value": 8.5,
+        "scale": 10,
+        "meaning": "历史主观后续潜力档位，非论文质量/接收概率；不是最新实验后的再评分",
+        "provenance": "本对话十篇汇总评分",
+        "recomputed_in_import": false
+      },
+      "title_as_discussed": "PACT: From Credit Assignment to Critic Alignment",
+      "bibliography_note": "题名/简称与版本按本对话已有材料；本次未重新访问14篇论文逐条确认元数据。合入时优先canonical key，不按简称去重。"
+    },
+    {
+      "id": "RLVR005",
+      "legacy_case_id": "Case005",
+      "cohort": "rlvr_post_training_dialogue",
+      "canonical_key": "arxiv:2607.19331",
+      "title": "ISO: An RLVR-Native Optimization Stack",
+      "short_name": "ISO",
+      "primary_url": "https://arxiv.org/abs/2607.19331",
+      "reviewed_version": null,
+      "dataset_role": "development",
+      "used_for_framework_development": true,
+      "holdout_eligible": false,
+      "import_status": "prepared_not_merged",
+      "analysis_ids": [
+        "AN-RLVR005-20261001"
+      ],
+      "direction_ids": [
+        "RLVR005-A",
+        "RLVR005-B",
+        "RLVR005-C"
+      ],
+      "author_codes": [
+        {
+          "code": "M2",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR005",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。"
+        },
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR005",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。"
+        },
+        {
+          "code": "M9",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR005",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。"
+        },
+        {
+          "code": "M14",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR005",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。"
+        },
+        {
+          "code": "M12",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR005",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR005",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。"
+        }
+      ],
+      "review_codes": [
+        {
+          "code": "M14",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR005",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M9",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR005",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M10",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR005",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        }
+      ],
+      "source_refs": [
+        "CONV-RLVR005"
+      ],
+      "current_state": "历史分析核对原文与Merger代码并报告两项小矩阵校准；未真实权重审计或训练。Optimizer曾因实现问题重跑，当前材料状态未重新核验。",
+      "metadata_status": "inherited_from_conversation_not_reverified_now",
+      "historical_potential_score": {
+        "value": 7.5,
+        "scale": 10,
+        "meaning": "历史主观后续潜力档位，非论文质量/接收概率；不是最新实验后的再评分",
+        "provenance": "本对话十篇汇总评分",
+        "recomputed_in_import": false
+      },
+      "title_as_discussed": "ISO: An RLVR-Native Optimization Stack",
+      "bibliography_note": "题名/简称与版本按本对话已有材料；本次未重新访问14篇论文逐条确认元数据。合入时优先canonical key，不按简称去重。"
+    },
+    {
+      "id": "RLVR006",
+      "legacy_case_id": "Case006",
+      "cohort": "rlvr_post_training_dialogue",
+      "canonical_key": "openreview:jojs3GoyHq",
+      "title": "Stabilizing PPO via Latent-Space Regularization and KDE-Driven Exploration",
+      "short_name": "SPPO",
+      "primary_url": "https://openreview.net/forum?id=jojs3GoyHq",
+      "reviewed_version": null,
+      "dataset_role": "development",
+      "used_for_framework_development": true,
+      "holdout_eligible": false,
+      "import_status": "prepared_not_merged",
+      "analysis_ids": [
+        "AN-RLVR006-20261001"
+      ],
+      "direction_ids": [
+        "RLVR006-A",
+        "RLVR006-B",
+        "RLVR006-C"
+      ],
+      "author_codes": [
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR006",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "公开概述为CKA critic约束、No-Flip actor约束与KDE advantage shaping；全文公式未完整取得。"
+        },
+        {
+          "code": "M6",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR006",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "公开概述为CKA critic约束、No-Flip actor约束与KDE advantage shaping；全文公式未完整取得。"
+        }
+      ],
+      "review_codes": [
+        {
+          "code": "M14",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR006",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M9",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR006",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M10",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR006",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        }
+      ],
+      "source_refs": [
+        "CONV-RLVR006"
+      ],
+      "current_state": "仅核对官方摘要、作者单位方法说明及代码入口；原PDF访问受阻。三个一般接口toy已在历史分析执行，但不是SPPO实现审计。",
+      "metadata_status": "inherited_from_conversation_not_reverified_now",
+      "historical_potential_score": {
+        "value": 6.5,
+        "scale": 10,
+        "meaning": "历史主观后续潜力档位，非论文质量/接收概率；不是最新实验后的再评分",
+        "provenance": "本对话十篇汇总评分",
+        "recomputed_in_import": false
+      },
+      "title_as_discussed": "Stabilizing PPO via Latent-Space Regularization and KDE-Driven Exploration",
+      "bibliography_note": "题名/简称与版本按本对话已有材料；本次未重新访问14篇论文逐条确认元数据。合入时优先canonical key，不按简称去重。",
+      "alternate_primary_urls": [
+        "https://openreview.net/pdf?id=jojs3GoyHq"
+      ]
+    },
+    {
+      "id": "RLVR007",
+      "legacy_case_id": "Case007",
+      "cohort": "rlvr_post_training_dialogue",
+      "canonical_key": "arxiv:2510.08539",
+      "title": "On the Optimization Dynamics of RLVR: Gradient Gap and Step Size Thresholds",
+      "short_name": "Gradient Gap",
+      "primary_url": "https://arxiv.org/abs/2510.08539",
+      "reviewed_version": "v4",
+      "dataset_role": "development",
+      "used_for_framework_development": true,
+      "holdout_eligible": false,
+      "import_status": "prepared_not_merged",
+      "analysis_ids": [
+        "AN-RLVR007-20261001"
+      ],
+      "direction_ids": [
+        "RLVR007-A",
+        "RLVR007-B",
+        "RLVR007-C"
+      ],
+      "author_codes": [
+        {
+          "code": "M9",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR007",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "用成功/失败条件score之差刻画方向，并在条件下联系步长与成功概率改善。"
+        },
+        {
+          "code": "M7",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR007",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "用成功/失败条件score之差刻画方向，并在条件下联系步长与成功概率改善。"
+        },
+        {
+          "code": "M11",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR007",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "用成功/失败条件score之差刻画方向，并在条件下联系步长与成功概率改善。"
+        }
+      ],
+      "review_codes": [
+        {
+          "code": "M14",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR007",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M9",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR007",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M10",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR007",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        }
+      ],
+      "source_refs": [
+        "CONV-RLVR007"
+      ],
+      "current_state": "历史已核v4定理与附录，并做低维精确构造；未完整协议或真实LLM更新测量。",
+      "metadata_status": "inherited_from_conversation_not_reverified_now",
+      "historical_potential_score": {
+        "value": 8.0,
+        "scale": 10,
+        "meaning": "历史主观后续潜力档位，非论文质量/接收概率；不是最新实验后的再评分",
+        "provenance": "本对话十篇汇总评分",
+        "recomputed_in_import": false
+      },
+      "title_as_discussed": "On the Optimization Dynamics of RLVR: Gradient Gap and Step Size Thresholds",
+      "bibliography_note": "题名/简称与版本按本对话已有材料；本次未重新访问14篇论文逐条确认元数据。合入时优先canonical key，不按简称去重。"
+    },
+    {
+      "id": "RLVR008",
+      "legacy_case_id": "Case008",
+      "cohort": "rlvr_post_training_dialogue",
+      "canonical_key": "arxiv:2605.30789",
+      "title": "Smaller Models are Natural Explorers for Policy-Level Diversity in GRPO",
+      "short_name": "S2L-PO",
+      "primary_url": "https://arxiv.org/abs/2605.30789",
+      "reviewed_version": "v3",
+      "dataset_role": "development",
+      "used_for_framework_development": true,
+      "holdout_eligible": false,
+      "import_status": "prepared_not_merged",
+      "analysis_ids": [
+        "AN-RLVR008-20261001"
+      ],
+      "direction_ids": [
+        "RLVR008-A",
+        "RLVR008-B",
+        "RLVR008-C",
+        "RLVR008-D"
+      ],
+      "author_codes": [
+        {
+          "code": "M4",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR008",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "冻结同族小模型与大模型共同rollout，在混合组训练并逐渐退出小模型。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR008",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "冻结同族小模型与大模型共同rollout，在混合组训练并逐渐退出小模型。"
+        },
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR008",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "冻结同族小模型与大模型共同rollout，在混合组训练并逐渐退出小模型。"
+        }
+      ],
+      "review_codes": [
+        {
+          "code": "M14",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR008",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M9",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR008",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M10",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR008",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        }
+      ],
+      "source_refs": [
+        "CONV-RLVR008"
+      ],
+      "current_state": "历史核对v3、关键表/附录、公开eval与最终权重入口；未取得完整训练器或真实策略标签。已有四类数学控制。",
+      "metadata_status": "inherited_from_conversation_not_reverified_now",
+      "historical_potential_score": {
+        "value": 8.0,
+        "scale": 10,
+        "meaning": "历史主观后续潜力档位，非论文质量/接收概率；不是最新实验后的再评分",
+        "provenance": "本对话十篇汇总评分",
+        "recomputed_in_import": false
+      },
+      "title_as_discussed": "Smaller Models are Natural Explorers for Policy-Level Diversity in GRPO",
+      "bibliography_note": "题名/简称与版本按本对话已有材料；本次未重新访问14篇论文逐条确认元数据。合入时优先canonical key，不按简称去重。"
+    },
+    {
+      "id": "RLVR009",
+      "legacy_case_id": "Case009",
+      "cohort": "rlvr_post_training_dialogue",
+      "canonical_key": "arxiv:2609.22547",
+      "title": "RLVR is a Kernel, Not a Function: Statistical Inference for pass@k Crossovers",
+      "short_name": "RLVR Kernel",
+      "primary_url": "https://arxiv.org/abs/2609.22547",
+      "reviewed_version": "v2",
+      "dataset_role": "development",
+      "used_for_framework_development": true,
+      "holdout_eligible": false,
+      "import_status": "prepared_not_merged",
+      "analysis_ids": [
+        "AN-RLVR009-20261001"
+      ],
+      "direction_ids": [
+        "RLVR009-A",
+        "RLVR009-B",
+        "RLVR009-C"
+      ],
+      "author_codes": [
+        {
+          "code": "M7",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR009",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。"
+        },
+        {
+          "code": "M14",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR009",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。"
+        },
+        {
+          "code": "M9",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR009",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。"
+        },
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR009",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR009",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。"
+        }
+      ],
+      "review_codes": [
+        {
+          "code": "M14",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR009",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M9",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR009",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M10",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR009",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        }
+      ],
+      "source_refs": [
+        "CONV-RLVR009"
+      ],
+      "current_state": "历史核对v2核心推断与附录，四个精确构造；未取得作者完整补充包或真实计数分析。",
+      "metadata_status": "inherited_from_conversation_not_reverified_now",
+      "historical_potential_score": {
+        "value": 8.5,
+        "scale": 10,
+        "meaning": "历史主观后续潜力档位，非论文质量/接收概率；不是最新实验后的再评分",
+        "provenance": "本对话十篇汇总评分",
+        "recomputed_in_import": false
+      },
+      "title_as_discussed": "RLVR is a Kernel, Not a Function: Statistical Inference for pass@k Crossovers",
+      "bibliography_note": "题名/简称与版本按本对话已有材料；本次未重新访问14篇论文逐条确认元数据。合入时优先canonical key，不按简称去重。"
+    },
+    {
+      "id": "RLVR010",
+      "legacy_case_id": "Case010",
+      "cohort": "rlvr_post_training_dialogue",
+      "canonical_key": "arxiv:2609.19101",
+      "title": "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations",
+      "short_name": "Internal Reward-Hacking Monitor",
+      "primary_url": "https://arxiv.org/abs/2609.19101",
+      "reviewed_version": "v1",
+      "dataset_role": "development",
+      "used_for_framework_development": true,
+      "holdout_eligible": false,
+      "import_status": "prepared_not_merged",
+      "analysis_ids": [
+        "AN-RLVR010-20261001"
+      ],
+      "direction_ids": [
+        "RLVR010-A",
+        "RLVR010-B",
+        "RLVR010-C"
+      ],
+      "author_codes": [
+        {
+          "code": "M7",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR010",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "用合成对照激活均值差提供廉价筛查，连接异常发现、复核和新类别验证。"
+        },
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR010",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "用合成对照激活均值差提供廉价筛查，连接异常发现、复核和新类别验证。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR010",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "用合成对照激活均值差提供廉价筛查，连接异常发现、复核和新类别验证。"
+        },
+        {
+          "code": "M5",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR010",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "用合成对照激活均值差提供廉价筛查，连接异常发现、复核和新类别验证。"
+        }
+      ],
+      "review_codes": [
+        {
+          "code": "M14",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR010",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M9",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR010",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M10",
+          "source_role": "review",
+          "evidence_ref": "CONV-RLVR010",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        }
+      ],
+      "source_refs": [
+        "CONV-RLVR010"
+      ],
+      "current_state": "历史核对主文、标签/合成数据附录、图8–10与作者说明；无完整复现包、真实轨迹和探针权重。独立控制已做。",
+      "metadata_status": "inherited_from_conversation_not_reverified_now",
+      "historical_potential_score": {
+        "value": 8.5,
+        "scale": 10,
+        "meaning": "历史主观后续潜力档位，非论文质量/接收概率；不是最新实验后的再评分",
+        "provenance": "本对话十篇汇总评分",
+        "recomputed_in_import": false
+      },
+      "title_as_discussed": "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations",
+      "bibliography_note": "题名/简称与版本按本对话已有材料；本次未重新访问14篇论文逐条确认元数据。合入时优先canonical key，不按简称去重。"
+    },
+    {
+      "id": "RLVR011",
+      "legacy_case_id": "Case011",
+      "cohort": "rlvr_post_training_dialogue",
+      "canonical_key": "arxiv:2609.13443",
+      "title": "Learning to Solve Hard Problems in RL for LLMs by Never Giving Up",
+      "short_name": "NGU",
+      "primary_url": "https://arxiv.org/abs/2609.13443",
+      "reviewed_version": "v1",
+      "dataset_role": "development",
+      "used_for_framework_development": true,
+      "holdout_eligible": false,
+      "import_status": "prepared_not_merged",
+      "analysis_ids": [
+        "AN-RLVR011-20261001"
+      ],
+      "direction_ids": [
+        "RLVR011-A"
+      ],
+      "author_codes": [
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR011",
+          "locator": "§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本",
+          "rationale": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。"
+        },
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR011",
+          "locator": "§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本",
+          "rationale": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。"
+        },
+        {
+          "code": "M5",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR011",
+          "locator": "§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本",
+          "rationale": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。"
+        },
+        {
+          "code": "M8",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR011",
+          "locator": "§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本",
+          "rationale": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。"
+        }
+      ],
+      "review_codes": [
+        {
+          "code": "M14",
+          "source_role": "review",
+          "evidence_ref": "ARCHIVE-RLVR011",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M9",
+          "source_role": "review",
+          "evidence_ref": "ARCHIVE-RLVR011",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M10",
+          "source_role": "review",
+          "evidence_ref": "ARCHIVE-RLVR011",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        }
+      ],
+      "source_refs": [
+        "ARCHIVE-RLVR011"
+      ],
+      "current_state": "原始贡献卡和3文件校准包本次可获得并归档，历史已核论文/附录/部分代码；未运行作者训练，无真实模型结果。",
+      "metadata_status": "inherited_from_conversation_not_reverified_now",
+      "historical_potential_score": null,
+      "title_as_discussed": "Learning to Solve Hard Problems in RL for LLMs by Never Giving Up",
+      "bibliography_note": "题名/简称与版本按本对话已有材料；本次未重新访问14篇论文逐条确认元数据。合入时优先canonical key，不按简称去重。"
+    },
+    {
+      "id": "RLVR012",
+      "legacy_case_id": "Case012",
+      "cohort": "rlvr_post_training_dialogue",
+      "canonical_key": "arxiv:2609.05295",
+      "title": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
+      "short_name": "RISE",
+      "primary_url": "https://arxiv.org/abs/2609.05295",
+      "reviewed_version": "v1",
+      "dataset_role": "development",
+      "used_for_framework_development": true,
+      "holdout_eligible": false,
+      "import_status": "prepared_not_merged",
+      "analysis_ids": [
+        "AN-RLVR012-20261001"
+      ],
+      "direction_ids": [
+        "RLVR012-A",
+        "RLVR012-B"
+      ],
+      "author_codes": [
+        {
+          "code": "M6",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR012",
+          "locator": "§2.3–2.4、§3.1–3.3；§4.3–4.4、附录A/C.5–C.10",
+          "rationale": "用当前与anchor位移在参数或logit空间外推，再把动态教师蒸馏回学生。"
+        },
+        {
+          "code": "M2",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR012",
+          "locator": "§2.3–2.4、§3.1–3.3；§4.3–4.4、附录A/C.5–C.10",
+          "rationale": "用当前与anchor位移在参数或logit空间外推，再把动态教师蒸馏回学生。"
+        },
+        {
+          "code": "M11",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR012",
+          "locator": "§2.3–2.4、§3.1–3.3；§4.3–4.4、附录A/C.5–C.10",
+          "rationale": "用当前与anchor位移在参数或logit空间外推，再把动态教师蒸馏回学生。"
+        },
+        {
+          "code": "M5",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR012",
+          "locator": "§2.3–2.4、§3.1–3.3；§4.3–4.4、附录A/C.5–C.10",
+          "rationale": "用当前与anchor位移在参数或logit空间外推，再把动态教师蒸馏回学生。"
+        }
+      ],
+      "review_codes": [
+        {
+          "code": "M9",
+          "source_role": "review",
+          "evidence_ref": "ARCHIVE-RLVR012",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M14",
+          "source_role": "review",
+          "evidence_ref": "ARCHIVE-RLVR012",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M10",
+          "source_role": "review",
+          "evidence_ref": "ARCHIVE-RLVR012",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        }
+      ],
+      "source_refs": [
+        "ARCHIVE-RLVR012"
+      ],
+      "current_state": "原始贡献卡/校准脚本/结果本次可获得；历史已核主方法/附录与两类数学控制；未真实训练，作者实现未取得。",
+      "metadata_status": "inherited_from_conversation_not_reverified_now",
+      "historical_potential_score": null,
+      "title_as_discussed": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
+      "bibliography_note": "题名/简称与版本按本对话已有材料；本次未重新访问14篇论文逐条确认元数据。合入时优先canonical key，不按简称去重。"
+    },
+    {
+      "id": "RLVR013",
+      "legacy_case_id": "Case013",
+      "cohort": "rlvr_post_training_dialogue",
+      "canonical_key": "arxiv:2609.13997",
+      "title": "Unlocking the Unsolvable: Teacher-Guided Curriculum for Data-Efficient RLVR",
+      "short_name": "MFC / Unlocking the Unsolvable",
+      "primary_url": "https://arxiv.org/abs/2609.13997",
+      "reviewed_version": "v1",
+      "dataset_role": "development",
+      "used_for_framework_development": true,
+      "holdout_eligible": false,
+      "import_status": "prepared_not_merged",
+      "analysis_ids": [
+        "AN-RLVR013-20261001"
+      ],
+      "direction_ids": [
+        "RLVR013-A",
+        "RLVR013-B"
+      ],
+      "author_codes": [
+        {
+          "code": "M2",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR013",
+          "locator": "§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡",
+          "rationale": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。"
+        },
+        {
+          "code": "M6",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR013",
+          "locator": "§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡",
+          "rationale": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。"
+        },
+        {
+          "code": "M5",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR013",
+          "locator": "§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡",
+          "rationale": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR013",
+          "locator": "§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡",
+          "rationale": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。"
+        }
+      ],
+      "review_codes": [
+        {
+          "code": "M14",
+          "source_role": "review",
+          "evidence_ref": "ARCHIVE-RLVR013",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M9",
+          "source_role": "review",
+          "evidence_ref": "ARCHIVE-RLVR013",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M10",
+          "source_role": "review",
+          "evidence_ref": "ARCHIVE-RLVR013",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        }
+      ],
+      "source_refs": [
+        "ARCHIVE-RLVR013"
+      ],
+      "current_state": "原始贡献卡/校准包可获得；历史核方法/表2–3/附录及数据卡；未逐条数据、作者训练或真实提示迁移。",
+      "metadata_status": "inherited_from_conversation_not_reverified_now",
+      "historical_potential_score": null,
+      "title_as_discussed": "Unlocking the Unsolvable: Teacher-Guided Curriculum for Data-Efficient RLVR",
+      "bibliography_note": "题名/简称与版本按本对话已有材料；本次未重新访问14篇论文逐条确认元数据。合入时优先canonical key，不按简称去重。"
+    },
+    {
+      "id": "RLVR014",
+      "legacy_case_id": "Case014",
+      "cohort": "rlvr_post_training_dialogue",
+      "canonical_key": "arxiv:2609.15533",
+      "title": "The Misery of Mechanistic Interpretability: A Formal Perspective",
+      "short_name": "IRN Formal Perspective",
+      "primary_url": "https://arxiv.org/abs/2609.15533",
+      "reviewed_version": "v1",
+      "dataset_role": "development",
+      "used_for_framework_development": true,
+      "holdout_eligible": false,
+      "import_status": "prepared_not_merged",
+      "analysis_ids": [
+        "AN-RLVR014-20261001"
+      ],
+      "direction_ids": [
+        "RLVR014-A",
+        "RLVR014-B"
+      ],
+      "author_codes": [
+        {
+          "code": "M11",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR014",
+          "locator": "Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9",
+          "rationale": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。"
+        },
+        {
+          "code": "M9",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR014",
+          "locator": "Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9",
+          "rationale": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR014",
+          "locator": "Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9",
+          "rationale": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。"
+        },
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR014",
+          "locator": "Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9",
+          "rationale": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。"
+        }
+      ],
+      "review_codes": [
+        {
+          "code": "M14",
+          "source_role": "review",
+          "evidence_ref": "ARCHIVE-RLVR014",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M9",
+          "source_role": "review",
+          "evidence_ref": "ARCHIVE-RLVR014",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        },
+        {
+          "code": "M10",
+          "source_role": "review",
+          "evidence_ref": "ARCHIVE-RLVR014",
+          "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率"
+        }
+      ],
+      "source_refs": [
+        "ARCHIVE-RLVR014"
+      ],
+      "current_state": "原始贡献卡/三类标准库校准与manifest可获得；历史读主文/附录关键PDF，未作者实验、Lean机验或真实LLM。",
+      "metadata_status": "inherited_from_conversation_not_reverified_now",
+      "historical_potential_score": null,
+      "title_as_discussed": "The Misery of Mechanistic Interpretability: A Formal Perspective",
+      "bibliography_note": "题名/简称与版本按本对话已有材料；本次未重新访问14篇论文逐条确认元数据。合入时优先canonical key，不按简称去重。"
+    }
+  ]
+}

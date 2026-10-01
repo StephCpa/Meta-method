@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "id": "A0085",
+  "paper_id": "P0071",
+  "kind": "added_analysis",
+  "analyzed_at": "2026-10-01",
+  "imported_at": "2026-10-01T07:52:51.437527+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "v1",
+  "summary": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。",
+  "sections": {
+    "原有局限": "平均替代重构不足以支持明确输入域的忠实性保证，宽字典验证代价高。",
+    "作者改变了什么": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。",
+    "新增结果/组合增量": "形式契约与可执行验证工具是合法贡献，不必先证明提高RLVR成绩。",
+    "证据与边界": "原始贡献卡/三类标准库校准与manifest可获得；历史读主文/附录关键PDF，未作者实验、Lean机验或真实LLM。"
+  },
+  "codings": [
+    {
+      "code": "M11",
+      "role": "author",
+      "anchor": "Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9",
+      "rationale": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "author",
+      "anchor": "Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9",
+      "rationale": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9",
+      "rationale": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9",
+      "rationale": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR014既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR014既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR014既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "note_path": "notes/A0085.md",
+  "note_sha256": "29fec6c203cfb7f42d5a252953f5513bffe8ed1bfe41f7d4717d70dd0a5cc89d",
+  "source_refs": [
+    {
+      "source_id": "S0014",
+      "locator": "analysis_markdown"
+    },
+    {
+      "source_id": "SRC-RLVR14-20261001",
+      "locator": "analyses/rlvr/RLVR014.md"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest",
+  "dataset_role": "development",
+  "used_for_framework_development": true,
+  "original_analysis_id": "AN-RLVR014-20261001",
+  "organizing_framework_version": "0.4.0"
+}

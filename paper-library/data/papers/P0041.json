@@ -4,21 +4,25 @@
   "title": "Evaluating Decision Rules Across Many Weak Experiments",
   "short_name": "Weak Experiments",
   "aliases": [
-    "XD07"
+    "XD07",
+    "RLVR-XD/A07"
   ],
   "identifiers": {
     "arxiv": "2502.08763",
     "doi": null
   },
   "links": [
-    "https://arxiv.org/abs/2502.08763"
+    "https://arxiv.org/abs/2502.08763",
+    "https://arxiv.org/html/2502.08763v2"
   ],
   "topics": [
     "跨领域"
   ],
   "tags": [
     "跨领域",
-    "decision"
+    "decision",
+    "rlvr-dialogue-supplement",
+    "development"
   ],
   "reading_status": "brief_analysis",
   "metadata_observations": [
@@ -28,14 +32,23 @@
       "title": "Evaluating Decision Rules Across Many Weak Experiments",
       "venue": "KDD 2025 应用数据科学最佳论文",
       "verification": "inherited_not_reverified"
+    },
+    {
+      "source_id": "S0021",
+      "as_of": "2026-10-01",
+      "title": "Evaluating Decision Rules Across Many Weak Experiments",
+      "venue": null,
+      "paper_version": null,
+      "verification": "as_supplied_not_automatically_verified"
     }
   ],
   "analysis_ids": [
-    "A0054"
+    "A0054",
+    "A0092"
   ],
   "idea_ids": [],
   "ratings": [],
   "created_at": "2026-09-30",
-  "updated_at": "2026-09-30",
+  "updated_at": "2026-10-01",
   "dataset_role": "development"
 }
