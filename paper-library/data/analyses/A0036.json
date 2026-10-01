@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "A0036",
+  "paper_id": "P0027",
+  "kind": "qualification_note",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.2",
+  "paper_version_as_reported": null,
+  "summary": "动作独立基线可保持所述局部估计期望，但负KL基线并非无条件降低梯度方差。",
+  "sections": {
+    "后续限定": "动作独立基线可保持所述局部估计期望，但负KL基线并非无条件降低梯度方差。"
+  },
+  "codings": [],
+  "note_path": "notes/A0036.md",
+  "note_sha256": "463b3db6912914b6a6cf21d20bd170eb7a0f883f7b0898e1b1dc6eed0e22c059",
+  "source_refs": [
+    {
+      "source_id": "S-OPD-V02",
+      "locator": "五条扩展规则；不宜直接固定为通用规则的报告表述"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

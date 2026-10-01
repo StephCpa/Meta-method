@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "id": "I0030",
+  "title": "换一个能揭示差距的比较维度，并证明界限",
+  "paper_ids": [
+    "P0038"
+  ],
+  "analysis_ids": [
+    "A0051"
+  ],
+  "kind": "transfer_prompt",
+  "question": "两个形式系统看起来能力相近时，比较表示成本、验证成本或访问条件能否揭示新的差异？",
+  "first_evidence": "先对具体新对象核验：仅列出现有模型能识别的语言集合。",
+  "decision_branches": [
+    "此处仅为可迁移提问，尚不是完整可执行方案。",
+    "候选增量：新的比较对象和界限本身即贡献，不要求训练提分。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

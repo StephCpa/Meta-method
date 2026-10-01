@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0021",
+  "title": "锁定行动后的可验证报告",
+  "paper_ids": [
+    "P0008"
+  ],
+  "analysis_ids": [
+    "A0008"
+  ],
+  "kind": "research_direction",
+  "question": "报告不实何时影响接收者，并随收益机会有选择地出现？",
+  "first_evidence": "先锁定真实工作量，再产生报告；比较报告可影响分配与接收者另有真实记录的条件。",
+  "decision_branches": [
+    "报告、信任、分配和后果逐段验证；不以模型自述或可疑措辞判意图。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

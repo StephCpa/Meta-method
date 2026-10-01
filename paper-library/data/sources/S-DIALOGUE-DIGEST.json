@@ -1,0 +1,9 @@
+{
+  "id": "S-DIALOGUE-DIGEST",
+  "kind": "conversation_reconstruction",
+  "path": "sources/S-DIALOGUE-DIGEST.json",
+  "sha256": "3e2b68bc3d78be3c84752e29ea2099f20b7a3cbb7496dae9c95bd2b20aba96c5",
+  "description": "本轮按可见对话整理的MAS十篇与六篇跨领域摘要，不是对话逐字导出，不是重新读原论文。",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "reverified_in_library_build": false
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "id": "P0018",
+  "title": "Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models",
+  "short_name": "OPSD: Self-Distilled Reasoner",
+  "aliases": [
+    "OPD08"
+  ],
+  "identifiers": {
+    "arxiv": "2601.18734",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2601.18734"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "历史调研",
+    "分组C"
+  ],
+  "reading_status": "report_only",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "OPSD: Self-Distilled Reasoner",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0023"
+  ],
+  "idea_ids": [],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

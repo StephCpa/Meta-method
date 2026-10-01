@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "id": "P0023",
+  "title": "Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation",
+  "short_name": "G-OPD: Learning beyond Teacher",
+  "aliases": [
+    "OPD13"
+  ],
+  "identifiers": {
+    "arxiv": "2602.12125",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2602.12125"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "历史调研",
+    "分组D"
+  ],
+  "reading_status": "report_only",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "G-OPD: Learning beyond Teacher",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0029",
+    "A0030"
+  ],
+  "idea_ids": [],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

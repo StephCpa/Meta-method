@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "id": "I0027",
+  "title": "把目标写在实际可观测对象上",
+  "paper_ids": [
+    "P0035"
+  ],
+  "analysis_ids": [
+    "A0048"
+  ],
+  "kind": "transfer_prompt",
+  "question": "当既有目标依赖不能获得的信息时，能否改用可观测的边缘量，并说明它何时足以约束原问题？",
+  "first_evidence": "先对具体新对象核验：先随意填补缺失，再照搬完整数据目标。",
+  "decision_branches": [
+    "此处仅为可迁移提问，尚不是完整可执行方案。",
+    "候选增量：改变观测条件与目标之间的关系，不是仅在既有算法前加一个填补器。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

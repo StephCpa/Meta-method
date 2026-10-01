@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "A0066",
+  "paper_id": "P0053",
+  "kind": "v04_analysis",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "2605.21606v1",
+  "summary": "用privileged teacher提出分支，在不含参考答案的学生上下文中续写检验branch viability；据此对完整轨迹采用随相对位置增加的权重，早期权重不为零。",
+  "sections": {
+    "原有局限": "局部熵等指标描述歧义，却不直接回答教师提出的分支能否由普通学生继续走向正确答案。",
+    "作者贡献": "用privileged teacher提出分支，在不含参考答案的学生上下文中续写检验branch viability；据此对完整轨迹采用随相对位置增加的权重，早期权重不为零。",
+    "为什么不只是A+B": "先把“可靠”改写为可操作的分支成功，再压缩成低成本的位置先验。不是因为换一个sigmoid函数就构成创新。",
+    "原文证据（按来源）": "诊断对位置与若干不确定性指标作比较；训练使用保持学生rollout的前向KL型OPSD目标，在三个模型和数学基准上报告收益。Avg@12与Pass@12分别定义，不能互换。",
+    "审计边界": "诊断使用成功spine，不能自动代表全部失败前缀。归一化位置可能关联剩余推理步数；额外诊断开销与无额外训练teacher pass是两回事。"
+  },
+  "codings": [
+    {
+      "code": "M7",
+      "role": "author",
+      "anchor": "§2 and branch-viability diagnostic: correct spines and student continuation；§3.1: clipped forward-KL surrogate；§3.2–3.3: position weights; limitations: scope and modest gains",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "§2 and branch-viability diagnostic: correct spines and student continuation；§3.1: clipped forward-KL surrogate；§3.2–3.3: position weights; limitations: scope and modest gains",
+      "status": "inherited_provisional"
+    }
+  ],
+  "note_path": "notes/A0066.md",
+  "note_sha256": "abbebb86864f7d2722d9955b8d8b3f22423e17ccbe0824f880752f6158ee69ad",
+  "source_refs": [
+    {
+      "source_id": "S-OPD10-TEXT",
+      "locator": "OPD-T05",
+      "line_start": 116,
+      "line_end": 137
+    },
+    {
+      "source_id": "S-OPD10",
+      "locator": "papers/OPD-T05"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

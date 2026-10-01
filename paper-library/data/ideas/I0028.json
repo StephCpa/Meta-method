@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "id": "I0028",
+  "title": "重设决策对象并寻找可继承性质的桥接",
+  "paper_ids": [
+    "P0036"
+  ],
+  "analysis_ids": [
+    "A0049"
+  ],
+  "kind": "transfer_prompt",
+  "question": "原保证回答的是平均问题，而使用者面对具体已观测条件时，能否重写目标并找到保留哪些保证的映射？",
+  "first_evidence": "先对具体新对象核验：仅改称贝叶斯置信度而不给出对应关系。",
+  "decision_branches": [
+    "此处仅为可迁移提问，尚不是完整可执行方案。",
+    "候选增量：一个可核对的目标重写及数学对应，而非术语替换。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

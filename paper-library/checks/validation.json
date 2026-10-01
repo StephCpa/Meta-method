@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "counts": {
+    "papers": 57,
+    "analyses": 71,
+    "ideas": 44,
+    "sources": 8
+  },
+  "scope": "record_integrity_not_scientific_validation",
+  "rated_papers": 10,
+  "rated_ideas": 0,
+  "unit_tests": {
+    "run": 39,
+    "failures": 0,
+    "errors": 0
+  },
+  "verbatim_excerpts_checked": 42,
+  "browser": {
+    "checks_passed": [
+      "offline_catalog_57",
+      "eopd_aliases_resolve_single_paper",
+      "legacy_rating_filter",
+      "opd_33_unique",
+      "idea_pool_44",
+      "idea_details",
+      "form_export_json",
+      "mobile_no_horizontal_overflow"
+    ],
+    "count": 8,
+    "page_errors": [],
+    "mode": "self_contained_html_loaded_with_set_content_no_network",
+    "file_url_navigation": "not_tested_environment_administrator_blocks_file_urls",
+    "scope": "browser_engineering_only"
+  },
+  "papers_by_topic": {
+    "MAS": 10,
+    "OPD": 33,
+    "跨领域": 14
+  },
+  "reading_depths": {
+    "dialogue_analysis_digest": 10,
+    "report_only": 23,
+    "v04_detailed_analysis": 10,
+    "author_move_analysis": 8,
+    "brief_analysis": 6
+  },
+  "new_scores": 0,
+  "original_papers_stored": false,
+  "github_writes": 0
+}

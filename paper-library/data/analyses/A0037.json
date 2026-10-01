@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "A0037",
+  "paper_id": "P0028",
+  "kind": "source_report",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "历史报告：证明 OPD 可以完全离线化，条件是满足一个此前被忽视的\"教师一致性\"约束。",
+  "sections": {
+    "历史报告定位": "证明 OPD 可以完全离线化，条件是满足一个此前被忽视的\"教师一致性\"约束。",
+    "引用边界": "以下正文逐字来自历史调研；并不表示本轮认可所有强概括。后续OPD审计另存，未替换原文。"
+  },
+  "codings": [],
+  "note_path": "notes/A0037.md",
+  "note_sha256": "68ea65024e9b19a73c0a29cd9c728f859e7c04ee2f51b848c0db87a69aecd7ad",
+  "source_refs": [
+    {
+      "source_id": "S-OPD24",
+      "locator": "OPD18",
+      "line_start": 460,
+      "line_end": 482
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

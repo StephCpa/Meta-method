@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "id": "P0044",
+  "title": "Memory Efficiency and Resource-Rational Encoding in Sentence Processing",
+  "short_name": "Memory Efficiency",
+  "aliases": [
+    "XD10"
+  ],
+  "identifiers": {
+    "arxiv": null,
+    "doi": null
+  },
+  "links": [
+    "https://aclanthology.org/2026.acl-long.1550/"
+  ],
+  "topics": [
+    "跨领域"
+  ],
+  "tags": [
+    "跨领域",
+    "explanation"
+  ],
+  "reading_status": "brief_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Memory Efficiency and Resource-Rational Encoding in Sentence Processing",
+      "venue": "ACL 2026 Best Paper",
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0057"
+  ],
+  "idea_ids": [],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "S-OPD10-TEXT",
+  "kind": "analysis_document",
+  "path": "sources/S-OPD10-TEXT.md",
+  "sha256": "1f7a0541e1a48cb6c4cdfb4efa6f618adb7db6b768820ac3251f8e44361ea813",
+  "description": "10篇OPD逐篇分析原文；不是此次重新检索。",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "reverified_in_library_build": false
+}

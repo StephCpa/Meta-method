@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "id": "I0031",
+  "title": "直接计算所需函数量，绕开完整中间对象",
+  "paper_ids": [
+    "P0039"
+  ],
+  "analysis_ids": [
+    "A0052"
+  ],
+  "kind": "transfer_prompt",
+  "question": "下游只使用大对象的某个作用结果时，能否直接构造或估计该结果，同时保留必要性质？",
+  "first_evidence": "先对具体新对象核验：先构造完整高阶张量，再取需要的收缩。",
+  "decision_branches": [
+    "此处仅为可迁移提问，尚不是完整可执行方案。",
+    "候选增量：改变计算原语而非只换更快设备；证明和实际成本分开核验。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

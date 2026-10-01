@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "A0034",
+  "paper_id": "P0026",
+  "kind": "source_report",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "历史报告：指出标准 OPD 的优势加权策略梯度有三个结构性弱点，并用\"非对称\"处理修复。",
+  "sections": {
+    "历史报告定位": "指出标准 OPD 的优势加权策略梯度有三个结构性弱点，并用\"非对称\"处理修复。",
+    "引用边界": "以下正文逐字来自历史调研；并不表示本轮认可所有强概括。后续OPD审计另存，未替换原文。"
+  },
+  "codings": [],
+  "note_path": "notes/A0034.md",
+  "note_sha256": "bc2ed00d32d913fab48d68580219f982a08b3b895a975d2e0cb008cf8f7937fa",
+  "source_refs": [
+    {
+      "source_id": "S-OPD24",
+      "locator": "OPD16",
+      "line_start": 412,
+      "line_end": 435
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

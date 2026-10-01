@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "A0017",
+  "paper_id": "P0014",
+  "kind": "qualification_note",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.2",
+  "paper_version_as_reported": null,
+  "summary": "教师条件能力、学生可学习性与任务价值需分别检验；低兼容性可以触发桥接探索。",
+  "sections": {
+    "后续限定": "教师条件能力、学生可学习性与任务价值需分别检验；低兼容性可以触发桥接探索。"
+  },
+  "codings": [],
+  "note_path": "notes/A0017.md",
+  "note_sha256": "4dca5cb37783e57a92d866537a7ce40c6e94b5d54df5e8e1d92cee5b43752a48",
+  "source_refs": [
+    {
+      "source_id": "S-OPD-V02",
+      "locator": "五条扩展规则；不宜直接固定为通用规则的报告表述"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

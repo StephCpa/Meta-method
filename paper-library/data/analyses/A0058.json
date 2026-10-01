@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "id": "A0058",
+  "paper_id": "P0045",
+  "kind": "cross_domain_digest",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "定义图像跨文化转换，在文化相关性与意义保留之间建立数据及多维人评。",
+  "sections": {
+    "作者操作摘要": "定义图像跨文化转换，在文化相关性与意义保留之间建立数据及多维人评。",
+    "边界": "不同人群判断不一致不自动是测量噪声；应区分真值、规范、偏好与语境。"
+  },
+  "codings": [],
+  "note_path": "notes/A0058.md",
+  "note_sha256": "831a9b667e76fa02262ee1f1449b829ab4f528145a748d5a73b6d5f142f45804",
+  "source_refs": [
+    {
+      "source_id": "S-DIALOGUE-DIGEST",
+      "locator": "XD11"
+    },
+    {
+      "source_id": "S-REGISTRY",
+      "locator": "XD11"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

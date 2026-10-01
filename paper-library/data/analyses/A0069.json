@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "id": "A0069",
+  "paper_id": "P0056",
+  "kind": "v04_analysis",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "2603.11137v1",
+  "summary": "对教师/学生log-ratio反馈设置有推导依据的下限，并用先奖励过滤、后熵筛选的阶段化策略分配更新；默认算法使用预设T_switch。",
+  "sections": {
+    "原有局限": "稠密token反馈仍可能有重尾负信号、无效更新与探索受限，并非密度越高就越值得全部利用。",
+    "作者贡献": "对教师/学生log-ratio反馈设置有推导依据的下限，并用先奖励过滤、后熵筛选的阶段化策略分配更新；默认算法使用预设T_switch。",
+    "为什么不只是A+B": "放松的是“每个位置都严格追随教师”，同时控制更新信号强度、位置与阶段。并非直接将PPO clipping原样搬来。",
+    "原文证据（按来源）": "原文比较组件、任务与师生配置，报告相对RL基线的样本效率收益。样本效率倍数不等于相同倍数的端到端GPU时间节省。",
+    "审计边界": "机构录用标题与所读arXiv v1标题不同，本文只分析该公开版本。阶段切换是超参数，不写成已实现自动阶段发现；减小噪声、删减信息和改变目标需区分。"
+  },
+  "codings": [
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "arXiv v1 title: Scaling Reasoning Efficiently via Relaxed On-Policy Distillation；§3–4; Eq.4–6 and Algorithm 1；§4.1: mixture-inspired clipping; experiments and component ablations",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M9",
+      "role": "author",
+      "anchor": "arXiv v1 title: Scaling Reasoning Efficiently via Relaxed On-Policy Distillation；§3–4; Eq.4–6 and Algorithm 1；§4.1: mixture-inspired clipping; experiments and component ablations",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "arXiv v1 title: Scaling Reasoning Efficiently via Relaxed On-Policy Distillation；§3–4; Eq.4–6 and Algorithm 1；§4.1: mixture-inspired clipping; experiments and component ablations",
+      "status": "inherited_provisional"
+    }
+  ],
+  "note_path": "notes/A0069.md",
+  "note_sha256": "70fd2f4314792e63f2563507775dadf3d5a4af1dca8d1f6fb2730de9ddd8ca06",
+  "source_refs": [
+    {
+      "source_id": "S-OPD10-TEXT",
+      "locator": "OPD-T08",
+      "line_start": 182,
+      "line_end": 203
+    },
+    {
+      "source_id": "S-OPD10",
+      "locator": "papers/OPD-T08"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

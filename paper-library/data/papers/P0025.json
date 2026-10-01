@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "id": "P0025",
+  "title": "Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes",
+  "short_name": "Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes",
+  "aliases": [
+    "OPD15"
+  ],
+  "identifiers": {
+    "arxiv": "2603.25562",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2603.25562"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "历史调研",
+    "分组D"
+  ],
+  "reading_status": "report_only",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0032",
+    "A0033"
+  ],
+  "idea_ids": [],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

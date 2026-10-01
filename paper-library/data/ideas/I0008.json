@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0008",
+  "title": "同保证下拓扑与总学习成本",
+  "paper_ids": [
+    "P0003"
+  ],
+  "analysis_ids": [
+    "A0003"
+  ],
+  "kind": "research_direction",
+  "question": "减少集中负载而不以更慢混合抵消通信收益。",
+  "first_evidence": "比较满足同一冗余条件的核心—外围与分组展开图，计量节点负载、累计消息、混合性质和达到目标误差的时间。",
+  "decision_branches": [
+    "每轮省但总成本不省则改写方向；存在稳定优势再研究有限时间界。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

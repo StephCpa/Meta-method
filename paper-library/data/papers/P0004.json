@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "id": "P0004",
+  "title": "IBAL: Interaction-Breaking Adversarial Learning Framework for Robust Multi-Agent Reinforcement Learning",
+  "short_name": "IBAL",
+  "aliases": [
+    "MAS04",
+    "IBAL"
+  ],
+  "identifiers": {
+    "arxiv": "2605.18024",
+    "doi": null
+  },
+  "links": [
+    "https://proceedings.mlr.press/v306/lee26s.html"
+  ],
+  "topics": [
+    "MAS"
+  ],
+  "tags": [
+    "MARL",
+    "互信息",
+    "协作",
+    "鲁棒训练"
+  ],
+  "reading_status": "dialogue_analysis_digest",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "IBAL: Interaction-Breaking Adversarial Learning Framework for Robust Multi-Agent Reinforcement Learning",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0004"
+  ],
+  "idea_ids": [
+    "I0010",
+    "I0011"
+  ],
+  "ratings": [
+    {
+      "date": "2026-09-30",
+      "score": 7.9,
+      "scale": 10,
+      "scope": "paper_main_followup",
+      "reason": "继承十篇集中评分：交互指标校准；失效后的必要协作恢复",
+      "assessor": "prior_conversation_assistant",
+      "source_id": "S-REGISTRY",
+      "confidence": "not_recorded",
+      "not_paper_quality": true
+    }
+  ],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

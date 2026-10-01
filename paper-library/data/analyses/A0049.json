@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "id": "A0049",
+  "paper_id": "P0036",
+  "kind": "author_move",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "2502.13228v2",
+  "summary": "将期望损失写成分位函数积分，结合积分界和分位间隔分布，恢复原方法为特殊情形。",
+  "sections": {
+    "原情境": "平均校准表现与给定当前校准损失后的风险判断不是同一问题。",
+    "作者贡献": "将期望损失写成分位函数积分，结合积分界和分位间隔分布，恢复原方法为特殊情形。",
+    "新增结果": "产生针对已观察损失的风险分布界，并给出与既有conformal规则的数学联系。",
+    "范围": "记录独立同分布、损失界和后验解释；不是任意输入逐点的分布无关保证。"
+  },
+  "codings": [
+    {
+      "code": "M7",
+      "role": "author",
+      "priority": "primary",
+      "rationale": "改变风险判断所针对的评价对象。",
+      "anchor": [
+        "§4.2 Reformulation as Bayesian Quadrature",
+        "§4.3–4.6; Theorem 4.3"
+      ]
+    },
+    {
+      "code": "M11",
+      "role": "author",
+      "priority": "secondary",
+      "rationale": "通过明确积分表达与分布关系进行桥接。",
+      "anchor": [
+        "§4.2 Reformulation as Bayesian Quadrature",
+        "§4.3–4.6; Theorem 4.3"
+      ]
+    }
+  ],
+  "note_path": "notes/A0049.md",
+  "note_sha256": "cc897b5c1906a8ce9ca09415aa1b6565cd66d625aae785a0e9e7297b052617bf",
+  "source_refs": [
+    {
+      "source_id": "S-AUTHOR8-TEXT",
+      "locator": "XD02",
+      "line_start": 32,
+      "line_end": 55
+    },
+    {
+      "source_id": "S-AUTHOR8",
+      "locator": "AM-XD02"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

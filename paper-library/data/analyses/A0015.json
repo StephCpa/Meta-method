@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "A0015",
+  "paper_id": "P0013",
+  "kind": "source_report",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "历史报告：指出 OPD 缺乏标准化目标函数且计算成本高，提出 skew KL 损失 + 自适应离线策略，兼顾效果与 4.3× 加速。",
+  "sections": {
+    "历史报告定位": "指出 OPD 缺乏标准化目标函数且计算成本高，提出 skew KL 损失 + 自适应离线策略，兼顾效果与 4.3× 加速。",
+    "引用边界": "以下正文逐字来自历史调研；并不表示本轮认可所有强概括。后续OPD审计另存，未替换原文。"
+  },
+  "codings": [],
+  "note_path": "notes/A0015.md",
+  "note_sha256": "7903eeb67a3a5081a82cacaeba9aecc2e379386ea3be2a772264934e4ba47655",
+  "source_refs": [
+    {
+      "source_id": "S-OPD24",
+      "locator": "OPD03",
+      "line_start": 136,
+      "line_end": 153
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "S-OPD10",
+  "kind": "analysis_register",
+  "path": "sources/S-OPD10.json",
+  "sha256": "b49cd5c845380b349186eadefbbb6d211d63495c00416d85f226c3e51f7e782a",
+  "description": "最近10篇OPD的v0.4.0结构化分析；录用依据与方法边界按源记录继承。",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "reverified_in_library_build": false
+}

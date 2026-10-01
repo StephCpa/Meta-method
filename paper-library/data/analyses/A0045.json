@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "A0045",
+  "paper_id": "P0033",
+  "kind": "source_report",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "历史报告：跨模态 OPD 的代表作——用文本教师教 VLM 推理，并证明\"冷启动对齐\"是前提条件。",
+  "sections": {
+    "历史报告定位": "跨模态 OPD 的代表作——用文本教师教 VLM 推理，并证明\"冷启动对齐\"是前提条件。",
+    "引用边界": "以下正文逐字来自历史调研；并不表示本轮认可所有强概括。后续OPD审计另存，未替换原文。"
+  },
+  "codings": [],
+  "note_path": "notes/A0045.md",
+  "note_sha256": "1309358777cc749d06c3410261678c8a562bcd515604ffbfc123844c387941dd",
+  "source_refs": [
+    {
+      "source_id": "S-OPD24",
+      "locator": "OPD23",
+      "line_start": 571,
+      "line_end": 589
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "id": "A0053",
+  "paper_id": "P0040",
+  "kind": "author_move",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "2512.12567v1",
+  "summary": "设计受版本空间约束的对手论证，并构造达到相应阶数的概念类。",
+  "sections": {
+    "原情境": "提前获得无标签实例序列能减少多少最坏情况错误，已有上下界仍有差距。",
+    "作者贡献": "设计受版本空间约束的对手论证，并构造达到相应阶数的概念类。",
+    "新增结果": "所有相关类的Ω(√d)下界，以及对每个d存在某类达到O(√d)上界。",
+    "范围": "不是所有类的错误界都等于Θ(√d)；本轮只读定理与技术概览，未完成证明审计。"
+  },
+  "codings": [
+    {
+      "code": "M9",
+      "role": "author",
+      "priority": "primary",
+      "rationale": "明确量词并建立上下界。",
+      "anchor": [
+        "§1.2 Theorem 1.1",
+        "§2.2 lower-bound idea",
+        "§2.3 upper-bound construction overview"
+      ]
+    }
+  ],
+  "note_path": "notes/A0053.md",
+  "note_sha256": "0f8ea78867173fdacd299b5924be649f24f160af2de18d88b29f65c3b8039e45",
+  "source_refs": [
+    {
+      "source_id": "S-AUTHOR8-TEXT",
+      "locator": "XD06",
+      "line_start": 128,
+      "line_end": 151
+    },
+    {
+      "source_id": "S-AUTHOR8",
+      "locator": "AM-XD06"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

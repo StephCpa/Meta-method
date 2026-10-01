@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "id": "I0029",
+  "title": "建设能持续产生新数据和新能力的工具",
+  "paper_ids": [
+    "P0037"
+  ],
+  "analysis_ids": [
+    "A0050"
+  ],
+  "kind": "transfer_prompt",
+  "question": "目标数据难获得而原型能辅助产生数据时，能否设计模型—使用者—数据的互相改进接口？",
+  "first_evidence": "先对具体新对象核验：对每帧独立调用图像模型，再机械拼接结果。",
+  "decision_branches": [
+    "此处仅为可迁移提问，尚不是完整可执行方案。",
+    "候选增量：形成新的任务能力与生产流程；组件是否旧并不决定其增量。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

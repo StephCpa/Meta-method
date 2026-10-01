@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "A0023",
+  "paper_id": "P0018",
+  "kind": "source_report",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "历史报告：把\"特权信息\"引入 OPD——同一个 LLM 同时扮演教师和学生，区别只在上下文里有没有答案。",
+  "sections": {
+    "历史报告定位": "把\"特权信息\"引入 OPD——同一个 LLM 同时扮演教师和学生，区别只在上下文里有没有答案。",
+    "引用边界": "以下正文逐字来自历史调研；并不表示本轮认可所有强概括。后续OPD审计另存，未替换原文。"
+  },
+  "codings": [],
+  "note_path": "notes/A0023.md",
+  "note_sha256": "dae808b6605e6ec254646be67bc55a78ff63d577afd12477c6b48aec98673433",
+  "source_refs": [
+    {
+      "source_id": "S-OPD24",
+      "locator": "OPD08",
+      "line_start": 241,
+      "line_end": 259
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

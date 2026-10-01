@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "id": "A0007",
+  "paper_id": "P0007",
+  "kind": "dialogue_digest",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "将风险单位从单次工具输出扩展到分布式片段、跨节点记录与任务后处理。",
+  "sections": {
+    "作者贡献": "将风险单位从单次工具输出扩展到分布式片段、跨节点记录与任务后处理。",
+    "为什么不只是A+B": "局部不形成完整副作用的内容，组合后可能造成另外的系统结果；不自动证明复杂社会协作。",
+    "审计边界": "历史分析区分了预授工具/日志/宿主执行权限、编号齐备与真实时序、组装日志与目标副作用；公式核验不替代真实工作负载发生率。"
+  },
+  "codings": [
+    {
+      "code": "M2",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M7",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M12",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M14",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M9",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M7",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    }
+  ],
+  "note_path": "notes/A0007.md",
+  "note_sha256": "bcb6e3b708c6cd449fd4b8498d3acd993684adbaa2c3b829a4941ffac1beb49f",
+  "source_refs": [
+    {
+      "source_id": "S-DIALOGUE-DIGEST",
+      "locator": "MAS07"
+    },
+    {
+      "source_id": "S-REGISTRY",
+      "locator": "MAS07"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

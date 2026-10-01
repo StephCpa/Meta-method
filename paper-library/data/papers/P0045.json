@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "id": "P0045",
+  "title": "An Image Speaks a Thousand Words, but Can Everyone Listen?",
+  "short_name": "Image Transcreation",
+  "aliases": [
+    "XD11"
+  ],
+  "identifiers": {
+    "arxiv": null,
+    "doi": null
+  },
+  "links": [
+    "https://aclanthology.org/2024.emnlp-main.573/"
+  ],
+  "topics": [
+    "跨领域"
+  ],
+  "tags": [
+    "跨领域",
+    "data_evaluation"
+  ],
+  "reading_status": "brief_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "An Image Speaks a Thousand Words, but Can Everyone Listen?",
+      "venue": "EMNLP 2024 Best Paper",
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0058"
+  ],
+  "idea_ids": [],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "A0047",
+  "paper_id": "P0034",
+  "kind": "source_report",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "历史报告：目前最完整的工业级 OPD 落地报告——309B MoE 模型，用多教师 on-policy 蒸馏（MOPD）作为后训练核心。",
+  "sections": {
+    "历史报告定位": "目前最完整的工业级 OPD 落地报告——309B MoE 模型，用多教师 on-policy 蒸馏（MOPD）作为后训练核心。",
+    "引用边界": "以下正文逐字来自历史调研；并不表示本轮认可所有强概括。后续OPD审计另存，未替换原文。"
+  },
+  "codings": [],
+  "note_path": "notes/A0047.md",
+  "note_sha256": "32d235c3c66d9b5d19865a17eb19d91d0c56f59df465af4b770b4df7b2d1a102",
+  "source_refs": [
+    {
+      "source_id": "S-OPD24",
+      "locator": "OPD24",
+      "line_start": 590,
+      "line_end": 609
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

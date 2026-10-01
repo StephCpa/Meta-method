@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "A0044",
+  "paper_id": "P0032",
+  "kind": "source_report",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "历史报告：token 级 OPD 约束学生探索且必须拿到教师 token 概率——OVD 用语言化分数（verbal score）绕开这两个限制。",
+  "sections": {
+    "历史报告定位": "token 级 OPD 约束学生探索且必须拿到教师 token 概率——OVD 用语言化分数（verbal score）绕开这两个限制。",
+    "引用边界": "以下正文逐字来自历史调研；并不表示本轮认可所有强概括。后续OPD审计另存，未替换原文。"
+  },
+  "codings": [],
+  "note_path": "notes/A0044.md",
+  "note_sha256": "3a3555792f220b9e68b0625151ac6e56b6201d6636b0c79e3398909235b2925a",
+  "source_refs": [
+    {
+      "source_id": "S-OPD24",
+      "locator": "OPD22",
+      "line_start": 549,
+      "line_end": 570
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

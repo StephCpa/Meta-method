@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "A0021",
+  "paper_id": "P0017",
+  "kind": "source_report",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "历史报告：首次从参数空间几何角度刻画 OPD，证明它既不是 SFT 也不是 RL，而是自成一类的更新几何。",
+  "sections": {
+    "历史报告定位": "首次从参数空间几何角度刻画 OPD，证明它既不是 SFT 也不是 RL，而是自成一类的更新几何。",
+    "引用边界": "以下正文逐字来自历史调研；并不表示本轮认可所有强概括。后续OPD审计另存，未替换原文。"
+  },
+  "codings": [],
+  "note_path": "notes/A0021.md",
+  "note_sha256": "bd7cd9bde9203fa692a9a3d17494f312f4bd89af761d95501257ce4ad7f5375c",
+  "source_refs": [
+    {
+      "source_id": "S-OPD24",
+      "locator": "OPD07",
+      "line_start": 218,
+      "line_end": 234
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

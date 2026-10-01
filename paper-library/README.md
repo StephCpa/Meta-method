@@ -1,0 +1,87 @@
+# Meta-method 论文分析库
+
+**保存读过后的认识、证据边界、后续方向与潜力历史，不收录原论文。**
+
+论文库版本：0.1.0；分析方法兼容 Meta-method v0.4.0。它是独立内容库，不升级或修改框架版本。来源截止日期：2026-09-30；具体导入时刻见 `IMPORT-REPORT.json`。
+
+## 直接使用
+
+解压完整包，用浏览器打开 `index.html`。页面自包含，无 CDN、无后台、无自动外部请求。浏览、搜索、筛选和查看全部分析无需Python；外部链接只有在主动点击时才访问网络。浏览器若限制本地页面，可在本目录运行 `python3 -m http.server 8765 --bind 127.0.0.1`，仅从本机访问；不要将研究库绑定到公网接口。
+
+可按标题、旧编号、全文、主题、阅读批次、M代码及编码角色检索。研究方向有单独视图；论文正文详情保留历史分析和后续限定，不把新解释静默覆盖到旧报告上。
+
+**网页没有直接修改本地文件的权限。**“新增 / 复读”导出一个JSON导入单；使用下方命令才能真正写入库。刷新前，请重建页面。
+
+## 当前实际导入
+
+| 材料 | 条目 | 保存形式 |
+|---|---:|---|
+| MAS十篇 | 10 | 可见对话的结构化摘要、作者操作与后续方向；不是全部长评逐字导出 |
+| OPD旧报告 | 24 | 原分析逐篇截取，原报告全文保留；另附13份后续限定记录 |
+| 跨领域候选 | 14 | 8份作者贡献卡原文＋6份明确标注的摘要式分析 |
+| 最近OPD十篇 | 10 | v0.4分析正文及结构化记录 |
+| 去重后论文 | **57** | EOPD的OPD14与OPD-T09合并为P0024，两个分析均保留 |
+
+共71份分析／补充记录；44条方向或迁移提问（36条具体候选＋8条迁移提问）；10篇有既有主线潜力评分。不是57篇全部获得同等深度审稿，不是71次独立验证。
+
+[论文索引](INDEX.md) · [研究方向池](IDEAS.md) · [导入报告](IMPORT-REPORT.json) · [数据结构](FORMAT.md) · [后续维护](ADDING.md) · [来源边界](PROVENANCE.md)
+
+## 三层数据，避免重复和混淆
+
+**论文 `Pxxxx`**：固定身份、arXiv/DOI、所有旧编号与元信息来源。标题或论文版本变化不新建同一篇论文。
+
+**分析 `Axxxx`**：一次阅读或一份补充记录。包含所分析论文版本、框架版本、正文、来源定位及作者／审查／提案代码。再次阅读追加，不覆盖。
+
+**方向 `Ixxxx`**：候选问题、首个判别证据、结果—行动分支、状态与独立评分。同一方向可链接多篇论文；迁移提问不冒充完整研究计划。
+
+## 新增与复读
+
+Python 3.10+，只使用标准库，无需安装依赖。
+
+```bash
+# 可由页面导出JSON，或用这个命令生成导入模板：
+python3 tools/library.py template --out inbox/reading-intake.json
+# 编辑导入单后执行：
+python3 tools/library.py add inbox/reading-intake.json
+```
+
+相同arXiv（忽略v版本）或DOI会追加到已有论文。标题相同但没有稳定标识时要求显式指定 `paper_id`；不进行可能误合并的模糊匹配。内容完全相同的重复导入不会增加分析记录。
+
+```bash
+python3 tools/library.py search "不确定性交接"
+python3 tools/library.py search "" --topic MAS --min-score 8.5
+python3 tools/library.py show OPD-T09
+
+# 主线潜力与具体方向潜力分开；下例为命令形式，请替换成自己的判断：
+python3 tools/library.py rate P0024 8.5 --reason "填写新的判断依据与适用资源"
+python3 tools/library.py rate I0001 8.0 --reason "填写这条具体方向的依据"
+python3 tools/library.py status I0001 checking --reason "已开始查新，尚无实验结果"
+
+# 把同一方向关联到另一篇论文；不要创建重复方向：
+python3 tools/library.py link I0001 P0009
+```
+
+以上写入命令会重建索引，并保留已有评分或状态历史。`completed`只记录工作状态，不自动认证科学主张。
+
+## 检查与备份
+
+```bash
+python3 tools/library.py validate
+python3 -m unittest discover -s tests -v
+python3 tools/library.py build
+python3 tools/library.py backup --out ../paper-library-backup-001.zip
+```
+
+备份输出存在时拒绝覆盖。`index.html`、`catalog.json`、`INDEX.md`、`IDEAS.md`与`views/`为可再生输出；不要把它们当作唯一编辑源。原始记录和正文在`data/`、`notes/`和`sources/`。
+
+## 潜力不是自动分数
+
+原有10个分数保留其日期、评价者与范围，含义是当时条件下的后续主线投入优先级，不是论文质量。没有评分的论文和方向显示“待评”，绝不置零；不把一篇论文的主线分复制给所有方向。新增评分必须提供理由，旧分保留。
+
+## 存储与公开
+
+本库根据用户明确授权上传至公开仓库 `StephCpa/Meta-method` 的 `paper-library/` 目录。当前发布内容包括分析、候选研究方向、评分历史和用于追溯的分析材料，不包含原论文。后续未发表的新方向仍应逐项决定是否公开；不要把凭据、私有项目资料或未经授权的数据加入本库。
+
+GitHub 文件页面只展示HTML源码，不会执行页面中的交互。下载仓库后打开本目录的 `index.html` 即可离线使用；本次不修改 GitHub Pages 或仓库权限设置。
+
+从仓库根目录维护时，先运行 `cd paper-library`，再使用上述命令。每次新增后运行检查和重建，再提交 `paper-library/` 内的变更；原始分析追加保存，评分与状态变化保留历史。

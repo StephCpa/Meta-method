@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "id": "A0063",
+  "paper_id": "P0050",
+  "kind": "v04_analysis",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "2606.05718v1",
+  "summary": "将特权信息改成图像与问题中的视觉线索，并在学生prefill阶段使用sink-token交叉注意力恢复相关证据；推理输入接口不增加显式cue。",
+  "sections": {
+    "原有局限": "答案或推理轨迹型特权信息增强教师，却可能让监督依赖部署学生看不到的信息。",
+    "作者贡献": "将特权信息改成图像与问题中的视觉线索，并在学生prefill阶段使用sink-token交叉注意力恢复相关证据；推理输入接口不增加显式cue。",
+    "为什么不只是A+B": "同时改变教师优势的来源和学生吸收它的接口。其理想化S=f(X)分析对应可恢复信息，而非只把答案提示换成描述提示。",
+    "原文证据（按来源）": "七个多模态基准上，视觉cue与恢复模块具有组件比较；相对对应OPSD基线，2B/8B平均提高1.19/1.24点，相对对应OPD提高0.64/1.08点。",
+    "审计边界": "S=f(X)仅说明理想信息条件，不保证有限容量与预算下能计算f。学生结构增加模块，prefill有额外成本；8B的OPSD+ViCuR均值仍低于该初始模型，不能写成全部能力无损。主会身份来自官方repo 2026-08-21公告，v1的旧投稿页眉不作最新状态。"
+  },
+  "codings": [
+    {
+      "code": "M6",
+      "role": "author",
+      "anchor": "§3.1: recoverable privilege and deterministic abstraction；§3.2–3.4: architecture and training；§4, Appendix ablations and latency: matched baselines and overhead",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M12",
+      "role": "author",
+      "anchor": "§3.1: recoverable privilege and deterministic abstraction；§3.2–3.4: architecture and training；§4, Appendix ablations and latency: matched baselines and overhead",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M9",
+      "role": "author",
+      "anchor": "§3.1: recoverable privilege and deterministic abstraction；§3.2–3.4: architecture and training；§4, Appendix ablations and latency: matched baselines and overhead",
+      "status": "inherited_provisional"
+    }
+  ],
+  "note_path": "notes/A0063.md",
+  "note_sha256": "b01277fe3479a7f8ea24803399366271d8fbc2bf71a2aaa097239bbdeb839632",
+  "source_refs": [
+    {
+      "source_id": "S-OPD10-TEXT",
+      "locator": "OPD-T02",
+      "line_start": 50,
+      "line_end": 71
+    },
+    {
+      "source_id": "S-OPD10",
+      "locator": "papers/OPD-T02"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

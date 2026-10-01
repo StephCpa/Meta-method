@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "id": "P0046",
+  "title": "Infini-gram mini: Exact n-gram Search at the Internet Scale with FM-Index",
+  "short_name": "Infini-gram Mini",
+  "aliases": [
+    "XD12"
+  ],
+  "identifiers": {
+    "arxiv": "2506.12229",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2506.12229"
+  ],
+  "topics": [
+    "跨领域"
+  ],
+  "tags": [
+    "跨领域",
+    "system"
+  ],
+  "reading_status": "author_move_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Infini-gram Mini",
+      "venue": "EMNLP 2025 Best Paper",
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0059"
+  ],
+  "idea_ids": [
+    "I0034"
+  ],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

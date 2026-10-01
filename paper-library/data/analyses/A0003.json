@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "id": "A0003",
+  "paper_id": "P0003",
+  "kind": "dialogue_digest",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "以冗余同源消息验证与图结构共同设计，保持真实消息和无向信息流，将受攻击更新化归为标准QD-learning。",
+  "sections": {
+    "作者贡献": "以冗余同源消息验证与图结构共同设计，保持真实消息和无向信息流，将受攻击更新化归为标准QD-learning。",
+    "为什么不只是A+B": "防御不仅滤除坏消息，还要保证优化目标不被合法信息权重变化悄悄改写。",
+    "审计边界": "原分析限定为诚实节点、通信边篡改/丢弃及每轮全网攻击预算；不是任意恶意节点模型。充分冗余条件、渐近收敛与任何算法的必要条件要区分。"
+  },
+  "codings": [
+    {
+      "code": "M9",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M2",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M8",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M12",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M9",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M3",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M8",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    }
+  ],
+  "note_path": "notes/A0003.md",
+  "note_sha256": "31478696b2858640f07bcc718e658afb7d539daa351e013bbbd66cd2ef529faf",
+  "source_refs": [
+    {
+      "source_id": "S-DIALOGUE-DIGEST",
+      "locator": "MAS03"
+    },
+    {
+      "source_id": "S-REGISTRY",
+      "locator": "MAS03"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

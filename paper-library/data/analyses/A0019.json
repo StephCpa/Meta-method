@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "A0019",
+  "paper_id": "P0016",
+  "kind": "source_report",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "历史报告：2026 年最重要的一篇 OPD 机制研究，用实验把\"OPD 何时有效\"从玄学变成两个可检验条件。",
+  "sections": {
+    "历史报告定位": "2026 年最重要的一篇 OPD 机制研究，用实验把\"OPD 何时有效\"从玄学变成两个可检验条件。",
+    "引用边界": "以下正文逐字来自历史调研；并不表示本轮认可所有强概括。后续OPD审计另存，未替换原文。"
+  },
+  "codings": [],
+  "note_path": "notes/A0019.md",
+  "note_sha256": "2206804c832bba3f4890608562af3934ec7bc6cec7e16ad0e6a4d671bdf3300e",
+  "source_refs": [
+    {
+      "source_id": "S-OPD24",
+      "locator": "OPD06",
+      "line_start": 198,
+      "line_end": 217
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

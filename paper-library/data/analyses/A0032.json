@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "A0032",
+  "paper_id": "P0025",
+  "kind": "source_report",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "历史报告：一篇极其实用的工程诊断报告——把 OPD 不稳定的原因拆成三个可操作项，并给出简单修补。",
+  "sections": {
+    "历史报告定位": "一篇极其实用的工程诊断报告——把 OPD 不稳定的原因拆成三个可操作项，并给出简单修补。",
+    "引用边界": "以下正文逐字来自历史调研；并不表示本轮认可所有强概括。后续OPD审计另存，未替换原文。"
+  },
+  "codings": [],
+  "note_path": "notes/A0032.md",
+  "note_sha256": "b4bdc4a1eb9e533e9cf7ca6bf4cfe6b5fc68cbf223b7b0af5fb81746e21eb7e6",
+  "source_refs": [
+    {
+      "source_id": "S-OPD24",
+      "locator": "OPD15",
+      "line_start": 387,
+      "line_end": 411
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

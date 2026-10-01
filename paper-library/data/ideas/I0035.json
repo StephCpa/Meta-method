@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "id": "I0035",
+  "title": "研究跨上下文教师信号在输出前缀受污染后的有效范围。",
+  "paper_ids": [
+    "P0049"
+  ],
+  "analysis_ids": [
+    "A0062"
+  ],
+  "kind": "research_direction",
+  "question": "研究跨上下文教师信号在输出前缀受污染后的有效范围。",
+  "first_evidence": "固定任务与深度，准备正常、局部错误及已偏离任务的无害封闭轨迹；比较干净输入教师的独立任务恢复率与逐token反馈方向，再决定是否需要前缀修复。",
+  "decision_branches": [
+    "若只清理输入已经稳定提供有效反馈，保留原简单方案。",
+    "若只有部分前缀导致反馈失真，再针对前缀或上下文构造修复，不先堆叠新奖励模型。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

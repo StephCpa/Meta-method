@@ -1,0 +1,9 @@
+{
+  "id": "S-REGISTRY",
+  "kind": "repository_registry",
+  "path": "sources/S-REGISTRY.json",
+  "sha256": "c93ef2e85c1664ca22536faa5d7e1d0e00c675f5b42c70b404d723e930318e37",
+  "description": "Meta-method v0.4.0 / 0631fa0 的48条开发登记；不等于48次全文复核。",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "reverified_in_library_build": false
+}

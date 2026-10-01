@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "A0014",
+  "paper_id": "P0012",
+  "kind": "qualification_note",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.2",
+  "paper_version_as_reported": null,
+  "summary": "采样来源相似，不等于与其他OPD配方优化同一序列目标或使用相同梯度。",
+  "sections": {
+    "后续限定": "采样来源相似，不等于与其他OPD配方优化同一序列目标或使用相同梯度。"
+  },
+  "codings": [],
+  "note_path": "notes/A0014.md",
+  "note_sha256": "bf8f8df0e32678c510f68d89e84a474e55429495c463371cb7aa51f2ee08042a",
+  "source_refs": [
+    {
+      "source_id": "S-OPD-V02",
+      "locator": "五条扩展规则；不宜直接固定为通用规则的报告表述"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

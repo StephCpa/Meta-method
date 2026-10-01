@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "A0027",
+  "paper_id": "P0021",
+  "kind": "qualification_note",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.2",
+  "paper_version_as_reported": null,
+  "summary": "训练期特权信息不自动构成泄露；可迁移规则与不可恢复的实例信息要区分。",
+  "sections": {
+    "后续限定": "训练期特权信息不自动构成泄露；可迁移规则与不可恢复的实例信息要区分。"
+  },
+  "codings": [],
+  "note_path": "notes/A0027.md",
+  "note_sha256": "2ca444a8eb44b3221288556a68c410f726086edf9a7fb315c25e3769696bcba2",
+  "source_refs": [
+    {
+      "source_id": "S-OPD-V02",
+      "locator": "五条扩展规则；不宜直接固定为通用规则的报告表述"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

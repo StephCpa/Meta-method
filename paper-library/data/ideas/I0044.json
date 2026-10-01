@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "id": "I0044",
+  "title": "在教师验证与标注预算有限时，学习何时值得购买可靠性证据，而非假设所有样本都已有oracle。",
+  "paper_ids": [
+    "P0057"
+  ],
+  "analysis_ids": [
+    "A0071"
+  ],
+  "kind": "research_direction",
+  "question": "在教师验证与标注预算有限时，学习何时值得购买可靠性证据，而非假设所有样本都已有oracle。",
+  "first_evidence": "冻结候选池与总教师/验证预算，对比均匀验证、按分歧验证和考虑覆盖的验证；独立报告长视频、稀有事件与高难样本表现。",
+  "decision_branches": [
+    "若验证成本超过训练收益，简化课程。",
+    "若筛选提升均值却丢失关键事件，改写覆盖约束；只有改变独立结果才升级为新方法。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

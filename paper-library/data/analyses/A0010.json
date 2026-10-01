@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "id": "A0010",
+  "paper_id": "P0010",
+  "kind": "dialogue_digest",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "把多轮文本交流展开成带支持/反对关系的图，反向计算与末端共识相关的贡献分数并选择干预。",
+  "sections": {
+    "作者贡献": "把多轮文本交流展开成带支持/反对关系的图，反向计算与末端共识相关的贡献分数并选择干预。",
+    "为什么不只是A+B": "提供文本关系与图计算之间的结构化接口；其价值不等同于已证明因果归因。",
+    "审计边界": "共识支持不等于正确性；绝对偏离可标记唯一正确少数；合并独立调用可能制造图路径；后删记录边不等于运行时阻断。"
+  },
+  "codings": [
+    {
+      "code": "M2",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M12",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M14",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M12",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M10",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    }
+  ],
+  "note_path": "notes/A0010.md",
+  "note_sha256": "b4edeedb6313ef8dfddb294ab4fce27c9bda1bb1d208cf5e4eb4936f7e2908e7",
+  "source_refs": [
+    {
+      "source_id": "S-DIALOGUE-DIGEST",
+      "locator": "MAS10"
+    },
+    {
+      "source_id": "S-REGISTRY",
+      "locator": "MAS10"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

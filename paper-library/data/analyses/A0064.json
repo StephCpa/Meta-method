@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "id": "A0064",
+  "paper_id": "P0051",
+  "kind": "v04_analysis",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "2606.02530v2",
+  "summary": "对教师激活注入拒绝方向，利用无害校准输入提取其相对基础模型更倾向的安全token集合；对有害输入上的学生轨迹，只在该词表子集上施加蒸馏项。",
+  "sections": {
+    "原有局限": "由拒绝方向构造的强安全教师会同时拒绝无害请求；整体模仿它可能损害通用能力。",
+    "作者贡献": "对教师激活注入拒绝方向，利用无害校准输入提取其相对基础模型更倾向的安全token集合；对有害输入上的学生轨迹，只在该词表子集上施加蒸馏项。",
+    "为什么不只是A+B": "教师不必整体适于部署：从一个全局偏置的教师中提取局部有用行为。贡献在选择性知识转移，而不是简单steering+KD。",
+    "原文证据（按来源）": "四个模型、七项安全与五项通用基准，并比较全词表蒸馏、不同教师构造和选择方式。论文以少量有害训练样本实现明显安全改善。",
+    "审计边界": "“100个有害训练样本”不等于所有阶段总共只使用100条数据；无害Alpaca用于token提取。词表子集损失不代表其他token或共享参数不会改变，也不是安全零税的理论保证。"
+  },
+  "codings": [
+    {
+      "code": "M6",
+      "role": "author",
+      "anchor": "§3.1: teacher rejects harmful and harmless instructions；§3.2–3.3: harmless calibration and token selection；§3.4 and experiments: restricted objective and utility evaluation",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M2",
+      "role": "author",
+      "anchor": "§3.1: teacher rejects harmful and harmless instructions；§3.2–3.3: harmless calibration and token selection；§3.4 and experiments: restricted objective and utility evaluation",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "§3.1: teacher rejects harmful and harmless instructions；§3.2–3.3: harmless calibration and token selection；§3.4 and experiments: restricted objective and utility evaluation",
+      "status": "inherited_provisional"
+    }
+  ],
+  "note_path": "notes/A0064.md",
+  "note_sha256": "81ddc8401cae419aa66953cbc588da53f55b3cbba4dbe40ecb1a835deec68669",
+  "source_refs": [
+    {
+      "source_id": "S-OPD10-TEXT",
+      "locator": "OPD-T03",
+      "line_start": 72,
+      "line_end": 93
+    },
+    {
+      "source_id": "S-OPD10",
+      "locator": "papers/OPD-T03"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

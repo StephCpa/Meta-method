@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "id": "A0051",
+  "paper_id": "P0038",
+  "kind": "author_move",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "2510.19315v2",
+  "summary": "把比较轴改成简洁性，在限定模型下构造表示差距并推导验证复杂度。",
+  "sections": {
+    "原情境": "只比较能识别哪些语言，不能刻画表示同一对象需要多大描述。",
+    "作者贡献": "把比较轴改成简洁性，在限定模型下构造表示差距并推导验证复杂度。",
+    "新增结果": "给出表示规模分离和性质验证的复杂度结果。",
+    "范围": "研究特定UHAT形式；上界允许有理数，下界在固定精度整数下已成立。不能外推为所有实用Transformer的训练效率保证。"
+  },
+  "codings": [
+    {
+      "code": "M2",
+      "role": "author",
+      "priority": "primary",
+      "rationale": "将可表达性问题改写为描述规模问题。",
+      "anchor": [
+        "§1 Contributions 中汇总的结果",
+        "§2.2 模型定义和 Remark 2；§4 所给简洁性结果陈述"
+      ]
+    },
+    {
+      "code": "M9",
+      "role": "author",
+      "priority": "secondary",
+      "rationale": "用模型、量词和界限刻画结果。",
+      "anchor": [
+        "§1 Contributions 中汇总的结果",
+        "§2.2 模型定义和 Remark 2；§4 所给简洁性结果陈述"
+      ]
+    }
+  ],
+  "note_path": "notes/A0051.md",
+  "note_sha256": "fb05ac9773ef9768d2566ee2eed18535307d83c8f60842f623ccbf27e845d0c3",
+  "source_refs": [
+    {
+      "source_id": "S-AUTHOR8-TEXT",
+      "locator": "XD04",
+      "line_start": 80,
+      "line_end": 103
+    },
+    {
+      "source_id": "S-AUTHOR8",
+      "locator": "AM-XD04"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

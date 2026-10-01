@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0026",
+  "title": "执行一致事件图与干预收益预测",
+  "paper_ids": [
+    "P0010"
+  ],
+  "analysis_ids": [
+    "A0010"
+  ],
+  "kind": "research_direction",
+  "question": "哪个真实调用值得改变，采取什么动作才有益？",
+  "first_evidence": "记录实际上下文和共享状态，检查改名/拆分不变性与路由；在同状态比较重跑、剪枝、重置和组合。",
+  "decision_branches": [
+    "在相同核验预算下优于随机或局部规则，才扩大反事实归因系统。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

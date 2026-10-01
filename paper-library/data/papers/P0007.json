@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "id": "P0007",
+  "title": "Collaborative Shadows: Distributed Backdoor Attacks in LLM-Based Multi-Agent Systems",
+  "short_name": "Collaborative Shadows",
+  "aliases": [
+    "MAS07",
+    "Collaborative Shadows"
+  ],
+  "identifiers": {
+    "arxiv": "2510.11246",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2510.11246"
+  ],
+  "topics": [
+    "MAS"
+  ],
+  "tags": [
+    "MAS",
+    "权限边界",
+    "组合风险",
+    "首次越界"
+  ],
+  "reading_status": "dialogue_analysis_digest",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Collaborative Shadows: Distributed Backdoor Attacks in LLM-Based Multi-Agent Systems",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0007"
+  ],
+  "idea_ids": [
+    "I0018",
+    "I0019"
+  ],
+  "ratings": [
+    {
+      "date": "2026-09-30",
+      "score": 7.3,
+      "scale": 10,
+      "scope": "paper_main_followup",
+      "reason": "继承十篇集中评分：权限匹配；首次真实越界前的控制",
+      "assessor": "prior_conversation_assistant",
+      "source_id": "S-REGISTRY",
+      "confidence": "not_recorded",
+      "not_paper_quality": true
+    }
+  ],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

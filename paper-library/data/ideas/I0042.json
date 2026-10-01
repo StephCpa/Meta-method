@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "id": "I0042",
+  "title": "识别选择性更新的收益究竟来自信息选择，还是更小的有效步长与更少更新。",
+  "paper_ids": [
+    "P0056"
+  ],
+  "analysis_ids": [
+    "A0069"
+  ],
+  "kind": "research_direction",
+  "question": "识别选择性更新的收益究竟来自信息选择，还是更小的有效步长与更少更新。",
+  "first_evidence": "固定batch及token保留率，匹配更新范数/学习率后比较规则选择与随机选择；观察持出任务和不同负尾分布中的稳定收益。",
+  "decision_branches": [
+    "若范数匹配后优势消失，优先简化优化设置。",
+    "若选择规则仍有独立收益，再研究跨任务的阶段触发，而非假定固定切换步数普适。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

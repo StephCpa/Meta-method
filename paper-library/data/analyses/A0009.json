@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "id": "A0009",
+  "paper_id": "P0009",
+  "kind": "dialogue_digest",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "削弱攻击与正常消息在嵌入中的表面差异，研究新置信度信号及通信后的信号变化。",
+  "sections": {
+    "作者贡献": "削弱攻击与正常消息在嵌入中的表面差异，研究新置信度信号及通信后的信号变化。",
+    "为什么不只是A+B": "从明显异常攻击上的检测成绩，转向接近正常表示的攻击和动态传播；新信号也须重新校准。",
+    "审计边界": "接受区域定理不直接证明攻击可实现且有效；低熵不等于可靠，截断熵不保证排序保持；分数应对应实际发送消息。"
+  },
+  "codings": [
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M7",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M2",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M6",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M14",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M7",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M10",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    }
+  ],
+  "note_path": "notes/A0009.md",
+  "note_sha256": "b2794aa68772605270a75e381d94fbd4a02a02645362b9972f853c5e6e369f6b",
+  "source_refs": [
+    {
+      "source_id": "S-DIALOGUE-DIGEST",
+      "locator": "MAS09"
+    },
+    {
+      "source_id": "S-REGISTRY",
+      "locator": "MAS09"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

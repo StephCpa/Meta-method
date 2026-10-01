@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "id": "P0024",
+  "title": "Entropy-Aware On-Policy Distillation of Language Models",
+  "short_name": "Entropy-Aware OPD / EOPD",
+  "aliases": [
+    "OPD14",
+    "OPD-T09",
+    "Entropy-Aware OPD / EOPD"
+  ],
+  "identifiers": {
+    "arxiv": "2603.07079",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2603.07079",
+    "https://arxiv.org/html/2603.07079v3",
+    "https://proceedings.mlr.press/v306/jin26e.html"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "历史调研",
+    "分组D",
+    "v0.4拆解"
+  ],
+  "reading_status": "v04_detailed_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Entropy-Aware On-Policy Distillation of Language Models",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    },
+    {
+      "source_id": "S-OPD10",
+      "as_of": "2026-09-30",
+      "title": "Entropy-Aware On-Policy Distillation of Language Models",
+      "venue": "ICML 2026",
+      "venue_evidence_level_as_reported": "A_official_proceedings",
+      "venue_source_url": "https://proceedings.mlr.press/v306/jin26e.html",
+      "paper_version": "2603.07079v3",
+      "first_public_date_as_reported": "2026-03-07",
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0031",
+    "A0070"
+  ],
+  "idea_ids": [
+    "I0043"
+  ],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

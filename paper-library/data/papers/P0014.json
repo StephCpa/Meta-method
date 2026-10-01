@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "id": "P0014",
+  "title": "Speculative Knowledge Distillation: Bridging the Teacher-Student Gap Through Interleaved Sampling",
+  "short_name": "Speculative Knowledge Distillation",
+  "aliases": [
+    "OPD04"
+  ],
+  "identifiers": {
+    "arxiv": "2410.11325",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2410.11325"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "历史调研",
+    "分组A"
+  ],
+  "reading_status": "report_only",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Speculative Knowledge Distillation",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0016",
+    "A0017"
+  ],
+  "idea_ids": [],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

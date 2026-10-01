@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "A0046",
+  "paper_id": "P0033",
+  "kind": "qualification_note",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.2",
+  "paper_version_as_reported": null,
+  "summary": "冷启动重要性应限定在所检验的配方和模型，而非所有OPD普遍必要。",
+  "sections": {
+    "后续限定": "冷启动重要性应限定在所检验的配方和模型，而非所有OPD普遍必要。"
+  },
+  "codings": [],
+  "note_path": "notes/A0046.md",
+  "note_sha256": "5189f38b3ca76bbc09437a71e148e9b3aca5c9eaad2f18b7d669834f1c8bd9eb",
+  "source_refs": [
+    {
+      "source_id": "S-OPD-V02",
+      "locator": "五条扩展规则；不宜直接固定为通用规则的报告表述"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

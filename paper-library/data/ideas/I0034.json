@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "id": "I0034",
+  "title": "重新实现旧原语，突破当前可执行规模",
+  "paper_ids": [
+    "P0046"
+  ],
+  "analysis_ids": [
+    "A0059"
+  ],
+  "kind": "transfer_prompt",
+  "question": "成熟技术因旧实现而未进入目标规模时，改变工程组织能否获得可靠的新研究能力？",
+  "first_evidence": "先对具体新对象核验：仅增配内存或把现有实现用于更大语料。",
+  "decision_branches": [
+    "此处仅为可迁移提问，尚不是完整可执行方案。",
+    "候选增量：新的可执行规模与公共接口可以构成贡献，未必有新的底层原语。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0017",
+  "title": "调解效果与自评分离",
+  "paper_ids": [
+    "P0006"
+  ],
+  "analysis_ids": [
+    "A0006"
+  ],
+  "kind": "research_direction",
+  "question": "参与调解的代理是否改变了评分，而非真正产生可行方案？",
+  "first_evidence": "冻结同一轨迹，独立去标签重评并用程序检查硬约束；相同记录比较不同评分提示。",
+  "decision_branches": [
+    "独立可行性无改善先修评价；有改善再区分信息集中、搜索和调解策略。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

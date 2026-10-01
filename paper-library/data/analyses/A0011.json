@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "A0011",
+  "paper_id": "P0011",
+  "kind": "source_report",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "历史报告：把标准 KD 的前向 KL 换成反向 KL，并推导出可落地的 on-policy 优化算法，是 OPD 这条线的起点。",
+  "sections": {
+    "历史报告定位": "把标准 KD 的前向 KL 换成反向 KL，并推导出可落地的 on-policy 优化算法，是 OPD 这条线的起点。",
+    "引用边界": "以下正文逐字来自历史调研；并不表示本轮认可所有强概括。后续OPD审计另存，未替换原文。"
+  },
+  "codings": [],
+  "note_path": "notes/A0011.md",
+  "note_sha256": "77ad95fb2711b485e8d06ea8db2a3926cb550487c6c0ec17869657ebcbecc682",
+  "source_refs": [
+    {
+      "source_id": "S-OPD24",
+      "locator": "OPD01",
+      "line_start": 97,
+      "line_end": 116
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

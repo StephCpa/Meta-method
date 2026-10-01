@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "id": "P0056",
+  "title": "Relaxed On-Policy Distillation: Selective Credit Allocation for Scaling Reasoning Efficiently",
+  "short_name": "REOPOLD",
+  "aliases": [
+    "OPD-T08",
+    "REOPOLD"
+  ],
+  "identifiers": {
+    "arxiv": "2603.11137",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/html/2603.11137v1",
+    "https://www.microsoft.com/en-us/research/publication/relaxed-on-policy-distillation-selective-credit-allocation-for-scaling-reasoning-efficiently/"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "v0.4拆解"
+  ],
+  "reading_status": "v04_detailed_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Relaxed On-Policy Distillation: Selective Credit Allocation for Scaling Reasoning Efficiently",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    },
+    {
+      "source_id": "S-OPD10",
+      "as_of": "2026-09-30",
+      "title": "Relaxed On-Policy Distillation: Selective Credit Allocation for Scaling Reasoning Efficiently",
+      "venue": "NeurIPS 2026 (Microsoft Research publication record)",
+      "venue_evidence_level_as_reported": "B_author_or_institution_acceptance",
+      "venue_source_url": "https://www.microsoft.com/en-us/research/publication/relaxed-on-policy-distillation-selective-credit-allocation-for-scaling-reasoning-efficiently/",
+      "paper_version": "2603.11137v1",
+      "first_public_date_as_reported": "2026-03-11",
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0069"
+  ],
+  "idea_ids": [
+    "I0042"
+  ],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

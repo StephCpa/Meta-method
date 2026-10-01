@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "id": "P0036",
+  "title": "Conformal Prediction as Bayesian Quadrature",
+  "short_name": "Conformal Prediction as Bayesian Quadrature",
+  "aliases": [
+    "XD02"
+  ],
+  "identifiers": {
+    "arxiv": "2502.13228",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2502.13228"
+  ],
+  "topics": [
+    "跨领域"
+  ],
+  "tags": [
+    "跨领域",
+    "theory"
+  ],
+  "reading_status": "author_move_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Conformal Prediction as Bayesian Quadrature",
+      "venue": "ICML 2025 Outstanding",
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0049"
+  ],
+  "idea_ids": [
+    "I0028"
+  ],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

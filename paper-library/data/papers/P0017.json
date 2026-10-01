@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "id": "P0017",
+  "title": "On the Geometry of On-Policy Distillation",
+  "short_name": "On the Geometry of On-Policy Distillation",
+  "aliases": [
+    "OPD07"
+  ],
+  "identifiers": {
+    "arxiv": "2606.07082",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2606.07082"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "历史调研",
+    "分组B"
+  ],
+  "reading_status": "report_only",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "On the Geometry of On-Policy Distillation",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0021",
+    "A0022"
+  ],
+  "idea_ids": [],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

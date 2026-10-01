@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "id": "A0055",
+  "paper_id": "P0042",
+  "kind": "cross_domain_digest",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "共同保留异质性与异配性，提供数据、统一加载评价与可组合框架。",
+  "sections": {
+    "作者操作摘要": "共同保留异质性与异配性，提供数据、统一加载评价与可组合框架。",
+    "边界": "两个维度共同出现是否改变既有结论，需要具体联合条件；资源贡献不必依赖最强算法。"
+  },
+  "codings": [],
+  "note_path": "notes/A0055.md",
+  "note_sha256": "a1f51e903d37e626fd2b124d209183e2165376b17bc569b81ba4968309012a6a",
+  "source_refs": [
+    {
+      "source_id": "S-DIALOGUE-DIGEST",
+      "locator": "XD08"
+    },
+    {
+      "source_id": "S-REGISTRY",
+      "locator": "XD08"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

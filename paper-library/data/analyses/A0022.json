@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "A0022",
+  "paper_id": "P0017",
+  "kind": "qualification_note",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.2",
+  "paper_version_as_reported": null,
+  "summary": "低维子空间内训练足够，不证明其必要性或低秩导致抗遗忘。",
+  "sections": {
+    "后续限定": "低维子空间内训练足够，不证明其必要性或低秩导致抗遗忘。"
+  },
+  "codings": [],
+  "note_path": "notes/A0022.md",
+  "note_sha256": "4b749dc75addbf7e0e8195b2a996085a9b7baccd71564dc2c559daf1025a9ba4",
+  "source_refs": [
+    {
+      "source_id": "S-OPD-V02",
+      "locator": "五条扩展规则；不宜直接固定为通用规则的报告表述"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

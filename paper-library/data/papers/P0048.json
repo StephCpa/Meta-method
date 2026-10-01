@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "id": "P0048",
+  "title": "Causal Structure Learning for Dynamical Systems with Theoretical Score Analysis",
+  "short_name": "CaDyT",
+  "aliases": [
+    "XD14"
+  ],
+  "identifiers": {
+    "arxiv": "2512.14361",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2512.14361"
+  ],
+  "topics": [
+    "跨领域"
+  ],
+  "tags": [
+    "跨领域",
+    "theory"
+  ],
+  "reading_status": "brief_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Causal Structure Learning for Dynamical Systems with Theoretical Score Analysis",
+      "venue": "AAAI 2026 Outstanding",
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0061"
+  ],
+  "idea_ids": [],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

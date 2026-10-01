@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "id": "P0006",
+  "title": "Emergent Social Intelligence Risks in Generative Multi-Agent Systems",
+  "short_name": "Emergent Risks",
+  "aliases": [
+    "MAS06",
+    "Emergent Risks",
+    "Emergent Risks in Generative Multi-Agent Systems"
+  ],
+  "identifiers": {
+    "arxiv": "2603.27771",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2603.27771"
+  ],
+  "topics": [
+    "MAS"
+  ],
+  "tags": [
+    "MAS",
+    "不确定性交接",
+    "澄清控制",
+    "证据重复"
+  ],
+  "reading_status": "dialogue_analysis_digest",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Emergent Social Intelligence Risks in Generative Multi-Agent Systems",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0006"
+  ],
+  "idea_ids": [
+    "I0015",
+    "I0016",
+    "I0017"
+  ],
+  "ratings": [
+    {
+      "date": "2026-09-30",
+      "score": 9.0,
+      "scale": 10,
+      "scope": "paper_main_followup",
+      "reason": "继承十篇集中评分：不确定性交接与实际澄清控制",
+      "assessor": "prior_conversation_assistant",
+      "source_id": "S-REGISTRY",
+      "confidence": "not_recorded",
+      "not_paper_quality": true
+    }
+  ],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

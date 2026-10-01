@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "id": "P0013",
+  "title": "DistiLLM: Towards Streamlined Distillation for Large Language Models",
+  "short_name": "DistiLLM",
+  "aliases": [
+    "OPD03"
+  ],
+  "identifiers": {
+    "arxiv": "2402.03898",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2402.03898"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "历史调研",
+    "分组A"
+  ],
+  "reading_status": "report_only",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "DistiLLM",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0015"
+  ],
+  "idea_ids": [],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

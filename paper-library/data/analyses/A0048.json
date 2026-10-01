@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "id": "A0048",
+  "paper_id": "P0035",
+  "kind": "author_move",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "2506.00557v1",
+  "summary": "改写为边缘score目标，用重要性加权和先求梯度的变分路径实现。",
+  "sections": {
+    "原情境": "完整观测的score目标与部分坐标观测不直接相容，且部分已有缺失数据方法依赖特定神经网络建模。",
+    "作者贡献": "改写为边缘score目标，用重要性加权和先求梯度的变分路径实现。",
+    "新增结果": "在所述正则性、缺失和可识别条件下连接新目标与密度学习，并给出有限样本分析及不同规模的实验。",
+    "范围": "主设定仍为MCAR；边缘Fisher误差不等同于完整Fisher误差。不能写成消除了任意缺失机制假设。"
+  },
+  "codings": [
+    {
+      "code": "M2",
+      "role": "author",
+      "priority": "primary",
+      "rationale": "直接改写可观测坐标上的学习对象。",
+      "anchor": [
+        "§2 Related Works",
+        "§4.1 Definition 4.1; Assumption 4.2; Proposition 4.3",
+        "§4.2–4.3; Remark 4.7"
+      ]
+    },
+    {
+      "code": "M9",
+      "role": "author",
+      "priority": "secondary",
+      "rationale": "显式建立条件、目标等价和有限样本主张。",
+      "anchor": [
+        "§2 Related Works",
+        "§4.1 Definition 4.1; Assumption 4.2; Proposition 4.3",
+        "§4.2–4.3; Remark 4.7"
+      ]
+    }
+  ],
+  "note_path": "notes/A0048.md",
+  "note_sha256": "46f86c2aab14325b6c836a57808dabd892f3b5bf139eeff9018d7e8ca6ef3ecc",
+  "source_refs": [
+    {
+      "source_id": "S-AUTHOR8-TEXT",
+      "locator": "XD01",
+      "line_start": 8,
+      "line_end": 31
+    },
+    {
+      "source_id": "S-AUTHOR8",
+      "locator": "AM-XD01"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

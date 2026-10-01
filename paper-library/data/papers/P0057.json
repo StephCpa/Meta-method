@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "id": "P0057",
+  "title": "Video-OPD: Efficient Post-Training of Multimodal Large Language Models for Temporal Video Grounding via On-Policy Distillation",
+  "short_name": "Video-OPD",
+  "aliases": [
+    "OPD-T10",
+    "Video-OPD"
+  ],
+  "identifiers": {
+    "arxiv": "2602.02994",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/html/2602.02994v3",
+    "https://proceedings.mlr.press/v306/li26im.html"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "v0.4拆解",
+    "多模态"
+  ],
+  "reading_status": "v04_detailed_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Video-OPD: Efficient Post-Training of Multimodal Large Language Models for Temporal Video Grounding via On-Policy Distillation",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    },
+    {
+      "source_id": "S-OPD10",
+      "as_of": "2026-09-30",
+      "title": "Video-OPD: Efficient Post-Training of Multimodal Large Language Models for Temporal Video Grounding via On-Policy Distillation",
+      "venue": "ICML 2026",
+      "venue_evidence_level_as_reported": "A_official_proceedings",
+      "venue_source_url": "https://proceedings.mlr.press/v306/li26im.html",
+      "paper_version": "2602.02994v3",
+      "first_public_date_as_reported": "2026-02-03",
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0071"
+  ],
+  "idea_ids": [
+    "I0044"
+  ],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

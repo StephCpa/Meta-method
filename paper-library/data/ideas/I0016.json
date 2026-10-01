@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0016",
+  "title": "证据增量还是重复转述人数",
+  "paper_ids": [
+    "P0006"
+  ],
+  "analysis_ids": [
+    "A0006"
+  ],
+  "kind": "research_direction",
+  "question": "多数影响来自独立证据，还是同一来源被多个代理复述？",
+  "first_evidence": "固定内容，操纵同源重复、真正独立证据及角色标签；程序真值下看判断更新和校准。",
+  "decision_branches": [
+    "目标是正确使用新增证据，不是让代理固执反对多数。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

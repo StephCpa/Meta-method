@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "A0033",
+  "paper_id": "P0025",
+  "kind": "qualification_note",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.2",
+  "paper_version_as_reported": null,
+  "summary": "局部有偏更新与序列目标分开；有偏不自动无效。",
+  "sections": {
+    "后续限定": "局部有偏更新与序列目标分开；有偏不自动无效。"
+  },
+  "codings": [],
+  "note_path": "notes/A0033.md",
+  "note_sha256": "bdb8d4dc7236d5a39e0c2dd06f201931596610b2f0a521977e9938d8d9a6cf54",
+  "source_refs": [
+    {
+      "source_id": "S-OPD-V02",
+      "locator": "五条扩展规则；不宜直接固定为通用规则的报告表述"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

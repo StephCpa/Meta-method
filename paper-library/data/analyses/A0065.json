@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "id": "A0065",
+  "paper_id": "P0052",
+  "kind": "v04_analysis",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "2606.00564v1",
+  "summary": "通过条件概率分解构造语言与视觉信息增益目标；分析梯度几何，再用VGS增强视觉方向并在相关情形加入语言保持项。",
+  "sections": {
+    "原有局限": "一个整体的多模态蒸馏目标同时要求语言先验匹配与视觉依据匹配，却不显式区分两者。",
+    "作者贡献": "通过条件概率分解构造语言与视觉信息增益目标；分析梯度几何，再用VGS增强视觉方向并在相关情形加入语言保持项。",
+    "为什么不只是A+B": "从“模仿整个教师”转向“保留学生语言先验，吸收教师的视觉条件增量”。新增的是可计算的目标分解及有针对性的更新控制。",
+    "原文证据（按来源）": "原文给出Bayes分解与局部可计算目标、梯度分析及多模态任务比较；附录报告单步时间约为标准OPD的1.375倍。",
+    "审计边界": "某些参数点梯度近正交不等于功能或因果独立；视觉是主要瓶颈也是有范围的假说。单步额外成本需进入总预算，不将论文的minimal overhead解释为免费。"
+  },
+  "codings": [
+    {
+      "code": "M2",
+      "role": "author",
+      "anchor": "§3.1: Eq.5–10 objective construction；§3 gradient geometry; §4 VGS and language preservation；Appendix C: computation and overhead",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M9",
+      "role": "author",
+      "anchor": "§3.1: Eq.5–10 objective construction；§3 gradient geometry; §4 VGS and language preservation；Appendix C: computation and overhead",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "§3.1: Eq.5–10 objective construction；§3 gradient geometry; §4 VGS and language preservation；Appendix C: computation and overhead",
+      "status": "inherited_provisional"
+    }
+  ],
+  "note_path": "notes/A0065.md",
+  "note_sha256": "f1842562e0efafa8ccae38c0d3ca1162f8bd33332b0bb0bcdf60e95c0c6ea3f1",
+  "source_refs": [
+    {
+      "source_id": "S-OPD10-TEXT",
+      "locator": "OPD-T04",
+      "line_start": 94,
+      "line_end": 115
+    },
+    {
+      "source_id": "S-OPD10",
+      "locator": "papers/OPD-T04"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

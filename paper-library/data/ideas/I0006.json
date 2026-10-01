@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0006",
+  "title": "安全规则的跨伙伴可组合性",
+  "paper_ids": [
+    "P0002"
+  ],
+  "analysis_ids": [
+    "A0002"
+  ],
+  "kind": "research_direction",
+  "question": "内化的是可迁移约束，还是固定队友之间的惯例？",
+  "first_evidence": "跨独立训练运行重组同职责代理，联合测正常任务、攻击下安全完成及过程权限约束。",
+  "decision_branches": [
+    "若掉分来自一般协作不兼容先处理接口；不直接归因为安全未内化。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

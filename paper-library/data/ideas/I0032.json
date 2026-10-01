@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "id": "I0032",
+  "title": "将难以改进的目标转成边界与紧性构造",
+  "paper_ids": [
+    "P0040"
+  ],
+  "analysis_ids": [
+    "A0053"
+  ],
+  "kind": "transfer_prompt",
+  "question": "改进路径长期受阻时，能否构造最坏情形说明边界，再找达到边界的对象？",
+  "first_evidence": "先对具体新对象核验：仅延长已有上界数值实验或把存在构造改写成普遍结论。",
+  "decision_branches": [
+    "此处仅为可迁移提问，尚不是完整可执行方案。",
+    "候选增量：量词明确的界限与匹配构造，不依赖一个新训练组件。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

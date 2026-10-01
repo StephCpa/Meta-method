@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "id": "P0020",
+  "title": "Self-Distillation Enables Continual Learning",
+  "short_name": "SDFT: Self-Distillation Enables Continual Learning",
+  "aliases": [
+    "OPD10"
+  ],
+  "identifiers": {
+    "arxiv": "2601.19897",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2601.19897"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "历史调研",
+    "分组C"
+  ],
+  "reading_status": "report_only",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "SDFT: Self-Distillation Enables Continual Learning",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0025"
+  ],
+  "idea_ids": [],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

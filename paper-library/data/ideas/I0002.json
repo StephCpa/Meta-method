@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0002",
+  "title": "定向修复的独立价值",
+  "paper_ids": [
+    "P0001"
+  ],
+  "analysis_ids": [
+    "A0001"
+  ],
+  "kind": "research_direction",
+  "question": "证明收益来自安全且正确的恢复，而非简单重试、一般抑制或覆盖任务信息。",
+  "first_evidence": "冻结同一触发事件与生成前状态，匹配预算比较激活干预、重生成与匹配扰动；增加依赖当次新证据的任务。",
+  "decision_branches": [
+    "重生成解释全部收益则停止复杂steering；若定向作用独立有效再研究机制。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

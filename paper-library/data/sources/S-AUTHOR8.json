@@ -1,0 +1,9 @@
+{
+  "id": "S-AUTHOR8",
+  "kind": "source_anchored_annotation",
+  "path": "sources/S-AUTHOR8.json",
+  "sha256": "b6ee628e927743cd843d01aea10c7fd76e4c02b224c1713bb4ff382d0e0f22b4",
+  "description": "八篇作者贡献记录；继承首轮定位，无独立第二编码者复核。",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "reverified_in_library_build": false
+}

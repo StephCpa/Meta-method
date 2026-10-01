@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "A0042",
+  "paper_id": "P0030",
+  "kind": "qualification_note",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.2",
+  "paper_version_as_reported": null,
+  "summary": "异步收益需包括生成、评分、训练和缓存通信，策略滞后不是仅一个静态数值。",
+  "sections": {
+    "后续限定": "异步收益需包括生成、评分、训练和缓存通信，策略滞后不是仅一个静态数值。"
+  },
+  "codings": [],
+  "note_path": "notes/A0042.md",
+  "note_sha256": "034a23dcfd8d52a7a05d9b7cbb0cb36e48724ae7ffd24a67030f083aa400dd2d",
+  "source_refs": [
+    {
+      "source_id": "S-OPD-V02",
+      "locator": "五条扩展规则；不宜直接固定为通用规则的报告表述"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

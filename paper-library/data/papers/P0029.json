@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "id": "P0029",
+  "title": "Fast and Effective On-policy Distillation from Reasoning Prefixes",
+  "short_name": "Fast and Effective On-policy Distillation from Reasoning Prefixes",
+  "aliases": [
+    "OPD19"
+  ],
+  "identifiers": {
+    "arxiv": "2602.15260",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2602.15260"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "历史调研",
+    "分组E"
+  ],
+  "reading_status": "report_only",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Fast and Effective On-policy Distillation from Reasoning Prefixes",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0039",
+    "A0040"
+  ],
+  "idea_ids": [],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

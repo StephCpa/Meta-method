@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0011",
+  "title": "失效—恢复中的必要协作",
+  "paper_ids": [
+    "P0004"
+  ],
+  "analysis_ids": [
+    "A0004"
+  ],
+  "kind": "research_direction",
+  "question": "鲁棒性是可降级后恢复协作，还是长期忽略队友？",
+  "first_evidence": "设置正常—局部失效—恢复三阶段，核验失效后任务仍可解，测绝对任务表现与恢复协作时间。",
+  "decision_branches": [
+    "任务已信息上不可解时先修改目标；不要把低正常能力下的高相对保持率当胜利。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

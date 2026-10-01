@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "id": "A0057",
+  "paper_id": "P0044",
+  "kind": "cross_domain_digest",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "把记忆噪声与编码精度约束作为认知解释，通过人类语言加工行为检验。",
+  "sections": {
+    "作者操作摘要": "把记忆噪声与编码精度约束作为认知解释，通过人类语言加工行为检验。",
+    "边界": "模型作为解释仪器，不以产品任务得分为唯一终点；行为拟合与机制确认分开。"
+  },
+  "codings": [],
+  "note_path": "notes/A0057.md",
+  "note_sha256": "a7d672b4f56c118b8839909c8744c68c51721099941950522d8454ef46825161",
+  "source_refs": [
+    {
+      "source_id": "S-DIALOGUE-DIGEST",
+      "locator": "XD10"
+    },
+    {
+      "source_id": "S-REGISTRY",
+      "locator": "XD10"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

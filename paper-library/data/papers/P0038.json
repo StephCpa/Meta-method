@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "id": "P0038",
+  "title": "Transformers are Inherently Succinct",
+  "short_name": "Transformers are Inherently Succinct",
+  "aliases": [
+    "XD04"
+  ],
+  "identifiers": {
+    "arxiv": "2510.19315",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2510.19315"
+  ],
+  "topics": [
+    "跨领域"
+  ],
+  "tags": [
+    "跨领域",
+    "theory"
+  ],
+  "reading_status": "author_move_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Transformers are Inherently Succinct",
+      "venue": "ICLR 2026 Outstanding",
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0051"
+  ],
+  "idea_ids": [
+    "I0030"
+  ],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

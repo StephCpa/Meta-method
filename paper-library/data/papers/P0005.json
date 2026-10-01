@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "id": "P0005",
+  "title": "Multi-Agent Security Tax: Trading Off Security and Collaboration Capabilities in Multi-Agent Systems",
+  "short_name": "Security Tax",
+  "aliases": [
+    "MAS05",
+    "Security Tax"
+  ],
+  "identifiers": {
+    "arxiv": "2502.19145",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2502.19145"
+  ],
+  "topics": [
+    "MAS"
+  ],
+  "tags": [
+    "MAS",
+    "安全税",
+    "端到端效用",
+    "警报传播"
+  ],
+  "reading_status": "dialogue_analysis_digest",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Multi-Agent Security Tax: Trading Off Security and Collaboration Capabilities in Multi-Agent Systems",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0005"
+  ],
+  "idea_ids": [
+    "I0012",
+    "I0013",
+    "I0014"
+  ],
+  "ratings": [
+    {
+      "date": "2026-09-30",
+      "score": 8.6,
+      "scale": 10,
+      "scope": "paper_main_followup",
+      "reason": "继承十篇集中评分：局部误拒、历史与警报传播代价",
+      "assessor": "prior_conversation_assistant",
+      "source_id": "S-REGISTRY",
+      "confidence": "not_recorded",
+      "not_paper_quality": true
+    }
+  ],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

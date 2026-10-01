@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "A0012",
+  "paper_id": "P0011",
+  "kind": "qualification_note",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.2",
+  "paper_version_as_reported": null,
+  "summary": "不能把采样token的log-ratio更新作为所有OPD的唯一定义。",
+  "sections": {
+    "后续限定": "不能把采样token的log-ratio更新作为所有OPD的唯一定义。"
+  },
+  "codings": [],
+  "note_path": "notes/A0012.md",
+  "note_sha256": "fed23a3757a3a82deddd8fe54020d5db94c3da7394fee701e317f760724c2601",
+  "source_refs": [
+    {
+      "source_id": "S-OPD-V02",
+      "locator": "五条扩展规则；不宜直接固定为通用规则的报告表述"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

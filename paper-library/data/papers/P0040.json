@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "id": "P0040",
+  "title": "Optimal Mistake Bounds for Transductive Online Learning",
+  "short_name": "Optimal Mistake Bounds for Transductive Online Learning",
+  "aliases": [
+    "XD06"
+  ],
+  "identifiers": {
+    "arxiv": "2512.12567",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2512.12567"
+  ],
+  "topics": [
+    "跨领域"
+  ],
+  "tags": [
+    "跨领域",
+    "theory"
+  ],
+  "reading_status": "author_move_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Optimal Mistake Bounds for Transductive Online Learning",
+      "venue": "NeurIPS 2025 Best Paper Runner-Up",
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0053"
+  ],
+  "idea_ids": [
+    "I0032"
+  ],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

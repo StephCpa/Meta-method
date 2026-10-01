@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "id": "P0052",
+  "title": "Decomposed On-Policy Distillation for Vision-Language Reasoning: Steering Gradients for Visual Grounding",
+  "short_name": "Decomposed OPD / VGS",
+  "aliases": [
+    "OPD-T04",
+    "Decomposed OPD / VGS"
+  ],
+  "identifiers": {
+    "arxiv": "2606.00564",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/html/2606.00564v1",
+    "https://proceedings.mlr.press/v306/yoon26f.html"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "v0.4拆解",
+    "多模态"
+  ],
+  "reading_status": "v04_detailed_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Decomposed On-Policy Distillation for Vision-Language Reasoning: Steering Gradients for Visual Grounding",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    },
+    {
+      "source_id": "S-OPD10",
+      "as_of": "2026-09-30",
+      "title": "Decomposed On-Policy Distillation for Vision-Language Reasoning: Steering Gradients for Visual Grounding",
+      "venue": "ICML 2026",
+      "venue_evidence_level_as_reported": "A_official_proceedings",
+      "venue_source_url": "https://proceedings.mlr.press/v306/yoon26f.html",
+      "paper_version": "2606.00564v1",
+      "first_public_date_as_reported": "2026-05-30",
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0065"
+  ],
+  "idea_ids": [
+    "I0038"
+  ],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

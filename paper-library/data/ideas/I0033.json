@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "id": "I0033",
+  "title": "让算法结构与真实执行约束共同决定设计",
+  "paper_ids": [
+    "P0043"
+  ],
+  "analysis_ids": [
+    "A0056"
+  ],
+  "kind": "transfer_prompt",
+  "question": "理论节省无法兑现时，能否从访存、调度、训练兼容性反推可执行算法结构？",
+  "first_evidence": "先对具体新对象核验：在稠密训练模型推理时直接删掉一部分注意力项。",
+  "decision_branches": [
+    "此处仅为可迁移提问，尚不是完整可执行方案。",
+    "候选增量：把算法节省转为可训练且可执行的系统能力。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

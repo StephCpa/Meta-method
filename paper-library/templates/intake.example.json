@@ -1,0 +1,28 @@
+{
+  "title": "填写论文标题",
+  "short_name": "",
+  "paper_id": null,
+  "arxiv": null,
+  "doi": null,
+  "paper_url": "",
+  "aliases": [],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [],
+  "analyzed_at": "2026-10-01",
+  "framework_version": "0.4.0",
+  "paper_version": null,
+  "venue": null,
+  "source_description": "本次阅读分析；请注明材料版本与核验范围",
+  "summary": "填写核心贡献",
+  "sections": {
+    "原有局限": "",
+    "作者改变了什么": "",
+    "新增结果/组合增量": "",
+    "证据与边界": ""
+  },
+  "codings": [],
+  "analysis_markdown": "# 论文分析\n\n请填入完整分析正文。\n",
+  "ideas": []
+}

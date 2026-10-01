@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0018",
+  "title": "首次真实越界前的可执行控制",
+  "paper_ids": [
+    "P0007"
+  ],
+  "analysis_ids": [
+    "A0007"
+  ],
+  "kind": "research_direction",
+  "question": "提前告警是否发生在所保护边界真正突破之前，并有能力阻止？",
+  "first_evidence": "合成标记封闭环境，分别定义读取、交接和操作提交边界，比较局部、联合前缀与提交检查。",
+  "decision_branches": [
+    "简单可信提交控制解决全部目标就不训练复杂检测；说明防御依赖的权限和隔离。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

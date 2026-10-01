@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "id": "A0068",
+  "paper_id": "P0055",
+  "kind": "v04_analysis",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "2604.20244v2",
+  "summary": "统一为加权token对数似然，区分专家token和学生采样的非专家token；按高估/低估情况有选择地使用正负更新。主配方在离线前缀下做轻量学生token采样，另有完整on-policy实验。",
+  "sections": {
+    "原有局限": "散度方向、估计形式和数据来源经常捆绑改变，使方法比较难以定位究竟在改变什么。",
+    "作者贡献": "统一为加权token对数似然，区分专家token和学生采样的非专家token；按高估/低估情况有选择地使用正负更新。主配方在离线前缀下做轻量学生token采样，另有完整on-policy实验。",
+    "为什么不只是A+B": "并非固定系数FKL+RKL：明确控制抑制某token后概率质量应向哪里移动，同时节省完整rollout成本。",
+    "原文证据（按来源）": "原文提供统一推导、梯度与权重机制，覆盖数学、对话和代码任务；§5.4另检验on-policy设置。",
+    "审计边界": "离线前缀上的学生token采样不等于当前学生完整轨迹；局部修正不能自动证明已解决状态分布偏移。这是近似适用范围，而不是作者暗称严格on-policy。"
+  },
+  "codings": [
+    {
+      "code": "M9",
+      "role": "author",
+      "anchor": "§4.1: reweighted likelihood view；§4.2 Eq.11–13: expert/non-expert token weighting and offline prefixes；§5.4: on-policy evaluation",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M2",
+      "role": "author",
+      "anchor": "§4.1: reweighted likelihood view；§4.2 Eq.11–13: expert/non-expert token weighting and offline prefixes；§5.4: on-policy evaluation",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "§4.1: reweighted likelihood view；§4.2 Eq.11–13: expert/non-expert token weighting and offline prefixes；§5.4: on-policy evaluation",
+      "status": "inherited_provisional"
+    }
+  ],
+  "note_path": "notes/A0068.md",
+  "note_sha256": "66e3fd1a7f06943e22672445ca5d192330ec8f828237218abe69d29403e661ad",
+  "source_refs": [
+    {
+      "source_id": "S-OPD10-TEXT",
+      "locator": "OPD-T07",
+      "line_start": 160,
+      "line_end": 181
+    },
+    {
+      "source_id": "S-OPD10",
+      "locator": "papers/OPD-T07"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

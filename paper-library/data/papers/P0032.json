@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "id": "P0032",
+  "title": "OVD: On-policy Verbal Distillation",
+  "short_name": "OVD: On-policy Verbal Distillation",
+  "aliases": [
+    "OPD22"
+  ],
+  "identifiers": {
+    "arxiv": "2601.21968",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2601.21968"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "历史调研",
+    "分组F"
+  ],
+  "reading_status": "report_only",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "OVD: On-policy Verbal Distillation",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0044"
+  ],
+  "idea_ids": [],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

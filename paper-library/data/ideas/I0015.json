@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0015",
+  "title": "不确定性交接×实际澄清控制",
+  "paper_ids": [
+    "P0006"
+  ],
+  "analysis_ids": [
+    "A0006"
+  ],
+  "kind": "research_direction",
+  "question": "未经确认的假设在哪一步变成了可执行事实？",
+  "first_evidence": "保留歧义/仅传确定结果×有真实回问暂停/仅文字输出；测未经确认提交、合法完成与核实成本。",
+  "decision_branches": [
+    "信息、决策或控制哪层失败就修哪层；简单字段足够则无需新监督代理。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

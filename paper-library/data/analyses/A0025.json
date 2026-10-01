@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "A0025",
+  "paper_id": "P0020",
+  "kind": "source_report",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "历史报告：证明 on-policy 蒸馏是从示范中持续学习、且不遗忘的实用路径。",
+  "sections": {
+    "历史报告定位": "证明 on-policy 蒸馏是从示范中持续学习、且不遗忘的实用路径。",
+    "引用边界": "以下正文逐字来自历史调研；并不表示本轮认可所有强概括。后续OPD审计另存，未替换原文。"
+  },
+  "codings": [],
+  "note_path": "notes/A0025.md",
+  "note_sha256": "6762ceae35807fb7ce63c3564651926cf2037963735fca368382d9be4ced2fa7",
+  "source_refs": [
+    {
+      "source_id": "S-OPD24",
+      "locator": "OPD10",
+      "line_start": 282,
+      "line_end": 300
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

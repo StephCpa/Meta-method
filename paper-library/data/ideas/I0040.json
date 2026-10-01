@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "id": "I0040",
+  "title": "研究同一结构token在自然语言解释、精确格式输出和代码等任务中如何改变训练价值。",
+  "paper_ids": [
+    "P0054"
+  ],
+  "analysis_ids": [
+    "A0067"
+  ],
+  "kind": "research_direction",
+  "question": "研究同一结构token在自然语言解释、精确格式输出和代码等任务中如何改变训练价值。",
+  "first_evidence": "先固定token身份，改变是否需要严格格式等任务契约，独立比较推理可替代性和同预算训练权重效应；不直接建立永久token黑名单。",
+  "decision_branches": [
+    "若无效性只在宽松格式下成立，报告任务边界。",
+    "若上下文功能显著预测训练收益，再建立功能条件重分配；不能靠无显著敲除效应证明可安全删除。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "id": "A0060",
+  "paper_id": "P0047",
+  "kind": "cross_domain_digest",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "同时要求加入应满足的模型与排除不应满足的模型，用公理和兼容条件刻画联合修正。",
+  "sections": {
+    "作者操作摘要": "同时要求加入应满足的模型与排除不应满足的模型，用公理和兼容条件刻画联合修正。",
+    "边界": "联合修正不能任意简化为顺序加入再删除；理论终点无需强行补训练收益。"
+  },
+  "codings": [],
+  "note_path": "notes/A0060.md",
+  "note_sha256": "9f5d5a8d6d13ccf5eee2f8fb8272a0cc8047f6cbaacf37f243574a33eb9b40c2",
+  "source_refs": [
+    {
+      "source_id": "S-DIALOGUE-DIGEST",
+      "locator": "XD13"
+    },
+    {
+      "source_id": "S-REGISTRY",
+      "locator": "XD13"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

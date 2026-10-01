@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "id": "A0061",
+  "paper_id": "P0048",
+  "kind": "cross_domain_digest",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "从动力系统及观测方式出发构造因果评分，显化动力稳定性与生成机制条件。",
+  "sections": {
+    "作者操作摘要": "从动力系统及观测方式出发构造因果评分，显化动力稳定性与生成机制条件。",
+    "边界": "评分理论性质不是无条件因果识别保证；假设是结论边界，不天然是缺陷。"
+  },
+  "codings": [],
+  "note_path": "notes/A0061.md",
+  "note_sha256": "6a3f8682935b0c1a733f4cb2064f0d3918284ac357ba475e8e5205c44a0b1457",
+  "source_refs": [
+    {
+      "source_id": "S-DIALOGUE-DIGEST",
+      "locator": "XD14"
+    },
+    {
+      "source_id": "S-REGISTRY",
+      "locator": "XD14"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

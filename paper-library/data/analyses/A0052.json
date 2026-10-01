@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "A0052",
+  "paper_id": "P0039",
+  "kind": "author_move",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "2412.00088v1",
+  "summary": "构造Taylor-mode AD的输入切向量／jets，直接获得需要的多元导数收缩并随机化算子计算。",
+  "sections": {
+    "原情境": "高维导数张量和嵌套自动微分的中间对象昂贵，目标算子只需要特定收缩。",
+    "作者贡献": "构造Taylor-mode AD的输入切向量／jets，直接获得需要的多元导数收缩并随机化算子计算。",
+    "新增结果": "建立可计算的算子估计路径，报告数值任务上的资源收益。",
+    "范围": "实际需用阶数依赖算子结构；本轮没有验证全部算子构造或速度数字。"
+  },
+  "codings": [
+    {
+      "code": "M2",
+      "role": "author",
+      "priority": "primary",
+      "rationale": "以所需收缩代替完整中间对象。",
+      "anchor": [
+        "§3.2–3.4 bottlenecks and Taylor-mode AD",
+        "§4.1–4.4 contractions and random jets"
+      ]
+    },
+    {
+      "code": "M11",
+      "role": "author",
+      "priority": "secondary",
+      "rationale": "建立单变量Taylor-mode与多元导数之间的具体关系。",
+      "anchor": [
+        "§3.2–3.4 bottlenecks and Taylor-mode AD",
+        "§4.1–4.4 contractions and random jets"
+      ]
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "priority": "secondary",
+      "rationale": "避免不必要的中间计算与存储。",
+      "anchor": [
+        "§3.2–3.4 bottlenecks and Taylor-mode AD",
+        "§4.1–4.4 contractions and random jets"
+      ]
+    }
+  ],
+  "note_path": "notes/A0052.md",
+  "note_sha256": "71a2a026918e22718a8e372a63c9b3e95fdd72ffbccf865d014ed0fa223dbebb",
+  "source_refs": [
+    {
+      "source_id": "S-AUTHOR8-TEXT",
+      "locator": "XD05",
+      "line_start": 104,
+      "line_end": 127
+    },
+    {
+      "source_id": "S-AUTHOR8",
+      "locator": "AM-XD05"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

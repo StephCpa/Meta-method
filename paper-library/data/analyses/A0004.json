@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "id": "A0004",
+  "paper_id": "P0004",
+  "kind": "dialogue_digest",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "将攻击与训练压力从最终回报移向跨代理依赖，用互信息相关量指导观测遮蔽和动作扰动。",
+  "sections": {
+    "作者贡献": "将攻击与训练压力从最终回报移向跨代理依赖，用互信息相关量指导观测遮蔽和动作扰动。",
+    "为什么不只是A+B": "尝试把扰动对应到协作失效机制；关键不只是增加噪声，而是定义被破坏的关系。",
+    "审计边界": "此前提出完整联合历史下同期动作条件互信息可能为零、条件互信息一般不单调、联合信息可能被逐维指标遗漏及负采样外推问题。构造边界不等于原实验收益不存在。"
+  },
+  "codings": [
+    {
+      "code": "M2",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M6",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M5",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M14",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M9",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M7",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    }
+  ],
+  "note_path": "notes/A0004.md",
+  "note_sha256": "673f3d0176b6c80f4f3518399988b3f05ee867cdc80241e05ed529db07b10649",
+  "source_refs": [
+    {
+      "source_id": "S-DIALOGUE-DIGEST",
+      "locator": "MAS04"
+    },
+    {
+      "source_id": "S-REGISTRY",
+      "locator": "MAS04"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

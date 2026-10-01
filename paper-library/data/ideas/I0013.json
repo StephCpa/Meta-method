@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0013",
+  "title": "安全提醒的警报级联",
+  "paper_ids": [
+    "P0005"
+  ],
+  "analysis_ids": [
+    "A0005"
+  ],
+  "kind": "research_direction",
+  "question": "安全提醒是否引发重复核实、队列拥塞与任务停滞？",
+  "first_evidence": "固定合法异常请求与初始判断，比较局部核实、自由广播及去重定向提醒，并匹配中性消息对照。",
+  "decision_branches": [
+    "若收益全由普通消息量解释，转向系统调度；减少警报也必须保留必要预警。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

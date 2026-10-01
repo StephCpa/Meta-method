@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "A0038",
+  "paper_id": "P0028",
+  "kind": "qualification_note",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.2",
+  "paper_version_as_reported": null,
+  "summary": "缓存分数正确与当前分布代表性不同；同教师配方的条件不能推广成所有OPD的必要条件。",
+  "sections": {
+    "后续限定": "缓存分数正确与当前分布代表性不同；同教师配方的条件不能推广成所有OPD的必要条件。"
+  },
+  "codings": [],
+  "note_path": "notes/A0038.md",
+  "note_sha256": "06419213ac56276a8e736e70b3d3f62b462b61ac4b841a77605ee5b5ab35375d",
+  "source_refs": [
+    {
+      "source_id": "S-OPD-V02",
+      "locator": "五条扩展规则；不宜直接固定为通用规则的报告表述"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

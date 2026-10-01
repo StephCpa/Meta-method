@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "id": "P0051",
+  "title": "SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
+  "short_name": "SafeSteer",
+  "aliases": [
+    "OPD-T03",
+    "SafeSteer"
+  ],
+  "identifiers": {
+    "arxiv": "2606.02530",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/html/2606.02530v2",
+    "https://anjingkun.github.io/SafeSteer/"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "v0.4拆解"
+  ],
+  "reading_status": "v04_detailed_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    },
+    {
+      "source_id": "S-OPD10",
+      "as_of": "2026-09-30",
+      "title": "SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
+      "venue": "EMNLP 2026 Main (Oral, author project announcement)",
+      "venue_evidence_level_as_reported": "B_author_or_institution_acceptance",
+      "venue_source_url": "https://anjingkun.github.io/SafeSteer/",
+      "paper_version": "2606.02530v2",
+      "first_public_date_as_reported": "2026-06-01",
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0064"
+  ],
+  "idea_ids": [
+    "I0037"
+  ],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

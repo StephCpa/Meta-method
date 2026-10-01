@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "A0016",
+  "paper_id": "P0014",
+  "kind": "source_report",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "历史报告：揭示 OPD 的一个致命软肋——学生生成的错误前缀会让教师给出不可靠的反馈，并用\"学生提议、教师替换\"的交错采样解决它。",
+  "sections": {
+    "历史报告定位": "揭示 OPD 的一个致命软肋——学生生成的错误前缀会让教师给出不可靠的反馈，并用\"学生提议、教师替换\"的交错采样解决它。",
+    "引用边界": "以下正文逐字来自历史调研；并不表示本轮认可所有强概括。后续OPD审计另存，未替换原文。"
+  },
+  "codings": [],
+  "note_path": "notes/A0016.md",
+  "note_sha256": "89debbd17e7666c8f5c5e98700632358f5b3d5d0f8639619a5697f4783b9d53d",
+  "source_refs": [
+    {
+      "source_id": "S-OPD24",
+      "locator": "OPD04",
+      "line_start": 154,
+      "line_end": 171
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

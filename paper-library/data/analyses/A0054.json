@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "id": "A0054",
+  "paper_id": "P0041",
+  "kind": "cross_domain_digest",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "从逐个实验显著性转向跨实验决策规则收益，分离选择与评价。",
+  "sections": {
+    "作者操作摘要": "从逐个实验显著性转向跨实验决策规则收益，分离选择与评价。",
+    "边界": "局部弱不等于总体不可估；交叉验证的选择样本变化仍可能产生偏差。"
+  },
+  "codings": [],
+  "note_path": "notes/A0054.md",
+  "note_sha256": "efa31f43f4f908488d75f6cd209cef3fe6933e26b66902a23fa801605417f706",
+  "source_refs": [
+    {
+      "source_id": "S-DIALOGUE-DIGEST",
+      "locator": "XD07"
+    },
+    {
+      "source_id": "S-REGISTRY",
+      "locator": "XD07"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

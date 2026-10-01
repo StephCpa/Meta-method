@@ -1,0 +1,34 @@
+{
+  "library_version": "0.1.0",
+  "framework_version": "0.4.0",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "source_cutoff": "2026-09-30",
+  "initial_registry_entries": 48,
+  "incoming_recent_opd": 10,
+  "unique_papers": 57,
+  "analysis_records": 71,
+  "idea_records": 44,
+  "merged_records": [
+    {
+      "incoming": "OPD-T09",
+      "existing_aliases": [
+        "OPD14"
+      ],
+      "paper_id": "P0024",
+      "reason": "same_normalized_arxiv",
+      "arxiv": "2603.07079"
+    }
+  ],
+  "rated_papers": 10,
+  "rated_individual_ideas": 0,
+  "new_scores_assigned": false,
+  "research_claims_reverified": false,
+  "original_papers_stored": false,
+  "remote_writes_performed": false,
+  "full_dialogue_archived": false,
+  "excluded_missing_lists": [
+    "早期32篇原始清单缺失",
+    "另一对话先读的10篇后训练种子清单缺失"
+  ],
+  "note": "已有分析档案逐字保存；MAS与6篇跨领域以明确标注的对话摘要重建。汇总身份不等于全文审稿，空分不是0。"
+}

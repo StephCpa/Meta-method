@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "id": "P0002",
+  "title": "AdvEvo-MARL: Shaping Internalized Safety through Adversarial Co-Evolution in Multi-Agent Reinforcement Learning",
+  "short_name": "AdvEvo-MARL",
+  "aliases": [
+    "MAS02",
+    "AdvEvo-MARL"
+  ],
+  "identifiers": {
+    "arxiv": "2510.01586",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2510.01586"
+  ],
+  "topics": [
+    "MAS"
+  ],
+  "tags": [
+    "MAS",
+    "共同进化",
+    "信用分配",
+    "安全训练"
+  ],
+  "reading_status": "dialogue_analysis_digest",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "AdvEvo-MARL: Shaping Internalized Safety through Adversarial Co-Evolution in Multi-Agent Reinforcement Learning",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0002"
+  ],
+  "idea_ids": [
+    "I0004",
+    "I0005",
+    "I0006"
+  ],
+  "ratings": [
+    {
+      "date": "2026-09-30",
+      "score": 8.1,
+      "scale": 10,
+      "scope": "paper_main_followup",
+      "reason": "继承十篇集中评分：独立攻防参照；信用分配与目标保持",
+      "assessor": "prior_conversation_assistant",
+      "source_id": "S-REGISTRY",
+      "confidence": "not_recorded",
+      "not_paper_quality": true
+    }
+  ],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

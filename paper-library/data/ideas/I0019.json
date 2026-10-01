@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0019",
+  "title": "权限匹配下的协作增量风险",
+  "paper_ids": [
+    "P0007"
+  ],
+  "analysis_ids": [
+    "A0007"
+  ],
+  "kind": "research_direction",
+  "question": "风险由代理互动新增，还是固定工作流和已有权限就可实现？",
+  "first_evidence": "保持分角色信息权限及预算，比较动态多代理、受限集中调度与固定流程；区分轨迹重放和重新规划。",
+  "decision_branches": [
+    "固定流程充分解释时转向组件安全；别继续声称发现新协作机制。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

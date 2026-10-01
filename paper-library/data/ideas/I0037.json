@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "id": "I0037",
+  "title": "研究局部监督应该按全局token身份，还是按该token在当前任务中的功能选择。",
+  "paper_ids": [
+    "P0051"
+  ],
+  "analysis_ids": [
+    "A0064"
+  ],
+  "kind": "research_direction",
+  "question": "研究局部监督应该按全局token身份，还是按该token在当前任务中的功能选择。",
+  "first_evidence": "匹配词表规模、采样预算与更新范数，在需要相同措辞的合法请求和不同表述的违规请求上比较固定token集合与上下文条件集合。先做冻结策略的行为校准，再做小规模学习。",
+  "decision_branches": [
+    "若上下文条件化没有独立收益，保留固定集合。",
+    "若同一token在不同合法功能中存在系统性误转移，再引入功能条件，不依据词表稀疏性宣称参数局部性。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

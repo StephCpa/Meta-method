@@ -1,0 +1,9 @@
+{
+  "id": "S-OPD-V02",
+  "kind": "framework_audit_note",
+  "path": "sources/S-OPD-V02.md",
+  "sha256": "cecc4aa962d4902977c34e0c4f2cc97fd5564efbb29313933e3f9d04c7c57f9c",
+  "description": "历史OPD迁移审计；与旧24篇报告并列，不静默改写旧结论。",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "reverified_in_library_build": false
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "id": "I0043",
+  "title": "区分“多种正确答案导致的高熵”和“信息不足导致的高熵”，检验覆盖性蒸馏何时有用。",
+  "paper_ids": [
+    "P0024"
+  ],
+  "analysis_ids": [
+    "A0070"
+  ],
+  "kind": "research_direction",
+  "question": "区分“多种正确答案导致的高熵”和“信息不足导致的高熵”，检验覆盖性蒸馏何时有用。",
+  "first_evidence": "构造熵相近但教师正确续写质量不同的固定前缀，使用独立验证器评价覆盖；先检验额外可靠性条件能否改变蒸馏选择，再考虑联合门控。",
+  "decision_branches": [
+    "若可靠性条件不能改进选择，保留原熵门控。",
+    "若同熵不同质量导致相反训练收益，研究条件目标，但不把堆叠更多不确定性指标当作贡献。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

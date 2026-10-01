@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "id": "A0020",
+  "paper_id": "P0016",
+  "kind": "qualification_note",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.2",
+  "paper_version_as_reported": null,
+  "summary": "总体教师分数不自动预测收益；思维模式与支持集的含义要操作化，不能把冷启动当普遍必要条件。",
+  "sections": {
+    "后续限定": "总体教师分数不自动预测收益；思维模式与支持集的含义要操作化，不能把冷启动当普遍必要条件。"
+  },
+  "codings": [],
+  "note_path": "notes/A0020.md",
+  "note_sha256": "bd79084e3612bc4c566f1fda0c9e383a1c01a424af9298199f35b76b9bd634ac",
+  "source_refs": [
+    {
+      "source_id": "S-OPD-V02",
+      "locator": "五条扩展规则；不宜直接固定为通用规则的报告表述"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

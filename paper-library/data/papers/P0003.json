@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "id": "P0003",
+  "title": "Fully Byzantine-Resilient Distributed Multi-Agent Q-Learning",
+  "short_name": "FRQD-learning",
+  "aliases": [
+    "MAS03",
+    "FRQD-learning"
+  ],
+  "identifiers": {
+    "arxiv": "2604.02791",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2604.02791"
+  ],
+  "topics": [
+    "MAS"
+  ],
+  "tags": [
+    "MAS",
+    "理论",
+    "通信鲁棒性",
+    "拓扑",
+    "目标保持"
+  ],
+  "reading_status": "dialogue_analysis_digest",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Fully Byzantine-Resilient Distributed Multi-Agent Q-Learning",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0003"
+  ],
+  "idea_ids": [
+    "I0007",
+    "I0008",
+    "I0009"
+  ],
+  "ratings": [
+    {
+      "date": "2026-09-30",
+      "score": 8.4,
+      "scale": 10,
+      "scope": "paper_main_followup",
+      "reason": "继承十篇集中评分：同保证下通信拓扑与总学习成本",
+      "assessor": "prior_conversation_assistant",
+      "source_id": "S-REGISTRY",
+      "confidence": "not_recorded",
+      "not_paper_quality": true
+    }
+  ],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

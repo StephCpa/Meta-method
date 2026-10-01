@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "id": "P0043",
+  "title": "Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention",
+  "short_name": "Native Sparse Attention",
+  "aliases": [
+    "XD09"
+  ],
+  "identifiers": {
+    "arxiv": "2502.11089",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2502.11089"
+  ],
+  "topics": [
+    "跨领域"
+  ],
+  "tags": [
+    "跨领域",
+    "system"
+  ],
+  "reading_status": "author_move_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Native Sparse Attention",
+      "venue": "ACL 2025 Best Paper",
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0056"
+  ],
+  "idea_ids": [
+    "I0033"
+  ],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

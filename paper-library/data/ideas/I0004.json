@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0004",
+  "title": "合作奖励中心化的目标保持",
+  "paper_ids": [
+    "P0002"
+  ],
+  "analysis_ids": [
+    "A0002"
+  ],
+  "kind": "research_direction",
+  "question": "何时保留团队收益，何时转为相对表现竞争？",
+  "first_evidence": "在独立任务、共享奖励及帮助同伴任务中精确比较真实梯度、估计方向、方差和一步收益。",
+  "decision_branches": [
+    "若差异仅为匹配得掉的缩放则收紧贡献；若真实训练出现目标偏移再改信用分配。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "id": "I0038",
+  "title": "研究何时应优先视觉、何时应保护或加强语言推理，而非一律增强某一分量。",
+  "paper_ids": [
+    "P0052"
+  ],
+  "analysis_ids": [
+    "A0065"
+  ],
+  "kind": "research_direction",
+  "question": "研究何时应优先视觉、何时应保护或加强语言推理，而非一律增强某一分量。",
+  "first_evidence": "使用视觉证据不足、视觉证据清楚但推理复杂等可核验任务，固定训练预算，检验独立诊断能否预测不同更新分配的收益。",
+  "decision_branches": [
+    "若视觉优先已覆盖目标分布，不强加自适应门控。",
+    "若诊断稳定预测分配反转，再发展按错误来源配置更新的规则。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

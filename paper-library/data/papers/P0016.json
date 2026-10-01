@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "id": "P0016",
+  "title": "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe",
+  "short_name": "Rethinking On-Policy Distillation of Large Language Models",
+  "aliases": [
+    "OPD06"
+  ],
+  "identifiers": {
+    "arxiv": "2604.13016",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2604.13016"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "历史调研",
+    "分组B"
+  ],
+  "reading_status": "report_only",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Rethinking On-Policy Distillation of Large Language Models",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0019",
+    "A0020"
+  ],
+  "idea_ids": [],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

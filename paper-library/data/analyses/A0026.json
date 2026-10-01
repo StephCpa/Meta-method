@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "A0026",
+  "paper_id": "P0021",
+  "kind": "source_report",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "历史报告：解决一个极现实的困境——前沿模型只暴露动作轨迹、隐藏内部推理，此时标准蒸馏管线直接失效。",
+  "sections": {
+    "历史报告定位": "解决一个极现实的困境——前沿模型只暴露动作轨迹、隐藏内部推理，此时标准蒸馏管线直接失效。",
+    "引用边界": "以下正文逐字来自历史调研；并不表示本轮认可所有强概括。后续OPD审计另存，未替换原文。"
+  },
+  "codings": [],
+  "note_path": "notes/A0026.md",
+  "note_sha256": "f571e22887e42b06ed978c54a0c7c266bf1058de5582af6974abdf4aeaf757d7",
+  "source_refs": [
+    {
+      "source_id": "S-OPD24",
+      "locator": "OPD11",
+      "line_start": 301,
+      "line_end": 320
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

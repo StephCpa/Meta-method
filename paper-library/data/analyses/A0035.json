@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "A0035",
+  "paper_id": "P0027",
+  "kind": "source_report",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "历史报告：把 OPD 明确当作策略梯度 RL，然后从 RL 工具箱里搬来控制变量基线——而且发现这个基线有闭式解。",
+  "sections": {
+    "历史报告定位": "把 OPD 明确当作策略梯度 RL，然后从 RL 工具箱里搬来控制变量基线——而且发现这个基线有闭式解。",
+    "引用边界": "以下正文逐字来自历史调研；并不表示本轮认可所有强概括。后续OPD审计另存，未替换原文。"
+  },
+  "codings": [],
+  "note_path": "notes/A0035.md",
+  "note_sha256": "e066e69f99b2ffd6177d56a13a140bd96ce90ae7f6dd6a856e52b686ddb2b87d",
+  "source_refs": [
+    {
+      "source_id": "S-OPD24",
+      "locator": "OPD17",
+      "line_start": 436,
+      "line_end": 455
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

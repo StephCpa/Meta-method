@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "id": "P0008",
+  "title": "The Politician, the Liar, and the Obedient Worker: Emerging Behavior of LLM Agents in Hierarchical Games",
+  "short_name": "Hierarchical Games",
+  "aliases": [
+    "MAS08",
+    "Hierarchical Games"
+  ],
+  "identifiers": {
+    "arxiv": "2608.09574",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2608.09574"
+  ],
+  "topics": [
+    "MAS"
+  ],
+  "tags": [
+    "MAS",
+    "层级博弈",
+    "真实权限",
+    "报告真实性"
+  ],
+  "reading_status": "dialogue_analysis_digest",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "The Politician, the Liar, and the Obedient Worker: Emerging Behavior of LLM Agents in Hierarchical Games",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0008"
+  ],
+  "idea_ids": [
+    "I0020",
+    "I0021",
+    "I0022"
+  ],
+  "ratings": [
+    {
+      "date": "2026-09-30",
+      "score": 8.0,
+      "scale": 10,
+      "scope": "paper_main_followup",
+      "reason": "继承十篇集中评分：实际权限、信息、角色语义及可验证报告",
+      "assessor": "prior_conversation_assistant",
+      "source_id": "S-REGISTRY",
+      "confidence": "not_recorded",
+      "not_paper_quality": true
+    }
+  ],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

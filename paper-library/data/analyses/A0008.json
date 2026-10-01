@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "id": "A0008",
+  "paper_id": "P0008",
+  "kind": "dialogue_digest",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "在公共物品博弈中引入不对称权限、信息、收益和选择规则，观察制度条件如何改变同一模型行为。",
+  "sections": {
+    "作者贡献": "在公共物品博弈中引入不对称权限、信息、收益和选择规则，观察制度条件如何改变同一模型行为。",
+    "为什么不只是A+B": "从给模型贴人格标签转为研究行为对制度条件的依赖。",
+    "审计边界": "正贡献不等于充分贡献，承诺不一致不等于策略性欺骗，私人协商不自动违反未声明的规范；薪酬与奖惩账本要分开。"
+  },
+  "codings": [
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M2",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M10",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M14",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M9",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M10",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    }
+  ],
+  "note_path": "notes/A0008.md",
+  "note_sha256": "e566e3353f68caae814013fe4c9be4dfe976d871aee04790d4847c5d8096f59e",
+  "source_refs": [
+    {
+      "source_id": "S-DIALOGUE-DIGEST",
+      "locator": "MAS08"
+    },
+    {
+      "source_id": "S-REGISTRY",
+      "locator": "MAS08"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

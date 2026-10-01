@@ -1,0 +1,9 @@
+{
+  "id": "S-OPD24",
+  "kind": "historical_report",
+  "path": "sources/S-OPD24.md",
+  "sha256": "c5a850e3ec74d04f5b8bc51477aed3d89071283dcba9de748c7cfd88cf9b3fa4",
+  "description": "历史24篇调研原文，逐字保存；强表述和作者/会议信息按来源保留，后续边界另列。",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "reverified_in_library_build": false
+}

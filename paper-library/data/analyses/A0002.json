@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "id": "A0002",
+  "paper_id": "P0002",
+  "kind": "dialogue_digest",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "把安全压力改为攻击者与防御者共同变化的训练反馈闭环，并通过奖励与共享基线组织合作训练。",
+  "sections": {
+    "作者贡献": "把安全压力改为攻击者与防御者共同变化的训练反馈闭环，并通过奖励与共享基线组织合作训练。",
+    "为什么不只是A+B": "将部署附加检查转为训练期持续反馈；应把在线适应、样本增加与信用分配的增量分别说明。",
+    "审计边界": "此前分析记录正文完整组均值与公开实现半均值处理的差异，以及共同奖励被中心化消去的构造边界；未建立每项主表与代码版本的对应，也未重跑训练。"
+  },
+  "codings": [
+    {
+      "code": "M5",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M6",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M8",
+      "role": "author",
+      "anchor": "先前对话中的暂定作者操作",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M9",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M14",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M7",
+      "role": "proposal",
+      "anchor": "历史方向登记",
+      "status": "inherited_provisional"
+    }
+  ],
+  "note_path": "notes/A0002.md",
+  "note_sha256": "d60cfea42d0e420c322438394330199fca2948fc45ec83c1d36cde651b1fe3c0",
+  "source_refs": [
+    {
+      "source_id": "S-DIALOGUE-DIGEST",
+      "locator": "MAS02"
+    },
+    {
+      "source_id": "S-REGISTRY",
+      "locator": "MAS02"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest"
+}

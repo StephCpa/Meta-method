@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0001",
+  "title": "激活监测的特异性",
+  "paper_ids": [
+    "P0001"
+  ],
+  "analysis_ids": [
+    "A0001"
+  ],
+  "kind": "research_direction",
+  "question": "区分实际违规、提示模板、角色身份及普通任务困难造成的异常。",
+  "first_evidence": "模板×污染交叉控制，同时用独立任务检查记录真实行为，而非只用攻击节点身份。",
+  "decision_branches": [
+    "控制混淆后仍有可靠目标信号才进入新检测器；若主要跟随模板，先修实验与标签。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

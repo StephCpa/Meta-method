@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "id": "A0059",
+  "paper_id": "P0046",
+  "kind": "author_move",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "2506.12229v4",
+  "summary": "复用FM-index，重构并行构建、原始字节索引、分片与磁盘查询。",
+  "sections": {
+    "原情境": "精确检索需要在大语料规模下控制索引、内存及构建成本。",
+    "作者贡献": "复用FM-index，重构并行构建、原始字节索引、分片与磁盘查询。",
+    "新增结果": "提供更大规模的精确检索与分析工具，并测量构建及查询开销。",
+    "范围": "不是重新发明FM-index；检索重合本身不证明模型能力受到训练污染的因果影响。"
+  },
+  "codings": [
+    {
+      "code": "M3",
+      "role": "author",
+      "priority": "primary",
+      "rationale": "重新组织构建、存储与查询资源。",
+      "anchor": [
+        "§2 FM-index",
+        "§3.1 construction",
+        "§3.2 inference engine"
+      ]
+    },
+    {
+      "code": "M12",
+      "role": "author",
+      "priority": "secondary",
+      "rationale": "以可复用检索接口支持后续分析。",
+      "anchor": [
+        "§2 FM-index",
+        "§3.1 construction",
+        "§3.2 inference engine"
+      ]
+    }
+  ],
+  "note_path": "notes/A0059.md",
+  "note_sha256": "8c7bf6fabb0b5046c5253aabe4a507db0a0432c8a76e83d88482e1be2c4fb7e4",
+  "source_refs": [
+    {
+      "source_id": "S-AUTHOR8-TEXT",
+      "locator": "XD12",
+      "line_start": 176,
+      "line_end": 198
+    },
+    {
+      "source_id": "S-AUTHOR8",
+      "locator": "AM-XD12"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0003",
+  "title": "局部正常、整体违规的信息边界",
+  "paper_ids": [
+    "P0001"
+  ],
+  "analysis_ids": [
+    "A0001"
+  ],
+  "kind": "research_direction",
+  "question": "联合约束上的风险是否需要局部激活之外的最小共享状态。",
+  "first_evidence": "先构造程序可检验的局部可接受但共同越界的封闭轨迹，再比较局部信息与最小跨节点状态。",
+  "decision_branches": [
+    "找不到稳定支持集则暂停；不要先搭复杂联合网络。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

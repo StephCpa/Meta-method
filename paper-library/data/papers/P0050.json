@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "id": "P0050",
+  "title": "ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation",
+  "short_name": "ViCuR",
+  "aliases": [
+    "OPD-T02",
+    "ViCuR"
+  ],
+  "identifiers": {
+    "arxiv": "2606.05718",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/html/2606.05718v1",
+    "https://github.com/tiankanghui/ViCuR"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "v0.4拆解",
+    "多模态"
+  ],
+  "reading_status": "v04_detailed_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    },
+    {
+      "source_id": "S-OPD10",
+      "as_of": "2026-09-30",
+      "title": "ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation",
+      "venue": "EMNLP 2026 Main",
+      "venue_evidence_level_as_reported": "B_author_or_institution_acceptance",
+      "venue_source_url": "https://github.com/tiankanghui/ViCuR",
+      "paper_version": "2606.05718v1",
+      "first_public_date_as_reported": "2026-06-04",
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0063"
+  ],
+  "idea_ids": [
+    "I0036"
+  ],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

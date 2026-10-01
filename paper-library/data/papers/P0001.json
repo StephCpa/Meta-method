@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "id": "P0001",
+  "title": "AcMAS: When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems",
+  "short_name": "AcMAS",
+  "aliases": [
+    "MAS01",
+    "AcMAS"
+  ],
+  "identifiers": {
+    "arxiv": "2607.06807",
+    "doi": null
+  },
+  "links": [
+    "https://proceedings.mlr.press/v306/xu26ax.html"
+  ],
+  "topics": [
+    "MAS"
+  ],
+  "tags": [
+    "MAS",
+    "激活检测",
+    "特异性",
+    "修复"
+  ],
+  "reading_status": "dialogue_analysis_digest",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "AcMAS: When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0001"
+  ],
+  "idea_ids": [
+    "I0001",
+    "I0002",
+    "I0003"
+  ],
+  "ratings": [
+    {
+      "date": "2026-09-30",
+      "score": 8.2,
+      "scale": 10,
+      "scope": "paper_main_followup",
+      "reason": "继承十篇集中评分：激活特异性；定向修复与重生成分离",
+      "assessor": "prior_conversation_assistant",
+      "source_id": "S-REGISTRY",
+      "confidence": "not_recorded",
+      "not_paper_quality": true
+    }
+  ],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

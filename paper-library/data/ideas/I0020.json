@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0020",
+  "title": "真实执行能力×角色标签",
+  "paper_ids": [
+    "P0008"
+  ],
+  "analysis_ids": [
+    "A0008"
+  ],
+  "kind": "research_direction",
+  "question": "行为改变来自可执行奖惩、额外信息还是管理者语义？",
+  "first_evidence": "固定信息与规则，交叉控制实际执行权限和中性/管理者表述；先用固定管理规则。",
+  "decision_branches": [
+    "按机制选择激励、接口或语义稳健性研究，不用复杂社会解释替代账本。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

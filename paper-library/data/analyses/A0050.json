@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "id": "A0050",
+  "paper_id": "P0037",
+  "kind": "author_move",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "2408.00714v2",
+  "summary": "将流式记忆模型、可交互修正任务与模型辅助的数据引擎连接起来。",
+  "sections": {
+    "原情境": "视频中的交互分割同时受时间信息处理和高质量标注能力限制。",
+    "作者贡献": "将流式记忆模型、可交互修正任务与模型辅助的数据引擎连接起来。",
+    "新增结果": "提供模型、数据和可交互的视频分割能力，报告多任务与交互效率结果。",
+    "范围": "当前仅提取贡献结构；未复核全部消融或把数据引擎单独认定为所有收益的原因。"
+  },
+  "codings": [
+    {
+      "code": "M5",
+      "role": "author",
+      "priority": "primary",
+      "rationale": "人机修正反馈进入模型与后续数据生产。",
+      "anchor": [
+        "§1 task/model/dataset contributions",
+        "§4 streaming memory",
+        "§5.1 Data engine"
+      ]
+    },
+    {
+      "code": "M8",
+      "role": "author",
+      "priority": "secondary",
+      "rationale": "模型、交互和标注流程围绕视频分割共同设计。",
+      "anchor": [
+        "§1 task/model/dataset contributions",
+        "§4 streaming memory",
+        "§5.1 Data engine"
+      ]
+    }
+  ],
+  "note_path": "notes/A0050.md",
+  "note_sha256": "70acd69b967811bcea90a3103454f6e734b385c30d7ffb11167326fd504c7026",
+  "source_refs": [
+    {
+      "source_id": "S-AUTHOR8-TEXT",
+      "locator": "XD03",
+      "line_start": 56,
+      "line_end": 79
+    },
+    {
+      "source_id": "S-AUTHOR8",
+      "locator": "AM-XD03"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

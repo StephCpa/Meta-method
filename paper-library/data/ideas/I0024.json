@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0024",
+  "title": "置信度信息与提示效应分离",
+  "paper_ids": [
+    "P0009"
+  ],
+  "analysis_ids": [
+    "A0009"
+  ],
+  "kind": "research_direction",
+  "question": "附带分数起作用是因可靠信息，还是格式让接收者更谨慎？",
+  "first_evidence": "固定消息，比较真实、分层打乱和固定分数；对齐后处理文本与概率，校准四类确定性×正确性状态。",
+  "decision_branches": [
+    "简单内容验证足够则不扩内部信号；完整记录实际成本和采样条件。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

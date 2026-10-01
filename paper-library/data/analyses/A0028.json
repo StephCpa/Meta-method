@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "A0028",
+  "paper_id": "P0022",
+  "kind": "source_report",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "历史报告：把 OPD 与上下文蒸馏结合，让学生在自己的轨迹上把\"上下文里的知识\"内化进权重。",
+  "sections": {
+    "历史报告定位": "把 OPD 与上下文蒸馏结合，让学生在自己的轨迹上把\"上下文里的知识\"内化进权重。",
+    "引用边界": "以下正文逐字来自历史调研；并不表示本轮认可所有强概括。后续OPD审计另存，未替换原文。"
+  },
+  "codings": [],
+  "note_path": "notes/A0028.md",
+  "note_sha256": "2717d67f348fb422eeeb3bce230cf0bcdd974ed604dca3e542497d6804d8a1e8",
+  "source_refs": [
+    {
+      "source_id": "S-OPD24",
+      "locator": "OPD12",
+      "line_start": 321,
+      "line_end": 341
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

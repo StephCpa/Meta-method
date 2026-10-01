@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "id": "P0030",
+  "title": "Near-Policy: Accelerating On-Policy Distillation via Asynchronous Generation and Selective Packing",
+  "short_name": "Near-Policy: Accelerating On-Policy Distillation via Asynchronous Generation and Selective Packing",
+  "aliases": [
+    "OPD20"
+  ],
+  "identifiers": {
+    "arxiv": "2605.05940",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2605.05940"
+  ],
+  "topics": [
+    "OPD"
+  ],
+  "tags": [
+    "OPD",
+    "历史调研",
+    "分组E"
+  ],
+  "reading_status": "report_only",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "Near-Policy: Accelerating On-Policy Distillation via Asynchronous Generation and Selective Packing",
+      "venue": null,
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0041",
+    "A0042"
+  ],
+  "idea_ids": [],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

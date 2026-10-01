@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0014",
+  "title": "最小授权信息与可避免安全税",
+  "paper_ids": [
+    "P0005"
+  ],
+  "analysis_ids": [
+    "A0005"
+  ],
+  "kind": "research_direction",
+  "question": "缺少区分合法委托与无权指令的信息时，提示更好是否仍无能为力？",
+  "first_evidence": "相同请求内容，比较无来源、自报来源、可核验来源与任务范围；记录核实成本与实际完成。",
+  "decision_branches": [
+    "可信信息解决后再研究跨代理保留；认证来源不等于来源永远诚实。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

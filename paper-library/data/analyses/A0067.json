@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "id": "A0067",
+  "paper_id": "P0054",
+  "kind": "v04_analysis",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "2605.09253v4",
+  "summary": "结合频率、跨上下文一致性、训练持续性分析Rock Tokens；将损失表现与推理时token类型干预区分，再研究训练预算重分配。",
+  "sections": {
+    "原有局限": "少量高频、跨上下文持续难匹配的token占据大量蒸馏损失；高损失未必表示它们值得继续集中优化。",
+    "作者贡献": "结合频率、跨上下文一致性、训练持续性分析Rock Tokens；将损失表现与推理时token类型干预区分，再研究训练预算重分配。",
+    "为什么不只是A+B": "改变token重要性的判断依据，从“拟合困难”转向“功能作用与可改善空间”。解释性诊断可独立构成贡献，训练配方是进一步产物。",
+    "原文证据（按来源）": "原文包含梯度几何、训练前后KL、推理敲除与重加权实验。附录明确：200个候选token的个体Pillar识别经Bonferroni/BH校正后均未保留，个体标记是探索性的。",
+    "审计边界": "推理阶段禁止一个token类型，与训练阶段减小该token的损失权重是不同干预。相关性不显著不证明完全独立；优化器二阶矩解释在文中仍为假说。"
+  },
+  "codings": [
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "§2: definition, context consistency and gradient geometry；§3: inference-time type-level knockout and training interventions；Appendix D.1–D.2: correlations and multiple-testing limits",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M7",
+      "role": "author",
+      "anchor": "§2: definition, context consistency and gradient geometry；§3: inference-time type-level knockout and training interventions；Appendix D.1–D.2: correlations and multiple-testing limits",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M10",
+      "role": "author",
+      "anchor": "§2: definition, context consistency and gradient geometry；§3: inference-time type-level knockout and training interventions；Appendix D.1–D.2: correlations and multiple-testing limits",
+      "status": "inherited_provisional"
+    }
+  ],
+  "note_path": "notes/A0067.md",
+  "note_sha256": "21fbd9dfe6288ba2528cc3e242c911c78779f7ace6e5d18a943899997bb0d3d5",
+  "source_refs": [
+    {
+      "source_id": "S-OPD10-TEXT",
+      "locator": "OPD-T06",
+      "line_start": 138,
+      "line_end": 159
+    },
+    {
+      "source_id": "S-OPD10",
+      "locator": "papers/OPD-T06"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

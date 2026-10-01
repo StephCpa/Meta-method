@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "id": "P0037",
+  "title": "SAM 2: Segment Anything in Images and Videos",
+  "short_name": "SAM 2",
+  "aliases": [
+    "XD03"
+  ],
+  "identifiers": {
+    "arxiv": "2408.00714",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2408.00714"
+  ],
+  "topics": [
+    "跨领域"
+  ],
+  "tags": [
+    "跨领域",
+    "system"
+  ],
+  "reading_status": "author_move_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S-REGISTRY",
+      "as_of": "2026-09-30",
+      "title": "SAM 2",
+      "venue": "ICLR 2025 Honorable Mention",
+      "verification": "inherited_not_reverified"
+    }
+  ],
+  "analysis_ids": [
+    "A0050"
+  ],
+  "idea_ids": [
+    "I0029"
+  ],
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "dataset_role": "development"
+}

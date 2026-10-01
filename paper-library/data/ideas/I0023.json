@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "id": "I0023",
+  "title": "来源—状态—影响的动态评价",
+  "paper_ids": [
+    "P0009"
+  ],
+  "analysis_ids": [
+    "A0009"
+  ],
+  "kind": "research_direction",
+  "question": "原始攻击者难识别，是否等于当前错误难识别？",
+  "first_evidence": "逐轮分开原始身份和当前内容真值，固定状态分支执行消息保留/阻断，并比较最终任务后果。",
+  "decision_branches": [
+    "新标签应改变有效干预选择；只换指标名称而不改善决策则收紧。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "not_run_in_library",
+  "ratings": [],
+  "created_at": "2026-09-30",
+  "updated_at": "2026-09-30",
+  "state_history": [
+    {
+      "date": "2026-09-30",
+      "status": "candidate",
+      "reason": "继承既有分析中提案；不是新增验证结果。"
+    }
+  ]
+}

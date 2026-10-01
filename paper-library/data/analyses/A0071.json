@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "id": "A0071",
+  "paper_id": "P0057",
+  "kind": "v04_analysis",
+  "analyzed_at": "2026-09-30",
+  "imported_at": "2026-10-01T03:34:26.056279+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "2602.02994v3",
+  "summary": "以学生轨迹上的token监督替代部分稀疏结果反馈；TVDF先用真实时间标注检查教师定位可靠性，再按师生分歧安排训练。",
+  "sections": {
+    "原有局限": "视频时间定位依赖较稀疏的终局奖励；教师会出错，因此只选择师生分歧最大的样本也可能放大错误指导。",
+    "作者贡献": "以学生轨迹上的token监督替代部分稀疏结果反馈；TVDF先用真实时间标注检查教师定位可靠性，再按师生分歧安排训练。",
+    "为什么不只是A+B": "把标注从直接训练答案，改用为教师可信性的筛选信号；不同来源的反馈承担不同职责。不是仅将语言OPD换成视频输入。",
+    "原文证据（按来源）": "在Charades-TimeLens、ActivityNet-TimeLens和QVHighlights-TimeLens上比较任务表现与成本；已有教师可靠性/分歧优先的组件消融。",
+    "审计边界": "基础OPD可不依赖时间标注，但TVDF增强配方用标注作为validation oracle；不能称整套方法无标注。训练前教师验证调用和筛选偏向也应进入成本/覆盖分析。"
+  },
+  "codings": [
+    {
+      "code": "M6",
+      "role": "author",
+      "anchor": "§3.1: on-policy reverse-KL training；§3.2: TRPV and DBTP, temporal annotation oracle；§4.3 and §5: ablations, efficiency and teacher comparisons",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M5",
+      "role": "author",
+      "anchor": "§3.1: on-policy reverse-KL training；§3.2: TRPV and DBTP, temporal annotation oracle；§4.3 and §5: ablations, efficiency and teacher comparisons",
+      "status": "inherited_provisional"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "§3.1: on-policy reverse-KL training；§3.2: TRPV and DBTP, temporal annotation oracle；§4.3 and §5: ablations, efficiency and teacher comparisons",
+      "status": "inherited_provisional"
+    }
+  ],
+  "note_path": "notes/A0071.md",
+  "note_sha256": "180141b3dd756edaa70fb9190fc4cae40a5ed9a59950c39519b4de1cd67da20a",
+  "source_refs": [
+    {
+      "source_id": "S-OPD10-TEXT",
+      "locator": "OPD-T10",
+      "line_start": 226,
+      "line_end": 247
+    },
+    {
+      "source_id": "S-OPD10",
+      "locator": "papers/OPD-T10"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "verbatim_excerpt"
+}

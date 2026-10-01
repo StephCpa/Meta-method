@@ -1,0 +1,44 @@
+test_arxiv_version_dedup (test_library.ImportTests.test_arxiv_version_dedup) ... ok
+test_boolean_score_rejected (test_library.ImportTests.test_boolean_score_rejected) ... ok
+test_broken_backlink_detected (test_library.ImportTests.test_broken_backlink_detected) ... ok
+test_build_is_not_ingest (test_library.ImportTests.test_build_is_not_ingest) ... ok
+test_codes_keep_roles (test_library.ImportTests.test_codes_keep_roles) ... ok
+test_conflicting_id_is_rejected (test_library.ImportTests.test_conflicting_id_is_rejected) ... ok
+test_create_paper_analysis_idea (test_library.ImportTests.test_create_paper_analysis_idea) ... ok
+test_duplicate_alias_rejected (test_library.ImportTests.test_duplicate_alias_rejected) ... ok
+test_explicit_alias_append (test_library.ImportTests.test_explicit_alias_append) ... ok
+test_history_before_is_unmodified (test_library.ImportTests.test_history_before_is_unmodified) ... ok
+test_html_escapes_script_injection (test_library.ImportTests.test_html_escapes_script_injection) ... ok
+test_idea_independent_rating (test_library.ImportTests.test_idea_independent_rating) ... ok
+test_idea_rating_not_inherited (test_library.ImportTests.test_idea_rating_not_inherited) ... ok
+test_identical_analysis_idempotent (test_library.ImportTests.test_identical_analysis_idempotent) ... ok
+test_invalid_topics_rejected (test_library.ImportTests.test_invalid_topics_rejected) ... ok
+test_lock_prevents_concurrent_write (test_library.ImportTests.test_lock_prevents_concurrent_write) ... ok
+test_nan_score_rejected (test_library.ImportTests.test_nan_score_rejected) ... ok
+test_nonobject_intake (test_library.ImportTests.test_nonobject_intake) ... ok
+test_note_tampering_detected (test_library.ImportTests.test_note_tampering_detected) ... ok
+test_old_body_is_preserved (test_library.ImportTests.test_old_body_is_preserved) ... ok
+test_out_of_range_score (test_library.ImportTests.test_out_of_range_score) ... ok
+test_rating_history_preserved (test_library.ImportTests.test_rating_history_preserved) ... ok
+test_same_title_requires_explicit_match (test_library.ImportTests.test_same_title_requires_explicit_match) ... ok
+test_source_tampering_detected (test_library.ImportTests.test_source_tampering_detected) ... ok
+test_state_history (test_library.ImportTests.test_state_history) ... ok
+test_unknown_code_rejected (test_library.ImportTests.test_unknown_code_rejected) ... ok
+test_unrated_is_not_zero (test_library.ImportTests.test_unrated_is_not_zero) ... ok
+test_unsafe_link_rejected (test_library.ImportTests.test_unsafe_link_rejected) ... ok
+test_arxiv_normalization (test_library.LibraryTests.test_arxiv_normalization) ... ok
+test_doi_normalization (test_library.LibraryTests.test_doi_normalization) ... ok
+test_duplicate_eopd_keeps_both_ids (test_library.LibraryTests.test_duplicate_eopd_keeps_both_ids) ... ok
+test_new_output_no_clobber (test_library.LibraryTests.test_new_output_no_clobber) ... ok
+test_only_historical_ratings (test_library.LibraryTests.test_only_historical_ratings) ... ok
+test_original_papers_absent (test_library.LibraryTests.test_original_papers_absent) ... ok
+test_path_traversal (test_library.LibraryTests.test_path_traversal) ... ok
+test_seed_integrity (test_library.LibraryTests.test_seed_integrity) ... ok
+test_seed_unique_count (test_library.LibraryTests.test_seed_unique_count) ... ok
+test_cross_paper_link_and_backlink (test_library.RelationTests.test_cross_paper_link_and_backlink) ... ok
+test_duplicate_link_does_not_duplicate_idea (test_library.RelationTests.test_duplicate_link_does_not_duplicate_idea) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 0.148s
+
+OK
