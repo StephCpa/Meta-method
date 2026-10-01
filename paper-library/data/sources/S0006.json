@@ -1,0 +1,9 @@
+{
+  "id": "S0006",
+  "kind": "user_supplied_analysis",
+  "path": "sources/S0006.json",
+  "sha256": "3d8e31de81fbc34185b894eabc64100bc4f608c18550aa3fa8fc20af80d6cf70",
+  "description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。仅核对官方摘要、作者单位方法说明及代码入口；原PDF访问受阻。三个一般接口toy已在历史分析执行，但不是SPPO实现审计。",
+  "imported_at": "2026-10-01T07:52:51.270839+00:00",
+  "reverified_in_library_build": false
+}

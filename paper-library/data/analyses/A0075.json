@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "id": "A0075",
+  "paper_id": "P0061",
+  "kind": "added_analysis",
+  "analyzed_at": "2026-10-01",
+  "imported_at": "2026-10-01T07:52:51.230630+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": "v1",
+  "summary": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。",
+  "sections": {
+    "原有局限": "信用定义、价值目标、估计器与实际更新可能不是同一对象。",
+    "作者改变了什么": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。",
+    "新增结果/组合增量": "新的理论参照与工程接口；唯一性依赖公理，不是所有因果归因的唯一答案。",
+    "证据与边界": "用户报告Case004 v0.2、P1–P6精确枚举、9面板与JSON已更新。本次无这些本地源文件，记录为用户报告；无真实LLM训练。P6获准作为观察轴，不另开统一理论工程。"
+  },
+  "codings": [
+    {
+      "code": "M9",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M11",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M8",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR004既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR004既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR004既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "note_path": "notes/A0075.md",
+  "note_sha256": "38ab80ac61cd1f0b505bada5fd7043313f445448c9c359e13f5839b39849afae",
+  "source_refs": [
+    {
+      "source_id": "S0004",
+      "locator": "analysis_markdown"
+    },
+    {
+      "source_id": "SRC-RLVR14-20261001",
+      "locator": "analyses/rlvr/RLVR004.md"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest",
+  "dataset_role": "development",
+  "used_for_framework_development": true,
+  "original_analysis_id": "AN-RLVR004-20261001",
+  "organizing_framework_version": "0.4.0"
+}

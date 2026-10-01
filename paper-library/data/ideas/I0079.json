@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0079",
+  "title": "省略显式教师的函数空间历史更新",
+  "paper_ids": [
+    "P0069"
+  ],
+  "analysis_ids": [
+    "A0083"
+  ],
+  "kind": "research_direction",
+  "question": "能否更便宜地保留教师对学生的有用变换？",
+  "first_evidence": "固定真实前缀的更新残差、KL与算力报告。",
+  "decision_branches": [
+    "近似太差、更贵或简单动量解释时停。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。近似太差、更贵或简单动量解释时停。"
+    }
+  ],
+  "original_direction_id": "RLVR012-A",
+  "source_work_status": "calibrated_model_based",
+  "priority": "primary",
+  "proposed_change": "刻画局部算子并检查与实际蒸馏的偏离。",
+  "strong_controls": [
+    "直接历史步",
+    "显式蒸馏",
+    "实际位移匹配"
+  ],
+  "novelty_boundary": "FΔ是经典局部几何应用，新增需可行成本或条件规律。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0055",
+  "title": "价值对齐与实际更新效用",
+  "paper_ids": [
+    "P0061"
+  ],
+  "analysis_ids": [
+    "A0075"
+  ],
+  "kind": "research_direction",
+  "question": "在同一任务目标下，预测最好的critic是否也是更新最有用的critic？",
+  "first_evidence": "小模型固定数据的一步更新与独立效用排序。",
+  "decision_branches": [
+    "若简单价值误差已解释全部效用差异则不造更复杂critic。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。若简单价值误差已解释全部效用差异则不造更复杂critic。"
+    }
+  ],
+  "original_direction_id": "RLVR004-A",
+  "source_work_status": "calibrated_model_based",
+  "priority": "primary",
+  "proposed_change": "分层比较价值、优势、梯度及真实位移。",
+  "strong_controls": [
+    "准确/受控有偏critic",
+    "未裁剪on-policy校准",
+    "真实optimizer逐项加入"
+  ],
+  "novelty_boundary": "最优基线不同于价值是经典理论，新增需现代训练接口与可决策边界。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

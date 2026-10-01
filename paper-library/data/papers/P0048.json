@@ -4,21 +4,25 @@
   "title": "Causal Structure Learning for Dynamical Systems with Theoretical Score Analysis",
   "short_name": "CaDyT",
   "aliases": [
-    "XD14"
+    "XD14",
+    "RLVR-XD/A14"
   ],
   "identifiers": {
     "arxiv": "2512.14361",
     "doi": null
   },
   "links": [
-    "https://arxiv.org/abs/2512.14361"
+    "https://arxiv.org/abs/2512.14361",
+    "https://arxiv.org/html/2512.14361v1"
   ],
   "topics": [
     "跨领域"
   ],
   "tags": [
     "跨领域",
-    "theory"
+    "theory",
+    "rlvr-dialogue-supplement",
+    "development"
   ],
   "reading_status": "brief_analysis",
   "metadata_observations": [
@@ -28,14 +32,23 @@
       "title": "Causal Structure Learning for Dynamical Systems with Theoretical Score Analysis",
       "venue": "AAAI 2026 Outstanding",
       "verification": "inherited_not_reverified"
+    },
+    {
+      "source_id": "S0028",
+      "as_of": "2026-10-01",
+      "title": "Causal Structure Learning for Dynamical Systems with Theoretical Score Analysis",
+      "venue": null,
+      "paper_version": null,
+      "verification": "as_supplied_not_automatically_verified"
     }
   ],
   "analysis_ids": [
-    "A0061"
+    "A0061",
+    "A0099"
   ],
   "idea_ids": [],
   "ratings": [],
   "created_at": "2026-09-30",
-  "updated_at": "2026-09-30",
+  "updated_at": "2026-10-01",
   "dataset_role": "development"
 }

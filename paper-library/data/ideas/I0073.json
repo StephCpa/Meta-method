@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0073",
+  "title": "曲线之外的配对损益风险",
+  "paper_ids": [
+    "P0066"
+  ],
+  "analysis_ids": [
+    "A0080"
+  ],
+  "kind": "measurement_axis",
+  "question": "平均全面改善能否仍掩盖大量题目实质退化？",
+  "first_evidence": "配对损害界与预注册少量切片。",
+  "decision_branches": [
+    "窄界排除有意义退化或仅接口变化则停。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。窄界排除有意义退化或仅接口变化则停。"
+    }
+  ],
+  "original_direction_id": "RLVR009-B",
+  "source_work_status": "calibrated_model_based",
+  "priority": "supporting",
+  "proposed_change": "预定义下降delta与损失量，保留逐题对应。",
+  "strong_controls": [
+    "边际不变重排",
+    "噪声伪退化",
+    "同题聚类"
+  ],
+  "novelty_boundary": "配对参数变化分布已有研究。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

@@ -1,0 +1,114 @@
+{
+  "title": "PACT: From Credit Assignment to Critic Alignment",
+  "short_name": "PACT",
+  "paper_url": "https://arxiv.org/abs/2609.26355",
+  "arxiv": "2609.26355",
+  "aliases": [
+    "RLVR004",
+    "RLVR/Case004"
+  ],
+  "topics": [
+    "RLVR／后训练"
+  ],
+  "tags": [
+    "development",
+    "rlvr-dialogue-import"
+  ],
+  "analyzed_at": "2026-10-01",
+  "framework_version": null,
+  "paper_version": "v1",
+  "source_description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。用户报告Case004 v0.2、P1–P6精确枚举、9面板与JSON已更新。本次无这些本地源文件，记录为用户报告；无真实LLM训练。P6获准作为观察轴，不另开统一理论工程。",
+  "summary": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。",
+  "sections": {
+    "原有局限": "信用定义、价值目标、估计器与实际更新可能不是同一对象。",
+    "作者改变了什么": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。",
+    "新增结果/组合增量": "新的理论参照与工程接口；唯一性依赖公理，不是所有因果归因的唯一答案。",
+    "证据与边界": "用户报告Case004 v0.2、P1–P6精确枚举、9面板与JSON已更新。本次无这些本地源文件，记录为用户报告；无真实LLM训练。P6获准作为观察轴，不另开统一理论工程。"
+  },
+  "codings": [
+    {
+      "code": "M9",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M11",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M8",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR004既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR004既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR004既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "analysis_markdown": "# RLVR004｜PACT: From Credit Assignment to Critic Alignment\n\n原编号：Case004；命名空间：本对话 RLVR／后训练（不与 MAS 同号记录混用）。\n\n论文：https://arxiv.org/abs/2609.26355\n\n历史阅读版本：v1。整理日期：2026-10-01。\n\n> 本文是既有对话的收敛整理，不是新一轮论文全文核验，也不是逐字原始对话。所有候选均属 development；不可用于宣称未见领域有效性。\n\n## 1. 作者贡献形成（分析者赋码，author 角色）\n\n**机会／限制：**信用定义、价值目标、估计器与实际更新可能不是同一对象。\n\n**作者改变：**以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。\n\n**新增结果的解释：**新的理论参照与工程接口；唯一性依赖公理，不是所有因果归因的唯一答案。\n\n**候选作者码：**M9, M11, M8, M3。**审查码：**M14, M9, M10。不得混计。\n\n**原文定位状态：**沿用本对话作者贡献分析；本次未补做逐条原文锚点核验，不能升级为独立确认。\n\n## 2. 当前证据与工作状态\n\n用户报告Case004 v0.2、P1–P6精确枚举、9面板与JSON已更新。本次无这些本地源文件，记录为用户报告；无真实LLM训练。P6获准作为观察轴，不另开统一理论工程。\n\n## 3. 已讨论的关键结果（按原证据层级保留）\n\n- P1随机奖励p=.9,q0=.3,q1=.9：V=.84,b*=.36，方差.038556/.017820=2.163636；b*−V=(1−2p)(q1−q0)，限定单步Bernoulli logit。\n\n- P2旧/混合/新价值=.68/.32/.68。P3恒定奖励未筛为1，筛后1/3；删除旧质量.10相当于目标质量.70。偏差可有符号分解，MSE需交叉项。\n\n- P4全条件于F0的信用能量分解；硬币环境能量.25而策略梯度0，不是反驳原信息增量定理。\n\n- P6 centered=(m−1)/m RLOO；二值同题iid、总体sd、无epsilon/clip/长度下E g=c_m(p)d，m2为p(1−p)d=∇p。\n\n- P6多级R=(0,.01,1)、均匀策略、score=(2,−3,1)：true97/300，m2 −2/9；m3 −.056332、m4 +.136351。7.5%翻转是特定toy扫描频率。\n\n- 报告的λ对照+33.40pp、其他PACT设置+8.03pp、IS对照+5.13pp不可当独立机制净贡献。\n\n## 4. 最新修订与禁止升级的表述\n\n- 验证链是各层不自动推出，不写成⇒；系数守恒不是所有有用更新必经条件。\n\n- PACT§3.2已讨论GRPO，严格证明主要在RLOO，不能称完全绕开。\n\n- 共享主干不自动破坏stop-gradient baseline无偏；分开同批拟合泄漏、额外critic梯度与策略快照失配。\n\n- UECR保裁剪前系数预算，不等于PACT完备性或梯度守恒；GDPO已明确奖励幅度坍缩。\n\n- 官方训练代码未取得；历史仅README审批状态本次未更新核验。\n\n## 5. 研究方向池\n\n### RLVR004-A｜价值对齐与实际更新效用\n\n类型：`research_direction`；优先级：`primary`；状态：`calibrated_model_based`。\n\n**问题：**在同一任务目标下，预测最好的critic是否也是更新最有用的critic？\n\n**具体变换：**分层比较价值、优势、梯度及真实位移。\n\n**首个产物：**小模型固定数据的一步更新与独立效用排序。\n\n**强对照：**准确/受控有偏critic；未裁剪on-policy校准；真实optimizer逐项加入。\n\n**停止／改写：**若简单价值误差已解释全部效用差异则不造更复杂critic。\n\n**新颖性边界：**最优基线不同于价值是经典理论，新增需现代训练接口与可决策边界。\n\n### RLVR004-B｜单步IS与mask后的实际估计目标\n\n类型：`measurement_axis`；优先级：`supporting`；状态：`calibrated_model_based`。\n\n**问题：**修正目标是完整新策略、混合策略，还是筛后条件目标？\n\n**具体变换：**分别记录近似偏差、筛选偏差、旧/目标排除质量。\n\n**首个产物：**固定前缀与相邻策略的目标审计。\n\n**强对照：**恒定奖励1；小树精确值；标签加权/损失加权；共享梯度路由与三快照。\n\n**停止／改写：**偏差不影响更新或精确修正过贵则保留近似。\n\n**新颖性边界：**单步近似作者附录已承认；截断IS与V-trace已有先行。\n\n### RLVR004-C｜动作与环境信息信用\n\n类型：`conditional_extension`；优先级：`conditional`；状态：`calibrated_model_based`。\n\n**问题：**信用能量中有多少对应可优化动作差异，有多少只是观察揭示？\n\n**具体变换：**固定动作重复环境与改变动作分开。\n\n**首个产物：**随机环境的分量方差和更新方差报告。\n\n**强对照：**动作无关硬币；环境状态一致；确定性环境对照。\n\n**停止／改写：**环境项小或采样成本过高时停。\n\n**新颖性边界：**分解为标准条件期望关系，不当新定理或因果token计数。\n\n### RLVR004-D｜奖励幅度语义与组大小的目标对齐\n\n类型：`measurement_axis`；优先级：`supporting`；状态：`calibrated_model_based`。\n\n**问题：**标准化保留排序还是效用间距，这与目标任务一致吗？\n\n**具体变换：**区分原均值奖励与冻结参照净胜率，不预设排序化有害。\n\n**首个产物：**真实多级可验证奖励的同池分组、独立方向和短程效用报告。\n\n**强对照：**RLOO/修正centered；no-std；冻结公共正尺度；不同m和epsilon。\n\n**停止／改写：**若实际m下差异消失或简单基线足够则结束。\n\n**新颖性边界：**GDPO/Dr.GRPO及rank-based优化已覆盖基础现象；m2排序解释不普遍推广至任意m。\n\n## 6. 来源与复用\n\n本条来源标识：`CONV-RLVR004`。原论文链接是查核入口，不表示本次新增核验。\n\n历史潜力分：8.5/10（当时主观选题判断，非论文质量或最新实证后重评分）。\n\n同一论文可有多个分析版本，但按 canonical key 只算一个论文实体。不得用本次导入增加独立验证样本计数。\n",
+  "ideas": [
+    {
+      "title": "价值对齐与实际更新效用",
+      "question": "在同一任务目标下，预测最好的critic是否也是更新最有用的critic？",
+      "first_evidence": "小模型固定数据的一步更新与独立效用排序。",
+      "decision_branches": [
+        "若简单价值误差已解释全部效用差异则不造更复杂critic。"
+      ]
+    },
+    {
+      "title": "单步IS与mask后的实际估计目标",
+      "question": "修正目标是完整新策略、混合策略，还是筛后条件目标？",
+      "first_evidence": "固定前缀与相邻策略的目标审计。",
+      "decision_branches": [
+        "偏差不影响更新或精确修正过贵则保留近似。"
+      ]
+    },
+    {
+      "title": "动作与环境信息信用",
+      "question": "信用能量中有多少对应可优化动作差异，有多少只是观察揭示？",
+      "first_evidence": "随机环境的分量方差和更新方差报告。",
+      "decision_branches": [
+        "环境项小或采样成本过高时停。"
+      ]
+    },
+    {
+      "title": "奖励幅度语义与组大小的目标对齐",
+      "question": "标准化保留排序还是效用间距，这与目标任务一致吗？",
+      "first_evidence": "真实多级可验证奖励的同池分组、独立方向和短程效用报告。",
+      "decision_branches": [
+        "若实际m下差异消失或简单基线足够则结束。"
+      ]
+    }
+  ]
+}

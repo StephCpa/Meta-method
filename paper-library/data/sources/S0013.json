@@ -1,0 +1,9 @@
+{
+  "id": "S0013",
+  "kind": "user_supplied_analysis",
+  "path": "sources/S0013.json",
+  "sha256": "736ed93122793a7d7fd7925747e7a9eaa91ba5ee2cd35bb865b272fd578f0cee",
+  "description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。原始贡献卡/校准包可获得；历史核方法/表2–3/附录及数据卡；未逐条数据、作者训练或真实提示迁移。",
+  "imported_at": "2026-10-01T07:52:51.411895+00:00",
+  "reverified_in_library_build": false
+}

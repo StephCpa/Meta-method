@@ -1,0 +1,23 @@
+{
+  "paper_id": "P0041",
+  "title": "Evaluating Decision Rules Across Many Weak Experiments",
+  "paper_url": "https://arxiv.org/html/2502.08763v2",
+  "arxiv": "2502.08763",
+  "aliases": [
+    "RLVR-XD/A07"
+  ],
+  "topics": [
+    "跨领域"
+  ],
+  "tags": [
+    "rlvr-dialogue-supplement",
+    "development"
+  ],
+  "analyzed_at": "2026-10-01",
+  "framework_version": null,
+  "source_description": "本对话跨领域历史补充；复用已有论文实体，原分析和编码不覆盖，本次未重核奖项/原文。",
+  "summary": "本对话对研究对象、证据终点和Meta-method适用条件的补充记录。",
+  "codings": [],
+  "analysis_markdown": "# XD07｜本对话跨领域补充分析\n\n论文：Evaluating Decision Rules Across Many Weak Experiments\n\n本对话原编号A07；已有仓库ID提示XD07（按标题/原文链接匹配，不按序号）。\n\n> 本条为合并候选，不新增重复论文实体；已参与框架开发。本次未重核奖项和原文，不覆盖其他分析者编码。\n\n- 会议与奖项：KDD 2025 — Best Paper — Applied Data Science\n- 问题领域：实验设计与决策统计\n- 候选编码：M7 主；M9/M3 辅\n- 关键研究动作：由逐实验显著性转向跨实验的决策规则预期收益；选择与评价分离，并分析剩余训练样本量偏差。\n- 对框架的压力测试：M14 应针对目标层级；单实验弱不等于跨实验规则无可辨价值。\n- 阅读/核验深度：摘要、估计目标、交叉验证偏差与定理条件\n- 原论文来源：https://arxiv.org/html/2502.08763v2\n- 奖项来源：https://kdd.org/kdd2025/awards/\n\n## 来源与合并规则\n\n逐字字段来自 `archive/Meta_method_Round2_award_papers_v0.1.md` 对应A07节。候选码为历史分析，不是本次独立作者编码。原始框架压力测试作为复核记录保存；未在本轮凭空扩写新的后续项目。\n",
+  "ideas": []
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0061",
+  "title": "固定谱的条件化适用边界",
+  "paper_ids": [
+    "P0062"
+  ],
+  "analysis_ids": [
+    "A0076"
+  ],
+  "kind": "conditional_extension",
+  "question": "是优化困难还是固定谱集合确实不足？",
+  "first_evidence": "可旋转目标/必须缩放目标控制与真实局部干预。",
+  "decision_branches": [
+    "换更新几何即可解决或开放收益低于成本时停。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "previous": "candidate",
+      "source_status": "planned",
+      "reason": "按原记录映射工作状态，不认证科学有效性。换更新几何即可解决或开放收益低于成本时停。"
+    }
+  ],
+  "original_direction_id": "RLVR005-C",
+  "source_work_status": "planned",
+  "priority": "conditional",
+  "proposed_change": "先测任务相关扰动，再决定是否开放谱。",
+  "strong_controls": [
+    "相同作用尺度",
+    "独立数据",
+    "允许其他层补偿"
+  ],
+  "novelty_boundary": "不把局部线性不可达直接推广到完整网络。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

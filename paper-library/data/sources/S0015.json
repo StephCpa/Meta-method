@@ -1,0 +1,9 @@
+{
+  "id": "S0015",
+  "kind": "user_supplied_analysis",
+  "path": "sources/S0015.json",
+  "sha256": "9b87abc5a1326094779c451b6d0fcde0e0a0bbae734dd5bab6a215aacd5c40e9",
+  "description": "本对话跨领域历史补充；复用已有论文实体，原分析和编码不覆盖，本次未重核奖项/原文。",
+  "imported_at": "2026-10-01T07:52:51.477051+00:00",
+  "reverified_in_library_build": false
+}

@@ -109,12 +109,21 @@ class RelationTests(Base):
 
 class LibraryTests(unittest.TestCase):
     def test_seed_integrity(self):self.assertTrue(L.validate(ROOT)['passed'])
-    def test_seed_unique_count(self):self.assertEqual(len(L.records(ROOT)['papers']),57)
+    def test_seed_unique_count(self):
+        # Preserve the original 57-paper fixture while allowing append-only growth.
+        collections=L.load(ROOT/'data/collections.json')['collections']
+        seed_ids=set().union(*(set(c['paper_ids']) for c in collections if c['id'] in {'MAS10','OPD24','XD14','OPD-T10'}))
+        self.assertEqual(len(seed_ids),57)
+        self.assertTrue(seed_ids.issubset(L.records(ROOT)['papers']))
     def test_duplicate_eopd_keeps_both_ids(self):
         db=L.records(ROOT);p=L.find_paper(db,'OPD14');self.assertIn('OPD-T09',p['aliases']);self.assertGreaterEqual(len(p['analysis_ids']),2)
     def test_original_papers_absent(self):self.assertEqual(list(ROOT.rglob('*.pdf')),[])
     def test_only_historical_ratings(self):
-        d=L.records(ROOT);self.assertEqual(sum(bool(p['ratings']) for p in d['papers'].values()),10);self.assertEqual(sum(bool(i['ratings']) for i in d['ideas'].values()),0)
+        d=L.records(ROOT)
+        collections=L.load(ROOT/'data/collections.json')['collections']
+        seed_ids=set().union(*(set(c['paper_ids']) for c in collections if c['id'] in {'MAS10','OPD24','XD14','OPD-T10'}))
+        self.assertEqual(sum(bool(d['papers'][pid]['ratings']) for pid in seed_ids),10)
+        self.assertEqual(sum(bool(i['ratings']) for i in d['ideas'].values()),0)
     def test_arxiv_normalization(self):self.assertEqual(L.norm_arxiv('https://arxiv.org/pdf/2601.12345v9.pdf'),'2601.12345')
     def test_doi_normalization(self):self.assertEqual(L.norm_doi('https://doi.org/10.1234/ABc'),'10.1234/abc')
     def test_path_traversal(self):

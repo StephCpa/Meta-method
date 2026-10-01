@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0066",
+  "title": "长度与归一化造成的方向变化",
+  "paper_ids": [
+    "P0064"
+  ],
+  "analysis_ids": [
+    "A0078"
+  ],
+  "kind": "measurement_axis",
+  "question": "应该改权重还是缩小步长？",
+  "first_evidence": "长度—score对应控制与真实一步分支。",
+  "decision_branches": [
+    "实际方向项小或简单no-length足够则停。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。实际方向项小或简单no-length足够则停。"
+    }
+  ],
+  "original_direction_id": "RLVR007-B",
+  "source_work_status": "calibrated_model_based",
+  "priority": "supporting",
+  "proposed_change": "同回答池离线重算损失权重。",
+  "strong_controls": [
+    "同长度分布",
+    "独立方向参照",
+    "KL/位移匹配"
+  ],
+  "novelty_boundary": "Dr.GRPO及长度权重理论已有。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

@@ -1,0 +1,702 @@
+{
+  "metadata": {
+    "format": "meta-method-portable-import/1.0",
+    "created_at": "2026-10-01",
+    "target_repository": "StephCpa/Meta-method",
+    "target_branch": "main",
+    "remote_write_completed": false,
+    "latest_library_schema_verified": false,
+    "repository_commit_verified": null,
+    "status": "prepared_for_schema_mapping_not_merged",
+    "scope": "14 numbered RLVR/post-training papers + 14 cross-domain supplemental analyses; preserve other dialogue MAS/OPD data",
+    "basis": "provided conversation and mounted research cards; historical findings not reverified by this import",
+    "remote_access_note": "GitHub connector not installed; suggestion displayed. git ls-remote failed DNS. Web endpoints exposed inconsistent/older v0.3/v0.4 snapshots; latest library directory/schema not obtained.",
+    "counts": {
+      "primary_papers": 14,
+      "research_pool_records": 40,
+      "cross_domain_supplements": 14,
+      "analyses": 28,
+      "archived_case_bundles": 4
+    },
+    "not_a_repository_schema": true
+  },
+  "author_moves": [
+    {
+      "id": "AM-RLVR001",
+      "paper_id": "RLVR001",
+      "source_role": "author",
+      "evidence_ref": "CONV-RLVR001",
+      "original_opportunity": "静态标签一致性与训练后策略收益不完全对应，需确定哪些验证错误改变学习信号。",
+      "change": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。",
+      "increment": "把判得对与教得好分开；仅凭静态准确率不足以立论，需落实到带权rubric与组内接口。",
+      "codes": [
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR001",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。"
+        },
+        {
+          "code": "M7",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR001",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR001",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。"
+        }
+      ],
+      "discovery_history_claim": false,
+      "independent_second_coding": false
+    },
+    {
+      "id": "AM-RLVR002",
+      "paper_id": "RLVR002",
+      "source_role": "author",
+      "evidence_ref": "CONV-RLVR002",
+      "original_opportunity": "有效的多阶段配方尚不等于可解释、可迁移、可事前决策的阶段规律。",
+      "change": "跨层组织训练、环境、轨迹和资源；统一接口使多类后训练能落成可运行流程。",
+      "increment": "主要是系统构造与复用能力，明确非以M1为主；不宣称公开配方概念首次出现。",
+      "codes": [
+        {
+          "code": "M8",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR002",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "跨层组织训练、环境、轨迹和资源；统一接口使多类后训练能落成可运行流程。"
+        },
+        {
+          "code": "M12",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR002",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "跨层组织训练、环境、轨迹和资源；统一接口使多类后训练能落成可运行流程。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR002",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "跨层组织训练、环境、轨迹和资源；统一接口使多类后训练能落成可运行流程。"
+        },
+        {
+          "code": "M5",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR002",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "跨层组织训练、环境、轨迹和资源；统一接口使多类后训练能落成可运行流程。"
+        }
+      ],
+      "discovery_history_claim": false,
+      "independent_second_coding": false
+    },
+    {
+      "id": "AM-RLVR003",
+      "paper_id": "RLVR003",
+      "source_role": "author",
+      "evidence_ref": "CONV-RLVR003",
+      "original_opportunity": "RL中任务表现与CoT可监控性分离，内部诊断变成优化目标后还需复验。",
+      "change": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。",
+      "increment": "从观察到表示层定位及可操作干预；不把可监控性提升等同推理忠实性全面证明。",
+      "codes": [
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR003",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。"
+        },
+        {
+          "code": "M7",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR003",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。"
+        },
+        {
+          "code": "M10",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR003",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。"
+        },
+        {
+          "code": "M5",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR003",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。"
+        },
+        {
+          "code": "M6",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR003",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。"
+        }
+      ],
+      "discovery_history_claim": false,
+      "independent_second_coding": false
+    },
+    {
+      "id": "AM-RLVR004",
+      "paper_id": "RLVR004",
+      "source_role": "author",
+      "evidence_ref": "CONV-RLVR004",
+      "original_opportunity": "信用定义、价值目标、估计器与实际更新可能不是同一对象。",
+      "change": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。",
+      "increment": "新的理论参照与工程接口；唯一性依赖公理，不是所有因果归因的唯一答案。",
+      "codes": [
+        {
+          "code": "M9",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR004",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。"
+        },
+        {
+          "code": "M11",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR004",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。"
+        },
+        {
+          "code": "M8",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR004",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR004",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "以公理唯一确定指定条件下的信用，并连接OPD/RLOO/GAE，再构造策略对齐critic训练。"
+        }
+      ],
+      "discovery_history_claim": false,
+      "independent_second_coding": false
+    },
+    {
+      "id": "AM-RLVR005",
+      "paper_id": "RLVR005",
+      "source_role": "author",
+      "evidence_ref": "CONV-RLVR005",
+      "original_opportunity": "权重谱变化的观察需要连接功能约束与实际资源；合并坐标可能敏感。",
+      "change": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+      "increment": "从描述谱变化到干预与执行能力；不能将谱变动小直接解释为无功能作用。",
+      "codes": [
+        {
+          "code": "M2",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR005",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。"
+        },
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR005",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。"
+        },
+        {
+          "code": "M9",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR005",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。"
+        },
+        {
+          "code": "M14",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR005",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。"
+        },
+        {
+          "code": "M12",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR005",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR005",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。"
+        }
+      ],
+      "discovery_history_claim": false,
+      "independent_second_coding": false
+    },
+    {
+      "id": "AM-RLVR006",
+      "paper_id": "RLVR006",
+      "source_role": "author",
+      "evidence_ref": "CONV-RLVR006",
+      "original_opportunity": "critic表示同时承担估值、稳定参照与探索密度空间，可能具有不同有效性条件。",
+      "change": "公开概述为CKA critic约束、No-Flip actor约束与KDE advantage shaping；全文公式未完整取得。",
+      "increment": "诊断—约束—探索的组合是否有共享机制，仍需原文核查，不能依摘要宣布漏洞。",
+      "codes": [
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR006",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "公开概述为CKA critic约束、No-Flip actor约束与KDE advantage shaping；全文公式未完整取得。"
+        },
+        {
+          "code": "M6",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR006",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "公开概述为CKA critic约束、No-Flip actor约束与KDE advantage shaping；全文公式未完整取得。"
+        }
+      ],
+      "discovery_history_claim": false,
+      "independent_second_coding": false
+    },
+    {
+      "id": "AM-RLVR007",
+      "paper_id": "RLVR007",
+      "source_role": "author",
+      "evidence_ref": "CONV-RLVR007",
+      "original_opportunity": "梯度小、训练停滞可能来自稀有成功、错误方向或有限步过冲。",
+      "change": "用成功/失败条件score之差刻画方向，并在条件下联系步长与成功概率改善。",
+      "increment": "新理论参照允许区分方向与步长；不等于每模型具有已知精确阈值。",
+      "codes": [
+        {
+          "code": "M9",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR007",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "用成功/失败条件score之差刻画方向，并在条件下联系步长与成功概率改善。"
+        },
+        {
+          "code": "M7",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR007",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "用成功/失败条件score之差刻画方向，并在条件下联系步长与成功概率改善。"
+        },
+        {
+          "code": "M11",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR007",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "用成功/失败条件score之差刻画方向，并在条件下联系步长与成功概率改善。"
+        }
+      ],
+      "discovery_history_claim": false,
+      "independent_second_coding": false
+    },
+    {
+      "id": "AM-RLVR008",
+      "paper_id": "RLVR008",
+      "source_role": "author",
+      "evidence_ref": "CONV-RLVR008",
+      "original_opportunity": "弱采样器可能便宜且互补，但文本差异、可解题覆盖、有效策略与更新效用不能互替。",
+      "change": "冻结同族小模型与大模型共同rollout，在混合组训练并逐渐退出小模型。",
+      "increment": "小模型不是必须更准的老师，而是另一个采样来源；线性退火不是反馈闭环。",
+      "codes": [
+        {
+          "code": "M4",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR008",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "冻结同族小模型与大模型共同rollout，在混合组训练并逐渐退出小模型。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR008",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "冻结同族小模型与大模型共同rollout，在混合组训练并逐渐退出小模型。"
+        },
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR008",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "冻结同族小模型与大模型共同rollout，在混合组训练并逐渐退出小模型。"
+        }
+      ],
+      "discovery_history_claim": false,
+      "independent_second_coding": false
+    },
+    {
+      "id": "AM-RLVR009",
+      "paper_id": "RLVR009",
+      "source_role": "author",
+      "evidence_ref": "CONV-RLVR009",
+      "original_opportunity": "平均曲线与确定映射不足以描述跨prompt训练异质性及可识别范围。",
+      "change": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。",
+      "increment": "从视觉交叉改为可统计支持的预算区间；条件核不是NTK、训练seed分布或自动Markov状态。",
+      "codes": [
+        {
+          "code": "M7",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR009",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。"
+        },
+        {
+          "code": "M14",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR009",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。"
+        },
+        {
+          "code": "M9",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR009",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。"
+        },
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR009",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR009",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。"
+        }
+      ],
+      "discovery_history_claim": false,
+      "independent_second_coding": false
+    },
+    {
+      "id": "AM-RLVR010",
+      "paper_id": "RLVR010",
+      "source_role": "author",
+      "evidence_ref": "CONV-RLVR010",
+      "original_opportunity": "内部可疑概念信号不等于违规、提前预警或净干预收益。",
+      "change": "用合成对照激活均值差提供廉价筛查，连接异常发现、复核和新类别验证。",
+      "increment": "增加可用发现信号而非找到唯一作弊神经元；发现闭环不是训练安全闭环。",
+      "codes": [
+        {
+          "code": "M7",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR010",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "用合成对照激活均值差提供廉价筛查，连接异常发现、复核和新类别验证。"
+        },
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR010",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "用合成对照激活均值差提供廉价筛查，连接异常发现、复核和新类别验证。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR010",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "用合成对照激活均值差提供廉价筛查，连接异常发现、复核和新类别验证。"
+        },
+        {
+          "code": "M5",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "CONV-RLVR010",
+          "locator": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+          "rationale": "用合成对照激活均值差提供廉价筛查，连接异常发现、复核和新类别验证。"
+        }
+      ],
+      "discovery_history_claim": false,
+      "independent_second_coding": false
+    },
+    {
+      "id": "AM-RLVR011",
+      "paper_id": "RLVR011",
+      "source_role": "author",
+      "evidence_ref": "ARCHIVE-RLVR011",
+      "original_opportunity": "固定组采样未按题目与时间分配学习机会，异步重试又引入历史与陈旧性。",
+      "change": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。",
+      "increment": "结果依赖采样成为算法的一部分；不是无限坚持，也不只增加K。",
+      "codes": [
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR011",
+          "locator": "§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本",
+          "rationale": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。"
+        },
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR011",
+          "locator": "§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本",
+          "rationale": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。"
+        },
+        {
+          "code": "M5",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR011",
+          "locator": "§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本",
+          "rationale": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。"
+        },
+        {
+          "code": "M8",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR011",
+          "locator": "§2–4、附录；公开代码快照96e70fd相关采样/优势/启动脚本",
+          "rationale": "全失败按概率重新排队；异步生成、旧样本过滤及历史正例锚定共同设计。"
+        }
+      ],
+      "discovery_history_claim": false,
+      "independent_second_coding": false
+    },
+    {
+      "id": "AM-RLVR012",
+      "paper_id": "RLVR012",
+      "source_role": "author",
+      "evidence_ref": "ARCHIVE-RLVR012",
+      "original_opportunity": "逐token教师通常外部给定，而自身训练历史包含尚未利用的监督来源。",
+      "change": "用当前与anchor位移在参数或logit空间外推，再把动态教师蒸馏回学生。",
+      "increment": "训练产物重新承担监督源角色；ExPO已有权重外推、ExOPD已有分布外推与超过教师。",
+      "codes": [
+        {
+          "code": "M6",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR012",
+          "locator": "§2.3–2.4、§3.1–3.3；§4.3–4.4、附录A/C.5–C.10",
+          "rationale": "用当前与anchor位移在参数或logit空间外推，再把动态教师蒸馏回学生。"
+        },
+        {
+          "code": "M2",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR012",
+          "locator": "§2.3–2.4、§3.1–3.3；§4.3–4.4、附录A/C.5–C.10",
+          "rationale": "用当前与anchor位移在参数或logit空间外推，再把动态教师蒸馏回学生。"
+        },
+        {
+          "code": "M11",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR012",
+          "locator": "§2.3–2.4、§3.1–3.3；§4.3–4.4、附录A/C.5–C.10",
+          "rationale": "用当前与anchor位移在参数或logit空间外推，再把动态教师蒸馏回学生。"
+        },
+        {
+          "code": "M5",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR012",
+          "locator": "§2.3–2.4、§3.1–3.3；§4.3–4.4、附录A/C.5–C.10",
+          "rationale": "用当前与anchor位移在参数或logit空间外推，再把动态教师蒸馏回学生。"
+        }
+      ],
+      "discovery_history_claim": false,
+      "independent_second_coding": false
+    },
+    {
+      "id": "AM-RLVR013",
+      "paper_id": "RLVR013",
+      "source_role": "author",
+      "evidence_ref": "ARCHIVE-RLVR013",
+      "original_opportunity": "原始难题在固定接口全失败，可改造辅助条件而非只换题或重试。",
+      "change": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。",
+      "increment": "辅助成为控制变量与学习路径；不是首次部分提示或逆向课程。",
+      "codes": [
+        {
+          "code": "M2",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR013",
+          "locator": "§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡",
+          "rationale": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。"
+        },
+        {
+          "code": "M6",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR013",
+          "locator": "§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡",
+          "rationale": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。"
+        },
+        {
+          "code": "M5",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR013",
+          "locator": "§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡",
+          "rationale": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR013",
+          "locator": "§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡",
+          "rationale": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。"
+        }
+      ],
+      "discovery_history_claim": false,
+      "independent_second_coding": false
+    },
+    {
+      "id": "AM-RLVR014",
+      "paper_id": "RLVR014",
+      "source_role": "author",
+      "evidence_ref": "ARCHIVE-RLVR014",
+      "original_opportunity": "平均替代重构不足以支持明确输入域的忠实性保证，宽字典验证代价高。",
+      "change": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。",
+      "increment": "形式契约与可执行验证工具是合法贡献，不必先证明提高RLVR成绩。",
+      "codes": [
+        {
+          "code": "M11",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR014",
+          "locator": "Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9",
+          "rationale": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。"
+        },
+        {
+          "code": "M9",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR014",
+          "locator": "Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9",
+          "rationale": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。"
+        },
+        {
+          "code": "M3",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR014",
+          "locator": "Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9",
+          "rationale": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。"
+        },
+        {
+          "code": "M1",
+          "source_role": "author",
+          "assignment": "reviewer_assigned",
+          "verification_status": "inherited_candidate_not_reverified_in_import",
+          "evidence_ref": "ARCHIVE-RLVR014",
+          "locator": "Def.1、§1–6、B.2–B.3、C.1–C.2，图4–6、表6–9",
+          "rationale": "以原计算T与替代R构造共享输入差分网络，利用宽字典结构折叠集合传播并研究验证感知训练。"
+        }
+      ],
+      "discovery_history_claim": false,
+      "independent_second_coding": false
+    }
+  ]
+}

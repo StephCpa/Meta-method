@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0070",
+  "title": "轨迹结构与奖励相关更新",
+  "paper_ids": [
+    "P0065"
+  ],
+  "analysis_ids": [
+    "A0079"
+  ],
+  "kind": "measurement_axis",
+  "question": "时间相关或大score范数是否增加真正有效梯度？",
+  "first_evidence": "已知独立/相关/offpolicy控制及真实投影。",
+  "decision_branches": [
+    "简单奖励与分布重叠已解释则收敛。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "calibrated_model_based",
+      "reason": "按原记录映射工作状态，不认证科学有效性。简单奖励与分布重叠已解释则收敛。"
+    }
+  ],
+  "original_direction_id": "RLVR008-C",
+  "source_work_status": "calibrated_model_based",
+  "priority": "supporting",
+  "proposed_change": "分开未加权score、奖励加权信号与独立更新。",
+  "strong_controls": [
+    "score正交零控制",
+    "常量reward",
+    "独立审计"
+  ],
+  "novelty_boundary": "参数噪声已有，不能只用跨尺寸参数扰动类比。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

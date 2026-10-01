@@ -1,0 +1,9 @@
+{
+  "id": "S0014",
+  "kind": "user_supplied_analysis",
+  "path": "sources/S0014.json",
+  "sha256": "29df126ea00c6dd9fada555566135f60011372cd5d61365b488bf521bc0bd3af",
+  "description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。原始贡献卡/三类标准库校准与manifest可获得；历史读主文/附录关键PDF，未作者实验、Lean机验或真实LLM。",
+  "imported_at": "2026-10-01T07:52:51.437527+00:00",
+  "reverified_in_library_build": false
+}

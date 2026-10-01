@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "id": "I0049",
+  "title": "成对世界的证据获取与使用",
+  "paper_ids": [
+    "P0059"
+  ],
+  "analysis_ids": [
+    "A0073"
+  ],
+  "kind": "research_direction",
+  "question": "直接看到记录能使用之后，模型能否在需要时主动取回证据？",
+  "first_evidence": "直接上下文/指定调用/自主调用三条件的影子运行。",
+  "decision_branches": [
+    "全部通过则本层结束；调用失败先修接口，不同时堆多跳、干扰和judge。"
+  ],
+  "status": "paused",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "paused",
+      "previous": "candidate",
+      "source_status": "scope_limited_stop",
+      "reason": "直接上下文新增训练干预已停止；同一记录中的主动工具迁移尚未运行。不得解释成整项证据依赖研究已失败。"
+    }
+  ],
+  "original_direction_id": "RLVR002-B",
+  "source_work_status": "scope_limited_stop",
+  "priority": "conditional",
+  "proposed_change": "原直接上下文改进线停止；只迁移到一次确定性工具读取。",
+  "strong_controls": [
+    "相同合法世界",
+    "无记录实测基线",
+    "无关改写",
+    "调用格式与执行记录"
+  ],
+  "novelty_boundary": "保留原结果与事后排除；不称仪器全面验证，不用猜测内部意图。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "id": "A0074",
+  "paper_id": "P0060",
+  "kind": "added_analysis",
+  "analyzed_at": "2026-10-01",
+  "imported_at": "2026-10-01T07:52:51.210568+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": "v1",
+  "summary": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。",
+  "sections": {
+    "原有局限": "RL中任务表现与CoT可监控性分离，内部诊断变成优化目标后还需复验。",
+    "作者改变了什么": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。",
+    "新增结果/组合增量": "从观察到表示层定位及可操作干预；不把可监控性提升等同推理忠实性全面证明。",
+    "证据与边界": "用户报告两个零GPU/model-based协议已经落地；另有公开表格复核。尚无本项目TAME真实训练、端点激活复验或多监控器轨迹。"
+  },
+  "codings": [
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M7",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M5",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M6",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "观察CoT退化，利用冻结SAE定位候选特征，以行为反馈和定向内部约束进行训练干预。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR003既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR003既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR003既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "note_path": "notes/A0074.md",
+  "note_sha256": "c8c6fad6f14e3bb24508fbb96dda3f208baf950414928cb13a537036661debc3",
+  "source_refs": [
+    {
+      "source_id": "S0003",
+      "locator": "analysis_markdown"
+    },
+    {
+      "source_id": "SRC-RLVR14-20261001",
+      "locator": "analyses/rlvr/RLVR003.md"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest",
+  "dataset_role": "development",
+  "used_for_framework_development": true,
+  "original_analysis_id": "AN-RLVR003-20261001",
+  "organizing_framework_version": "0.4.0"
+}

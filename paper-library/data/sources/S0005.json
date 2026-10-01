@@ -1,0 +1,9 @@
+{
+  "id": "S0005",
+  "kind": "user_supplied_analysis",
+  "path": "sources/S0005.json",
+  "sha256": "8dc65182db657e77569f4e113f3ab696700572182af2696734d38a5baccfaa67",
+  "description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。历史分析核对原文与Merger代码并报告两项小矩阵校准；未真实权重审计或训练。Optimizer曾因实现问题重跑，当前材料状态未重新核验。",
+  "imported_at": "2026-10-01T07:52:51.251332+00:00",
+  "reverified_in_library_build": false
+}

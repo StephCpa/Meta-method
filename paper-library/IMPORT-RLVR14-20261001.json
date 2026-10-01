@@ -1,0 +1,166 @@
+{
+  "base_commit": "6e017d7a2a55db683d7f89e2eefdafd1aedf52bb",
+  "imported_at": "2026-10-01T07:52:52.170220+00:00",
+  "original_bundle_sha256": "36f8f1007b8444a5e0d6f44728106af2f09bace3d25b5a5a5dbc5c772223f4cd",
+  "text_payload_sha256": "d5cd941c8e7ac93d42403e262870e86ac84ad5cf4d0cd54a19b0741ce49d1f3f",
+  "counts_before": {
+    "papers": 57,
+    "analyses": 71,
+    "ideas": 44,
+    "sources": 8
+  },
+  "counts_after": {
+    "papers": 71,
+    "analyses": 99,
+    "ideas": 84,
+    "sources": 37
+  },
+  "added_papers": 14,
+  "added_analyses": 28,
+  "added_ideas": 40,
+  "paper_map": {
+    "RLVR001": "P0058",
+    "RLVR002": "P0059",
+    "RLVR003": "P0060",
+    "RLVR004": "P0061",
+    "RLVR005": "P0062",
+    "RLVR006": "P0063",
+    "RLVR007": "P0064",
+    "RLVR008": "P0065",
+    "RLVR009": "P0066",
+    "RLVR010": "P0067",
+    "RLVR011": "P0068",
+    "RLVR012": "P0069",
+    "RLVR013": "P0070",
+    "RLVR014": "P0071"
+  },
+  "analysis_map": {
+    "RLVR001": "A0072",
+    "RLVR002": "A0073",
+    "RLVR003": "A0074",
+    "RLVR004": "A0075",
+    "RLVR005": "A0076",
+    "RLVR006": "A0077",
+    "RLVR007": "A0078",
+    "RLVR008": "A0079",
+    "RLVR009": "A0080",
+    "RLVR010": "A0081",
+    "RLVR011": "A0082",
+    "RLVR012": "A0083",
+    "RLVR013": "A0084",
+    "RLVR014": "A0085"
+  },
+  "idea_map": {
+    "RLVR001-A": "I0045",
+    "RLVR001-B": "I0046",
+    "RLVR001-C": "I0047",
+    "RLVR002-A": "I0048",
+    "RLVR002-B": "I0049",
+    "RLVR002-C": "I0050",
+    "RLVR002-D": "I0051",
+    "RLVR003-A": "I0052",
+    "RLVR003-B": "I0053",
+    "RLVR003-C": "I0054",
+    "RLVR004-A": "I0055",
+    "RLVR004-B": "I0056",
+    "RLVR004-C": "I0057",
+    "RLVR004-D": "I0058",
+    "RLVR005-A": "I0059",
+    "RLVR005-B": "I0060",
+    "RLVR005-C": "I0061",
+    "RLVR006-A": "I0062",
+    "RLVR006-B": "I0063",
+    "RLVR006-C": "I0064",
+    "RLVR007-A": "I0065",
+    "RLVR007-B": "I0066",
+    "RLVR007-C": "I0067",
+    "RLVR008-A": "I0068",
+    "RLVR008-B": "I0069",
+    "RLVR008-C": "I0070",
+    "RLVR008-D": "I0071",
+    "RLVR009-A": "I0072",
+    "RLVR009-B": "I0073",
+    "RLVR009-C": "I0074",
+    "RLVR010-A": "I0075",
+    "RLVR010-B": "I0076",
+    "RLVR010-C": "I0077",
+    "RLVR011-A": "I0078",
+    "RLVR012-A": "I0079",
+    "RLVR012-B": "I0080",
+    "RLVR013-A": "I0081",
+    "RLVR013-B": "I0082",
+    "RLVR014-A": "I0083",
+    "RLVR014-B": "I0084"
+  },
+  "xd_merge_map": {
+    "XD04": {
+      "paper_id": "P0038",
+      "analysis_id": "A0086"
+    },
+    "XD03": {
+      "paper_id": "P0037",
+      "analysis_id": "A0087"
+    },
+    "XD01": {
+      "paper_id": "P0035",
+      "analysis_id": "A0088"
+    },
+    "XD02": {
+      "paper_id": "P0036",
+      "analysis_id": "A0089"
+    },
+    "XD05": {
+      "paper_id": "P0039",
+      "analysis_id": "A0090"
+    },
+    "XD06": {
+      "paper_id": "P0040",
+      "analysis_id": "A0091"
+    },
+    "XD07": {
+      "paper_id": "P0041",
+      "analysis_id": "A0092"
+    },
+    "XD08": {
+      "paper_id": "P0042",
+      "analysis_id": "A0093"
+    },
+    "XD09": {
+      "paper_id": "P0043",
+      "analysis_id": "A0094"
+    },
+    "XD10": {
+      "paper_id": "P0044",
+      "analysis_id": "A0095"
+    },
+    "XD11": {
+      "paper_id": "P0045",
+      "analysis_id": "A0096"
+    },
+    "XD12": {
+      "paper_id": "P0046",
+      "analysis_id": "A0097"
+    },
+    "XD13": {
+      "paper_id": "P0047",
+      "analysis_id": "A0098"
+    },
+    "XD14": {
+      "paper_id": "P0048",
+      "analysis_id": "A0099"
+    }
+  },
+  "historical_ratings_imported": 10,
+  "source_text_files_preserved": 43,
+  "preexisting_immutable_files_preserved": 202,
+  "scientific_reverification_performed": false,
+  "old_calibrations_rerun": false,
+  "native_validation_passed": true,
+  "native_build_deterministic": true,
+  "binary_calibration_archives_mirrored": false,
+  "test_maintenance": {
+    "scope": "Seed counts and seed ratings asserted on original four collections, not on growing library totals. Three additional import-specific regression tests preserve identity, source bytes and evidence levels.",
+    "new_tests": 3,
+    "scientific_validation": false
+  }
+}

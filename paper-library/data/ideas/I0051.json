@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0051",
+  "title": "Agent轨迹的可执行契约",
+  "paper_ids": [
+    "P0059"
+  ],
+  "analysis_ids": [
+    "A0073"
+  ],
+  "kind": "research_direction",
+  "question": "跨后端的轨迹是否仍对应同一行为与训练对象？",
+  "first_evidence": "固定参数回放及已知错误注入。",
+  "decision_branches": [
+    "差异无训练影响或现有协议已足够时不扩展。"
+  ],
+  "status": "paused",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "paused",
+      "previous": "candidate",
+      "source_status": "parked",
+      "reason": "按原记录映射工作状态，不认证科学有效性。差异无训练影响或现有协议已足够时不扩展。"
+    }
+  ],
+  "original_direction_id": "RLVR002-D",
+  "source_work_status": "parked",
+  "priority": "independent",
+  "proposed_change": "将原始动作、行为概率、mask、观察和终止语义写成可回放契约。",
+  "strong_controls": [
+    "保留原始动作",
+    "修复作为环境转换",
+    "不伪装重新分词后的等价"
+  ],
+  "novelty_boundary": "保留原token已有先行；作为独立系统线，不与前三者打包。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

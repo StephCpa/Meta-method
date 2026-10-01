@@ -1,0 +1,120 @@
+{
+  "title": "ISO: An RLVR-Native Optimization Stack",
+  "short_name": "ISO",
+  "paper_url": "https://arxiv.org/abs/2607.19331",
+  "arxiv": "2607.19331",
+  "aliases": [
+    "RLVR005",
+    "RLVR/Case005"
+  ],
+  "topics": [
+    "RLVR／后训练"
+  ],
+  "tags": [
+    "development",
+    "rlvr-dialogue-import"
+  ],
+  "analyzed_at": "2026-10-01",
+  "framework_version": null,
+  "paper_version": null,
+  "source_description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。历史分析核对原文与Merger代码并报告两项小矩阵校准；未真实权重审计或训练。Optimizer曾因实现问题重跑，当前材料状态未重新核验。",
+  "summary": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+  "sections": {
+    "原有局限": "权重谱变化的观察需要连接功能约束与实际资源；合并坐标可能敏感。",
+    "作者改变了什么": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+    "新增结果/组合增量": "从描述谱变化到干预与执行能力；不能将谱变动小直接解释为无功能作用。",
+    "证据与边界": "历史分析核对原文与Merger代码并报告两项小矩阵校准；未真实权重审计或训练。Optimizer曾因实现问题重跑，当前材料状态未重新核验。"
+  },
+  "codings": [
+    {
+      "code": "M2",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M12",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR005既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR005既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR005既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "analysis_markdown": "# RLVR005｜ISO: An RLVR-Native Optimization Stack\n\n原编号：Case005；命名空间：本对话 RLVR／后训练（不与 MAS 同号记录混用）。\n\n论文：https://arxiv.org/abs/2607.19331\n\n历史阅读版本：未在可用记录中固定；入库不猜填。整理日期：2026-10-01。\n\n> 本文是既有对话的收敛整理，不是新一轮论文全文核验，也不是逐字原始对话。所有候选均属 development；不可用于宣称未见领域有效性。\n\n## 1. 作者贡献形成（分析者赋码，author 角色）\n\n**机会／限制：**权重谱变化的观察需要连接功能约束与实际资源；合并坐标可能敏感。\n\n**作者改变：**固定奇异值、更新方向因子，统一在线优化与离线专家合并表示，并利用结构组织计算。\n\n**新增结果的解释：**从描述谱变化到干预与执行能力；不能将谱变动小直接解释为无功能作用。\n\n**候选作者码：**M2, M1, M9, M14, M12, M3。**审查码：**M14, M9, M10。不得混计。\n\n**原文定位状态：**沿用本对话作者贡献分析；本次未补做逐条原文锚点核验，不能升级为独立确认。\n\n## 2. 当前证据与工作状态\n\n历史分析核对原文与Merger代码并报告两项小矩阵校准；未真实权重审计或训练。Optimizer曾因实现问题重跑，当前材料状态未重新核验。\n\n## 3. 已讨论的关键结果（按原证据层级保留）\n\n- 相同保谱可行集合中，W空间投影SGD与U/V因子SGD的一阶几何不同；2×2 σ=(2,1)对称/反对称方向系数.5/4.5，为小步SGD控制非Adam结论。\n\n- 简单近重谱构造中，输入专家差约7.99e−5，重建合并输出差约1.08e−2；约135.6倍放大仅为独立矩阵构造。\n\n- 更新次数节省不等于总耗时同比节省；回缩额外比例不等于整体长回答rollout成本。\n\n## 4. 最新修订与禁止升级的表述\n\n- 精确重谱等价变换与近重谱真实扰动分开。\n\n- 局部数值敏感不自动意味着真实任务失效。\n\n- 旧组件可创造新可行规模，不靠保谱标签立论。\n\n## 5. 研究方向池\n\n### RLVR005-A｜谱坐标合并的稳定性\n\n类型：`research_direction`；优先级：`primary`；状态：`calibrated_model_based`。\n\n**问题：**微小真实权重扰动是否经谱表示放大并影响合并功能？\n\n**具体变换：**保留共享谱块关系，先审计敏感性再设计稳定坐标。\n\n**首个产物：**真实checkpoint层级谱间隙与扰动—输出审计。\n\n**强对照：**严格等价变换；简单近重谱扰动；逐阶段系数/回缩定位。\n\n**停止／改写：**真实无功能影响或现有简单合并已足够时停。\n\n**新颖性边界：**OrthoMerge/CORAM等已有几何合并；不以一行SVD敏感性作新贡献。\n\n### RLVR005-B｜保谱约束与更新几何分离\n\n类型：`research_direction`；优先级：`conditional`；状态：`calibrated_model_based`。\n\n**问题：**收益来自可行集合还是因子参数化对方向的重新加权？\n\n**具体变换：**同约束比较W投影与因子更新。\n\n**首个产物：**冻结数据的一步权重/策略KL/独立收益。\n\n**强对照：**实际位移或KL匹配；SGD到Adam分层；动量与裁剪拆分。\n\n**停止／改写：**简单步长可解释时不开发几何优化器。\n\n**新颖性边界：**Riemannian preconditioning已有；新意需谱与RLVR噪声实际交互。\n\n### RLVR005-C｜固定谱的条件化适用边界\n\n类型：`conditional_extension`；优先级：`conditional`；状态：`planned`。\n\n**问题：**是优化困难还是固定谱集合确实不足？\n\n**具体变换：**先测任务相关扰动，再决定是否开放谱。\n\n**首个产物：**可旋转目标/必须缩放目标控制与真实局部干预。\n\n**强对照：**相同作用尺度；独立数据；允许其他层补偿。\n\n**停止／改写：**换更新几何即可解决或开放收益低于成本时停。\n\n**新颖性边界：**不把局部线性不可达直接推广到完整网络。\n\n## 6. 来源与复用\n\n本条来源标识：`CONV-RLVR005`。原论文链接是查核入口，不表示本次新增核验。\n\n历史潜力分：7.5/10（当时主观选题判断，非论文质量或最新实证后重评分）。\n\n同一论文可有多个分析版本，但按 canonical key 只算一个论文实体。不得用本次导入增加独立验证样本计数。\n",
+  "ideas": [
+    {
+      "title": "谱坐标合并的稳定性",
+      "question": "微小真实权重扰动是否经谱表示放大并影响合并功能？",
+      "first_evidence": "真实checkpoint层级谱间隙与扰动—输出审计。",
+      "decision_branches": [
+        "真实无功能影响或现有简单合并已足够时停。"
+      ]
+    },
+    {
+      "title": "保谱约束与更新几何分离",
+      "question": "收益来自可行集合还是因子参数化对方向的重新加权？",
+      "first_evidence": "冻结数据的一步权重/策略KL/独立收益。",
+      "decision_branches": [
+        "简单步长可解释时不开发几何优化器。"
+      ]
+    },
+    {
+      "title": "固定谱的条件化适用边界",
+      "question": "是优化困难还是固定谱集合确实不足？",
+      "first_evidence": "可旋转目标/必须缩放目标控制与真实局部干预。",
+      "decision_branches": [
+        "换更新几何即可解决或开放收益低于成本时停。"
+      ]
+    }
+  ]
+}

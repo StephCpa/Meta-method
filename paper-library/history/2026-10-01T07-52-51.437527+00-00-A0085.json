@@ -1,0 +1,53 @@
+{
+  "time": "2026-10-01T07:52:51.437527+00:00",
+  "operation": "ingest",
+  "paper_id": "P0071",
+  "analysis_id": "A0085",
+  "before": null,
+  "after": {
+    "schema_version": "1.0",
+    "id": "P0071",
+    "title": "The Misery of Mechanistic Interpretability: A Formal Perspective",
+    "short_name": "IRN Formal Perspective",
+    "aliases": [
+      "RLVR014",
+      "RLVR/Case014"
+    ],
+    "identifiers": {
+      "arxiv": "2609.15533",
+      "doi": null
+    },
+    "links": [
+      "https://arxiv.org/abs/2609.15533"
+    ],
+    "topics": [
+      "RLVR／后训练"
+    ],
+    "tags": [
+      "development",
+      "rlvr-dialogue-import"
+    ],
+    "reading_status": "v04_detailed_analysis",
+    "metadata_observations": [
+      {
+        "source_id": "S0014",
+        "as_of": "2026-10-01",
+        "title": "The Misery of Mechanistic Interpretability: A Formal Perspective",
+        "venue": null,
+        "paper_version": "v1",
+        "verification": "as_supplied_not_automatically_verified"
+      }
+    ],
+    "analysis_ids": [
+      "A0085"
+    ],
+    "idea_ids": [
+      "I0083",
+      "I0084"
+    ],
+    "ratings": [],
+    "created_at": "2026-10-01",
+    "updated_at": "2026-10-01",
+    "dataset_role": "development"
+  }
+}

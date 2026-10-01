@@ -1,0 +1,99 @@
+{
+  "title": "A Cheap Verifier is Good Enough",
+  "short_name": "Cheap Verifier",
+  "paper_url": "https://arxiv.org/abs/2609.33467",
+  "arxiv": "2609.33467",
+  "aliases": [
+    "RLVR001",
+    "RLVR/Case001"
+  ],
+  "topics": [
+    "RLVR／后训练"
+  ],
+  "tags": [
+    "development",
+    "rlvr-dialogue-import"
+  ],
+  "analyzed_at": "2026-10-01",
+  "framework_version": null,
+  "paper_version": null,
+  "source_description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。用户报告校准harness、L1/L2/L3、ICC与(D_A,coverage)管线已完成，并做HealthBench公开数据彩排；同一冻结policy的自采样条目级交叉判定尚缺。未见本地原脚本和原始日志。",
+  "summary": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。",
+  "sections": {
+    "原有局限": "静态标签一致性与训练后策略收益不完全对应，需确定哪些验证错误改变学习信号。",
+    "作者改变了什么": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。",
+    "新增结果/组合增量": "把判得对与教得好分开；仅凭静态准确率不足以立论，需落实到带权rubric与组内接口。",
+    "证据与边界": "用户报告校准harness、L1/L2/L3、ICC与(D_A,coverage)管线已完成，并做HealthBench公开数据彩排；同一冻结policy的自采样条目级交叉判定尚缺。未见本地原脚本和原始日志。"
+  },
+  "codings": [
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M7",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR001既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR001既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR001既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "analysis_markdown": "# RLVR001｜A Cheap Verifier is Good Enough\n\n原编号：Case001；命名空间：本对话 RLVR／后训练（不与 MAS 同号记录混用）。\n\n论文：https://arxiv.org/abs/2609.33467\n\n历史阅读版本：未在可用记录中固定；入库不猜填。整理日期：2026-10-01。\n\n> 本文是既有对话的收敛整理，不是新一轮论文全文核验，也不是逐字原始对话。所有候选均属 development；不可用于宣称未见领域有效性。\n\n## 1. 作者贡献形成（分析者赋码，author 角色）\n\n**机会／限制：**静态标签一致性与训练后策略收益不完全对应，需确定哪些验证错误改变学习信号。\n\n**作者改变：**以实际后训练表现审查agreement的预测价值，并把验证成本纳入选择。\n\n**新增结果的解释：**把判得对与教得好分开；仅凭静态准确率不足以立论，需落实到带权rubric与组内接口。\n\n**候选作者码：**M1, M7, M3。**审查码：**M14, M9, M10。不得混计。\n\n**原文定位状态：**沿用本对话作者贡献分析；本次未补做逐条原文锚点核验，不能升级为独立确认。\n\n## 2. 当前证据与工作状态\n\n用户报告校准harness、L1/L2/L3、ICC与(D_A,coverage)管线已完成，并做HealthBench公开数据彩排；同一冻结policy的自采样条目级交叉判定尚缺。未见本地原脚本和原始日志。\n\n## 3. 已讨论的关键结果（按原证据层级保留）\n\n- 用户报告：负权重条目30.7%（早期约31%）、人类三票n_eff约1.7、16.3%参考组无散布。均为指定彩排协议的报告值，本次入库未复算。\n\n- 核心测量为组内优势失真D_A，并区分方向翻转、信号注入、信号丢失；正仿射抵消是无害对照，不与失败混计。\n\n- 理想总体组标准差、无epsilon、双方非零方差且同聚合下，D_A=2(1-corr(rV,rG))，不能声称比同定义相关性携带额外信息。\n\n- 参考误差需传播到优势空间；原始评分噪声、ICC与残差相关不可混用，n_eff不自动给出普适上限。\n\n## 4. 最新修订与禁止升级的表述\n\n- 未采到不等于策略或成功支持不存在。\n\n- 官方评分器重试有打印信息；问题是最终结构化结果可能不保留首次失败与重试成本，不宜笼统写静默。\n\n- 512 rollout是首轮诊断规模，不是训练效用或事前选择已经完成。\n\n- D_A不是参数更新失真；需后续一步更新或训练证据。\n\n## 5. 研究方向池\n\n### RLVR001-A｜组级错误配置与优势失真\n\n类型：`research_direction`；优先级：`primary`；状态：`awaiting_data`。\n\n**问题：**真实同策略回答中，错误位置是否造成超过参考不确定性的优势失真？\n\n**具体变换：**将条目误判聚合为实际加权奖励及组内学习信号。\n\n**首个产物：**冻结policy的同题成组回答、条目级交叉判定与参考稳定性报告。\n\n**强对照：**同回答池交叉评分；匹配错误规模的重分配；仿射零控制；参考不确定性与共同coverage。\n\n**停止／改写：**若信号不可辨、仅接口错误、或不优于简单基线，修接口/暂停或保留简单指标。\n\n**新颖性边界：**Wen/Cai/Liu/Xin等已覆盖相邻评价与噪声问题，静态accuracy不足不是新增贡献。\n\n### RLVR001-B｜随策略变化的验证器适用条件\n\n类型：`conditional_extension`；优先级：`conditional`；状态：`planned`。\n\n**问题：**同一个verifier随策略与生成约束变化是否开始产生不同失真？\n\n**具体变换：**把够用写成verifier×policy×接口×约束的条件命题。\n\n**首个产物：**早中晚checkpoint的固定锚点交叉评分。\n\n**强对照：**内容与长度分离；独立参考；同预算随机复核。\n\n**停止／改写：**无稳定漂移或定向复核不优于随机时停止复杂路由。\n\n**新颖性边界：**不把截断或长度相关自动解释为reward hacking。\n\n### RLVR001-C｜预算受限的事前验证器选择\n\n类型：`conditional_extension`；优先级：`conditional`；状态：`planned`。\n\n**问题：**少量诊断能否在新任务上选到更好的成本—质量组合？\n\n**具体变换：**评价选择探针加后续训练的总成本，而非回顾性挑最优。\n\n**首个产物：**冻结选择规则与独立任务的delta非劣性检验设计。\n\n**强对照：**最低价质量门槛；静态最佳；随机选择；短程试训。\n\n**停止／改写：**复杂选择无外推收益或探针成本吞掉节约时用简单规则。\n\n**新颖性边界：**sup-t模板未在本会话取得；训练非劣性需要训练层数据。\n\n## 6. 来源与复用\n\n本条来源标识：`CONV-RLVR001`。原论文链接是查核入口，不表示本次新增核验。\n\n历史潜力分：9.0/10（当时主观选题判断，非论文质量或最新实证后重评分）。\n\n同一论文可有多个分析版本，但按 canonical key 只算一个论文实体。不得用本次导入增加独立验证样本计数。\n",
+  "ideas": [
+    {
+      "title": "组级错误配置与优势失真",
+      "question": "真实同策略回答中，错误位置是否造成超过参考不确定性的优势失真？",
+      "first_evidence": "冻结policy的同题成组回答、条目级交叉判定与参考稳定性报告。",
+      "decision_branches": [
+        "若信号不可辨、仅接口错误、或不优于简单基线，修接口/暂停或保留简单指标。"
+      ]
+    },
+    {
+      "title": "随策略变化的验证器适用条件",
+      "question": "同一个verifier随策略与生成约束变化是否开始产生不同失真？",
+      "first_evidence": "早中晚checkpoint的固定锚点交叉评分。",
+      "decision_branches": [
+        "无稳定漂移或定向复核不优于随机时停止复杂路由。"
+      ]
+    },
+    {
+      "title": "预算受限的事前验证器选择",
+      "question": "少量诊断能否在新任务上选到更好的成本—质量组合？",
+      "first_evidence": "冻结选择规则与独立任务的delta非劣性检验设计。",
+      "decision_branches": [
+        "复杂选择无外推收益或探针成本吞掉节约时用简单规则。"
+      ]
+    }
+  ]
+}

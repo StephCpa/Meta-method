@@ -4,21 +4,25 @@
   "title": "Score Matching with Missing Data",
   "short_name": "Score Matching with Missing Data",
   "aliases": [
-    "XD01"
+    "XD01",
+    "RLVR-XD/A03"
   ],
   "identifiers": {
     "arxiv": "2506.00557",
     "doi": null
   },
   "links": [
-    "https://arxiv.org/abs/2506.00557"
+    "https://arxiv.org/abs/2506.00557",
+    "https://arxiv.org/html/2506.00557v1"
   ],
   "topics": [
     "跨领域"
   ],
   "tags": [
     "跨领域",
-    "algorithm"
+    "algorithm",
+    "rlvr-dialogue-supplement",
+    "development"
   ],
   "reading_status": "author_move_analysis",
   "metadata_observations": [
@@ -28,16 +32,25 @@
       "title": "Score Matching with Missing Data",
       "venue": "ICML 2025 Outstanding",
       "verification": "inherited_not_reverified"
+    },
+    {
+      "source_id": "S0017",
+      "as_of": "2026-10-01",
+      "title": "Score Matching with Missing Data",
+      "venue": null,
+      "paper_version": null,
+      "verification": "as_supplied_not_automatically_verified"
     }
   ],
   "analysis_ids": [
-    "A0048"
+    "A0048",
+    "A0088"
   ],
   "idea_ids": [
     "I0027"
   ],
   "ratings": [],
   "created_at": "2026-09-30",
-  "updated_at": "2026-09-30",
+  "updated_at": "2026-10-01",
   "dataset_role": "development"
 }

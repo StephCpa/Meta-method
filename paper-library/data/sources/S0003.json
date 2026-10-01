@@ -1,0 +1,9 @@
+{
+  "id": "S0003",
+  "kind": "user_supplied_analysis",
+  "path": "sources/S0003.json",
+  "sha256": "7c9b2560bdbbb1e107eff667a8a91d9138c4f940137ec0ff91887ae183ba05c6",
+  "description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。用户报告两个零GPU/model-based协议已经落地；另有公开表格复核。尚无本项目TAME真实训练、端点激活复验或多监控器轨迹。",
+  "imported_at": "2026-10-01T07:52:51.210568+00:00",
+  "reverified_in_library_build": false
+}

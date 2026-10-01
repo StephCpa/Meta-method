@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "id": "I0074",
+  "title": "跨阶段核的状态充分性",
+  "paper_ids": [
+    "P0066"
+  ],
+  "analysis_ids": [
+    "A0080"
+  ],
+  "kind": "conditional_extension",
+  "question": "当前成功率是否足以预测后续，能否跨题/seed复合？",
+  "first_evidence": "P0/P1/P2锚点数据与独立问题预测。",
+  "decision_branches": [
+    "历史无外推增益或简单分层足够则停。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "previous": "candidate",
+      "source_status": "planned",
+      "reason": "按原记录映射工作状态，不认证科学有效性。历史无外推增益或简单分层足够则停。"
+    }
+  ],
+  "original_direction_id": "RLVR009-C",
+  "source_work_status": "planned",
+  "priority": "conditional",
+  "proposed_change": "增加历史或少量任务结构但禁止未来泄漏。",
+  "strong_controls": [
+    "同题新生成",
+    "新题",
+    "新seed分开"
+  ],
+  "novelty_boundary": "仅条件概率核存在不保证时间Markov性。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

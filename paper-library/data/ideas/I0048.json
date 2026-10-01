@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "id": "I0048",
+  "title": "可学性筛选的观测前沿审计",
+  "paper_ids": [
+    "P0059"
+  ],
+  "analysis_ids": [
+    "A0073"
+  ],
+  "kind": "research_direction",
+  "question": "筛选保留了真实训练机会，还是有限采样和验证噪声制造的成功差异？",
+  "first_evidence": "冻结回答池上采样数/阈值/判定器交叉表。",
+  "decision_branches": [
+    "偏差很小、接口修复足够或简单重采样更好时停止新筛选器。"
+  ],
+  "status": "checking",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "checking",
+      "previous": "candidate",
+      "source_status": "awaiting_data",
+      "reason": "按原记录映射工作状态，不认证科学有效性。偏差很小、接口修复足够或简单重采样更好时停止新筛选器。"
+    }
+  ],
+  "original_direction_id": "RLVR002-A",
+  "source_work_status": "awaiting_data",
+  "priority": "primary",
+  "proposed_change": "审计保留集与淘汰集，区分可达性、判定误差与训练收益。",
+  "strong_controls": [
+    "追加采样",
+    "定期重探",
+    "真实/随机/结构噪声分开",
+    "筛选与审计分开"
+  ],
+  "novelty_boundary": "动态筛选已有DAPO/LILO；固定至少2次成功不解决任意n下假阳累积。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

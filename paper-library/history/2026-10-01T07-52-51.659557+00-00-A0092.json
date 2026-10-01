@@ -1,0 +1,101 @@
+{
+  "time": "2026-10-01T07:52:51.659557+00:00",
+  "operation": "ingest",
+  "paper_id": "P0041",
+  "analysis_id": "A0092",
+  "before": {
+    "schema_version": "1.0",
+    "id": "P0041",
+    "title": "Evaluating Decision Rules Across Many Weak Experiments",
+    "short_name": "Weak Experiments",
+    "aliases": [
+      "XD07"
+    ],
+    "identifiers": {
+      "arxiv": "2502.08763",
+      "doi": null
+    },
+    "links": [
+      "https://arxiv.org/abs/2502.08763"
+    ],
+    "topics": [
+      "跨领域"
+    ],
+    "tags": [
+      "跨领域",
+      "decision"
+    ],
+    "reading_status": "brief_analysis",
+    "metadata_observations": [
+      {
+        "source_id": "S-REGISTRY",
+        "as_of": "2026-09-30",
+        "title": "Evaluating Decision Rules Across Many Weak Experiments",
+        "venue": "KDD 2025 应用数据科学最佳论文",
+        "verification": "inherited_not_reverified"
+      }
+    ],
+    "analysis_ids": [
+      "A0054"
+    ],
+    "idea_ids": [],
+    "ratings": [],
+    "created_at": "2026-09-30",
+    "updated_at": "2026-09-30",
+    "dataset_role": "development"
+  },
+  "after": {
+    "schema_version": "1.0",
+    "id": "P0041",
+    "title": "Evaluating Decision Rules Across Many Weak Experiments",
+    "short_name": "Weak Experiments",
+    "aliases": [
+      "XD07",
+      "RLVR-XD/A07"
+    ],
+    "identifiers": {
+      "arxiv": "2502.08763",
+      "doi": null
+    },
+    "links": [
+      "https://arxiv.org/abs/2502.08763",
+      "https://arxiv.org/html/2502.08763v2"
+    ],
+    "topics": [
+      "跨领域"
+    ],
+    "tags": [
+      "跨领域",
+      "decision",
+      "rlvr-dialogue-supplement",
+      "development"
+    ],
+    "reading_status": "brief_analysis",
+    "metadata_observations": [
+      {
+        "source_id": "S-REGISTRY",
+        "as_of": "2026-09-30",
+        "title": "Evaluating Decision Rules Across Many Weak Experiments",
+        "venue": "KDD 2025 应用数据科学最佳论文",
+        "verification": "inherited_not_reverified"
+      },
+      {
+        "source_id": "S0021",
+        "as_of": "2026-10-01",
+        "title": "Evaluating Decision Rules Across Many Weak Experiments",
+        "venue": null,
+        "paper_version": null,
+        "verification": "as_supplied_not_automatically_verified"
+      }
+    ],
+    "analysis_ids": [
+      "A0054",
+      "A0092"
+    ],
+    "idea_ids": [],
+    "ratings": [],
+    "created_at": "2026-09-30",
+    "updated_at": "2026-10-01",
+    "dataset_role": "development"
+  }
+}

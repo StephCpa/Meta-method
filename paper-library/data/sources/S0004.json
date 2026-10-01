@@ -1,0 +1,9 @@
+{
+  "id": "S0004",
+  "kind": "user_supplied_analysis",
+  "path": "sources/S0004.json",
+  "sha256": "3db5d02e2d9fff85bc25034ad6bbb145f822ecd427113f29be82571734923782",
+  "description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。用户报告Case004 v0.2、P1–P6精确枚举、9面板与JSON已更新。本次无这些本地源文件，记录为用户报告；无真实LLM训练。P6获准作为观察轴，不另开统一理论工程。",
+  "imported_at": "2026-10-01T07:52:51.230630+00:00",
+  "reverified_in_library_build": false
+}

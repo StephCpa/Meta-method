@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "id": "A0087",
+  "paper_id": "P0037",
+  "kind": "added_analysis",
+  "analyzed_at": "2026-10-01",
+  "imported_at": "2026-10-01T07:52:51.509666+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": null,
+  "summary": "本对话对研究对象、证据终点和Meta-method适用条件的补充记录。",
+  "sections": {},
+  "codings": [],
+  "note_path": "notes/A0087.md",
+  "note_sha256": "7dd9aefc0bfb14c10cc4a150ba9a7f1be1a375f14a1f088779ba81472837fcce",
+  "source_refs": [
+    {
+      "source_id": "S0016",
+      "locator": "analysis_markdown"
+    },
+    {
+      "source_id": "SRC-RLVR14-20261001",
+      "locator": "analyses/cross_domain/XD03_RLVR_dialogue_supplement.md"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest",
+  "dataset_role": "development",
+  "used_for_framework_development": true,
+  "original_analysis_id": "AN-XD03-RLVRDIALOGUE",
+  "organizing_framework_version": "0.4.0"
+}

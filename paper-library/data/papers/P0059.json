@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "P0059",
+  "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+  "short_name": "Rufus-Air",
+  "aliases": [
+    "RLVR002",
+    "RLVR/Case002"
+  ],
+  "identifiers": {
+    "arxiv": "2609.29421",
+    "doi": null
+  },
+  "links": [
+    "https://arxiv.org/abs/2609.29421"
+  ],
+  "topics": [
+    "RLVR／后训练"
+  ],
+  "tags": [
+    "development",
+    "rlvr-dialogue-import"
+  ],
+  "reading_status": "inherited_conversation_analysis",
+  "metadata_observations": [
+    {
+      "source_id": "S0002",
+      "as_of": "2026-10-01",
+      "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+      "venue": null,
+      "paper_version": "v2",
+      "verification": "as_supplied_not_automatically_verified"
+    }
+  ],
+  "analysis_ids": [
+    "A0073"
+  ],
+  "idea_ids": [
+    "I0048",
+    "I0049",
+    "I0050",
+    "I0051"
+  ],
+  "ratings": [
+    {
+      "date": "2026-10-01",
+      "recorded_at": "2026-10-01T07:52:51.195064+00:00",
+      "score": 8.0,
+      "scale": 10,
+      "scope": "paper_main_followup",
+      "reason": "历史主观后续潜力档位，非论文质量/接收概率；不是最新实验后的再评分；来源：本对话十篇汇总评分",
+      "assessor": "ChatGPT，本对话历史主线评价；导入未重评",
+      "not_paper_quality": true,
+      "historical_import": true,
+      "original_assessment_date": null,
+      "date_semantics": "import_date_not_new_assessment",
+      "source_id": "SRC-RLVR14-20261001"
+    }
+  ],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "dataset_role": "development",
+  "legacy_case_namespace": "rlvr_post_training_dialogue",
+  "legacy_case_id": "Case002",
+  "source_current_state": "用户报告Protocol A/B的model-based校准已可复现；Protocol B新增本地1.5B直接上下文真实生成576条。原始轨迹/提示/脚本未提供，本次只能归档报告与后续口径修正。直接上下文的新增训练干预线停止；单次主动取证迁移检查仅为建议、未执行。",
+  "used_for_framework_development": true
+}

@@ -1,0 +1,113 @@
+{
+  "title": "RLVR is a Kernel, Not a Function: Statistical Inference for pass@k Crossovers",
+  "short_name": "RLVR Kernel",
+  "paper_url": "https://arxiv.org/abs/2609.22547",
+  "arxiv": "2609.22547",
+  "aliases": [
+    "RLVR009",
+    "RLVR/Case009"
+  ],
+  "topics": [
+    "RLVR／后训练"
+  ],
+  "tags": [
+    "development",
+    "rlvr-dialogue-import"
+  ],
+  "analyzed_at": "2026-10-01",
+  "framework_version": null,
+  "paper_version": "v2",
+  "source_description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。历史核对v2核心推断与附录，四个精确构造；未取得作者完整补充包或真实计数分析。",
+  "summary": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。",
+  "sections": {
+    "原有局限": "平均曲线与确定映射不足以描述跨prompt训练异质性及可识别范围。",
+    "作者改变了什么": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。",
+    "新增结果/组合增量": "从视觉交叉改为可统计支持的预算区间；条件核不是NTK、训练seed分布或自动Markov状态。",
+    "证据与边界": "历史核对v2核心推断与附录，四个精确构造；未取得作者完整补充包或真实计数分析。"
+  },
+  "codings": [
+    {
+      "code": "M7",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M1",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "本对话对应论文首轮分析的作者贡献/编码段；精确原文锚点待入库核验",
+      "rationale": "把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR009既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR009既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR009既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "analysis_markdown": "# RLVR009｜RLVR is a Kernel, Not a Function: Statistical Inference for pass@k Crossovers\n\n原编号：Case009；命名空间：本对话 RLVR／后训练（不与 MAS 同号记录混用）。\n\n论文：https://arxiv.org/abs/2609.22547\n\n历史阅读版本：v2。整理日期：2026-10-01。\n\n> 本文是既有对话的收敛整理，不是新一轮论文全文核验，也不是逐字原始对话。所有候选均属 development；不可用于宣称未见领域有效性。\n\n## 1. 作者贡献形成（分析者赋码，author 角色）\n\n**机会／限制：**平均曲线与确定映射不足以描述跨prompt训练异质性及可识别范围。\n\n**作者改变：**把固定checkpoint的Q|P写成条件核，并建立配对跨预算推断和模型外推边界。\n\n**新增结果的解释：**从视觉交叉改为可统计支持的预算区间；条件核不是NTK、训练seed分布或自动Markov状态。\n\n**候选作者码：**M7, M14, M9, M1, M3。**审查码：**M14, M9, M10。不得混计。\n\n**原文定位状态：**沿用本对话作者贡献分析；本次未补做逐条原文锚点核验，不能升级为独立确认。\n\n## 2. 当前证据与工作状态\n\n历史核对v2核心推断与附录，四个精确构造；未取得作者完整补充包或真实计数分析。\n\n## 3. 已讨论的关键结果（按原证据层级保留）\n\n- 固定每题两采样时两个不同核可给相同计数分布，却分别在k10劣势/所有k优于base，有限矩限制。\n\n- QA与QB只重排题目成功率，可全部passk相同但下降比例0与2/3。\n\n- 三checkpoint中P1相同仍有历史相关P2，逐段核正确不保证可复合。\n\n- 成功/失败成本对应改变可使相同passk与平均成本下预算成功率不同。\n\n## 4. 最新修订与禁止升级的表述\n\n- 作者已有有限矩、尾外推、均值误拟合校准和同题留出范围说明，不重提为遗漏。\n\n- 观察窗口内直接估计够用时不先拟合复杂核。\n\n## 5. 研究方向池\n\n### RLVR009-A｜决策相关部分识别与采样分配\n\n类型：`research_direction`；优先级：`primary`；状态：`calibrated_model_based`。\n\n**问题：**当前数据允许哪些不同结论，下一笔预算应补广度还是深度？\n\n**具体变换：**从唯一拟合核改为相容分布集合上的决策界。\n\n**首个产物：**少量真实配对计数与受控边界求解。\n\n**强对照：**直接同时区间；网格误差；同计数异外推。\n\n**停止／改写：**简单区间足够或界始终无用则保留轻量统计。\n\n**新颖性边界：**有限矩与总体参数恢复是已有理论。\n\n### RLVR009-B｜曲线之外的配对损益风险\n\n类型：`measurement_axis`；优先级：`supporting`；状态：`calibrated_model_based`。\n\n**问题：**平均全面改善能否仍掩盖大量题目实质退化？\n\n**具体变换：**预定义下降delta与损失量，保留逐题对应。\n\n**首个产物：**配对损害界与预注册少量切片。\n\n**强对照：**边际不变重排；噪声伪退化；同题聚类。\n\n**停止／改写：**窄界排除有意义退化或仅接口变化则停。\n\n**新颖性边界：**配对参数变化分布已有研究。\n\n### RLVR009-C｜跨阶段核的状态充分性\n\n类型：`conditional_extension`；优先级：`conditional`；状态：`planned`。\n\n**问题：**当前成功率是否足以预测后续，能否跨题/seed复合？\n\n**具体变换：**增加历史或少量任务结构但禁止未来泄漏。\n\n**首个产物：**P0/P1/P2锚点数据与独立问题预测。\n\n**强对照：**同题新生成；新题；新seed分开。\n\n**停止／改写：**历史无外推增益或简单分层足够则停。\n\n**新颖性边界：**仅条件概率核存在不保证时间Markov性。\n\n## 6. 来源与复用\n\n本条来源标识：`CONV-RLVR009`。原论文链接是查核入口，不表示本次新增核验。\n\n历史潜力分：8.5/10（当时主观选题判断，非论文质量或最新实证后重评分）。\n\n同一论文可有多个分析版本，但按 canonical key 只算一个论文实体。不得用本次导入增加独立验证样本计数。\n",
+  "ideas": [
+    {
+      "title": "决策相关部分识别与采样分配",
+      "question": "当前数据允许哪些不同结论，下一笔预算应补广度还是深度？",
+      "first_evidence": "少量真实配对计数与受控边界求解。",
+      "decision_branches": [
+        "简单区间足够或界始终无用则保留轻量统计。"
+      ]
+    },
+    {
+      "title": "曲线之外的配对损益风险",
+      "question": "平均全面改善能否仍掩盖大量题目实质退化？",
+      "first_evidence": "配对损害界与预注册少量切片。",
+      "decision_branches": [
+        "窄界排除有意义退化或仅接口变化则停。"
+      ]
+    },
+    {
+      "title": "跨阶段核的状态充分性",
+      "question": "当前成功率是否足以预测后续，能否跨题/seed复合？",
+      "first_evidence": "P0/P1/P2锚点数据与独立问题预测。",
+      "decision_branches": [
+        "历史无外推增益或简单分层足够则停。"
+      ]
+    }
+  ]
+}

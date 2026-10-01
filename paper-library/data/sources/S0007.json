@@ -1,0 +1,9 @@
+{
+  "id": "S0007",
+  "kind": "user_supplied_analysis",
+  "path": "sources/S0007.json",
+  "sha256": "692a78bba2c5c39cf03b3e480ed9cfccdaa964e80b936557618da5ba0e94c9a5",
+  "description": "本对话已提供收敛分析的导入；不重新核验论文、数学结论或真实模型实验。历史已核v4定理与附录，并做低维精确构造；未完整协议或真实LLM更新测量。",
+  "imported_at": "2026-10-01T07:52:51.290762+00:00",
+  "reverified_in_library_build": false
+}

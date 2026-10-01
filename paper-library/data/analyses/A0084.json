@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "id": "A0084",
+  "paper_id": "P0070",
+  "kind": "added_analysis",
+  "analyzed_at": "2026-10-01",
+  "imported_at": "2026-10-01T07:52:51.411895+00:00",
+  "framework_version": "0.4.0",
+  "paper_version_as_reported": "v1",
+  "summary": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。",
+  "sections": {
+    "原有局限": "原始难题在固定接口全失败，可改造辅助条件而非只换题或重试。",
+    "作者改变了什么": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。",
+    "新增结果/组合增量": "辅助成为控制变量与学习路径；不是首次部分提示或逆向课程。",
+    "证据与边界": "原始贡献卡/校准包可获得；历史核方法/表2–3/附录及数据卡；未逐条数据、作者训练或真实提示迁移。"
+  },
+  "codings": [
+    {
+      "code": "M2",
+      "role": "author",
+      "anchor": "§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡",
+      "rationale": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M6",
+      "role": "author",
+      "anchor": "§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡",
+      "rationale": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M5",
+      "role": "author",
+      "anchor": "§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡",
+      "rationale": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M3",
+      "role": "author",
+      "anchor": "§2–3、Algorithm 1、Tables 2–3、Appendices B/C/E/F/G；HF数据卡",
+      "rationale": "教师步骤构造提示量状态族，MFC记录非递增提示上界并返回无提示目标，学生从头完整解答。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR013既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR013既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR013既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "note_path": "notes/A0084.md",
+  "note_sha256": "3af13660980ad9d93d209eb175620704727084f31f5d786255373812e661d1ab",
+  "source_refs": [
+    {
+      "source_id": "S0013",
+      "locator": "analysis_markdown"
+    },
+    {
+      "source_id": "SRC-RLVR14-20261001",
+      "locator": "analyses/rlvr/RLVR013.md"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest",
+  "dataset_role": "development",
+  "used_for_framework_development": true,
+  "original_analysis_id": "AN-RLVR013-20261001",
+  "organizing_framework_version": "0.4.0"
+}

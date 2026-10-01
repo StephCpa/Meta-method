@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "id": "I0047",
+  "title": "预算受限的事前验证器选择",
+  "paper_ids": [
+    "P0058"
+  ],
+  "analysis_ids": [
+    "A0072"
+  ],
+  "kind": "conditional_extension",
+  "question": "少量诊断能否在新任务上选到更好的成本—质量组合？",
+  "first_evidence": "冻结选择规则与独立任务的delta非劣性检验设计。",
+  "decision_branches": [
+    "复杂选择无外推收益或探针成本吞掉节约时用简单规则。"
+  ],
+  "status": "candidate",
+  "novelty_status": "not_established",
+  "execution_status": "historical_status_imported_not_rerun",
+  "ratings": [],
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "state_history": [
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "reason": "新增阅读提案，未自动视为已验证"
+    },
+    {
+      "date": "2026-10-01",
+      "status": "candidate",
+      "previous": "candidate",
+      "source_status": "planned",
+      "reason": "按原记录映射工作状态，不认证科学有效性。复杂选择无外推收益或探针成本吞掉节约时用简单规则。"
+    }
+  ],
+  "original_direction_id": "RLVR001-C",
+  "source_work_status": "planned",
+  "priority": "conditional",
+  "proposed_change": "评价选择探针加后续训练的总成本，而非回顾性挑最优。",
+  "strong_controls": [
+    "最低价质量门槛",
+    "静态最佳",
+    "随机选择",
+    "短程试训"
+  ],
+  "novelty_boundary": "sup-t模板未在本会话取得；训练非劣性需要训练层数据。",
+  "dataset_role": "development",
+  "source_role": "proposal",
+  "research_claim_status": "unconfirmed_candidate"
+}

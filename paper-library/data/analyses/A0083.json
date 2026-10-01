@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "id": "A0083",
+  "paper_id": "P0069",
+  "kind": "added_analysis",
+  "analyzed_at": "2026-10-01",
+  "imported_at": "2026-10-01T07:52:51.392092+00:00",
+  "framework_version": null,
+  "paper_version_as_reported": "v1",
+  "summary": "用当前与anchor位移在参数或logit空间外推，再把动态教师蒸馏回学生。",
+  "sections": {
+    "原有局限": "逐token教师通常外部给定，而自身训练历史包含尚未利用的监督来源。",
+    "作者改变了什么": "用当前与anchor位移在参数或logit空间外推，再把动态教师蒸馏回学生。",
+    "新增结果/组合增量": "训练产物重新承担监督源角色；ExPO已有权重外推、ExOPD已有分布外推与超过教师。",
+    "证据与边界": "原始贡献卡/校准脚本/结果本次可获得；历史已核主方法/附录与两类数学控制；未真实训练，作者实现未取得。"
+  },
+  "codings": [
+    {
+      "code": "M6",
+      "role": "author",
+      "anchor": "§2.3–2.4、§3.1–3.3；§4.3–4.4、附录A/C.5–C.10",
+      "rationale": "用当前与anchor位移在参数或logit空间外推，再把动态教师蒸馏回学生。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M2",
+      "role": "author",
+      "anchor": "§2.3–2.4、§3.1–3.3；§4.3–4.4、附录A/C.5–C.10",
+      "rationale": "用当前与anchor位移在参数或logit空间外推，再把动态教师蒸馏回学生。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M11",
+      "role": "author",
+      "anchor": "§2.3–2.4、§3.1–3.3；§4.3–4.4、附录A/C.5–C.10",
+      "rationale": "用当前与anchor位移在参数或logit空间外推，再把动态教师蒸馏回学生。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M5",
+      "role": "author",
+      "anchor": "§2.3–2.4、§3.1–3.3；§4.3–4.4、附录A/C.5–C.10",
+      "rationale": "用当前与anchor位移在参数或logit空间外推，再把动态教师蒸馏回学生。",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M9",
+      "role": "review",
+      "anchor": "RLVR012既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M14",
+      "role": "review",
+      "anchor": "RLVR012既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    },
+    {
+      "code": "M10",
+      "role": "review",
+      "anchor": "RLVR012既有对话收敛分析的审查段；本次未重核原论文",
+      "rationale": "本对话用于对象、接口、估计量和因果归因的审查，不计入作者操作频率",
+      "verification_status": "inherited_candidate_not_reverified_in_import"
+    }
+  ],
+  "note_path": "notes/A0083.md",
+  "note_sha256": "e88ed8deb7b1ff8bc610e00929160d9b3646165fa4c4c5a1b214ac9fbdfb2236",
+  "source_refs": [
+    {
+      "source_id": "S0012",
+      "locator": "analysis_markdown"
+    },
+    {
+      "source_id": "SRC-RLVR14-20261001",
+      "locator": "analyses/rlvr/RLVR012.md"
+    }
+  ],
+  "status": "imported_not_reverified",
+  "independent_recoding": false,
+  "paper_experiment_reproduced": false,
+  "preservation": "structured_conversation_digest",
+  "dataset_role": "development",
+  "used_for_framework_development": true,
+  "original_analysis_id": "AN-RLVR012-20261001",
+  "organizing_framework_version": "0.4.0"
+}
