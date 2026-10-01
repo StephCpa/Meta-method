@@ -1,0 +1,55 @@
+name: Import approved paper library
+on:
+  push:
+    branches: [upload-paper-library-v010]
+permissions:
+  contents: write
+concurrency:
+  group: import-approved-paper-library
+  cancel-in-progress: false
+jobs:
+  import:
+    if: github.repository == 'StephCpa/Meta-method'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the exact staging commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git init .
+          git remote add origin "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}.git"
+          git -c protocol.version=2 fetch --no-tags --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+      - name: Verify and import the approved UTF-8 file map
+        run: python3 .library-transfer/import-library.py
+      - name: Validate existing framework and imported library
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m pip install -r requirements.txt
+          python3 tools/validate.py
+          python3 -m unittest discover -s tests -v
+          cd paper-library
+          python3 tools/library.py validate
+          python3 -m unittest discover -s tests -v
+      - name: Commit the expanded library on the staging branch only
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF" = refs/heads/upload-paper-library-v010
+          current="$(git ls-remote origin "$GITHUB_REF" | cut -f1)"
+          test "$current" = "$GITHUB_SHA"
+          rm -r .library-transfer
+          rm .github/workflows/import-paper-library.yml
+          git add -A -- .library-transfer .github/workflows/import-paper-library.yml
+          git add -- README.md paper-library .github/workflows/validate-paper-library.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'feat: add maintained paper-analysis library with verified original contents'
+          auth="$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)"
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" push origin HEAD:refs/heads/upload-paper-library-v010
+          unset auth
+          git rev-parse HEAD
+          git rev-parse 'HEAD^{tree}'

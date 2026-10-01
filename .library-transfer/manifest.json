@@ -1,0 +1,21 @@
+{
+  "sha256": "001b285a3d0fc8e31dc32600deb2edd6b30c89c5dee7ad254fe165113732c627",
+  "bytes": 111336,
+  "decoded_bytes": 1418202,
+  "files": 334,
+  "chunks": [
+    {"path": ".library-transfer/part-000", "bytes": 12000, "sha": "e6ac030593fae224f7a73fbd9378c26bd5917c42"},
+    {"path": ".library-transfer/part-001", "bytes": 12000, "sha": "8aff1176a778fb91fc7b319258c4ebab47d5dfb7"},
+    {"path": ".library-transfer/part-002", "bytes": 12000, "sha": "a634df6470a1938950a1ce33c04738926d801f40"},
+    {"path": ".library-transfer/part-003", "bytes": 12000, "sha": "b1e11aeb379fce780b685bb9a22f6ccfb14a5aa4"},
+    {"path": ".library-transfer/part-004", "bytes": 12000, "sha": "97f799d5a92eccb82cd827108d4b28895e5b5ebc"},
+    {"path": ".library-transfer/part-005", "bytes": 12000, "sha": "83fafd86786ac96bc3e3213434ed3d66700f321f"},
+    {"path": ".library-transfer/part-006", "bytes": 12000, "sha": "c96799dddca86484cc7dac6f0a4fd93ce5641e40"},
+    {"path": ".library-transfer/part-007", "bytes": 12000, "sha": "5e843efe7efd5d9a35a3290e056957e7bdbb6bb0"},
+    {"path": ".library-transfer/part-008", "bytes": 12000, "sha": "1f7cc4064f977d45ee8805ea093e2f341dd32707"},
+    {"path": ".library-transfer/part-009", "bytes": 3336, "sha": "b529495cf3eb8bad18ff0979adc0854048d74e27"}
+  ],
+  "readme_original_sha256": "7ba6d921899fcac537a6a03aceda1029a0a3bda231610316096a40cec931aecf",
+  "readme_final_sha256": "f4772230cf6d1c64448e31d9b6ea7d0c5749f2456cda4de99947d02c52453b2e",
+  "ci_sha256": "67cd00060702191307105dafee2d8c39119e507d626fdc36f9750adeb638158e"
+}

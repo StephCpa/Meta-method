@@ -1,0 +1,28 @@
+name: Validate paper analysis library
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  library:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public revision
+        shell: bash
+        run: |
+          set -euo pipefail
+          git init .
+          git remote add origin "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}.git"
+          git -c protocol.version=2 fetch --no-tags --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+      - name: Validate records and run library tests
+        working-directory: paper-library
+        run: |
+          python3 tools/library.py validate
+          python3 -m unittest discover -s tests -v
+      - name: Check deterministic generated views
+        working-directory: paper-library
+        run: |
+          python3 tools/library.py build
+          git diff --exit-code -- .
