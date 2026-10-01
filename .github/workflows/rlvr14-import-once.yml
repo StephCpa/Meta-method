@@ -1,0 +1,69 @@
+name: Prepare RLVR14 library import
+on:
+  push:
+    branches: [automation/rlvr14-prepare-v2-20261001]
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout exact preparation revision
+        shell: bash
+        run: |
+          set -euo pipefail
+          git init .
+          git remote add origin "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}.git"
+          git -c protocol.version=2 fetch --no-tags --depth=3 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+          test "$(git rev-parse HEAD^)" = "6e017d7a2a55db683d7f89e2eefdafd1aedf52bb"
+          mkdir -p "$RUNNER_TEMP/rlvr14-results"
+      - name: Import exact source text through native library API
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 .rlvr14-import/import.py | tee "$RUNNER_TEMP/rlvr14-results/import-summary.json"
+          python3 .rlvr14-import/update_seed_tests.py
+      - name: Validate framework and paper library
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m pip install -r requirements.txt
+          python3 tools/validate.py | tee "$RUNNER_TEMP/rlvr14-results/framework-validation.json"
+          python3 -m unittest discover -s tests -v 2>&1 | tee "$RUNNER_TEMP/rlvr14-results/framework-tests.txt"
+          python3 paper-library/tools/library.py validate | tee "$RUNNER_TEMP/rlvr14-results/library-validation.json"
+          (cd paper-library && python3 -m unittest discover -s tests -v) 2>&1 | tee "$RUNNER_TEMP/rlvr14-results/library-tests.txt"
+          python3 paper-library/tools/library.py build
+      - name: Publish clean review commit without preparation files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          base=6e017d7a2a55db683d7f89e2eefdafd1aedf52bb
+          branch=library/rlvr14-import-20261001
+          git config user.name 'Meta-method library import'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm -r -- .rlvr14-import .github/workflows/rlvr14-import-once.yml
+          git add -- paper-library README.md
+          tree=$(git write-tree)
+          git diff --name-only "$base" "$tree" > "$RUNNER_TEMP/rlvr14-results/changed-paths.txt"
+          python3 -c 'import pathlib,os; p=(pathlib.Path(os.environ["RUNNER_TEMP"])/"rlvr14-results/changed-paths.txt").read_text().splitlines(); assert p; assert all(x=="README.md" or x.startswith("paper-library/") for x in p),p'
+          git diff --stat "$base" "$tree" > "$RUNNER_TEMP/rlvr14-results/diff-stat.txt"
+          commit=$(printf 'docs(library): import RLVR14 analyses, directions and XD supplements\n\nAppend 14 papers, 28 analyses and 40 directions or observation axes. Preserve existing records, source text, historical ratings and evidence boundaries. Scope seed assertions to historical collections and add three import checks. Framework version and scientific results unchanged.\n' | git commit-tree "$tree" -p "$base")
+          auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          git -c http.https://github.com/.extraheader="AUTHORIZATION: basic $auth" push origin "$commit:refs/heads/$branch"
+          printf '%s\n' "$commit" > "$RUNNER_TEMP/rlvr14-results/final-commit.txt"
+          printf '%s\n' "$tree" > "$RUNNER_TEMP/rlvr14-results/final-tree.txt"
+          git archive --format=zip --output="$RUNNER_TEMP/rlvr14-results/review-tree.zip" "$commit"
+          cat "$RUNNER_TEMP/rlvr14-results/final-commit.txt"
+          cat "$RUNNER_TEMP/rlvr14-results/diff-stat.txt"
+      - name: Preserve executed checks
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rlvr14-import-result
+          path: ${{ runner.temp }}/rlvr14-results/
+          if-no-files-found: warn
+          retention-days: 14
