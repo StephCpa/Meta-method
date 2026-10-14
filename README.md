@@ -17,7 +17,7 @@ v0.4.0 保留 v0.3.1 的五层结构、M1–M14 和审计工具，但不再让�
 | 理解成功贡献的结构 | [八篇作者贡献记录](cases/author-moves-eight.md) · [结构化记录](data/author-moves.json) | 带版本和原文锚点的首轮分析 |
 | 审查已形成的主张 | [贡献—证据卡](templates/contribution-evidence-card.md) · [证据配置](docs/evidence-profiles.md) | 已支持范围、必要证据、不适用要求 |
 | 选择下一步 | [工作流](docs/workflow.md) · [框架](docs/framework.md) | 证明、原型、观察、实验、完成或暂停 |
-| 复盘实际研究并提出规则改进 | [P6／P7 经验记录（2026-10-11）](docs/experience/2026-10-11-p6-p7-lessons.md) · [证据台账](docs/experience/2026-10-11-evidence-ledger.md) | 回溯性执行建议；不修改正式规则，不作为独立有效性验证 |
+| 复盘实际研究并提出规则改进 | [P6／P7 经验（10-11）](docs/experience/2026-10-11-p6-p7-lessons.md) · [原证据台账](docs/experience/2026-10-11-evidence-ledger.md) · [P8／P9 补充（10-14）](docs/experience/2026-10-14-p8-p9-lessons.md) · [新证据台账](docs/experience/2026-10-14-p8-p9-evidence-ledger.md) | 回溯性执行建议；保留来源与推断边界，不作为独立有效性验证 |
 | 评价框架 | [双轨评估入口](evaluation/README.md) | 审计与生成分开，不以审计成绩证明创意能力 |
 
 ## 论文分析库
